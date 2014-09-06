@@ -11,4 +11,5 @@ description: >-
     [http://www.theyachtmarket.com/boats_for_sale/802617/ This boat] would be a particularly fine asset.
 
 dependencies:
+    - comp/main
     - _11
