@@ -1,0 +1,14 @@
+summary: SR Tallship
+
+priority: minor
+
+component: Tall Ship
+
+description: >-
+    For a combination of advertising, mobility and COMPLETELY AWESOMEness,
+    the purchasing of a Tallship is clearly unavoidable.
+
+    [http://www.theyachtmarket.com/boats_for_sale/802617/ This boat] would be a particularly fine asset.
+
+dependencies:
+    - _11

@@ -1,0 +1,15 @@
+summary: Have the $SRYYYY competition
+
+priority: blocker
+
+component: Competition
+
+milestone: SR2015 Competition
+
+description: >-
+    We need to have the $SRYYYY competition event.
+
+    For a complete list of all related tickets, see [wiki:$YYYY/Competition/TracTickets]
+
+dependencies:
+    - comp/**/*
