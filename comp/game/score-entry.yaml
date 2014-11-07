@@ -1,0 +1,15 @@
+summary: Create score data entry system
+
+priority: major
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+description: >-
+  We need a data entry system for converting from the score entry forms
+  to the YAML file format.
+
+dependencies:
+  - comp/game/score-forms
+  - comp/game/score-format

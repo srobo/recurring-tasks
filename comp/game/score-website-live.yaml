@@ -1,0 +1,14 @@
+summary: Publish live scores on the website
+
+priority: minor
+
+component: Website
+
+milestone: $SRYYYY Competition
+
+description: >-
+  The website needs updating to display live score information from the
+  competition.
+
+dependencies:
+  - comp/game/score-format

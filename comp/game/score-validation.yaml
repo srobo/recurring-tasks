@@ -1,0 +1,14 @@
+summary: Write score validation scripts for the $SRYYYY game
+
+priority: minor
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+description: >-
+  It's sensible to have automatic validation of game state, so we need a
+  validation script.
+
+dependencies:
+  - comp/game/score-format

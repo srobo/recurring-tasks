@@ -20,6 +20,7 @@ dependencies:
     - comp/arena/game
     - comp/arena/build
     - comp/pits/main
+    - comp/game/scoring
     - comp/kit-handback
     - comp/media-consent/main
 

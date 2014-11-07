@@ -1,0 +1,11 @@
+summary: Create $SRYYYY game score format
+
+priority: major
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+description: >-
+  The format for the game data YAML files which record match outcomes
+  needs to be designed.

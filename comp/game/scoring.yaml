@@ -1,0 +1,18 @@
+summary: Organise scoring for the $SRYYYY game
+
+priority: major
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+description: >-
+  In order to run the competition efficiently, we need scoring to be
+  organised.
+
+dependencies:
+  - comp/game/score-forms
+  - comp/game/score-entry
+  - comp/game/score-format
+  - comp/game/score-validation
+  - comp/game/score-website-live
