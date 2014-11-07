@@ -85,6 +85,8 @@ def process(path):
     priority = raw_elements.get('priority', 'major')
     if priority not in ('trivial', 'minor', 'major', 'critical', 'blocker'):
         raise RuntimeError('{} has an invalid priority: {}'.format(path, priority))
+    if component not in ('Arena', 'Competition', 'Website', 'sysadmin', 'Rules'):
+        raise RuntimeError('{} has an unknown component: {}'.format(path, component))
     milestone = raw_elements.get('milestone')
     dependencies = raw_elements.get('dependencies', ())
     computed_dependencies = [handle_dep(element) for element in dependencies]
