@@ -8,3 +8,6 @@ milestone: $SRYYYY Competition
 
 description: >-
   We need to go through the preparation of safety considerations.
+
+dependencies:
+  - comp/venue/fire-plans

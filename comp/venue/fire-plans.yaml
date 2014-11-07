@@ -1,0 +1,10 @@
+summary: Get fire plans from the venue
+
+priority: major
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+description: >-
+  We need the venue's fire plans to organise the layout.
