@@ -1,0 +1,11 @@
+summary: Print markers for the arena
+
+priority: major
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+description: >-
+  The arena (and, possibly, things inside it) is marked with libkoki
+  markers, which need printing off in advance.

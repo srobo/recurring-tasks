@@ -1,0 +1,15 @@
+summary: Prepare game equipment for the arena
+
+priority: major
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+description: >-
+  The game involves our preparing things that are in the arena as well
+  as the robots. They need preparation.
+
+dependencies:
+  - comp/game/markers
+  - comp/game/robot-badges

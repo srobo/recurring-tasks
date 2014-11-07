@@ -1,0 +1,11 @@
+summary: Prepare robot badges for the competition
+
+priority: major
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+description: >-
+  The robot badges with libkoki markers that are mounted on the side of
+  each robot need preparation.
