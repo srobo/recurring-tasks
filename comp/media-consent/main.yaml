@@ -1,0 +1,15 @@
+summary: Organise media consent for $SRYYYY
+
+priority: major
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+description: >-
+    We need media consent from everyone at the competition.
+
+dependencies:
+    - comp/media-consent/form-update
+    - comp/media-consent/email
+
