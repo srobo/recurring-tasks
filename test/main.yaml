@@ -1,0 +1,13 @@
+summary: Eat bees
+
+priority: minor
+
+component: Tall Ship
+
+milestone: $SRYYYY Competition
+
+description: >-
+  We should consume many bees.
+
+dependencies:
+  - test/get
