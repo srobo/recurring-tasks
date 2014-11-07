@@ -1,0 +1,10 @@
+summary: Get PRS and PPL licenses for the competition
+
+priority: major
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+description: >-
+    PRS and PPL both need separate licenses so we can play music at the competition.

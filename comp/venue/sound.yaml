@@ -1,0 +1,13 @@
+summary: Sort out sound system for the competition
+
+priority: major
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+description: >-
+    Speakers and microphones will be needed.
+
+dependencies:
+    - comp/venue/prs-ppl
