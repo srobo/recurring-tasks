@@ -30,7 +30,7 @@ def trac_description_text(ticket):
         text += '\n\nDependencies:\n\n'
         for dep in sorted(ticket.dependencies):
             text += ' * #{}\n'.format(dep)
-    return text
+    return text.strip()
 
 class FakeTrac(object):
     def __init__(self):
