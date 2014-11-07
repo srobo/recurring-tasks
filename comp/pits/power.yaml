@@ -8,3 +8,6 @@ milestone: $SRYYYY Competition
 
 description: >-
   All the team pits and related areas need power provided.
+
+dependencies:
+  - comp/venue/power

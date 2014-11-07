@@ -1,0 +1,10 @@
+summary: Ensure there is power at the $SRYYYY competition
+
+priority: major
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+description: >-
+  For pretty much everything we do, we need power.
