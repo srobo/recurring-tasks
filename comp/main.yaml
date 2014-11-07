@@ -12,5 +12,6 @@ description: >-
     For a complete list of all related tickets, see [wiki:$YYYY/Competition/TracTickets]
 
 dependencies:
+    - comp/venue/book
     - comp/arena/build
     - 11
