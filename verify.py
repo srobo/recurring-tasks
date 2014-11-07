@@ -29,12 +29,13 @@ def trac_description_text(ticket):
     if ticket.dependencies:
         text += '\n\nDependencies:\n\n'
         for dep in sorted(ticket.dependencies):
-            text += ' * #{}\n'.format(dep)
+            text += (' * #{} {}'.format(dep, TRAC.title(dep)).rstrip()) + '\n'
     return text.strip()
 
 class FakeTrac(object):
     def __init__(self):
         self.next_ticket = 2501
+        self._known_titles = {}
 
     def submit(self, ticket):
         ticket_number = self.next_ticket
@@ -49,7 +50,11 @@ class FakeTrac(object):
                attrs=['bold'])
         desc = trac_description_text(ticket)
         cprint(textwrap.indent(desc, '  '))
+        self._known_titles[ticket_number] = ticket.summary
         return ticket_number
+
+    def title(self, ticket_number):
+        return self._known_titles.get(ticket_number, '')
 
 TRAC = FakeTrac()
 
