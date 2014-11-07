@@ -1,0 +1,13 @@
+summary: Announce the competition
+
+priority: major
+
+component: Website
+
+milestone: $SRYYYY Competition
+
+description: >-
+  An events page needs creating for the competition.
+
+dependencies:
+  - comp/venue/book

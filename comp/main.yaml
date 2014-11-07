@@ -13,6 +13,7 @@ description: >-
 
 dependencies:
     - comp/venue/book
+    - comp/announce
     - comp/venue/insurance
     - comp/venue/sound
     - comp/venue/power
