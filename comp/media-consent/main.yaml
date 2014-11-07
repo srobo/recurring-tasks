@@ -12,4 +12,5 @@ description: >-
 dependencies:
     - comp/media-consent/form-update
     - comp/media-consent/email
+    - comp/media-consent/spares
 
