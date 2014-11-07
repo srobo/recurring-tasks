@@ -1,0 +1,10 @@
+summary: Ensure we have enough blue shirts for all volunteers at the competition
+
+priority: minor
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+description: >-
+  If necessary we will need to put in an order for more.

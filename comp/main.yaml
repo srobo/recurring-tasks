@@ -15,6 +15,7 @@ dependencies:
     - comp/venue/book
     - comp/venue/insurance
     - comp/venue/sound
+    - comp/blue-shirts
     - comp/risk-assessments
     - comp/arena/game
     - comp/arena/build
