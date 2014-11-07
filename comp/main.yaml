@@ -20,6 +20,7 @@ dependencies:
     - comp/venue/power
     - comp/venue/radios
     - comp/blue-shirts
+    - comp/name-badges
     - comp/risk-assessments
     - comp/arena/game
     - comp/arena/build
