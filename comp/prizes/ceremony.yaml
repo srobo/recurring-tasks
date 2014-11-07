@@ -1,0 +1,18 @@
+summary: Have the $SRYYYY prize ceremony
+
+priority: major
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+description: >-
+  At the end of the competition we have a prize handout.
+
+dependencies:
+  - comp/prizes/speaker
+  - comp/prizes/web-presence
+  - comp/prizes/first-movement
+  - comp/prizes/position-awards
+  - comp/prizes/committee-award
+  - comp/prizes/team-image

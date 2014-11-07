@@ -1,0 +1,13 @@
+summary: Distribute certificates
+
+priority: minor
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+description: >-
+  Certificates need distribution to members of the winning teams.
+
+dependencies:
+  - comp/prizes/certificate-design

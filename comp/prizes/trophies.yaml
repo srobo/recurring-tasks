@@ -1,0 +1,11 @@
+summary: Acquire trophies
+
+priority: major
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+description: >-
+  Some awards involve trophies being given to the winning teams. The
+  trophies need purchasing.

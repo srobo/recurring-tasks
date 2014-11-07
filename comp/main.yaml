@@ -24,6 +24,7 @@ dependencies:
     - comp/arena/build
     - comp/pits/main
     - comp/game/scoring
+    - comp/prizes/main
     - comp/kit-handback
     - comp/media-consent/main
     - comp/wristbands/order
