@@ -25,4 +25,5 @@ dependencies:
     - comp/game/scoring
     - comp/kit-handback
     - comp/media-consent/main
+    - comp/wristbands/order
 

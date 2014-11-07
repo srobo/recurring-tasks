@@ -1,0 +1,14 @@
+summary: Order wristbands for $SRYYYY
+
+priority: major
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+description: >-
+  We need to order wristbands so we can identify those who have signed
+  media consent forms and are allowed in and out.
+
+dependencies:
+  - comp/wristbands/design
