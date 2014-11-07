@@ -1,0 +1,54 @@
+#!/usr/bin/env python3
+
+from pathlib import Path
+import yaml
+import textwrap
+
+queue = {input('Enter ticket to create: ')}
+
+while queue:
+    target = queue.pop()
+    print('-- {} --'.format(target))
+    summary = input('Summary: ')
+    priority = input('Priority [major]: ')
+    if not priority:
+        priority = 'major'
+    component = input('Component [Competition]: ')
+    if not component:
+        component = 'Competition'
+    milestone = '$SRYYYY Competition'
+    desc = []
+    while True:
+        desc_line = input('Description [empty for end]: ')
+        if not desc_line:
+            break
+        desc.append(desc_line)
+    desc = '\n'.join(desc)
+    deps = []
+    while True:
+        dependency = input('Dependency [empty for end]: ')
+        if not dependency:
+            break
+        deps.append(dependency)
+        dep_path = Path(dependency).with_suffix('.yaml')
+        if not dep_path.exists():
+            queue.add(dependency)
+    ticket_path = Path(target).with_suffix('.yaml')
+    try:
+        ticket_path.parent.mkdir(parents=True)
+    except FileExistsError:
+        pass
+    with Path(target).with_suffix('.yaml').open('w') as f:
+        f.write('summary: {}\n\n'.format(summary))
+        f.write('priority: {}\n\n'.format(priority))
+        f.write('component: {}\n\n'.format(component))
+        f.write('milestone: {}\n\n'.format(milestone))
+        f.write('description: >-\n')
+        desc = textwrap.fill(desc)
+        f.write(textwrap.indent(desc, '  ').rstrip())
+        f.write('\n')
+        if deps:
+            f.write('\ndependencies:\n')
+            for dep in deps:
+                f.write('  - {}\n'.format(dep))
+
