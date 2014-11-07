@@ -1,0 +1,14 @@
+summary: Prepare battery charging station
+
+priority: major
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+description: >-
+  There are many batteries that need charging and we need to set up the
+  charging station at helpdesk or nearby.
+
+dependencies:
+  - comp/pits/power

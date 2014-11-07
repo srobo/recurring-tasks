@@ -1,0 +1,14 @@
+summary: Set up a power tools area
+
+priority: major
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+description: >-
+  Rather than letting teams use power tools in their team pits, we ask
+  them to go to a separate area.
+
+dependencies:
+  - comp/pits/power

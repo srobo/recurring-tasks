@@ -1,0 +1,20 @@
+summary: Prepare team pits at the competition
+
+priority: major
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+description: >-
+  Teams need team pits to work in, and these need setting up.
+
+dependencies:
+  - comp/pits/tables
+  - comp/pits/layout
+  - comp/pits/helpdesk
+  - comp/pits/power-tools
+  - comp/pits/rollout
+  - comp/pits/power
+  - comp/pits/network
+  - comp/pits/protection

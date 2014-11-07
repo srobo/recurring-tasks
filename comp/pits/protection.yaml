@@ -1,0 +1,14 @@
+summary: Put down carpet protection in team pit areas
+
+priority: major
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+description: >-
+  In order to not damage carpet at the venue, we need to put down carpet
+  protection under any areas where teams will be working.
+
+dependencies:
+  - comp/pits/protection-order

@@ -1,0 +1,16 @@
+summary: Set up helpdesk at the competition
+
+priority: major
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+description: >-
+  Helpdesk is the single-point-of-contact for teams to get help with
+  their robots. It's also the place where batteries are charged. It
+  needs setting up.
+
+dependencies:
+  - comp/pits/power
+  - comp/pits/battery-charging

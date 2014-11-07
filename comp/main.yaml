@@ -18,4 +18,6 @@ dependencies:
     - comp/risk-assessments
     - comp/arena/game
     - comp/arena/build
+    - comp/pits/main
     - comp/media-consent/main
+
