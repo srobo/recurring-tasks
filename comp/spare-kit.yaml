@@ -1,0 +1,11 @@
+summary: Have spare kit available at the competition
+
+priority: major
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+description: >-
+  If kit breaks at the competition for teams, we should be prepared to
+  replace it at high speed. For that we will need hot spares.

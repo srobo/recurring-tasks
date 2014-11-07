@@ -27,6 +27,7 @@ dependencies:
     - comp/pits/main
     - comp/game/main
     - comp/prizes/main
+    - comp/spare-kit
     - comp/kit-handback
     - comp/media-consent/main
     - comp/wristbands/order
