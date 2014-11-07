@@ -1,0 +1,15 @@
+summary: Interact with the public at the competition
+
+priority: major
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+description: >-
+  The competition is our big event and we need to use it for PR.
+
+dependencies:
+  - comp/press/invite-local
+  - comp/press/invite-sponsors
+  - comp/announce

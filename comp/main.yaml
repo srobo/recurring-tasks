@@ -30,4 +30,5 @@ dependencies:
     - comp/kit-handback
     - comp/media-consent/main
     - comp/wristbands/order
+    - comp/press/main
 
