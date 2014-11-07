@@ -4,7 +4,7 @@ priority: blocker
 
 component: Competition
 
-milestone: SR2015 Competition
+milestone: $SRYYYY Competition
 
 description: >-
     We need to have the $SRYYYY competition event.
