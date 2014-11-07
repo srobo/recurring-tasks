@@ -1,0 +1,10 @@
+summary: Schedule the league matches
+
+priority: major
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+description: >-
+  The schedule for the league matches needs to be generated.

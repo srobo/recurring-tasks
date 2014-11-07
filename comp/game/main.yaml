@@ -1,0 +1,16 @@
+summary: Have the $SRYYYY games
+
+priority: major
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+description: >-
+  We need to run all the matches at the competition.
+
+dependencies:
+  - comp/game/league
+  - comp/game/knockout
+  - comp/game/shepherding
+  - comp/game/scoring

@@ -1,0 +1,14 @@
+summary: Have the $SRYYYY league matches
+
+priority: major
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+description: >-
+  The league matches which determine knockout seeds and the winner of
+  the rookie award need to take place.
+
+dependencies:
+  - comp/game/league-schedule

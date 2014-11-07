@@ -23,10 +23,9 @@ dependencies:
     - comp/blue-shirts
     - comp/name-badges
     - comp/risk-assessments
-    - comp/arena/game
     - comp/arena/build
     - comp/pits/main
-    - comp/game/scoring
+    - comp/game/main
     - comp/prizes/main
     - comp/kit-handback
     - comp/media-consent/main

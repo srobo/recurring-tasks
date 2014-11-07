@@ -1,0 +1,15 @@
+summary: Have the $SRYYYY knockout matches
+
+priority: major
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+description: >-
+  The knockout matches which determine the main winners need to take
+  lplace.
+
+dependencies:
+  - comp/game/league
+  - comp/game/knockout-design
