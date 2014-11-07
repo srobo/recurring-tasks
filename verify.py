@@ -3,6 +3,7 @@ import argparse
 import yaml
 from collections import namedtuple
 from termcolor import cprint
+import textwrap
 
 ROOT = Path(__file__).parent
 
@@ -24,7 +25,7 @@ Ticket = namedtuple('Ticket',
                      'milestone', 'description', 'dependencies'])
 
 def trac_description_text(ticket):
-    text = ticket.description
+    text = textwrap.fill(ticket.description, width=72)
     if ticket.dependencies:
         text += '\n\nDependencies:\n\n'
         for dep in sorted(ticket.dependencies):
@@ -46,7 +47,8 @@ class FakeTrac(object):
         cprint('#{}: {}'.format(ticket_number, ticket.summary),
                PRIORITY_COLOURS[ticket.priority],
                attrs=['bold'])
-        cprint('\n'.join('   {}'.format(line) for line in trac_description_text(ticket).splitlines()))
+        desc = trac_description_text(ticket)
+        cprint(textwrap.indent(desc, '  '))
         return ticket_number
 
 TRAC = FakeTrac()
