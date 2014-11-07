@@ -13,5 +13,6 @@ description: >-
 
 dependencies:
     - comp/venue/book
+    - comp/arena/game
     - comp/arena/build
     - 11

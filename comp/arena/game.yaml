@@ -1,0 +1,13 @@
+summary: Prepare components for the $SRYYYY game
+
+priority: major
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+description: >-
+    We need to prepare all the elements needed to run the game.
+
+dependencies:
+    - comp/arena/game/knockout
