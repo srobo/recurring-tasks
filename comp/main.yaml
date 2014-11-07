@@ -12,5 +12,5 @@ description: >-
     For a complete list of all related tickets, see [wiki:$YYYY/Competition/TracTickets]
 
 dependencies:
-    - comp/**/*
-    - _11
+    - comp/arena/build
+    - 11
