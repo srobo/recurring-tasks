@@ -1,0 +1,11 @@
+summary: Arrange a whiteboard at the competition
+
+priority: major
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+description: >-
+  Whiteboards are useful for potentially many things, and particularly
+  for organising slots of arena time during tinker time.

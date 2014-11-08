@@ -1,0 +1,15 @@
+summary: Organise tinker time
+
+priority: major
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+description: >-
+  On the morning of the first day, teams are given a chance to tinker
+  with their robots in the arenas. The system for scheduling their using
+  the arenas needs to be organised.
+
+dependencies:
+  - comp/whiteboard
