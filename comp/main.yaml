@@ -24,6 +24,7 @@ dependencies:
     - comp/venue/layout
     - comp/venue/radios
     - comp/venue/transport/main
+    - comp/reception
     - comp/day-schedule
     - comp/tinker-time
     - comp/website/main

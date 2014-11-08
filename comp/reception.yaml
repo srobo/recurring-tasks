@@ -1,0 +1,10 @@
+summary: Arrange a reception desk at the competition
+
+priority: major
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+description: >-
+  This is needed for entry control.
