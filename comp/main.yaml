@@ -20,6 +20,7 @@ dependencies:
     - comp/venue/lighting
     - comp/venue/sound
     - comp/venue/power
+    - comp/venue/network
     - comp/venue/radios
     - comp/blue-shirts
     - comp/name-badges

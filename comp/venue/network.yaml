@@ -1,0 +1,10 @@
+summary: Ensure there is networking at the competition
+
+priority: major
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+description: >-
+  We need a network throughout the venue.

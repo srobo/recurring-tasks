@@ -9,3 +9,6 @@ milestone: $SRYYYY Competition
 description: >-
   Teams need access to the internet to use the IDE and get at
   documentation. We therefore need network access in all the team pits.
+
+dependencies:
+  - comp/venue/network

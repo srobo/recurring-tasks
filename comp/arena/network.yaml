@@ -8,3 +8,6 @@ milestone: $SRYYYY Competition
 
 description: >-
   The arena needs network power for the screens and score entry.
+
+dependencies:
+  - comp/venue/network
