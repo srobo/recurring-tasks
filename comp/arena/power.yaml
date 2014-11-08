@@ -2,7 +2,7 @@ summary: Provide power to the arenas
 
 priority: major
 
-component: Competition
+component: Arena
 
 milestone: $SRYYYY Competition
 

@@ -2,7 +2,7 @@ summary: Provide network to the arena
 
 priority: major
 
-component: Competition
+component: Arena
 
 milestone: $SRYYYY Competition
 
