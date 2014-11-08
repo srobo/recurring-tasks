@@ -21,6 +21,7 @@ dependencies:
     - comp/venue/sound
     - comp/venue/power
     - comp/venue/network
+    - comp/venue/layout
     - comp/venue/radios
     - comp/venue/transport/main
     - comp/blue-shirts

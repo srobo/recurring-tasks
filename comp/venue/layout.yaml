@@ -1,0 +1,14 @@
+summary: Prepare a layout of the competition
+
+priority: major
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+description: >-
+  This will need to specify where the arenas, team pits, reception,
+  helpdesk and so forth are.
+
+dependencies:
+  - comp/venue/fire-plans

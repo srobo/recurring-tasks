@@ -10,3 +10,7 @@ description: >-
   The layout of team pits in the venue needs to be worked out. There are
   constraints such as keeping teams under the same teacher close
   together, and keeping overseas teams near each other.
+
+dependencies:
+  - comp/venue/layout
+
