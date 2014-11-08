@@ -17,6 +17,7 @@ dependencies:
     - comp/venue/insurance
     - comp/first-aid
     - comp/venue/safety
+    - comp/venue/lighting
     - comp/venue/sound
     - comp/venue/power
     - comp/venue/radios

@@ -1,0 +1,13 @@
+summary: Organise lighting in the venue
+
+priority: major
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+description: >-
+  We need lighting on the arenas.
+
+dependencies:
+  - comp/venue/power
