@@ -39,4 +39,6 @@ dependencies:
     - comp/stream
     - comp/wristbands/order
     - comp/press/main
+    - comp/setup
+    - comp/tear-down
 

@@ -1,0 +1,10 @@
+summary: Tear down everything after the competition
+
+priority: major
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+description: >-
+  Everything will need tearing down at the end of the competition.
