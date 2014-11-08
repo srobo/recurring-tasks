@@ -1,0 +1,15 @@
+summary: Prepare kit from Southampton for transport to the competition
+
+priority: major
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+description: >-
+  The kit that we are taking to the competition needs to be prepared for
+  transportation. This can mean boxing up, putting into bubblewrap, or
+  similar.
+
+dependencies:
+  - comp/venue/transport/work-out

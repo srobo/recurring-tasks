@@ -1,0 +1,14 @@
+summary: Return stuff from the competition to Southampton
+
+priority: major
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+description: >-
+  Equipment that came from the vault for the competition needs to return
+  there after the competition.
+
+dependencies:
+  - comp/venue/transport/van
