@@ -22,7 +22,6 @@ dependencies:
     - comp/venue/power
     - comp/venue/network
     - comp/venue/layout
-    - comp/venue/layout-map
     - comp/venue/radios
     - comp/venue/transport/main
     - comp/day-schedule
