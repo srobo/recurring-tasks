@@ -1,0 +1,15 @@
+summary: Publish $SRYYYY layout maps
+
+priority: major
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+description: >-
+  We should have maps of the layout for reference, including by teams
+  there.
+
+dependencies:
+  - comp/venue/layout
+  - comp/pits/layout
