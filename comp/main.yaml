@@ -32,6 +32,7 @@ dependencies:
     - comp/spare-kit
     - comp/kit-handback
     - comp/media-consent/main
+    - comp/stream
     - comp/wristbands/order
     - comp/press/main
 

@@ -1,0 +1,13 @@
+summary: Arrange a live stream from the competition
+
+priority: major
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+description: >-
+  We should have a live stream of the competition.
+
+dependencies:
+  - comp/venue/network
