@@ -1,0 +1,18 @@
+summary: Put up screens around the arenas
+
+priority: major
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+description: >-
+  We have screens around the arena to display live information, these
+  need putting up.
+
+dependencies:
+  - comp/arena/screens-hire
+  - comp/arena/screens-stands
+  - comp/arena/power
+  - comp/arena/network
+
