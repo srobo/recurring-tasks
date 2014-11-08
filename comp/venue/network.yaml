@@ -8,3 +8,7 @@ milestone: $SRYYYY Competition
 
 description: >-
   We need a network throughout the venue.
+
+dependencies:
+  - comp/venue/network-uplink
+
