@@ -1,0 +1,21 @@
+summary: Update the website for the live $SRYYYY competition
+
+priority: major
+
+component: Website
+
+milestone: $SRYYYY Competition
+
+description: >-
+  There are website alterations to be made to enable its use live at the
+  competition.
+
+dependencies:
+  - comp/game/score-website-live
+  - comp/announce
+  - comp/website/srweb-dates
+  - comp/website/schedule-match
+  - comp/website/schedule-day
+  - comp/website/stream
+  - comp/venue/layout-map
+  - comp/website/directions

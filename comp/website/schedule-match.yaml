@@ -1,0 +1,16 @@
+summary: Publish match schedule on website
+
+priority: major
+
+component: Website
+
+milestone: $SRYYYY Competition
+
+description: >-
+  We need to publish the schedule of league matches and the times of the
+  knockouts on the website.
+
+dependencies:
+  - comp/game/league-schedule
+  - comp/game/knockout-design
+  - comp/day-schedule

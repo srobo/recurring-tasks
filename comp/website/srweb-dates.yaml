@@ -1,0 +1,15 @@
+summary: Update competition dates in srweb configuration
+
+priority: major
+
+component: Website
+
+milestone: $SRYYYY Competition
+
+description: >-
+  srweb's configuration contains the start and end dates of the
+  competition, so that it can switch into competition mode. These need
+  to be updated.
+
+dependencies:
+  - comp/venue/book

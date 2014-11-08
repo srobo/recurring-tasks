@@ -1,0 +1,14 @@
+summary: Put directions to the venue on the website
+
+priority: major
+
+component: Website
+
+milestone: $SRYYYY Competition
+
+description: >-
+  To make things easier for teams, we should publish a map and some
+  directions to the venue on the website.
+
+dependencies:
+  - comp/venue/book

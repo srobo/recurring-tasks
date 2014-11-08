@@ -1,0 +1,14 @@
+summary: Publish day schedule on website
+
+priority: major
+
+component: Website
+
+milestone: $SRYYYY Competition
+
+description: >-
+  The schedule for the days needs to be published on the website so
+  people know what's going on.
+
+dependencies:
+  - comp/day-schedule

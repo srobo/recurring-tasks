@@ -1,0 +1,13 @@
+summary: Put stream on website
+
+priority: major
+
+component: Website
+
+milestone: $SRYYYY Competition
+
+description: >-
+  The live stream needs to be linked or embedded from the website.
+
+dependencies:
+  - comp/stream
