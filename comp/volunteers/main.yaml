@@ -1,0 +1,18 @@
+summary: Prepare resources for volunteers at the competition
+
+priority: major
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+description: >-
+  There are a number of things needed for our volunteers to be effective
+  at the competition which need sorting ahead of time.
+
+dependencies:
+  - comp/volunteers/blue-shirts
+  - comp/volunteers/name-badges
+  - comp/volunteers/water
+  - comp/volunteers/refreshments
+  - comp/volunteers/schedule

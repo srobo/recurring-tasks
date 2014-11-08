@@ -27,8 +27,7 @@ dependencies:
     - comp/venue/transport/main
     - comp/day-schedule
     - comp/website/main
-    - comp/blue-shirts
-    - comp/name-badges
+    - comp/volunteers/main
     - comp/risk-assessments
     - comp/arena/build
     - comp/pits/main
