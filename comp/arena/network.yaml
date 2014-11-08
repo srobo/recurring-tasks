@@ -1,0 +1,10 @@
+summary: Provide network to the arena
+
+priority: major
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+description: >-
+  The arena needs network power for the screens and score entry.

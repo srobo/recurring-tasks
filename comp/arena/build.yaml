@@ -6,3 +6,8 @@ milestone: $SRYYYY Competition
 
 description: >-
     Build an arena or two to have the game in
+
+dependencies:
+    - comp/arena/network
+    - comp/arena/power
+
