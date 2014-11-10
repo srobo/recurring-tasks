@@ -27,7 +27,7 @@ while worklist:
         errors = True
 
 for element in Path(arguments.dir).glob('**/*.yaml'):
-    ticket = str(element.with_suffix(''))
+    ticket = str(element)[:-5]
     if ticket not in linked:
         print('Unlinked ticket: {}'.format(ticket))
         errors = True
