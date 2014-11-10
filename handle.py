@@ -134,7 +134,12 @@ def process(path):
     if 'summary' not in raw_elements and 'description' not in raw_elements:
         raise RuntimeError('{} contains neither a summary nor a description'.format(path))
     description = raw_elements.get('description', '')
-    summary = raw_elements.get('summary', description.splitlines()[0])
+
+    if not len(description.splitlines()) == 0:
+        summary = raw_elements.get('summary', description.splitlines()[0])
+    else:
+        summary = raw_elements["summary"]
+
     component = raw_elements.get('component')
     priority = raw_elements.get('priority', 'major')
     if priority not in ('trivial', 'minor', 'major', 'critical', 'blocker'):
