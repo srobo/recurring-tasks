@@ -17,4 +17,3 @@ dependencies:
   - comp/pits/rollout
   - comp/pits/power
   - comp/pits/network
-  - comp/pits/protection

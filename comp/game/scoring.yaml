@@ -7,8 +7,7 @@ component: Competition
 milestone: $SRYYYY Competition
 
 description: >-
-  In order to run the competition efficiently, we need scoring to be
-  organised.
+  We need to be able to score matches.
 
 dependencies:
   - comp/game/score-forms

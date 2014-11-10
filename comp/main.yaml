@@ -16,14 +16,13 @@ dependencies:
     - comp/announce
     - comp/venue/insurance
     - comp/first-aid
-    - comp/venue/safety
-    - comp/venue/lighting
     - comp/venue/sound
     - comp/venue/power
     - comp/venue/network
     - comp/venue/layout
     - comp/venue/radios
     - comp/venue/transport/main
+    - comp/venue/arena-lighting
     - comp/reception
     - comp/day-schedule
     - comp/tinker-time
@@ -39,7 +38,8 @@ dependencies:
     - comp/media-consent/main
     - comp/stream
     - comp/wristbands/order
-    - comp/press/main
+    - comp/press/invite-press
+    - comp/press/invite-sponsors
     - comp/setup
     - comp/tear-down
 

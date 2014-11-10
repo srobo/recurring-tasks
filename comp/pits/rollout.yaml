@@ -7,11 +7,9 @@ component: Competition
 milestone: $SRYYYY Competition
 
 description: >-
-  We need to actually put out all the team pits in the venue.
 
 dependencies:
   - comp/pits/power
   - comp/pits/network
   - comp/pits/tables
-  - comp/pits/protection
   - comp/pits/layout

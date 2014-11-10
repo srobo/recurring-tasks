@@ -1,4 +1,4 @@
-summary: Ensure there is networking at the competition
+summary: Have a competition network
 
 priority: major
 
@@ -7,8 +7,6 @@ component: Competition
 milestone: $SRYYYY Competition
 
 description: >-
-  We need a network throughout the venue.
-
-dependencies:
-  - comp/venue/network-uplink
-
+    This also requires that we have a pretty significant internet connection
+    given the number of people that are coming and our video streaming
+    requirement.

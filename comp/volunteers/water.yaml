@@ -1,4 +1,4 @@
-summary: Make sure water is available for all volunteers
+summary: Ensure we can get refreshments to static volunteers.
 
 priority: major
 
@@ -7,6 +7,8 @@ component: Competition
 milestone: $SRYYYY Competition
 
 description: >-
-  Volunteers must have access to water, particularly a concern for those
-  who are stuck in one place (linesmen, people at scoring desks). This
-  needs consideration ahead of time.
+    Many volunteers are in a single place and cannot move because
+    they are continuously active for a long duration (linesman, judges). For
+    those volunteers it'd be nice if we could get water to them easily. This
+    will probably require a person who can run water, possibly someone with a
+    low bandwidth job. TODO: work out who that person is.

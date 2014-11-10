@@ -7,8 +7,7 @@ component: Competition
 milestone: $SRYYYY Competition
 
 description: >-
-  The game involves our preparing things that are in the arena as well
-  as the robots. They need preparation.
+    We need to prepare the things that will go in the arena.
 
 dependencies:
   - comp/game/markers

@@ -1,11 +1,11 @@
-summary: Build the arena
+summary: Build the arenas
 
 component: Arena
 
 milestone: $SRYYYY Competition
 
 description: >-
-    Build an arena or two to have the game in
+    Build some arenas for the games.
 
 dependencies:
     - comp/arena/network

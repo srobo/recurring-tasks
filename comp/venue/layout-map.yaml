@@ -7,8 +7,8 @@ component: Competition
 milestone: $SRYYYY Competition
 
 description: >-
-  We should have maps of the layout for reference, including by teams
-  there.
+  We should have maps of the layout for reference. This should
+  include maps with team locations.
 
 dependencies:
   - comp/venue/layout

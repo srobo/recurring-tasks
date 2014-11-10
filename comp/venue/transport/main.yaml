@@ -7,8 +7,8 @@ component: Competition
 milestone: $SRYYYY Competition
 
 description: >-
-  There's quite a bit of SR's kit in the Vault at Southampton, which
-  needs transportation to the venue.
+    Root ticket for the subtree related to moving things from Southampton to
+    the venue.
 
 dependencies:
   - comp/venue/transport/work-out

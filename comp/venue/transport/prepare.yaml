@@ -8,8 +8,7 @@ milestone: $SRYYYY Competition
 
 description: >-
   The kit that we are taking to the competition needs to be prepared for
-  transportation. This can mean boxing up, putting into bubblewrap, or
-  similar.
+  transportation.
 
 dependencies:
   - comp/venue/transport/work-out

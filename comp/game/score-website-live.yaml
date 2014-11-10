@@ -7,8 +7,8 @@ component: Website
 milestone: $SRYYYY Competition
 
 description: >-
-  The website needs updating to display live score information from the
-  competition.
+  It would be nice if the website updated to display live scoring information
+  from the competition.
 
 dependencies:
   - comp/game/score-format

@@ -7,7 +7,7 @@ component: Competition
 milestone: $SRYYYY Competition
 
 description: >-
-    Speakers and microphones will be needed.
+    Speakers and wireless microphones for the judges are required.
 
 dependencies:
     - comp/venue/prs-ppl

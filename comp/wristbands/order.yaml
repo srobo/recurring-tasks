@@ -7,8 +7,7 @@ component: Competition
 milestone: $SRYYYY Competition
 
 description: >-
-  We need to order wristbands so we can identify those who have signed
-  media consent forms and are allowed in and out.
+    We need to order wristbands.
 
 dependencies:
   - comp/wristbands/design

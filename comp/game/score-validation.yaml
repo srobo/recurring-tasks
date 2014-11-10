@@ -7,8 +7,7 @@ component: Competition
 milestone: $SRYYYY Competition
 
 description: >-
-  It's sensible to have automatic validation of game state, so we need a
-  validation script.
+  Automatic validation of game state is useful.
 
 dependencies:
   - comp/game/score-format

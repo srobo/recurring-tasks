@@ -7,8 +7,7 @@ component: Competition
 milestone: $SRYYYY Competition
 
 description: >-
-  The knockout matches which determine the main winners need to take
-  lplace.
+  The knockout matches need to happen.
 
 dependencies:
   - comp/game/league

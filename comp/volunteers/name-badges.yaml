@@ -1,4 +1,4 @@
-summary: Print name badges for volunteers at the competition
+summary: Have name badges for volunteers at the competition
 
 priority: minor
 
@@ -7,6 +7,5 @@ component: Competition
 milestone: $SRYYYY Competition
 
 description: >-
-  It's useful to know who everyone is, and name badges should be printed
-  for all volunteers we know will be there, as well as several blank
-  badges for those we don't expect.
+    Name badges should be printed for all volunteers we know will be there.  We
+    should also have blank badges for those we don't expect.

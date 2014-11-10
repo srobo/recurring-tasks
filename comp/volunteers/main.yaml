@@ -1,4 +1,4 @@
-summary: Prepare resources for volunteers at the competition
+summary: Ensure volunteers are equipped at the competition.
 
 priority: major
 
@@ -7,8 +7,8 @@ component: Competition
 milestone: $SRYYYY Competition
 
 description: >-
-  There are a number of things needed for our volunteers to be effective
-  at the competition which need sorting ahead of time.
+    Root ticket for the subtree relating to volunteer items
+    at the competition.
 
 dependencies:
   - comp/volunteers/blue-shirts
