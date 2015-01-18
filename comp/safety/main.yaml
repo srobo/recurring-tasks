@@ -11,4 +11,5 @@ description: >-
 
 dependencies:
     - comp/safety/first-aid
+    - comp/safety/check-labels
     - comp/safety/risk-assessments
