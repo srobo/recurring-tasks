@@ -15,7 +15,6 @@ dependencies:
     - comp/venue/book
     - comp/announce
     - comp/venue/insurance
-    - comp/first-aid
     - comp/venue/sound
     - comp/venue/power
     - comp/venue/network
@@ -24,11 +23,11 @@ dependencies:
     - comp/venue/transport/main
     - comp/venue/arena-lighting
     - comp/reception
+    - comp/safety/main
     - comp/day-schedule
     - comp/tinker-time
     - comp/website/main
     - comp/volunteers/main
-    - comp/risk-assessments
     - comp/arena/build
     - comp/pits/main
     - comp/game/main

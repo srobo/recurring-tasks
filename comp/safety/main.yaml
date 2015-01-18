@@ -1,0 +1,14 @@
+summary: Ensure the $SRYYYY competition is safe
+
+priority: critical
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+description: >-
+    The $SRYYYY competition event must be safe.
+
+dependencies:
+    - comp/safety/first-aid
+    - comp/safety/risk-assessments
