@@ -1,0 +1,10 @@
+summary: Have a printer (and paper/ink) at the competition
+
+priority: major
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+description: >-
+    In case we need to print out MCFs/game lists/whatever at high speed.

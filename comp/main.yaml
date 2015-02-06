@@ -17,6 +17,7 @@ dependencies:
     - comp/venue/insurance
     - comp/venue/sound
     - comp/venue/power
+    - comp/venue/printer
     - comp/venue/network
     - comp/venue/layout
     - comp/venue/radios
