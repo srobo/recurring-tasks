@@ -10,5 +10,10 @@ description: >-
   There are many batteries that need charging and we need to set up the
   charging station at helpdesk or nearby.
 
+  Note: the battery charging station should reconfigure the chargers to
+  a higher current than we allow the teams to use as this substantially
+  reduces the charge time. Instructions on how to do this should be made
+  available to those running the charging station.
+
 dependencies:
   - comp/pits/power
