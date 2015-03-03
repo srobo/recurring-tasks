@@ -1,0 +1,15 @@
+summary: Show the live stream within the venue
+
+priority: major
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+description: >-
+  We should ensure the live stream of the competition is viewable within
+  the venue. This enables everyone to see matches without actually being
+  arena-side.
+
+dependencies:
+  - comp/stream
