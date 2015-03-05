@@ -1,0 +1,15 @@
+summary: Put up signage at the $SRYYYY Competition
+
+priority: major
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+description: >-
+  We'll want to put up various signage of our own, even if the venue cover
+  the basics. For example, we have our own giant banner which should go
+  somewhere and we'll want directions to Helpdesk and the Areans.
+
+dependencies:
+  - comp/venue/layout

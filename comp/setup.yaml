@@ -7,3 +7,6 @@ component: Competition
 milestone: $SRYYYY Competition
 
 description: >-
+
+dependencies:
+  - comp/venue/signage
