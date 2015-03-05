@@ -7,6 +7,10 @@ milestone: $SRYYYY Competition
 description: >-
     Build some arenas for the games.
 
+    This covers the physical construction of the arena, including props
+    needed for the game and markings for the start-position of any
+    which are moveable.
+
 dependencies:
     - comp/arena/network
     - comp/arena/power
