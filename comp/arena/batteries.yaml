@@ -1,0 +1,17 @@
+summary: Have a supply of charged batteries by the $SRYYYY Arenas
+
+priority: major
+
+component: Arena
+
+milestone: $SRYYYY Competition
+
+description: >-
+  We should have a supply of charged batteries by the entrance to the arena
+  so that teams don't need to go to helpdesk on the way to the arena to
+  get one. This will also ensure that robots perform to their best since
+  we can just given them new batteries if there's any uncertainty.
+
+dependencies:
+  - comp/arena/build
+  - comp/pits/battery-charging
