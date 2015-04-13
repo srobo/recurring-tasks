@@ -11,6 +11,7 @@ description: >-
     at the competition.
 
 dependencies:
+  - comp/game/scoring-stationery
   - comp/volunteers/blue-shirts
   - comp/volunteers/hotels-and-travel
   - comp/volunteers/linesmen-breifing
