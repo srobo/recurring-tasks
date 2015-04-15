@@ -1,0 +1,16 @@
+summary: Publish a news article following the $SRYYYY Competition
+
+priority: major
+
+component: Website
+
+milestone: $SRYYYY Competition
+
+description: >-
+  The post-competition news article can take some time to write. We should
+  write a skeleton one as soon as possible, and just fill in the blanks
+  immediately after the competition followed by high-speed review and
+  shipping.
+
+dependencies:
+  - comp/venue/book
