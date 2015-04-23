@@ -1,0 +1,16 @@
+summary: Safety check the $SRYYYY robots
+
+priority: critical
+
+component: Competition
+
+milestone: $SRYYYY Competition Day
+
+description: >-
+    We need to inspect all the robots to ensure they are safe.
+
+    The inspectors will want a list of the teams' first matches so they
+    can visit them in order.
+
+dependencies:
+    - comp/safety/check-labels
