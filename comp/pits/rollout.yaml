@@ -11,5 +11,6 @@ description: >-
 dependencies:
   - comp/pits/power
   - comp/pits/network
+  - comp/pits/rules
   - comp/pits/tables
   - comp/pits/layout

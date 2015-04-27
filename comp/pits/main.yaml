@@ -15,5 +15,6 @@ dependencies:
   - comp/pits/helpdesk
   - comp/pits/power-tools
   - comp/pits/rollout
+  - comp/pits/rules
   - comp/pits/power
   - comp/pits/network
