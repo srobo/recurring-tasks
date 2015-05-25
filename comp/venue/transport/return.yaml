@@ -4,7 +4,7 @@ priority: major
 
 component: Competition
 
-milestone: $SRYYYY Competition
+milestone: $SRYYYY Competition Cleanup
 
 description: >-
   Equipment that came from the vault for the competition needs to return
@@ -12,3 +12,5 @@ description: >-
 
 dependencies:
   - comp/venue/transport/van
+  - comp/venue/transport/main
+  - comp/tear-down

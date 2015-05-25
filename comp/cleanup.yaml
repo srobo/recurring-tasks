@@ -1,0 +1,14 @@
+summary: Tidy up after the competition
+
+priority: major
+
+component: Competition
+
+milestone: $SRYYYY Competition Cleanup
+
+description: >-
+  Root ticket for all cleanup related items
+
+dependencies:
+  - comp/venue/transport/return
+  - comp/tear-down
