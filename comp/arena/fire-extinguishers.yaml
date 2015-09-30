@@ -1,0 +1,14 @@
+summary: Station fire extinguishers next to the $SRYYYY Arenas
+
+priority: major
+
+component: Arena
+
+milestone: $SRYYYY Competition Day
+
+description: >-
+  At least one powder fire extinguisher should be placed within easy reach next
+  to each arena in case of LiPo fires.
+
+dependencies:
+  - comp/arena/build
