@@ -9,6 +9,8 @@ milestone: $SRYYYY Competition
 description: >-
   At the end of the competition we have a prize handout.
 
+  The Blueshirt running the ceremony should thank our sponsors.
+
 dependencies:
   - comp/prizes/speaker
   - comp/prizes/web-presence
