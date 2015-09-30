@@ -1,0 +1,17 @@
+summary: Put out the staging area
+
+component: Arena
+
+milestone: $SRYYYY Competition Day
+
+description: >-
+    Build the staging area for the arenas. This should include two sets
+    of tables:
+    * for the robots to placed on while waiting for their match (which
+      should have sections labelled per-arena and -corner), used to mount
+      the robot badges and for inspection if needed
+    * for the robots to be placed on after a match to have their badges
+      removed
+
+dependencies:
+    - comp/game/robot-badges
