@@ -1,0 +1,16 @@
+summary: Produce handout flyers for the $SRYYYY Competition
+
+priority: major
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+description: >-
+  For SR2015 Richard produced some great A5 flyers which outlined the game
+  which the robots would be playing and the teams taking part.
+
+  The game information can be easily taken from the rules or the existing
+  commentary on the website (see [//schools/game] in particular). the info
+  about the teams is available either from the [[SRComp]] state repo for
+  the current year or the [[$YYYY/Teams]] page.
