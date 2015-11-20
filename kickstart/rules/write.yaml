@@ -1,0 +1,14 @@
+summary: Write the rules for the $SRYYYY game
+
+priority: critical
+
+component: Rules
+
+milestone: $SRYYYY Kickstart
+
+description: >-
+    We need to have a game to play in $SRYYYY. It will be different than
+    the previous year's, so the rules need updating.
+
+dependencies:
+    - kickstart/rules/decide-game

@@ -1,0 +1,15 @@
+summary: Create markers for the $SRYYYY game
+
+priority: major
+
+component: pyenv
+
+milestone: $SRYYYY Kickstart
+
+description: >-
+    The dummy API ([cgit:pyenv-dummy.git]) needs updating to contain the
+    marker details for the $SRYYYY game.
+
+dependencies:
+    - kickstart/rules/decide-game
+    - kickstart/update-api

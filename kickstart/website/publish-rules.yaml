@@ -1,0 +1,18 @@
+summary: Publish the rules for the $SRYYYY game
+
+priority: major
+
+component: Website
+
+milestone: $SRYYYY Kickstart
+
+description: >-
+    These need building and the website patching.
+    The [//docs/rules] page will need updating to show that the rules
+    have been published and the link and image updating.
+
+    We should also update the [//schools/game] page at the same time with
+    a brief description of the game.
+
+dependencies:
+    - kickstart/rules/write

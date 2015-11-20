@@ -1,0 +1,16 @@
+summary: Ship $SRYYYY kits to Kickstarts
+
+priority: critical
+
+component: Kit
+
+milestone: $SRYYYY Kickstart
+
+description: >-
+    Teams overseas need their kits shipped to them. This has mostly been
+    the German teams in the past few years, which have been shipped together
+    to the German Kickstart. This is intentionally separate from the
+    shipping to Kickstarts as it involves an international delivery.
+
+dependencies:
+    - kickstart/kit/allocate

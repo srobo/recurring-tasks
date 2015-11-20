@@ -1,0 +1,21 @@
+summary: Decide on the $SRYYYY game
+
+priority: major
+
+component: Rules
+
+milestone: $SRYYYY Kickstart
+
+description: >-
+    The $SRYYYY game will be different to that for the previous year,
+    so the arena template in the simulator will need updating.
+    The MARKER_* items will also be different, so they'll need updating
+    as well.
+
+    While this can be worked on ahead of time we should clearly avoid
+    actually publishing it until Kickstart.
+
+dependencies:
+    - kickstart/rules/decide-game
+    # Ideally this would appear in a 'related' section, but that doesn't exist
+    - kickstart/rules/write

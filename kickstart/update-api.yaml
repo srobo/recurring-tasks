@@ -1,0 +1,14 @@
+summary: Update the API for the $SRYYYY game
+
+priority: major
+
+component: pyenv
+
+milestone: $SRYYYY Kickstart
+
+description: >-
+     The `sr.robot` API needs updating to contain the marker details for
+     the $SRYYYY game.
+
+dependencies:
+    - kickstart/rules/decide-game

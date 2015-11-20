@@ -1,0 +1,18 @@
+summary: Create markers for the $SRYYYY game
+
+priority: major
+
+component: Rules
+
+milestone: $SRYYYY Kickstart
+
+description: >-
+    In the past we've had repos which contain all the generated markers
+    for a given year. The contents of such a repo needs updating for
+    $SRYYYY, and the dev markers need adding to the website.
+
+    Obviously this can't happen until we've decided what the names of
+    the markers will be.
+
+dependencies:
+    - kickstart/update-api

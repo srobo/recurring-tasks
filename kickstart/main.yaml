@@ -1,0 +1,17 @@
+summary: Have the $SRYYYY Kickstart
+
+priority: blocker
+
+component: Competition
+
+milestone: $SRYYYY Kickstart
+
+description: >-
+    We need to have the $SRYYYY Kickstarts.
+
+dependencies:
+    - kickstart/confirm-teams
+    - kickstart/kit/main
+    - kickstart/rules/write
+    - kickstart/website/main
+    - kickstart/update-dummy-api

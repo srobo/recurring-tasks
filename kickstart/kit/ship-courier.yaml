@@ -1,0 +1,15 @@
+summary: Ship $SRYYYY kits to Kickstarts
+
+priority: critical
+
+component: Kit
+
+milestone: $SRYYYY Kickstart
+
+description: >-
+    Teams unable to make it to a Kickstart need their kits couriering to
+    them.
+# TODO: clarify whether this is our responsibilty or that of the team.
+
+dependencies:
+    - kickstart/kit/allocate

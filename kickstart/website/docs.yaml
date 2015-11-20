@@ -1,0 +1,15 @@
+summary: Update the docs for the $SRYYYY game
+
+priority: major
+
+component: Docs
+
+milestone: $SRYYYY Kickstart
+
+description: >-
+    The docs will need updating to match the new API for the $SRYYYY API
+    and game, specifically [//docs/programming/sr/vision] and
+    [//docs/programming/sr/vision/markers], though possibly elsewhere.
+
+dependencies:
+    - kickstart/update-api

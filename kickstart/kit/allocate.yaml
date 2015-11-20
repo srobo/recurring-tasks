@@ -1,0 +1,16 @@
+summary: Allocate $SRYYYY kits to teams
+
+priority: critical
+
+component: Kit
+
+milestone: $SRYYYY Kickstart
+
+description: >-
+    Teams will want kits at Kickstart so we need to know which kits to
+    give to each team.
+
+dependencies:
+    - kickstart/confirm-teams
+    - kickstart/kit/test
+    - kickstart/kit/fix
