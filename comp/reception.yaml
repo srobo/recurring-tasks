@@ -8,3 +8,6 @@ milestone: $SRYYYY Competition
 
 description: >-
   This is needed for entry control.
+
+dependencies:
+  - comp/print-flyers
