@@ -10,6 +10,7 @@ description: >-
   We need to run all the matches at the competition.
 
 dependencies:
+  - comp/arena/main
   - comp/game/props
   - comp/game/league
   - comp/game/knockout
