@@ -9,6 +9,7 @@ description: >-
 
 dependencies:
   - comp/arena/build
+  - comp/arena/barriers
   - comp/arena/staging-area
   - comp/arena/batteries
   - comp/arena/fire-extinguishers
