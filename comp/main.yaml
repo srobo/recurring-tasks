@@ -38,9 +38,11 @@ dependencies:
     - comp/kit-handback
     - comp/media-consent/main
     - comp/stream
+    - comp/stream-local
     - comp/wristbands/order
     - comp/press/invite-press
     - comp/press/invite-sponsors
+    - comp/welcome
     - comp/setup
     - comp/tear-down
-
+    - comp/cleanup

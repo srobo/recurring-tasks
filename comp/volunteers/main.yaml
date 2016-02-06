@@ -15,6 +15,7 @@ dependencies:
   - comp/volunteers/blue-shirts
   - comp/volunteers/hotels-and-travel
   - comp/volunteers/linesmen-breifing
+  - comp/volunteers/radio-briefing
   - comp/volunteers/name-badges
   - comp/volunteers/water
   - comp/volunteers/refreshments
