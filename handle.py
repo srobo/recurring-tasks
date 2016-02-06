@@ -24,10 +24,12 @@ elements = {}
 
 Ticket = namedtuple('Ticket',
                     ['summary', 'priority', 'component',
+                     'original_name',
                      'milestone', 'description', 'dependencies'])
 
 def trac_description_text(ticket):
     text = textwrap.fill(ticket.description, width=72)
+    text += '\n\nOriginal: [recurring-task:{}]'.format(ticket.original_name)
     if ticket.dependencies:
         text += '\n\nDependencies:\n\n'
         for dep in sorted(ticket.dependencies):
@@ -112,7 +114,7 @@ def add(element):
         return previous
     else:
         elements[element] = CYCLE
-        generated = process(ROOT / '{}.yaml'.format(element))
+        generated = process(element)
         ticket_id = TRAC.submit(generated)
         elements[element] = ticket_id
         return ticket_id
@@ -125,7 +127,9 @@ def handle_dep(key):
 COMPONENTS = ('Arena', 'Competition', 'Website', 'sysadmin',
               'Rules', 'Tall Ship')
 
-def process(path):
+def process(element_name):
+    path = ROOT / '{}.yaml'.format(element_name)
+
     with path.open('r') as f:
         data = f.read()
     data = data.replace('$YYYY', str(YEAR))
@@ -153,6 +157,7 @@ def process(path):
                   component=component,
                   priority=priority,
                   milestone=milestone,
+                  original_name=element_name,
                   description=description,
                   dependencies=computed_dependencies)
     return data
