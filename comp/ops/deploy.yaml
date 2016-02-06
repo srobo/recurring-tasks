@@ -1,0 +1,18 @@
+summary: Deploy Ops for the $SRYYYY Competition
+
+priority: major
+
+component: Competition
+
+milestone: $SRYYYY Competition Day
+
+description: >-
+    Ops needs a table and network connection to work from. It should be
+    located somewhere protected from the competitors, but vaguely near
+    the arena so the people manning it can see what's going on and easily
+    communicate with the Master(s) of Ceremonies.
+
+dependencies:
+    - comp/website/compstate
+    - comp/ops/deploy-compbox
+    - comp/ops/deploy-score-entry

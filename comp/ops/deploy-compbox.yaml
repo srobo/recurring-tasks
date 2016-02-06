@@ -1,0 +1,19 @@
+summary: Deploy the Compbox
+
+priority: major
+
+component: Competition
+
+milestone: $SRYYYY Competition Day
+
+description: >-
+    The compbox VM will need deploying onto the host machine and ensuring
+    that it works.
+
+    This should also include confirming that it's got a static name/address
+    and that the relevant pages can be seen from other machines.
+
+dependencies:
+    - comp/arena/network
+    - comp/arena/power
+    - comp/ops/compbox-hardware

@@ -125,7 +125,7 @@ def handle_dep(key):
     return add(key)
 
 COMPONENTS = ('Arena', 'Competition', 'Website', 'sysadmin',
-              'Media', 'Rules', 'Tall Ship')
+              'Media', 'Rules', 'SRComp suite', 'Tall Ship')
 
 def process(element_name):
     path = ROOT / '{}.yaml'.format(element_name)

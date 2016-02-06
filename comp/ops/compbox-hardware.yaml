@@ -1,0 +1,15 @@
+summary: Organise a machine to run the competition software
+
+priority: major
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+description: >-
+    This ticket relates to providing the actual machine that the services
+    will run on, rather than about building the deployment.
+
+    In the past the services have been both run in a VM and on bare metal.
+    Either is fine, though regardless we still need a physical machine
+    to run it.

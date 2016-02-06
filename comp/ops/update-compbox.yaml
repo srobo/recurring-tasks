@@ -1,0 +1,13 @@
+summary: Update the Compbox for the $SRYYYY Competition
+
+priority: major
+
+component: SRComp suite
+
+milestone: $SRYYYY Competition
+
+description: >-
+    The compbox config will need updating for this year.
+
+    This also includes confirming that it will be assigned a suitable
+    name/address on the network and that all its services work as expected.
