@@ -1,0 +1,15 @@
+summary: Get photos of Teams and Robots at the competition
+
+priority: minor
+
+component: Media
+
+milestone: $SRYYYY Competition Day
+
+description: >-
+    Photos make for good publicity material and allow teams to show off
+    their dress and their robot.
+
+dependencies:
+    - comp/photos/everyone
+    - comp/photos/teams
