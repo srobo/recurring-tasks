@@ -36,6 +36,7 @@ dependencies:
     - comp/prizes/main
     - comp/photos/main
     - comp/spare-kit
+    - comp/kit-testing-equipment
     - comp/kit-handback
     - comp/media-consent/main
     - comp/stream
