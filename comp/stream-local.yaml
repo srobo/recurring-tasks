@@ -11,5 +11,8 @@ description: >-
   the venue. This enables everyone to see matches without actually being
   arena-side.
 
+  In the past the display has included a split-screen view of all the
+  arenas which most people liked. It would be good to do this again.
+
 dependencies:
   - comp/stream
