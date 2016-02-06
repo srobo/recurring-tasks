@@ -11,5 +11,6 @@ description: >-
     their dress and their robot.
 
 dependencies:
+    - comp/photos/blueshirts
     - comp/photos/everyone
     - comp/photos/teams
