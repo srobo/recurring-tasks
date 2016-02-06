@@ -40,6 +40,7 @@ dependencies:
     - comp/media-consent/main
     - comp/stream
     - comp/stream-local
+    - comp/social-media
     - comp/wristbands/order
     - comp/press/invite-press
     - comp/press/invite-sponsors
