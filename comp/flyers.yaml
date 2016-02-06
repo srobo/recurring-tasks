@@ -14,3 +14,6 @@ description: >-
   commentary on the website (see [//schools/game] in particular). the info
   about the teams is available either from the [[SRComp]] state repo for
   the current year or the [[$YYYY/Teams]] page.
+
+dependencies:
+  - comp/day-schedule
