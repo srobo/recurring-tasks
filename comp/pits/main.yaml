@@ -18,3 +18,4 @@ dependencies:
   - comp/pits/rules
   - comp/pits/power
   - comp/pits/network
+  - comp/pits/labels
