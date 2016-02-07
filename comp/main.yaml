@@ -25,7 +25,7 @@ dependencies:
     - comp/venue/transport/main
     - comp/venue/arena-lighting
     - comp/computer-hardware
-    - comp/reception
+    - comp/reception/main
     - comp/safety/main
     - comp/day-schedule
     - comp/tinker-time

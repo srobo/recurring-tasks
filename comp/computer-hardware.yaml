@@ -17,7 +17,7 @@ description: >-
     - machines for helpdesk (though this may be volunteers' laptops)
 
 dependencies:
-    - comp/reception-hardware
+    - comp/reception/hardware
     - comp/arena/screens-drivers
     - comp/ops/compbox-hardware
     - comp/ops/score-entry-hardware
