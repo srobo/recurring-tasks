@@ -11,6 +11,7 @@ description: >-
   need putting up.
 
 dependencies:
+  - comp/arena/screens-drivers
   - comp/arena/screens-hire
   - comp/arena/screens-stands
   - comp/arena/power
