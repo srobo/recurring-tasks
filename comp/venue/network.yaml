@@ -10,3 +10,7 @@ description: >-
     This also requires that we have a pretty significant internet connection
     given the number of people that are coming and our video streaming
     requirement.
+
+    If possible this should be mostly configured in a corner of the venue
+    as early as possible during setup and then, once working, deployed
+    to the proper locations.
