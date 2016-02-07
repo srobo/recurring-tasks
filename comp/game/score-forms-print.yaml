@@ -1,0 +1,13 @@
+summary: Print score entry forms for linesmen
+
+priority: major
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+description: >-
+   The actual sheets to be filled in need to be printed.
+
+dependencies:
+    - comp/game/score-forms
