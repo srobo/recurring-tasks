@@ -8,6 +8,7 @@ milestone: $SRYYYY Competition
 
 description: >-
     We need to prepare the things that will go in the arena.
+    See this year's [/resources/$YYYY/rulebook.pdf rulebook] for details.
 
 dependencies:
   - comp/game/markers
