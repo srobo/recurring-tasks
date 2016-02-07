@@ -36,6 +36,7 @@ dependencies:
     - comp/ops/main
     - comp/prizes/main
     - comp/photos/main
+    - comp/uprate-server
     - comp/spare-kit
     - comp/kit-handback
     - comp/media-consent/main

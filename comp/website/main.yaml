@@ -18,5 +18,6 @@ dependencies:
   - comp/website/schedule-match
   - comp/website/schedule-day
   - comp/website/stream
+  - comp/uprate-server
   - comp/venue/layout-map
   - comp/website/directions
