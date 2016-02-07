@@ -12,6 +12,8 @@ description: >-
     which are moveable.
 
 dependencies:
+    - comp/arena/carpet
+    - comp/arena/tape
     - comp/arena/network
     - comp/arena/power
     - comp/arena/screens
