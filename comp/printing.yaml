@@ -10,6 +10,7 @@ description: >-
      We need various stuff printing before we get to the venue.
 
 dependencies:
+    - comp/arena/labels
     - comp/media-consent/spares
     - comp/game/markers
     - comp/game/score-forms-print
