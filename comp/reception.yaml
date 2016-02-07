@@ -10,4 +10,5 @@ description: >-
   This is needed for entry control.
 
 dependencies:
+  - comp/reception-hardware
   - comp/print-flyers
