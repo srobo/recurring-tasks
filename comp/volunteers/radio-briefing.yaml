@@ -6,7 +6,7 @@ component: Competition
 
 milestone: $SRYYYY Competition
 
-description: >-
+description: |
   Volunteers at stations with radios need to be briefed on basic radio protocol,
   so that they are confident in using it. The briefing should include:
 

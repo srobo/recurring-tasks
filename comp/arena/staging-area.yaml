@@ -4,7 +4,7 @@ component: Arena
 
 milestone: $SRYYYY Competition Day
 
-description: >-
+description: |
     Build the staging area for the arenas. This should include two sets
     of tables:
     * for the robots to placed on while waiting for their match (which

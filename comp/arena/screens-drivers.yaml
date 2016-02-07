@@ -6,14 +6,14 @@ component: Arena
 
 milestone: $SRYYYY Competition
 
-description: >-
+description: |
     We have screens around the arena to display live information, these
     need something to drive them.
 
     In the past this has been Raspberry Pis displaying a web-page. If
     this is used again then the following things need doing:
-    - Ensure we have enough Pis that work
-    - Ensure we have enough Pi power supplies that work
-    - Pre-load the Pis SD cards with the proper OS
-    - Label each Pi with where it will be deployed (e.g: Arena B, Corner 1)
-    - Ensure the Pis will have a suitable name/address on the network
+    * Ensure we have enough Pis that work
+    * Ensure we have enough Pi power supplies that work
+    * Pre-load the Pis SD cards with the proper OS
+    * Label each Pi with where it will be deployed (e.g: Arena B, Corner 1)
+    * Ensure the Pis will have a suitable name/address on the network
