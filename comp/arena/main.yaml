@@ -13,3 +13,4 @@ dependencies:
   - comp/arena/staging-area
   - comp/arena/batteries
   - comp/arena/fire-extinguishers
+  - comp/arena/high-vis

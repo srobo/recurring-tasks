@@ -14,4 +14,5 @@ description: >-
       removed
 
 dependencies:
+    - comp/arena/high-vis
     - comp/game/robot-badges
