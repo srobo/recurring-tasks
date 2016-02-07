@@ -24,6 +24,7 @@ dependencies:
     - comp/venue/radios
     - comp/venue/transport/main
     - comp/venue/arena-lighting
+    - comp/venue/cable-protectors
     - comp/reception
     - comp/safety/main
     - comp/day-schedule
