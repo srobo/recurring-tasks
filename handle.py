@@ -28,7 +28,7 @@ Ticket = namedtuple('Ticket',
                      'milestone', 'description', 'dependencies'])
 
 def trac_description_text(ticket):
-    text = textwrap.fill(ticket.description, width=72)
+    text = ticket.description
     text += '\n\nOriginal: [recurring-task:{}]'.format(ticket.original_name)
     if ticket.dependencies:
         text += '\n\nDependencies:\n\n'
