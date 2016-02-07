@@ -20,3 +20,4 @@ dependencies:
   - comp/volunteers/water
   - comp/volunteers/refreshments
   - comp/volunteers/schedule
+  - comp/volunteers/experts-list
