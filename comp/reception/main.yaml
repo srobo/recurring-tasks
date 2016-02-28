@@ -7,7 +7,9 @@ component: Competition
 milestone: $SRYYYY Competition
 
 description: >-
-  This is needed for entry control.
+  This is needed for entry control. Everyone (competitors, team-leaders,
+  blueshirts and guests) who wants to come in must have a ticket or a
+  completed media consent form.
 
   In SR2015 this consisted of four individual desks arranged such that
   one was on each side of two lanes. Each desk had its own queue, and
