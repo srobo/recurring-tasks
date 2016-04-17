@@ -11,6 +11,7 @@ description: >-
 
 dependencies:
   - comp/arena/main
+  - comp/game/usbs
   - comp/game/props
   - comp/game/league
   - comp/game/knockout
