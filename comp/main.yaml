@@ -37,10 +37,12 @@ dependencies:
     - comp/prizes/main
     - comp/photos/main
     - comp/spare-kit
+    - comp/kit-testing-equipment
     - comp/kit-handback
     - comp/media-consent/main
     - comp/stream
     - comp/stream-local
+    - comp/social-media
     - comp/wristbands/order
     - comp/press/invite-press
     - comp/press/invite-sponsors
