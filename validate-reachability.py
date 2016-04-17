@@ -8,8 +8,14 @@ parser.add_argument('root', help='root ticket (eg: comp/main)')
 parser.add_argument('dir', help='directory (eg: comp)')
 arguments = parser.parse_args()
 
+
+def strip_dot_yaml(text):
+    if not text.endswith('.yaml'):
+        return text
+    return text[:-5]
+
 linked = set()
-worklist = set([arguments.root])
+worklist = set([strip_dot_yaml(arguments.root)])
 
 errors = False
 

@@ -25,7 +25,8 @@ dependencies:
     - comp/venue/transport/main
     - comp/venue/arena-lighting
     - comp/venue/cable-protectors
-    - comp/reception
+    - comp/computer-hardware
+    - comp/reception/main
     - comp/safety/main
     - comp/day-schedule
     - comp/tinker-time
@@ -34,8 +35,10 @@ dependencies:
     - comp/arena/main
     - comp/pits/main
     - comp/game/main
+    - comp/ops/main
     - comp/prizes/main
     - comp/photos/main
+    - comp/uprate-server
     - comp/spare-kit
     - comp/kit-testing-equipment
     - comp/kit-handback

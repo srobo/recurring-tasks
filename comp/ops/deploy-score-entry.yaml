@@ -1,0 +1,20 @@
+summary: Deploy the score entry system
+
+priority: major
+
+component: Competition
+
+milestone: $SRYYYY Competition Day
+
+description: >-
+    The machines which will be used for score entry need setting up.
+    At least one of these is expected to be a permanent machine placement.
+
+    This should also include confirming that the relevant pages and ops
+    software things can be accessed.
+
+dependencies:
+    - comp/arena/network
+    - comp/arena/power
+    - comp/game/score-entry
+    - comp/ops/score-entry-hardware

@@ -1,0 +1,14 @@
+summary: Provide power to the reception
+
+priority: major
+
+component: Competition
+
+milestone: $SRYYYY Competition Day
+
+description: >-
+    The reception desk needs power for computers running the admission
+    software.
+
+dependencies:
+    - comp/venue/power

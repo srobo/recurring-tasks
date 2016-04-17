@@ -1,0 +1,16 @@
+summary: Uprate saffron _before_ the competition starts
+
+priority: major
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+description: >-
+    During week preceding and particularly over the competition weekend
+    our main server gets a lot more load than it normally does. The
+    easiest way to ensure that it can cope is to temporarily uprate its
+    capacity with the hosting provider over the competition period.
+
+    In the past we've gone up one level on the weekend before and then
+    up another level for the weekend itself.

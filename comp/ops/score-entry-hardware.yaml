@@ -1,0 +1,17 @@
+summary: Organise machines to run score entry
+
+priority: major
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+description: >-
+    This ticket relates to providing the actual machines that will be
+    used by the score entry volunteers.
+
+    Typically one of these will be a fairly permanent role and thus the
+    volunteer can probably just use their laptop. The other position
+    tends to be a rotating job so we need a fixed machine which each
+    person can use. This avoids needing to configure the software on
+    each new person's machine when they start.

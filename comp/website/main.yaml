@@ -14,8 +14,10 @@ dependencies:
   - comp/game/score-website-live
   - comp/announce
   - comp/website/srweb-dates
+  - comp/website/compstate
   - comp/website/schedule-match
   - comp/website/schedule-day
   - comp/website/stream
+  - comp/uprate-server
   - comp/venue/layout-map
   - comp/website/directions
