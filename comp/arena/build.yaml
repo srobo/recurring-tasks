@@ -7,9 +7,10 @@ milestone: $SRYYYY Competition
 description: >-
     Build some arenas for the games.
 
-    This covers the physical construction of the arena, including props
+    This covers the physical construction of the arenas, including props
     needed for the game and markings for the start-position of any
-    which are moveable.
+    which are moveable. The arenas should also be marked so it's clear
+    which is which.
 
 dependencies:
     - comp/arena/carpet
@@ -17,3 +18,4 @@ dependencies:
     - comp/arena/network
     - comp/arena/power
     - comp/arena/screens
+    - comp/arena/labels

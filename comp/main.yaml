@@ -27,6 +27,7 @@ dependencies:
     - comp/venue/cable-protectors
     - comp/computer-hardware
     - comp/reception/main
+    - comp/printing
     - comp/safety/main
     - comp/day-schedule
     - comp/tinker-time

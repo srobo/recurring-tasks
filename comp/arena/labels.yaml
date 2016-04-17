@@ -1,0 +1,18 @@
+summary: Print arena labels for $SRYYYY
+
+priority: major
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+description: >-
+    Since we have more than one arena we want a way to tell which is
+    which. One possible mechanism is to colour-code them, though having
+    printed name labels is easy and has been done in the past.
+
+    There are some handy large A and B label PDFs attached to #2964.
+
+    Note that since people need to use the label of the arena to clearly
+    communicate which they're talking about it is best to stick to having
+    a single name for each.

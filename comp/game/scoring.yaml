@@ -11,6 +11,7 @@ description: >-
 
 dependencies:
   - comp/game/score-forms
+  - comp/game/score-forms-print
   - comp/game/score-entry
   - comp/game/score-format
   - comp/game/score-validation
