@@ -33,6 +33,7 @@ dependencies:
     - comp/website/main
     - comp/volunteers/main
     - comp/arena/main
+    - comp/arena/high-vis
     - comp/pits/main
     - comp/game/main
     - comp/ops/main

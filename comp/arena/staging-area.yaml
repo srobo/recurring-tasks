@@ -21,4 +21,5 @@ description: |
     present. A volunteer should be assigned to managed this.
 
 dependencies:
+    - comp/arena/high-vis
     - comp/game/robot-badges
