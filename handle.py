@@ -28,7 +28,7 @@ Ticket = namedtuple('Ticket',
                      'milestone', 'description', 'dependencies'])
 
 def trac_description_text(ticket):
-    text = textwrap.fill(ticket.description, width=72)
+    text = ticket.description
     text += '\n\nOriginal: [recurring-task:{}]'.format(ticket.original_name)
     if ticket.dependencies:
         text += '\n\nDependencies:\n\n'
@@ -65,8 +65,8 @@ class RealTrac(object):
         self.root = root
         import xmlrpc.client as xml
         attrs = urllib.parse.urlsplit(root)
-        username = input('SR username: ')
-        password = getpass('SR password: ')
+        username = attrs.username or input('SR username: ')
+        password = attrs.password or getpass('SR password: ')
         generated_netloc = '{}:{}@{}{}'.format(urllib.parse.quote(username),
                                                urllib.parse.quote(password),
                                                attrs.hostname,
