@@ -8,3 +8,6 @@ milestone: $SRYYYY Kickstart
 
 description: >-
     We need to inform the teams who have places and invite them to Kickstart.
+
+dependencies:
+    - pre/signups

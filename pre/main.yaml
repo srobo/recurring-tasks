@@ -1,0 +1,17 @@
+summary: Prepare the $SRYYYY Competition Programme
+
+priority: blocker
+
+component: Competition
+
+milestone: $SRYYYY Preparation
+
+description: >-
+    We need to prepare for the $SRYYYY Competition Programme.
+
+dependencies:
+    - pre/advertise-teams
+    - pre/advertise-volunteers
+    - pre/budget
+    - pre/signups-teams
+    - pre/signups-volunteers
