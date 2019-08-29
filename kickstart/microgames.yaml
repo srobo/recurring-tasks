@@ -1,0 +1,24 @@
+summary: Create microgames for the $SRYYYY Kickstart
+
+priority: major
+
+component: Competition
+
+milestone: $SRYYYY Kickstart
+
+description: >-
+    At Kickstart we usually have the teams perform some introductory tasks to
+    get them familiar with the kit and to establish that they can safely charge
+    their batteries.
+
+    The tasks also help give them a starting point in programming and
+    familiarity with asking Blueshirts for help.
+
+    Examples from previous years:
+     - [SR2019](https://docs.google.com/document/d/13-zZVXi3YbPEgqVuGP8RA-t9qiHk2rBW4SbcU5_WepY/edit)
+     - [SR2017](https://drive.google.com/drive/folders/0B-WfTB1zV9sza3BSMU1LeHBSNVE?usp=sharing)
+     - [SR2016](https://drive.google.com/open?id=1T-JOaAeUpG1JWr8pmnM7bD1PB3RV0d3Pkzp4z-FHrEU)
+     - [SR2015](https://docs.google.com/document/d/19YdjD7thAmS1A09UGYC5D7L_8qqyXl1BupXFottsadI/edit)
+
+dependencies:
+    - kickstart/rules/decide-game
