@@ -1,0 +1,14 @@
+summary: Allocate TLAs for $SRYYYY
+
+priority: major
+
+component: Competition
+
+milestone: $SRYYYY Kickstart
+
+description: >-
+    Once we've decided which teams are getting places we need to assign them
+    their TLAs.
+
+    TLAs should idealy be consistent between years, so that competitors can
+    build a brand around their name.
