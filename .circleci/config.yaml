@@ -1,0 +1,40 @@
+version: 2
+
+workflows:
+    version: 2
+    build_and_test:
+        jobs:
+            - validate
+
+jobs:
+  validate:
+    docker:
+      - image: circleci/python:3.7
+
+    steps:
+      - checkout
+
+        # Set up a cached virtualenv in which to install tox
+      - restore_cache:
+          name: Restore build dependency cache
+          key: deps-venv-{{ .Branch }}-{{ .Environment.CIRCLE_STAGE }}-5.1.2
+      - run:
+          name: Install yaml
+          command: |
+            python3 -m venv venv
+            . venv/bin/activate
+            pip install PyYAML==5.1.2
+      - save_cache:
+          name: Save build dependency cache
+          key: deps-venv-{{ .Branch }}-{{ .Environment.CIRCLE_STAGE }}-5.1.2
+          paths:
+            - "venv"
+
+      - run:
+          name: Validate reachability
+          command: |
+            . venv/bin/activate
+            ./validate-reachability.py comp/main comp
+            ./validate-reachability.py kickstart/main kickstart
+            ./validate-reachability.py pre/main pre
+            ./validate-reachability.py test/main test
