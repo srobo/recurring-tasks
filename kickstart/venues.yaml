@@ -1,0 +1,24 @@
+summary: Book venues $SRYYYY Kickstart
+
+priority: blocker
+
+component: Competition
+
+milestone: $SRYYYY Kickstart
+
+description: >-
+    In order to have the $SRYYYY Kickstarts we need venues to have it in.
+
+    Each venue should expect to host at least four teams, have a way to give a
+    presentation (i.e: have a large screen or projector) and be able to provide
+    for each team:
+     - a large desk to work on and sit around
+     - power & internet access (if the latter is via computers that's ideal,
+       but not required)
+
+    We should balance the number of Kickstart venues with our ability to staff
+    them. This is as much about ensuring we have a couple of experienced
+    Blueshirts at each one as it is about overall numbers.
+
+    Note: each venue is encouraged to make a dependent subtask of this one
+    so that per-venue disucssion and tracking is clear.
