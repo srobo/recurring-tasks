@@ -15,4 +15,5 @@ dependencies:
     - kickstart/rules/write
     - kickstart/website/main
     - kickstart/update-dummy-api
+    - kickstart/print-disclaimer-forms
     - kickstart/venues
