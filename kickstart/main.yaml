@@ -13,6 +13,7 @@ dependencies:
     - kickstart/confirm-teams
     - kickstart/kit/main
     - kickstart/rules/write
+    - kickstart/services/main
     - kickstart/website/main
     - kickstart/update-dummy-api
     - kickstart/microgames

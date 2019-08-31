@@ -1,0 +1,21 @@
+summary: Setup team leader accounts for $SRYYYY
+
+priority: blocker
+
+component: sysadmin
+
+milestone: $SRYYYY Kickstart
+
+description: >-
+    In order to allow the competitors to use the various hosted services we
+    provide, we need to give them user accounts.
+
+    Typically we create the accounts fo the team leaders and let them create the
+    accounts for the individual competitors. This task is therefore about the
+    user accounts for the team leaders.
+
+    Included in this is creating the neccessary team and school groups within
+    the auth system.
+
+dependencies:
+    - kickstart/allocate-tlas

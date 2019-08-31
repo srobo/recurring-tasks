@@ -1,0 +1,26 @@
+summary: Prepare forums for $SRYYYY
+
+priority: major
+
+component: sysadmin
+
+milestone: $SRYYYY Kickstart
+
+description: >-
+    In order to allow the competitors to chat to each other and request help
+    from mentors, we setup forums each year. These are typically an instance
+    of [phpBB](https://www.phpbb.com/) hosted on a VM of ours.
+
+    The forums allow login using the competitors' user accounts and when they
+    post in the forums, updates are cross-posted into Slack.
+
+    We usually have forums as follows:
+     - *General Discussion* (General chitchat.)
+     - *Programming* (Python, libraries and concepts.)
+     - *Electronics* (Electrons, holes and joules.)
+     - *Mechanics* (Pulleys, sprockets, hinges and gudgeon pins.)
+     - *Teams on the web* (A place to show off your team blogs, videos, and bat-based memes.)
+     - *<name of the game>* (Discussion about the game.)
+
+dependencies:
+    - kickstart/rules/decide-game
