@@ -132,7 +132,10 @@ def handle_dep(key):
 COMPONENTS = (
     'Arena',
     'Competition',
+    'Docs',
+    'Kit',
     'Media',
+    'pyenv',
     'Rules',
     'SRComp suite',
     'sysadmin',
