@@ -22,10 +22,15 @@ YEAR = arguments.year
 CYCLE = object()
 elements = {}
 
-Ticket = namedtuple('Ticket',
-                    ['summary', 'priority', 'component',
-                     'original_name',
-                     'milestone', 'description', 'dependencies'])
+Ticket = namedtuple('Ticket', [
+    'summary',
+    'priority',
+    'component',
+    'original_name',
+    'milestone',
+    'description',
+    'dependencies',
+])
 
 def trac_description_text(ticket):
     text = ticket.description
@@ -124,8 +129,16 @@ def handle_dep(key):
         return key
     return add(key)
 
-COMPONENTS = ('Arena', 'Competition', 'Website', 'sysadmin',
-              'Media', 'Rules', 'SRComp suite', 'Tall Ship')
+COMPONENTS = (
+    'Arena',
+    'Competition',
+    'Website',
+    'sysadmin',
+    'Media',
+    'Rules',
+    'SRComp suite',
+    'Tall Ship',
+)
 
 def process(element_name):
     path = (ROOT / element_name).with_suffix('.yaml')
