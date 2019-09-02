@@ -132,12 +132,12 @@ def handle_dep(key):
 COMPONENTS = (
     'Arena',
     'Competition',
-    'Website',
-    'sysadmin',
     'Media',
     'Rules',
     'SRComp suite',
+    'sysadmin',
     'Tall Ship',
+    'Website',
 )
 
 def process(element_name):
