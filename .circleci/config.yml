@@ -11,7 +11,7 @@ jobs:
         # Set up a cached virtualenv in which to install tox
       - restore_cache:
           name: Restore build dependency cache
-          key: deps-venv-{{ .Branch }}-{{ .Environment.CIRCLE_STAGE }}-{{ checksum requirements.txt }}
+          key: deps-venv-{{ .Branch }}-{{ .Environment.CIRCLE_STAGE }}-{{ checksum "requirements.txt" }}
       - run:
           name: Install yaml
           command: |
@@ -20,7 +20,7 @@ jobs:
             pip install -r requirements.txt
       - save_cache:
           name: Save build dependency cache
-          key: deps-venv-{{ .Branch }}-{{ .Environment.CIRCLE_STAGE }}-{{ checksum requirements.txt }}
+          key: deps-venv-{{ .Branch }}-{{ .Environment.CIRCLE_STAGE }}-{{ checksum "requirements.txt" }}
           paths:
             - "venv"
 
