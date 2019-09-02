@@ -28,10 +28,10 @@ jobs:
           name: Validate reachability
           command: |
             . venv/bin/activate
-            ./validate-reachability.py comp/main comp
-            ./validate-reachability.py kickstart/main kickstart
-            ./validate-reachability.py pre/main pre
-            ./validate-reachability.py test/main test
+            ./validate comp/main
+            ./validate kickstart/main
+            ./validate pre/main
+            ./validate test/main
 
 
 workflows:
