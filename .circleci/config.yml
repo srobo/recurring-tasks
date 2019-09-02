@@ -13,7 +13,7 @@ jobs:
           name: Restore build dependency cache
           key: deps-venv-{{ .Branch }}-{{ .Environment.CIRCLE_STAGE }}-{{ checksum "requirements.txt" }}
       - run:
-          name: Install yaml
+          name: Install dependencies
           command: |
             python3 -m venv venv
             . venv/bin/activate
