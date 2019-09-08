@@ -166,7 +166,7 @@ def process(element_name, handle_dep):
     return data
 
 
-def add(element):
+def add(element, backend):
     if element in elements:
         previous = elements[element]
         if previous is CYCLE:
@@ -174,10 +174,13 @@ def add(element):
         return previous
     else:
         elements[element] = CYCLE
-        generated = process(element, handle_dep=add)
-        ticket_id = TRAC.submit(generated)
+        generated = process(
+            element,
+            handle_dep=lambda x: add(x, backend),
+        )
+        ticket_id = backend.submit(generated)
         elements[element] = ticket_id
         return ticket_id
 
 
-add(BASE)
+add(BASE, TRAC)
