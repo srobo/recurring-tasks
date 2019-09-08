@@ -150,8 +150,13 @@ class GitHubBackend:
     def __init__(self, repo_name: str) -> None:
         self.github = github.Github(get_github_credential())
         self.repo = self.github.get_repo(repo_name)
-        self.milestones = {x.title: x for x in self.repo.get_milestones()}
-        labels = {x.name: x for x in self.repo.get_labels()}
+        self.milestones: Dict[str, github.Milestone.Milestone] = {
+            x.title: x for x in self.repo.get_milestones()
+        }
+
+        labels: Dict[str, github.Label.Label] = {
+            x.name: x for x in self.repo.get_labels()
+        }
 
         self._component_label_mapping = {
             k: labels[v] for k, v in self.COMPONENT_LABEL_MAPPING.items()
