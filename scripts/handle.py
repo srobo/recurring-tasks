@@ -9,15 +9,6 @@ from getpass import getpass
 
 ROOT = Path(__file__).parent.parent
 
-parser = argparse.ArgumentParser()
-parser.add_argument('base', help='Root ticket to generate')
-parser.add_argument('year', help='SR year to generate for')
-parser.add_argument('-t', '--trac-root',
-                    help='Base URL for the Trac installation',
-                    default=None)
-arguments = parser.parse_args()
-BASE = arguments.base
-
 
 Ticket = namedtuple('Ticket', [
     'summary',
@@ -103,10 +94,6 @@ class RealTrac(object):
         ticket_data = self._xml.ticket.get(ticket_number)
         return ticket_data[3]['summary']
 
-if arguments.trac_root is not None:
-    TRAC = RealTrac(arguments.trac_root)
-else:
-    TRAC = FakeTrac()
 
 COMPONENTS = (
     'Arena',
@@ -184,4 +171,17 @@ def add(element, backend, year):
         return ticket_id
 
 
-add(BASE, TRAC, arguments.year)
+parser = argparse.ArgumentParser()
+parser.add_argument('base', help='Root ticket to generate')
+parser.add_argument('year', help='SR year to generate for')
+parser.add_argument('-t', '--trac-root',
+                    help='Base URL for the Trac installation',
+                    default=None)
+arguments = parser.parse_args()
+
+if arguments.trac_root is not None:
+    TRAC = RealTrac(arguments.trac_root)
+else:
+    TRAC = FakeTrac()
+
+add(arguments.base, TRAC, arguments.year)
