@@ -59,7 +59,7 @@ class FakeTrac(object):
 class RealTrac(object):
     def __init__(self, root):
         self.root = root
-        import xmlrpc.client as xml
+        import xmlrpc.client as xml  # type:ignore  # no stubs available
         attrs = urllib.parse.urlsplit(root)
         username = attrs.username or input('SR username: ')
         password = attrs.password or getpass('SR password: ')

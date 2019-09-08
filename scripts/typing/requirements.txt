@@ -1,0 +1,2 @@
+# Versions pinned for sanity, not because we have specific dependencies.
+mypy==0.720
