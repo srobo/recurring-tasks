@@ -64,12 +64,11 @@ class RealTrac(object):
         attrs = urllib.parse.urlsplit(root)
         username = attrs.username or input('SR username: ')
         password = attrs.password or getpass('SR password: ')
+        port = ':{}'.format(attrs.port) if attrs.port is not None else ''
         generated_netloc = '{}:{}@{}{}'.format(urllib.parse.quote(username),
                                                urllib.parse.quote(password),
                                                attrs.hostname,
-                                               ':{}'.format(attrs.port)
-                                                 if attrs.port is not None
-                                                 else '')
+                                               port)
         generated_parts = (attrs.scheme,
                            generated_netloc,
                            attrs.path.rstrip('/') + '/login/xmlrpc',
