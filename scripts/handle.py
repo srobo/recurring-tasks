@@ -7,7 +7,7 @@ import textwrap
 import urllib.parse
 from getpass import getpass
 
-ROOT = Path(__file__).parent
+ROOT = Path(__file__).parent.parent
 
 parser = argparse.ArgumentParser()
 parser.add_argument('base', help='Root ticket to generate')

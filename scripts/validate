@@ -1,0 +1,20 @@
+#!/bin/sh
+
+root=$1
+if [ -z "$1" ]
+then
+    root=comp/main
+fi
+
+dir=$2
+if [ -z "$2" ]
+then
+    dir=$(dirname "$root")
+fi
+
+MY_DIR=$(dirname $0)
+
+python3 ${MY_DIR}/validate-reachability.py $root $dir && \
+    python3 ${MY_DIR}/handle.py $root 2016 > /dev/null
+
+exit $?
