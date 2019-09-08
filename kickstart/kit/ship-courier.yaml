@@ -9,7 +9,11 @@ milestone: $SRYYYY Kickstart
 description: >-
     Teams unable to make it to a Kickstart need their kits couriering to
     them.
-# TODO: clarify whether this is our responsibilty or that of the team.
+
+    Costs for this have historically been covered by SR.
+
+    We require teams to explicitly confirm their address by email before
+    dispatching a kit.
 
 dependencies:
     - kickstart/kit/allocate
