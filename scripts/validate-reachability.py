@@ -35,8 +35,8 @@ while worklist:
         print(f"Missing ticket: {element}")
         errors = True
 
-for element in Path(arguments.dir).glob('**/*.yaml'):
-    ticket = str(element)[:-5]
+for element_path in Path(arguments.dir).glob('**/*.yaml'):
+    ticket = str(element_path)[:-5]
     if ticket not in linked:
         print(f"Unlinked ticket: {ticket}")
         errors = True
