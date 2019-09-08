@@ -17,7 +17,7 @@ parser.add_argument('-t', '--trac-root',
                     default=None)
 arguments = parser.parse_args()
 BASE = arguments.base
-YEAR = arguments.year
+
 
 Ticket = namedtuple('Ticket', [
     'summary',
@@ -122,7 +122,7 @@ COMPONENTS = (
     'Website',
 )
 
-def process(element_name, handle_dep):
+def process(element_name, *, year, handle_dep):
     """
     Load the data for a given element, fully expanding its dependencies using
     the given `handle_dep` callback.
@@ -132,8 +132,8 @@ def process(element_name, handle_dep):
 
     with path.open('r') as f:
         data = f.read()
-    data = data.replace('$YYYY', str(YEAR))
-    data = data.replace('$SRYYYY', 'SR{}'.format(YEAR))
+    data = data.replace('$YYYY', str(year))
+    data = data.replace('$SRYYYY', 'SR{}'.format(year))
     raw_elements = yaml.load(data)
     if 'summary' not in raw_elements and 'description' not in raw_elements:
         raise RuntimeError('{} contains neither a summary nor a description'.format(path))
@@ -163,7 +163,7 @@ def process(element_name, handle_dep):
     return data
 
 
-def add(element, backend):
+def add(element, backend, year):
     CYCLE = object()
     elements = {}
 
@@ -176,11 +176,12 @@ def add(element, backend):
         elements[element] = CYCLE
         generated = process(
             element,
-            handle_dep=lambda x: add(x, backend),
+            year=year,
+            handle_dep=lambda x: add(x, backend, year),
         )
         ticket_id = backend.submit(generated)
         elements[element] = ticket_id
         return ticket_id
 
 
-add(BASE, TRAC)
+add(BASE, TRAC, arguments.year)
