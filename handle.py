@@ -125,8 +125,6 @@ def add(element):
         return ticket_id
 
 def handle_dep(key):
-    if isinstance(key, int):
-        return key
     return add(key)
 
 COMPONENTS = (

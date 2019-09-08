@@ -16,6 +16,3 @@ with the addition of a `dependencies` key.
 This allows the listing of task dependencies in the following ways:
  * By the name of the task
  * By a glob on the name of some tasks
- * By existing ticket number within the target trac instance, prefixed
-   with an underscore rather than a hash so that it doesn't get treated
-   as a comment by the yaml loader. For example: `_545`.
