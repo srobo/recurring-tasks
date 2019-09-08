@@ -12,8 +12,8 @@ jobs:
       - run:
           name: Merge requirements
           command: |
-            cat script/linting/requirements.txt >> scripts/requirements.txt
-            cat script/typing/requirements.txt >> scripts/requirements.txt
+            cat scripts/linting/requirements.txt >> scripts/requirements.txt
+            cat scripts/typing/requirements.txt >> scripts/requirements.txt
       - restore_cache:
           name: Restore build dependency cache
           key: deps-venv-{{ .Branch }}-{{ .Environment.CIRCLE_STAGE }}-{{ checksum "scripts/requirements.txt" }}
