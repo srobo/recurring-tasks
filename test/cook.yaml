@@ -1,4 +1,4 @@
-summary: Eat bees
+summary: Cook bees
 
 priority: minor
 
@@ -7,8 +7,7 @@ component: Tall Ship
 milestone: $SRYYYY Competition
 
 description: >-
-  We should consume many bees.
+  We should cook the bees.
 
 dependencies:
-  - test/cook
   - test/get
