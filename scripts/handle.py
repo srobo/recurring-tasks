@@ -20,6 +20,7 @@ Ticket = namedtuple('Ticket', [
     'dependencies',
 ])
 
+
 def trac_description_text(ticket, backend):
     text = ticket.description
     text += '\n\nOriginal: [recurring-task:{}]'.format(ticket.original_name)
@@ -28,6 +29,7 @@ def trac_description_text(ticket, backend):
         for dep in sorted(ticket.dependencies):
             text += (' * #{} {}'.format(dep, backend.title(dep)).rstrip()) + '\n'
     return text.strip()
+
 
 class FakeTrac(object):
     def __init__(self):
@@ -52,6 +54,7 @@ class FakeTrac(object):
 
     def title(self, ticket_number):
         return self._known_titles.get(ticket_number, '')
+
 
 class RealTrac(object):
     def __init__(self, root):
@@ -108,6 +111,7 @@ COMPONENTS = (
     'Tall Ship',
     'Website',
 )
+
 
 def process(element_name, *, year, handle_dep):
     """
