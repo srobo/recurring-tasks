@@ -106,7 +106,7 @@ class RealTrac(object):
             attrs['milestone'] = ticket.milestone
         attrs['priority'] = ticket.priority
 
-        ticket_number = self._xml.ticket.create(
+        ticket_number: int = self._xml.ticket.create(
             ticket.summary,
             desc,
             attrs,
@@ -114,7 +114,7 @@ class RealTrac(object):
         )
 
         print("Created ticket #{}: {}".format(ticket_number, ticket.summary))
-        return ticket_number  # type: ignore
+        return ticket_number
 
     def title(self, ticket_number: int) -> str:
         ticket_data = self._xml.ticket.get(ticket_number)
