@@ -34,11 +34,11 @@ if TYPE_CHECKING:
 
 def trac_description_text(ticket: Ticket, backend: 'Backend') -> str:
     text = ticket.description
-    text += "\n\nOriginal: [recurring-task:{}]".format(ticket.original_name)
+    text += f"\n\nOriginal: [recurring-task:{ticket.original_name}]"
     if ticket.dependencies:
         text += "\n\nDependencies:\n\n"
         for dep in sorted(ticket.dependencies):
-            text += (" * #{} {}".format(dep, backend.title(dep)).rstrip()) + "\n"
+            text += f" * #{dep} {backend.title(dep)}".rstrip() + "\n"
     return text.strip()
 
 
@@ -58,7 +58,7 @@ class FakeTrac(object):
             'blocker': 'red',
         }
         cprint(
-            "#{}: {}".format(ticket_number, ticket.summary),
+            f"#{ticket_number}: {ticket.summary}",
             PRIORITY_COLOURS[ticket.priority],
             attrs=['bold'],
         )
@@ -79,7 +79,7 @@ class RealTrac(object):
         attrs = urllib.parse.urlsplit(root)
         username = attrs.username or input("SR username: ")
         password = attrs.password or getpass("SR password: ")
-        port = ':{}'.format(attrs.port) if attrs.port is not None else ''
+        port = f':{attrs.port}' if attrs.port is not None else ''
         generated_netloc = '{}:{}@{}{}'.format(
             urllib.parse.quote(username),
             urllib.parse.quote(password),
@@ -113,7 +113,7 @@ class RealTrac(object):
             False,
         )
 
-        print("Created ticket #{}: {}".format(ticket_number, ticket.summary))
+        print(f"Created ticket #{ticket_number}: {ticket.summary}")
         return ticket_number
 
     def title(self, ticket_number: int) -> str:
@@ -147,13 +147,11 @@ def process(element_name: str, *, year: str, handle_dep: Callable[[str], int]) -
     with path.open('r') as f:
         data = f.read()
     data = data.replace('$YYYY', str(year))
-    data = data.replace('$SRYYYY', 'SR{}'.format(year))
+    data = data.replace('$SRYYYY', f'SR{year}')
 
     raw_elements = yaml.load(data)
     if 'summary' not in raw_elements and 'description' not in raw_elements:
-        raise RuntimeError(
-            "{} contains neither a summary nor a description".format(path)
-        )
+        raise RuntimeError(f"{path} contains neither a summary nor a description")
 
     description = raw_elements.get('description', '')
 
@@ -166,10 +164,10 @@ def process(element_name: str, *, year: str, handle_dep: Callable[[str], int]) -
 
     priority = raw_elements.get('priority', 'major')
     if priority not in ('trivial', 'minor', 'major', 'critical', 'blocker'):
-        raise RuntimeError("{} has an invalid priority: {}".format(path, priority))
+        raise RuntimeError(f"{path} has an invalid priority: {priority}")
 
     if component not in COMPONENTS:
-        raise RuntimeError("{} has an unknown component: {}".format(path, component))
+        raise RuntimeError(f"{path} has an unknown component: {component}")
 
     milestone = raw_elements.get('milestone')
     dependencies = raw_elements.get('dependencies', ())
@@ -195,7 +193,7 @@ def add(element: str, backend: 'Backend', year: str) -> int:
     if element in elements:
         previous = elements[element]
         if previous is CYCLE:
-            raise RuntimeError("cyclic dependency on {}".format(element))
+            raise RuntimeError(f"cyclic dependency on {element}")
         assert isinstance(previous, int)
         return previous
     else:
