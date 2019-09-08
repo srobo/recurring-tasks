@@ -1,9 +1,9 @@
 import argparse
 import textwrap
 import urllib.parse
-from collections import namedtuple
 from getpass import getpass
 from pathlib import Path
+from typing import TYPE_CHECKING, Callable, Dict, List, NamedTuple, Union
 
 import yaml
 from termcolor import cprint
@@ -11,18 +11,28 @@ from termcolor import cprint
 ROOT = Path(__file__).parent.parent
 
 
-Ticket = namedtuple('Ticket', [
-    'summary',
-    'priority',
-    'component',
-    'original_name',
-    'milestone',
-    'description',
-    'dependencies',
-])
+class Ticket(NamedTuple):
+    summary: str
+    priority: str
+    component: str
+    original_name: str
+    milestone: str
+    description: str
+    dependencies: List[int]
 
 
-def trac_description_text(ticket, backend):
+if TYPE_CHECKING:
+    from typing_extensions import Protocol
+
+    class Backend(Protocol):
+        def submit(self, ticket: Ticket) -> int:
+            ...
+
+        def title(self, ticket_number: int) -> str:
+            ...
+
+
+def trac_description_text(ticket: Ticket, backend: 'Backend') -> str:
     text = ticket.description
     text += '\n\nOriginal: [recurring-task:{}]'.format(ticket.original_name)
     if ticket.dependencies:
@@ -33,11 +43,11 @@ def trac_description_text(ticket, backend):
 
 
 class FakeTrac(object):
-    def __init__(self):
+    def __init__(self) -> None:
         self.next_ticket = 2673
-        self._known_titles = {}
+        self._known_titles: Dict[int, str] = {}
 
-    def submit(self, ticket):
+    def submit(self, ticket: Ticket) -> int:
         ticket_number = self.next_ticket
         self.next_ticket += 1
         PRIORITY_COLOURS = {'trivial': 'cyan',
@@ -53,12 +63,12 @@ class FakeTrac(object):
         self._known_titles[ticket_number] = ticket.summary
         return ticket_number
 
-    def title(self, ticket_number):
+    def title(self, ticket_number: int) -> str:
         return self._known_titles.get(ticket_number, '')
 
 
 class RealTrac(object):
-    def __init__(self, root):
+    def __init__(self, root: str):
         self.root = root
         import xmlrpc.client as xml  # type:ignore  # no stubs available
         attrs = urllib.parse.urlsplit(root)
@@ -77,7 +87,7 @@ class RealTrac(object):
         self._xml = xml.ServerProxy(target_url)
         print(self._xml.system.methodHelp('ticket.create'))
 
-    def submit(self, ticket):
+    def submit(self, ticket: Ticket) -> int:
         desc = trac_description_text(ticket, self)
         attrs = {}
         if ticket.component is not None:
@@ -91,11 +101,11 @@ class RealTrac(object):
                                                 False)
         print('Created ticket #{}: {}'.format(ticket_number,
                                               ticket.summary))
-        return ticket_number
+        return ticket_number  # type: ignore
 
-    def title(self, ticket_number):
+    def title(self, ticket_number: int) -> str:
         ticket_data = self._xml.ticket.get(ticket_number)
-        return ticket_data[3]['summary']
+        return ticket_data[3]['summary']  # type: ignore
 
 
 COMPONENTS = (
@@ -113,7 +123,7 @@ COMPONENTS = (
 )
 
 
-def process(element_name, *, year, handle_dep):
+def process(element_name: str, *, year: str, handle_dep: Callable[[str], int]) -> Ticket:
     """
     Load the data for a given element, fully expanding its dependencies using
     the given `handle_dep` callback.
@@ -144,24 +154,25 @@ def process(element_name, *, year, handle_dep):
     milestone = raw_elements.get('milestone')
     dependencies = raw_elements.get('dependencies', ())
     computed_dependencies = [handle_dep(element) for element in dependencies]
-    data = Ticket(summary=summary,
-                  component=component,
-                  priority=priority,
-                  milestone=milestone,
-                  original_name=element_name,
-                  description=description,
-                  dependencies=computed_dependencies)
-    return data
+    ticket = Ticket(summary=summary,
+                    component=component,
+                    priority=priority,
+                    milestone=milestone,
+                    original_name=element_name,
+                    description=description,
+                    dependencies=computed_dependencies)
+    return ticket
 
 
-def add(element, backend, year):
+def add(element: str, backend: 'Backend', year: str) -> int:
     CYCLE = object()
-    elements = {}
+    elements: Dict[str, Union[int, object]] = {}
 
     if element in elements:
         previous = elements[element]
         if previous is CYCLE:
             raise RuntimeError('cyclic dependency on {}'.format(element))
+        assert isinstance(previous, int)
         return previous
     else:
         elements[element] = CYCLE
@@ -185,9 +196,9 @@ def parse_args():
     return parser.parse_args()
 
 
-def main(arguments):
+def main(arguments: argparse.Namespace) -> None:
     if arguments.trac_root is not None:
-        backend = RealTrac(arguments.trac_root)
+        backend: 'Backend' = RealTrac(arguments.trac_root)
     else:
         backend = FakeTrac()
 
