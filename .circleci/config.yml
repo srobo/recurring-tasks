@@ -30,11 +30,11 @@ jobs:
             - "venv"
 
       - run:
-          command: script/linting/lint
+          command: scripts/linting/lint
           environment:
             FLAKE8: venv/bin/flake8
       - run:
-          command: script/typing/check
+          command: scripts/typing/check
           environment:
             MYPY: venv/bin/mypy
 
