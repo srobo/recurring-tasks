@@ -119,13 +119,11 @@ def add(element):
         return previous
     else:
         elements[element] = CYCLE
-        generated = process(element)
+        generated = process(element, handle_dep=add)
         ticket_id = TRAC.submit(generated)
         elements[element] = ticket_id
         return ticket_id
 
-def handle_dep(key):
-    return add(key)
 
 COMPONENTS = (
     'Arena',
@@ -141,7 +139,12 @@ COMPONENTS = (
     'Website',
 )
 
-def process(element_name):
+def process(element_name, handle_dep):
+    """
+    Load the data for a given element, fully expanding its dependencies using
+    the given `handle_dep` callback.
+    """
+
     path = (ROOT / element_name).with_suffix('.yaml')
 
     with path.open('r') as f:
