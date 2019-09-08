@@ -1,11 +1,12 @@
-from pathlib import Path
 import argparse
-import yaml
-from collections import namedtuple
-from termcolor import cprint
 import textwrap
 import urllib.parse
+from collections import namedtuple
 from getpass import getpass
+from pathlib import Path
+
+import yaml
+from termcolor import cprint
 
 ROOT = Path(__file__).parent.parent
 

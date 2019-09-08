@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 
-from pathlib import Path
-import yaml
 import textwrap
+from pathlib import Path
 
 queue = {input('Enter ticket to create: ')}
 
