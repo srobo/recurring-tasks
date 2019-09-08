@@ -158,13 +158,18 @@ class GitHubBackend:
             x.name: x for x in self.repo.get_labels()
         }
 
-        self._component_label_mapping = {
-            k: [labels[x] for x in v]
-            for k, v in self.COMPONENT_LABEL_MAPPING.items()
-        }
-        self._component_priority_mapping = {
-            k: labels[v] for k, v in self.COMPONENT_PRIORITY_MAPPING.items()
-        }
+        try:
+            self._component_label_mapping = {
+                k: [labels[x] for x in v]
+                for k, v in self.COMPONENT_LABEL_MAPPING.items()
+            }
+            self._component_priority_mapping = {
+                k: labels[v] for k, v in self.COMPONENT_PRIORITY_MAPPING.items()
+            }
+        except KeyError as e:
+            raise ValueError(
+                f"Label {e} does not exist within {repo_name!r}",
+            ) from None
 
         self._known_titles: Dict[int, str] = {}
 
