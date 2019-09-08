@@ -15,6 +15,6 @@ fi
 MY_DIR=$(dirname $0)
 
 python3 ${MY_DIR}/validate-reachability.py $root $dir && \
-    python3 ${MY_DIR}/handle.py $root 2016 > /dev/null
+    python3 ${MY_DIR}/import.py $root 2016 > /dev/null
 
 exit $?
