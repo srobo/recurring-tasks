@@ -137,6 +137,7 @@ class GitHubBackend:
         'Rules': ['A: Game Rules'],
         'sysadmin': ['A: Software'],
         'Website': ['A: Software'],
+        'Tall Ship': ['Tall Ship'],
     }
 
     COMPONENT_PRIORITY_MAPPING: Dict[str, str] = {
