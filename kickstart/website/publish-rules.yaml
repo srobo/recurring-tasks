@@ -11,8 +11,8 @@ description: >-
     The [rules](https://studentrobotics.org/docs/rules) page will need updating
     to show that the rules have been published and the link and image updating.
 
-    We should also update the [//schools/game] page at the same time with
-    a brief description of the game.
+    # We should also update the [//schools/game] page at the same time with
+    # a brief description of the game.
 
 dependencies:
     - kickstart/rules/write
