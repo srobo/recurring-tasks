@@ -222,6 +222,7 @@ class GitHubBackend:
 
         ticket_number: int = issue.number
         self._known_titles[ticket_number] = ticket.summary
+        print(f"Created ticket #{ticket_number}: {ticket.summary}")
         return ticket_number
 
     def title(self, ticket_number: int) -> str:
