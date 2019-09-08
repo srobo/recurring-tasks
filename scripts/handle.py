@@ -34,11 +34,11 @@ if TYPE_CHECKING:
 
 def trac_description_text(ticket: Ticket, backend: 'Backend') -> str:
     text = ticket.description
-    text += '\n\nOriginal: [recurring-task:{}]'.format(ticket.original_name)
+    text += "\n\nOriginal: [recurring-task:{}]".format(ticket.original_name)
     if ticket.dependencies:
-        text += '\n\nDependencies:\n\n'
+        text += "\n\nDependencies:\n\n"
         for dep in sorted(ticket.dependencies):
-            text += (' * #{} {}'.format(dep, backend.title(dep)).rstrip()) + '\n'
+            text += (" * #{} {}".format(dep, backend.title(dep)).rstrip()) + "\n"
     return text.strip()
 
 
@@ -58,7 +58,7 @@ class FakeTrac(object):
             'blocker': 'red',
         }
         cprint(
-            '#{}: {}'.format(ticket_number, ticket.summary),
+            "#{}: {}".format(ticket_number, ticket.summary),
             PRIORITY_COLOURS[ticket.priority],
             attrs=['bold'],
         )
@@ -77,8 +77,8 @@ class RealTrac(object):
         import xmlrpc.client as xml  # type:ignore  # no stubs available
 
         attrs = urllib.parse.urlsplit(root)
-        username = attrs.username or input('SR username: ')
-        password = attrs.password or getpass('SR password: ')
+        username = attrs.username or input("SR username: ")
+        password = attrs.password or getpass("SR password: ")
         port = ':{}'.format(attrs.port) if attrs.port is not None else ''
         generated_netloc = '{}:{}@{}{}'.format(
             urllib.parse.quote(username),
@@ -113,7 +113,7 @@ class RealTrac(object):
             False,
         )
 
-        print('Created ticket #{}: {}'.format(ticket_number, ticket.summary))
+        print("Created ticket #{}: {}".format(ticket_number, ticket.summary))
         return ticket_number  # type: ignore
 
     def title(self, ticket_number: int) -> str:
@@ -152,7 +152,7 @@ def process(element_name: str, *, year: str, handle_dep: Callable[[str], int]) -
     raw_elements = yaml.load(data)
     if 'summary' not in raw_elements and 'description' not in raw_elements:
         raise RuntimeError(
-            '{} contains neither a summary nor a description'.format(path)
+            "{} contains neither a summary nor a description".format(path)
         )
 
     description = raw_elements.get('description', '')
@@ -166,10 +166,10 @@ def process(element_name: str, *, year: str, handle_dep: Callable[[str], int]) -
 
     priority = raw_elements.get('priority', 'major')
     if priority not in ('trivial', 'minor', 'major', 'critical', 'blocker'):
-        raise RuntimeError('{} has an invalid priority: {}'.format(path, priority))
+        raise RuntimeError("{} has an invalid priority: {}".format(path, priority))
 
     if component not in COMPONENTS:
-        raise RuntimeError('{} has an unknown component: {}'.format(path, component))
+        raise RuntimeError("{} has an unknown component: {}".format(path, component))
 
     milestone = raw_elements.get('milestone')
     dependencies = raw_elements.get('dependencies', ())
@@ -195,7 +195,7 @@ def add(element: str, backend: 'Backend', year: str) -> int:
     if element in elements:
         previous = elements[element]
         if previous is CYCLE:
-            raise RuntimeError('cyclic dependency on {}'.format(element))
+            raise RuntimeError("cyclic dependency on {}".format(element))
         assert isinstance(previous, int)
         return previous
     else:
@@ -212,11 +212,11 @@ def add(element: str, backend: 'Backend', year: str) -> int:
 
 def parse_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument('base', help='Root ticket to generate')
-    parser.add_argument('year', help='SR year to generate for')
+    parser.add_argument('base', help="Root ticket to generate")
+    parser.add_argument('year', help="SR year to generate for")
     parser.add_argument(
         '-t', '--trac-root',
-        help='Base URL for the Trac installation',
+        help="Base URL for the Trac installation",
         default=None,
     )
     return parser.parse_args()
