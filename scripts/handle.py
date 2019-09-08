@@ -163,14 +163,19 @@ def process(element_name: str, *, year: str, handle_dep: Callable[[str], int]) -
         summary = raw_elements["summary"]
 
     component = raw_elements.get('component')
+
     priority = raw_elements.get('priority', 'major')
     if priority not in ('trivial', 'minor', 'major', 'critical', 'blocker'):
         raise RuntimeError('{} has an invalid priority: {}'.format(path, priority))
+
     if component not in COMPONENTS:
         raise RuntimeError('{} has an unknown component: {}'.format(path, component))
+
     milestone = raw_elements.get('milestone')
     dependencies = raw_elements.get('dependencies', ())
+
     computed_dependencies = [handle_dep(element) for element in dependencies]
+
     ticket = Ticket(
         summary=summary,
         component=component,
