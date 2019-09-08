@@ -23,7 +23,6 @@ COMPONENTS = (
     'Media',
     'pyenv',
     'Rules',
-    'SRComp suite',
     'sysadmin',
     'Tall Ship',
     'Website',

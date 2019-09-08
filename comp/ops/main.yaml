@@ -11,7 +11,6 @@ description: >-
 
 dependencies:
     - comp/website/compstate
-    - comp/ops/update-compbox
     - comp/ops/deploy-compbox
     - comp/ops/deploy
     - comp/ops/teams-import
