@@ -8,7 +8,7 @@ jobs:
     steps:
       - checkout
 
-        # Set up a cached virtualenv in which to install tox
+        # Set up a cached virtualenv in which to install things
       - restore_cache:
           name: Restore build dependency cache
           key: deps-venv-{{ .Branch }}-{{ .Environment.CIRCLE_STAGE }}-{{ checksum "scripts/requirements.txt" }}
