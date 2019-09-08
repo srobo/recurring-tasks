@@ -159,7 +159,8 @@ class GitHubBackend:
         }
 
         self._component_label_mapping = {
-            k: labels[v] for k, v in self.COMPONENT_LABEL_MAPPING.items()
+            k: [labels[x] for x in v]
+            for k, v in self.COMPONENT_LABEL_MAPPING.items()
         }
         self._component_priority_mapping = {
             k: labels[v] for k, v in self.COMPONENT_PRIORITY_MAPPING.items()
