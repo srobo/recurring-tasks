@@ -18,7 +18,7 @@ def strip_dot_yaml(text):
 
 
 linked = set()
-worklist = set([strip_dot_yaml(arguments.root)])
+worklist = {strip_dot_yaml(arguments.root)}
 
 errors = False
 
