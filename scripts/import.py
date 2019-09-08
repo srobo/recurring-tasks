@@ -80,6 +80,13 @@ def process(element_name: str, *, year: str, handle_dep: Callable[[str], int]) -
 
 
 def add(element: str, backend: 'Backend', year: str) -> int:
+    """
+    Add 'element' into the task tracker, along with all its dependencies.
+
+    We recurse into all the dependencies of the task we're adding, working to
+    add the leaves first so that the higher level tasks can be created with the
+    links to their dependencies in place from the start.
+    """
     CYCLE = object()
     elements: Dict[str, Union[int, object]] = {}
 
