@@ -5,7 +5,7 @@ from pathlib import Path
 from typing import TYPE_CHECKING, Callable, Dict, Union
 
 import yaml
-from import_backends import FakeTracBackend, RealTracBackend
+from import_backends import FakeTracBackend, GitHubBackend, RealTracBackend
 from ticket_type import Ticket
 
 if TYPE_CHECKING:
@@ -105,17 +105,27 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser()
     parser.add_argument('base', help="Root ticket to generate")
     parser.add_argument('year', help="SR year to generate for")
-    parser.add_argument(
+
+    backends_group = parser.add_mutually_exclusive_group()
+    backends_group.add_argument(
         '-t', '--trac-root',
         help="Base URL for the Trac installation",
         default=None,
     )
+    backends_group.add_argument(
+        '-g', '--github-repo',
+        help="GitHub repository name (e.g: srobo/tasks)",
+        default=None,
+    )
+
     return parser.parse_args()
 
 
 def main(arguments: argparse.Namespace) -> None:
     if arguments.trac_root is not None:
         backend: 'Backend' = RealTracBackend(arguments.trac_root)
+    elif arguments.github_repo is not None:
+        backend = GitHubBackend(arguments.github_repo)
     else:
         backend = FakeTracBackend()
 
