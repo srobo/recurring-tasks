@@ -180,7 +180,7 @@ class GitHubBackend:
 
     def _original_link(self, ticket: Ticket) -> str:
         url = urllib.parse.urljoin(
-            self.repo.url,
+            'https://github.com/srobo/recurring-tasks/',
             f'blob/master/{ticket.original_name}.yaml',
         )
         return f"[{ticket.original_name}]({url})"
