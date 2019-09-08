@@ -7,15 +7,21 @@ queue = {input('Enter ticket to create: ')}
 
 while queue:
     target = queue.pop()
+
     print('-- {} --'.format(target))
+
     summary = input('Summary: ')
+
     priority = input('Priority [major]: ')
     if not priority:
         priority = 'major'
+
     component = input('Component [Competition]: ')
     if not component:
         component = 'Competition'
+
     milestone = '$SRYYYY Competition'
+
     desc_lines = []
     while True:
         desc_line = input('Description [empty for end]: ')
@@ -23,6 +29,7 @@ while queue:
             break
         desc_lines.append(desc_line)
     desc = '\n'.join(desc_lines)
+
     deps = []
     while True:
         dependency = input('Dependency [empty for end]: ')
@@ -32,11 +39,14 @@ while queue:
         dep_path = Path(dependency).with_suffix('.yaml')
         if not dep_path.exists():
             queue.add(dependency)
+
     ticket_path = Path(target).with_suffix('.yaml')
+
     try:
         ticket_path.parent.mkdir(parents=True)
     except FileExistsError:
         pass
+
     with Path(target).with_suffix('.yaml').open('w') as f:
         f.write('summary: {}\n\n'.format(summary))
         f.write('priority: {}\n\n'.format(priority))

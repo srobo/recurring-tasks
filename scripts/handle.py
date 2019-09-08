@@ -50,14 +50,18 @@ class FakeTrac(object):
     def submit(self, ticket: Ticket) -> int:
         ticket_number = self.next_ticket
         self.next_ticket += 1
-        PRIORITY_COLOURS = {'trivial': 'cyan',
-                            'minor': 'blue',
-                            'major': 'green',
-                            'critical': 'yellow',
-                            'blocker': 'red'}
-        cprint('#{}: {}'.format(ticket_number, ticket.summary),
-               PRIORITY_COLOURS[ticket.priority],
-               attrs=['bold'])
+        PRIORITY_COLOURS = {
+            'trivial': 'cyan',
+            'minor': 'blue',
+            'major': 'green',
+            'critical': 'yellow',
+            'blocker': 'red',
+        }
+        cprint(
+            '#{}: {}'.format(ticket_number, ticket.summary),
+            PRIORITY_COLOURS[ticket.priority],
+            attrs=['bold'],
+        )
         desc = trac_description_text(ticket, self)
         cprint(textwrap.indent(desc, '  '))
         self._known_titles[ticket_number] = ticket.summary
@@ -71,18 +75,24 @@ class RealTrac(object):
     def __init__(self, root: str):
         self.root = root
         import xmlrpc.client as xml  # type:ignore  # no stubs available
+
         attrs = urllib.parse.urlsplit(root)
         username = attrs.username or input('SR username: ')
         password = attrs.password or getpass('SR password: ')
         port = ':{}'.format(attrs.port) if attrs.port is not None else ''
-        generated_netloc = '{}:{}@{}{}'.format(urllib.parse.quote(username),
-                                               urllib.parse.quote(password),
-                                               attrs.hostname,
-                                               port)
-        generated_parts = (attrs.scheme,
-                           generated_netloc,
-                           attrs.path.rstrip('/') + '/login/xmlrpc',
-                           '', '')
+        generated_netloc = '{}:{}@{}{}'.format(
+            urllib.parse.quote(username),
+            urllib.parse.quote(password),
+            attrs.hostname,
+            port,
+        )
+        generated_parts = (
+            attrs.scheme,
+            generated_netloc,
+            attrs.path.rstrip('/') + '/login/xmlrpc',
+            '',
+            '',
+        )
         target_url = urllib.parse.urlunsplit(generated_parts)
         self._xml = xml.ServerProxy(target_url)
         print(self._xml.system.methodHelp('ticket.create'))
@@ -95,12 +105,15 @@ class RealTrac(object):
         if ticket.milestone is not None:
             attrs['milestone'] = ticket.milestone
         attrs['priority'] = ticket.priority
-        ticket_number = self._xml.ticket.create(ticket.summary,
-                                                desc,
-                                                attrs,
-                                                False)
-        print('Created ticket #{}: {}'.format(ticket_number,
-                                              ticket.summary))
+
+        ticket_number = self._xml.ticket.create(
+            ticket.summary,
+            desc,
+            attrs,
+            False,
+        )
+
+        print('Created ticket #{}: {}'.format(ticket_number, ticket.summary))
         return ticket_number  # type: ignore
 
     def title(self, ticket_number: int) -> str:
@@ -135,9 +148,13 @@ def process(element_name: str, *, year: str, handle_dep: Callable[[str], int]) -
         data = f.read()
     data = data.replace('$YYYY', str(year))
     data = data.replace('$SRYYYY', 'SR{}'.format(year))
+
     raw_elements = yaml.load(data)
     if 'summary' not in raw_elements and 'description' not in raw_elements:
-        raise RuntimeError('{} contains neither a summary nor a description'.format(path))
+        raise RuntimeError(
+            '{} contains neither a summary nor a description'.format(path)
+        )
+
     description = raw_elements.get('description', '')
 
     if not len(description.splitlines()) == 0:
@@ -154,13 +171,15 @@ def process(element_name: str, *, year: str, handle_dep: Callable[[str], int]) -
     milestone = raw_elements.get('milestone')
     dependencies = raw_elements.get('dependencies', ())
     computed_dependencies = [handle_dep(element) for element in dependencies]
-    ticket = Ticket(summary=summary,
-                    component=component,
-                    priority=priority,
-                    milestone=milestone,
-                    original_name=element_name,
-                    description=description,
-                    dependencies=computed_dependencies)
+    ticket = Ticket(
+        summary=summary,
+        component=component,
+        priority=priority,
+        milestone=milestone,
+        original_name=element_name,
+        description=description,
+        dependencies=computed_dependencies,
+    )
     return ticket
 
 
@@ -190,9 +209,11 @@ def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument('base', help='Root ticket to generate')
     parser.add_argument('year', help='SR year to generate for')
-    parser.add_argument('-t', '--trac-root',
-                        help='Base URL for the Trac installation',
-                        default=None)
+    parser.add_argument(
+        '-t', '--trac-root',
+        help='Base URL for the Trac installation',
+        default=None,
+    )
     return parser.parse_args()
 
 
