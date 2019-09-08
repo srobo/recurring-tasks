@@ -11,7 +11,7 @@ parser.add_argument('dir', help="directory (eg: comp)")
 arguments = parser.parse_args()
 
 
-def strip_dot_yaml(text):
+def strip_dot_yaml(text: str) -> str:
     if not text.endswith('.yaml'):
         return text
     return text[:-5]

@@ -100,7 +100,7 @@ def add(element: str, backend: 'Backend', year: str) -> int:
         return ticket_id
 
 
-def parse_args():
+def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser()
     parser.add_argument('base', help="Root ticket to generate")
     parser.add_argument('year', help="SR year to generate for")
