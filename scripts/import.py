@@ -3,7 +3,7 @@ from pathlib import Path
 from typing import TYPE_CHECKING, Callable, Dict, Union
 
 import yaml
-from import_backends import FakeTrac, RealTrac
+from import_backends import FakeTracBackend, RealTracBackend
 from ticket_type import Ticket
 
 if TYPE_CHECKING:
@@ -114,9 +114,9 @@ def parse_args() -> argparse.Namespace:
 
 def main(arguments: argparse.Namespace) -> None:
     if arguments.trac_root is not None:
-        backend: 'Backend' = RealTrac(arguments.trac_root)
+        backend: 'Backend' = RealTracBackend(arguments.trac_root)
     else:
-        backend = FakeTrac()
+        backend = FakeTracBackend()
 
     add(arguments.base, backend, arguments.year)
 
