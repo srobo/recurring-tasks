@@ -171,17 +171,24 @@ def add(element, backend, year):
         return ticket_id
 
 
-parser = argparse.ArgumentParser()
-parser.add_argument('base', help='Root ticket to generate')
-parser.add_argument('year', help='SR year to generate for')
-parser.add_argument('-t', '--trac-root',
-                    help='Base URL for the Trac installation',
-                    default=None)
-arguments = parser.parse_args()
+def parse_args():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('base', help='Root ticket to generate')
+    parser.add_argument('year', help='SR year to generate for')
+    parser.add_argument('-t', '--trac-root',
+                        help='Base URL for the Trac installation',
+                        default=None)
+    return parser.parse_args()
 
-if arguments.trac_root is not None:
-    backend = RealTrac(arguments.trac_root)
-else:
-    backend = FakeTrac()
 
-add(arguments.base, backend, arguments.year)
+def main(arguments):
+    if arguments.trac_root is not None:
+        backend = RealTrac(arguments.trac_root)
+    else:
+        backend = FakeTrac()
+
+    add(arguments.base, backend, arguments.year)
+
+
+if __name__ == '__main__':
+    main(parse_args())
