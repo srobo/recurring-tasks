@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 
-from pathlib import Path
-import yaml
 import textwrap
+from pathlib import Path
 
 queue = {input('Enter ticket to create: ')}
 
@@ -17,13 +16,13 @@ while queue:
     if not component:
         component = 'Competition'
     milestone = '$SRYYYY Competition'
-    desc = []
+    desc_lines = []
     while True:
         desc_line = input('Description [empty for end]: ')
         if not desc_line:
             break
-        desc.append(desc_line)
-    desc = '\n'.join(desc)
+        desc_lines.append(desc_line)
+    desc = '\n'.join(desc_lines)
     deps = []
     while True:
         dependency = input('Dependency [empty for end]: ')

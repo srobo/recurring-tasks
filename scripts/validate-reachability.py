@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
-from pathlib import Path
+
 import argparse
+from pathlib import Path
+
 import yaml
 
 parser = argparse.ArgumentParser()
@@ -14,8 +16,9 @@ def strip_dot_yaml(text):
         return text
     return text[:-5]
 
+
 linked = set()
-worklist = set([strip_dot_yaml(arguments.root)])
+worklist = {strip_dot_yaml(arguments.root)}
 
 errors = False
 

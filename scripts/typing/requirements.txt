@@ -1,0 +1,3 @@
+# Versions pinned for sanity, not because we have specific dependencies.
+mypy==0.720
+typing-extensions==3.7.4
