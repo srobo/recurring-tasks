@@ -19,9 +19,6 @@ arguments = parser.parse_args()
 BASE = arguments.base
 YEAR = arguments.year
 
-CYCLE = object()
-elements = {}
-
 Ticket = namedtuple('Ticket', [
     'summary',
     'priority',
@@ -167,6 +164,9 @@ def process(element_name, handle_dep):
 
 
 def add(element, backend):
+    CYCLE = object()
+    elements = {}
+
     if element in elements:
         previous = elements[element]
         if previous is CYCLE:
