@@ -16,6 +16,7 @@ def strip_dot_yaml(text):
         return text
     return text[:-5]
 
+
 linked = set()
 worklist = set([strip_dot_yaml(arguments.root)])
 
