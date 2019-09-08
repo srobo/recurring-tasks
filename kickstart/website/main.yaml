@@ -14,4 +14,3 @@ dependencies:
     - kickstart/update-simulator
     - kickstart/website/docs
     - kickstart/website/publish-rules
-    - kickstart/website/teams
