@@ -176,7 +176,7 @@ class GitHubBackend:
 
     @staticmethod
     def _section(heading: str, body: str) -> str:
-        return f"\n\n### {heading}:\n\n{body}"
+        return f"\n\n### {heading}\n\n{body}"
 
     def _original_link(self, ticket: Ticket) -> str:
         url = urllib.parse.urljoin(
