@@ -27,7 +27,7 @@ def trac_description_text(ticket: Ticket, backend: 'Backend') -> str:
     return text.strip()
 
 
-class FakeTracBackend(object):
+class FakeTracBackend:
     def __init__(self) -> None:
         self.next_ticket = 2673
         self._known_titles: Dict[int, str] = {}
@@ -56,7 +56,7 @@ class FakeTracBackend(object):
         return self._known_titles.get(ticket_number, '')
 
 
-class RealTracBackend(object):
+class RealTracBackend:
     def __init__(self, root: str):
         self.root = root
         import xmlrpc.client as xml  # type:ignore  # no stubs available
