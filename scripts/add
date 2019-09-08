@@ -3,20 +3,20 @@
 import textwrap
 from pathlib import Path
 
-queue = {input('Enter ticket to create: ')}
+queue = {input("Enter ticket to create: ")}
 
 while queue:
     target = queue.pop()
 
-    print('-- {} --'.format(target))
+    print("-- {} --".format(target))
 
-    summary = input('Summary: ')
+    summary = input("Summary: ")
 
-    priority = input('Priority [major]: ')
+    priority = input("Priority [major]: ")
     if not priority:
         priority = 'major'
 
-    component = input('Component [Competition]: ')
+    component = input("Component [Competition]: ")
     if not component:
         component = 'Competition'
 
@@ -24,15 +24,15 @@ while queue:
 
     desc_lines = []
     while True:
-        desc_line = input('Description [empty for end]: ')
+        desc_line = input("Description [empty for end]: ")
         if not desc_line:
             break
         desc_lines.append(desc_line)
-    desc = '\n'.join(desc_lines)
+    desc = "\n".join(desc_lines)
 
     deps = []
     while True:
-        dependency = input('Dependency [empty for end]: ')
+        dependency = input("Dependency [empty for end]: ")
         if not dependency:
             break
         deps.append(dependency)
@@ -54,9 +54,9 @@ while queue:
         f.write(f"milestone: {milestone}\n\n")
         f.write('description: >-\n')
         desc = textwrap.fill(desc)
-        f.write(textwrap.indent(desc, '  ').rstrip())
-        f.write('\n')
+        f.write(textwrap.indent(desc, "  ").rstrip())
+        f.write("\n")
         if deps:
-            f.write('\ndependencies:\n')
+            f.write("\ndependencies:\n")
             for dep in deps:
                 f.write(f"  - {dep}\n")

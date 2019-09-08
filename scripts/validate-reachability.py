@@ -6,8 +6,8 @@ from pathlib import Path
 import yaml
 
 parser = argparse.ArgumentParser()
-parser.add_argument('root', help='root ticket (eg: comp/main)')
-parser.add_argument('dir', help='directory (eg: comp)')
+parser.add_argument('root', help="root ticket (eg: comp/main)")
+parser.add_argument('dir', help="directory (eg: comp)")
 arguments = parser.parse_args()
 
 
