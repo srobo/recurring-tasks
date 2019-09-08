@@ -86,26 +86,30 @@ def add(element: str, backend: 'Backend', year: str) -> int:
     We recurse into all the dependencies of the task we're adding, working to
     add the leaves first so that the higher level tasks can be created with the
     links to their dependencies in place from the start.
+
+    We keep a track of the tasks we've imported so far in order that we can
+    detect (an reject) cycles, as well as to ensure that we cross-link any
+    dependencies which have already been imported at the point they are
+    depended upon by a new parent.
     """
     CYCLE = object()
     elements: Dict[str, Union[int, object]] = {}
 
-    if element in elements:
-        previous = elements[element]
-        if previous is CYCLE:
-            raise RuntimeError(f"cyclic dependency on {element}")
-        assert isinstance(previous, int)
-        return previous
-    else:
-        elements[element] = CYCLE
-        generated = process(
-            element,
-            year=year,
-            handle_dep=lambda x: add(x, backend, year),
-        )
-        ticket_id = backend.submit(generated)
-        elements[element] = ticket_id
-        return ticket_id
+    def _add(element: str) -> int:
+        if element in elements:
+            previous = elements[element]
+            if previous is CYCLE:
+                raise RuntimeError(f"cyclic dependency on {element}")
+            assert isinstance(previous, int)
+            return previous
+        else:
+            elements[element] = CYCLE
+            generated = process(element, year=year, handle_dep=_add)
+            ticket_id = backend.submit(generated)
+            elements[element] = ticket_id
+            return ticket_id
+
+    return _add(element)
 
 
 def parse_args() -> argparse.Namespace:
