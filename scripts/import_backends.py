@@ -202,7 +202,7 @@ class GitHubBackend:
         try:
             return self.milestones[title]
         except KeyError:
-            print(f"Creating Milestong {title}")
+            print(f"Creating Milestone {title}")
             milestone = self.repo.create_milestone(title)
             self.milestones[title] = milestone
             return milestone
