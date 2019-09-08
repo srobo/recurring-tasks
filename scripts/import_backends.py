@@ -195,7 +195,7 @@ class GitHubBackend:
             self.milestones[title] = milestone
             return milestone
 
-    def labels(self, ticket: Ticket) -> List[github.Label]:
+    def labels(self, ticket: Ticket) -> List[github.Label.Label]:
         labels = [self._component_priority_mapping[ticket.priority]]
         labels += self._component_label_mapping[ticket.component]
         return labels
