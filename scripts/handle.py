@@ -180,8 +180,8 @@ parser.add_argument('-t', '--trac-root',
 arguments = parser.parse_args()
 
 if arguments.trac_root is not None:
-    TRAC = RealTrac(arguments.trac_root)
+    backend = RealTrac(arguments.trac_root)
 else:
-    TRAC = FakeTrac()
+    backend = FakeTrac()
 
-add(arguments.base, TRAC, arguments.year)
+add(arguments.base, backend, arguments.year)
