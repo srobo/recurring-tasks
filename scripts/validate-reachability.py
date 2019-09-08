@@ -32,13 +32,13 @@ while worklist:
             if dependency not in linked:
                 worklist.add(dependency)
     except IOError:
-        print('Missing ticket: {}'.format(element))
+        print(f"Missing ticket: {element}")
         errors = True
 
 for element in Path(arguments.dir).glob('**/*.yaml'):
     ticket = str(element)[:-5]
     if ticket not in linked:
-        print('Unlinked ticket: {}'.format(ticket))
+        print(f"Unlinked ticket: {ticket}")
         errors = True
 
 if errors:

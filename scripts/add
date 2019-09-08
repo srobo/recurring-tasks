@@ -48,10 +48,10 @@ while queue:
         pass
 
     with Path(target).with_suffix('.yaml').open('w') as f:
-        f.write('summary: {}\n\n'.format(summary))
-        f.write('priority: {}\n\n'.format(priority))
-        f.write('component: {}\n\n'.format(component))
-        f.write('milestone: {}\n\n'.format(milestone))
+        f.write(f"summary: {summary}\n\n")
+        f.write(f"priority: {priority}\n\n")
+        f.write(f"component: {component}\n\n")
+        f.write(f"milestone: {milestone}\n\n")
         f.write('description: >-\n')
         desc = textwrap.fill(desc)
         f.write(textwrap.indent(desc, '  ').rstrip())
@@ -59,4 +59,4 @@ while queue:
         if deps:
             f.write('\ndependencies:\n')
             for dep in deps:
-                f.write('  - {}\n'.format(dep))
+                f.write(f"  - {dep}\n")
