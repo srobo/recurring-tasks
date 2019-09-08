@@ -40,4 +40,3 @@ for element in Path(arguments.dir).glob('**/*.yaml'):
 
 if errors:
     exit(1)
-

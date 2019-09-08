@@ -51,4 +51,3 @@ while queue:
             f.write('\ndependencies:\n')
             for dep in deps:
                 f.write('  - {}\n'.format(dep))
-
