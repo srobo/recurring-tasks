@@ -2,7 +2,7 @@ import pathlib
 import textwrap
 import urllib.parse
 from getpass import getpass
-from typing import TYPE_CHECKING, Dict
+from typing import TYPE_CHECKING, Dict, List, Sequence
 
 import github  # type: ignore
 from termcolor import cprint
@@ -129,10 +129,36 @@ def get_github_credential() -> str:
 
 
 class GitHubBackend:
+    COMPONENT_LABEL_MAPPING: Dict[str, Sequence[str]] = {
+        'Competition': (),
+        'Docs': (),
+        'Kit': ['A: Team Kits'],
+        'pyenv': ['A: Team Kits', 'A: Software'],
+        'Rules': ['A: Game Rules'],
+        'sysadmin': ['A: Software'],
+        'Website': ['A: Software'],
+    }
+
+    COMPONENT_PRIORITY_MAPPING: Dict[str, str] = {
+        'trivial': 'I: Could Have',
+        'minor': 'I: Could Have',
+        'major': 'I: Should Have',
+        'critical': 'I: Must Have',
+        'blocker': 'I: Must Have',
+    }
+
     def __init__(self, repo_name: str) -> None:
         self.github = github.Github(get_github_credential())
         self.repo = self.github.get_repo(repo_name)
         self.milestones = {x.title: x for x in self.repo.get_milestones()}
+        labels = {x.name: x for x in self.repo.get_labels()}
+
+        self._component_label_mapping = {
+            k: labels[v] for k, v in self.COMPONENT_LABEL_MAPPING.items()
+        }
+        self._component_priority_mapping = {
+            k: labels[v] for k, v in self.COMPONENT_PRIORITY_MAPPING.items()
+        }
 
         self._known_titles: Dict[int, str] = {}
 
@@ -169,12 +195,17 @@ class GitHubBackend:
             self.milestones[title] = milestone
             return milestone
 
+    def labels(self, ticket: Ticket) -> List[github.Label]:
+        labels = [self._component_priority_mapping[ticket.priority]]
+        labels += self._component_label_mapping[ticket.component]
+        return labels
+
     def submit(self, ticket: Ticket) -> int:
         issue = self.repo.create_issue(
             ticket.summary,
             self.description_text(ticket),
             milestone=self.get_or_create_milestone(ticket.milestone),
-            # TODO: priority & component
+            labels=self.labels(ticket),
         )
 
         ticket_number: int = issue.id
