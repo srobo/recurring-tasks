@@ -32,13 +32,13 @@ Ticket = namedtuple('Ticket', [
     'dependencies',
 ])
 
-def trac_description_text(ticket):
+def trac_description_text(ticket, backend):
     text = ticket.description
     text += '\n\nOriginal: [recurring-task:{}]'.format(ticket.original_name)
     if ticket.dependencies:
         text += '\n\nDependencies:\n\n'
         for dep in sorted(ticket.dependencies):
-            text += (' * #{} {}'.format(dep, TRAC.title(dep)).rstrip()) + '\n'
+            text += (' * #{} {}'.format(dep, backend.title(dep)).rstrip()) + '\n'
     return text.strip()
 
 class FakeTrac(object):
@@ -57,7 +57,7 @@ class FakeTrac(object):
         cprint('#{}: {}'.format(ticket_number, ticket.summary),
                PRIORITY_COLOURS[ticket.priority],
                attrs=['bold'])
-        desc = trac_description_text(ticket)
+        desc = trac_description_text(ticket, self)
         cprint(textwrap.indent(desc, '  '))
         self._known_titles[ticket_number] = ticket.summary
         return ticket_number
@@ -87,7 +87,7 @@ class RealTrac(object):
         print(self._xml.system.methodHelp('ticket.create'))
 
     def submit(self, ticket):
-        desc = trac_description_text(ticket)
+        desc = trac_description_text(ticket, self)
         attrs = {}
         if ticket.component is not None:
             attrs['component'] = ticket.component
