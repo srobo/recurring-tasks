@@ -111,20 +111,6 @@ if arguments.trac_root is not None:
 else:
     TRAC = FakeTrac()
 
-def add(element):
-    if element in elements:
-        previous = elements[element]
-        if previous is CYCLE:
-            raise RuntimeError('cyclic dependency on {}'.format(element))
-        return previous
-    else:
-        elements[element] = CYCLE
-        generated = process(element, handle_dep=add)
-        ticket_id = TRAC.submit(generated)
-        elements[element] = ticket_id
-        return ticket_id
-
-
 COMPONENTS = (
     'Arena',
     'Competition',
@@ -178,5 +164,20 @@ def process(element_name, handle_dep):
                   description=description,
                   dependencies=computed_dependencies)
     return data
+
+
+def add(element):
+    if element in elements:
+        previous = elements[element]
+        if previous is CYCLE:
+            raise RuntimeError('cyclic dependency on {}'.format(element))
+        return previous
+    else:
+        elements[element] = CYCLE
+        generated = process(element, handle_dep=add)
+        ticket_id = TRAC.submit(generated)
+        elements[element] = ticket_id
+        return ticket_id
+
 
 add(BASE)
