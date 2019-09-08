@@ -220,7 +220,7 @@ class GitHubBackend:
             labels=self.labels(ticket),
         )
 
-        ticket_number: int = issue.id
+        ticket_number: int = issue.number
         self._known_titles[ticket_number] = ticket.summary
         return ticket_number
 
