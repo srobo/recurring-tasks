@@ -1,5 +1,4 @@
-recurring-tasks
-===============
+# Recurring Tasks
 
 [![CircleCI](https://circleci.com/gh/srobo/recurring-tasks.svg?style=svg)](https://circleci.com/gh/srobo/recurring-tasks)
 
