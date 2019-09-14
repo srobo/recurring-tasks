@@ -12,5 +12,5 @@ description: >-
     present.
 
 dependencies:
-    - kickstart/presentation
+    - kickstart/write-presentation
     - kickstart/venues
