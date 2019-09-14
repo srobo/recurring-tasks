@@ -13,3 +13,4 @@ description: >-
 
 dependencies:
     - kickstart/presentation
+    - kickstart/venues

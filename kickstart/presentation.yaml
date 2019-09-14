@@ -33,4 +33,3 @@ description: >-
 
 dependencies:
     - kickstart/rules/write
-    - kickstart/venues
