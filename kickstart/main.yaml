@@ -19,3 +19,5 @@ dependencies:
     - kickstart/microgames
     - kickstart/print-disclaimer-forms
     - kickstart/venues
+    - kickstart/decide-presenters
+    - kickstart/write-presentation
