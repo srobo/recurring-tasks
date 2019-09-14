@@ -3,7 +3,7 @@ recurring-tasks
 
 [![CircleCI](https://circleci.com/gh/srobo/recurring-tasks.svg?style=svg)](https://circleci.com/gh/srobo/recurring-tasks)
 
-A collection of recurring tasks associated with Student Robotics' events
+A collection of recurring tasks associated with Student Robotics' events.
 
 Each file represents a single task, and will become a single ticket in a task
 tracking system.
