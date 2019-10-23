@@ -7,7 +7,7 @@ component: pyenv
 milestone: $SRYYYY Kickstart
 
 description: >-
-    The [dummy API](https://www.studentrobotics.org/cgit/pyenv-dummy.git) needs
+    The [dummy API](https://github.com/srobo/pyenv-dummy) needs
     updating to contain the marker details for the $SRYYYY game.
 
 dependencies:
