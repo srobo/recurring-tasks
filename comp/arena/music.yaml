@@ -1,0 +1,17 @@
+summary: Prepare generic music playlist for the compettion
+
+priority: major
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+description: >-
+    During matches we want music to be played into the arena. Typically this
+    takes the form of a Spotify playlist.
+
+    Note that there is a separate task for the time-synchronised music played
+    during the finals.
+
+dependencies:
+    - comp/venue/sound

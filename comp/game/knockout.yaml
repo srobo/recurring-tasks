@@ -12,3 +12,4 @@ description: >-
 dependencies:
   - comp/game/league
   - comp/game/knockout-design
+  - comp/game/finals-music
