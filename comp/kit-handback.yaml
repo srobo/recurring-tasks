@@ -9,3 +9,6 @@ milestone: $SRYYYY Competition
 description: >-
   Arrangements must be made for the kit handback procedure at the end of
   the competition.
+
+dependencies:
+ - comp/kit-loans
