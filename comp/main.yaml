@@ -45,8 +45,8 @@ dependencies:
     - comp/kit-testing-equipment
     - comp/kit-handback
     - comp/media-consent/main
-    - comp/stream
-    - comp/stream-local
+    - comp/livestream
+    - comp/livestream-local
     - comp/social-media
     - comp/wristbands/order
     - comp/press/invite-press

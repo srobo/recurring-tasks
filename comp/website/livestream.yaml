@@ -10,4 +10,4 @@ description: >-
   The live stream needs to be linked or embedded from the website.
 
 dependencies:
-  - comp/stream
+  - comp/livestream
