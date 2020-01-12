@@ -12,4 +12,4 @@ description: >-
 
 dependencies:
   - comp/game/markers
-  - comp/game/robot-badges
+  - comp/game/robot-flags

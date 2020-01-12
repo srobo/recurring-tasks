@@ -1,4 +1,4 @@
-summary: Prepare robot badges for the competition
+summary: Prepare robot flags for the competition
 
 priority: major
 
@@ -7,8 +7,8 @@ component: Competition
 milestone: $SRYYYY Competition
 
 description: >-
-  The robot badges with libkoki markers that are mounted on the side of
-  each robot need preparation.
+  During matches robots are given coloured flags so that the audience know which
+  robot is from which scoring zone.
 
   At least two complete sets of each badge are needed: one for the robots
   currently playing and another for the robots currently staging.
