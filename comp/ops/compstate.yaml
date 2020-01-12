@@ -1,0 +1,27 @@
+summary: Prepare the $SRYYYY Compstate
+
+priority: critical
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+description: >-
+    The competition software has state about the competition which is used to
+    drive the matches, live displays of scores (etc.) both within the venue on
+    the website.
+
+    This task is to create the initial state for the competition; see
+    https://github.com/PeterJCLaw/srcomp/wiki/Competition-Preparation#create-a-compstate
+    and https://github.com/search?q=topic%3Acompstate+org%3Asrobo&type=Repositories.
+
+dependencies:
+    - comp/day-schedule
+    - comp/game/knockout-design
+    - comp/game/league-schedule
+    - comp/game/score-format
+    - comp/game/score-script
+    - comp/game/shepherding
+    - comp/ops/prepare-compbox
+    - comp/venue/layout
+    - comp/website/public-compbox

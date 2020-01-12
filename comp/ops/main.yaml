@@ -10,7 +10,7 @@ description: >-
     We need ops.
 
 dependencies:
-    - comp/website/compstate
+    - comp/ops/compstate
     - comp/ops/deploy-compbox
     - comp/ops/deploy
     - comp/ops/teams-import

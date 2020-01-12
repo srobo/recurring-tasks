@@ -13,4 +13,4 @@ description: >-
      This import may also need re-running during the competition.
 
 dependencies:
-    - comp/website/compstate
+    - comp/ops/compstate

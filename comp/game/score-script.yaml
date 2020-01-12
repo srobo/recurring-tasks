@@ -1,0 +1,16 @@
+summary: Write scoring scripts for the $SRYYYY game
+
+priority: minor
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+description: >-
+  The scoring script provides automatic computation of the scores based on the
+  data input from the score sheets.
+
+  See https://github.com/PeterJCLaw/srcomp/wiki/Competition-Preparation#implement-scorepy for details.
+
+dependencies:
+  - comp/game/score-format

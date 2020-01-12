@@ -1,4 +1,4 @@
-summary: Create score data entry system
+summary: Create score data entry system (update the scorer UI)
 
 priority: major
 
@@ -10,6 +10,13 @@ description: >-
   We need a data entry system for converting from the score entry forms
   to the YAML file format.
 
+  This task is both the root for preparing this system and covers the updating
+  of the scorer UI for this year's game.
+
+  See https://github.com/PeterJCLaw/srcomp/wiki/Competition-Preparation#update-srcomp-scorer
+  for details of the latter.
+
 dependencies:
   - comp/game/score-forms
   - comp/game/score-format
+  - comp/game/score-script

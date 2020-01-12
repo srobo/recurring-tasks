@@ -1,0 +1,15 @@
+summary: Deploy a public compbox
+
+priority: major
+
+component: Website
+
+milestone: $SRYYYY Competition
+
+description: >-
+    The competition software has state about the competition which is used
+    to drive the live displays of scores (etc.) on the website. We need a
+    publicly visible host of this information.
+
+    This has historically been a Digital Ocean VM running the latest Ubuntu LTS
+    configured using https://github.com/PeterJCLaw/srcomp-puppet.

@@ -11,5 +11,5 @@ description: >-
   from the competition.
 
 dependencies:
-  - comp/website/compstate
+  - comp/ops/compstate
   - comp/game/score-format
