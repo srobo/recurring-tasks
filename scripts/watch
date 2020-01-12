@@ -5,5 +5,5 @@ MY_DIR=$(dirname $0)
 while \
     inotifywait --quiet --quiet --recursive --event close_write,modify,create,delete $MY_DIR/..
 do
-    $MY_DIR/validate && echo '--' || echo -e '\e[31mValiation Failed\e[0m'
+    $MY_DIR/validate "$@" && echo '--' || echo -e '\e[31mValiation Failed\e[0m'
 done
