@@ -23,5 +23,6 @@ dependencies:
     - comp/game/score-script
     - comp/game/shepherding
     - comp/ops/prepare-compbox
+    - comp/pits/layout
     - comp/venue/layout
     - comp/website/public-compbox
