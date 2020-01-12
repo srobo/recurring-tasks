@@ -17,6 +17,7 @@ description: >-
   for details of the latter.
 
 dependencies:
+  - comp/game/desk-lamp
   - comp/game/score-forms
   - comp/game/score-format
   - comp/game/score-script
