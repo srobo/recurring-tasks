@@ -19,3 +19,4 @@ dependencies:
     - comp/arena/power
     - comp/arena/screens
     - comp/arena/labels
+    - comp/arena/tools
