@@ -1,4 +1,4 @@
-summary: Return stuff from the competition to Southampton
+summary: Return stuff from the competition to storage
 
 priority: major
 
@@ -7,7 +7,7 @@ component: Competition
 milestone: $SRYYYY Competition Cleanup
 
 description: >-
-  Equipment that came from the vault for the competition needs to return
+  Equipment that came from storage for the competition needs to return
   there after the competition.
 
 dependencies:
