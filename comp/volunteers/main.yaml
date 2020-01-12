@@ -13,9 +13,9 @@ description: >-
 dependencies:
   - comp/game/scoring-stationery
   - comp/volunteers/blue-shirts
+  - comp/volunteers/comms-training
   - comp/volunteers/hotels-and-travel
   - comp/volunteers/linesmen-breifing
-  - comp/volunteers/radio-briefing
   - comp/volunteers/name-badges
   - comp/volunteers/water
   - comp/volunteers/refreshments
