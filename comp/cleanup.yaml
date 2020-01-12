@@ -11,4 +11,5 @@ description: >-
 
 dependencies:
   - comp/venue/transport/return
+  - comp/website/switch-to-normal-mode
   - comp/tear-down

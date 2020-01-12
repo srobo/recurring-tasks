@@ -14,11 +14,11 @@ dependencies:
   - comp/game/score-website-live
   - comp/announce
   - comp/ops/compstate
-  - comp/website/srweb-dates
   - comp/website/public-compbox
   - comp/website/schedule-match
   - comp/website/schedule-day
   - comp/website/livestream
+  - comp/website/switch-to-live-mode
   - comp/uprate-server
   - comp/venue/layout-map
   - comp/website/directions

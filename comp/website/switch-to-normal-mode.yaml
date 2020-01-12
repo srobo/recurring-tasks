@@ -1,0 +1,15 @@
+summary: Switch the website back to the normal homepage
+
+priority: critical
+
+component: Website
+
+milestone: $SRYYYY Competition Cleanup
+
+description: >-
+  Change the website proxy back to using the normal website homepage instead of
+  the competition live one. This normally happens on the morning following the
+  competition.
+
+dependencies:
+  - comp/website/switch-to-live-mode

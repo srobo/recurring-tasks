@@ -7,9 +7,9 @@ component: Website
 milestone: $SRYYYY Competition
 
 description: >-
-  It would be nice if the website updated to display live scoring information
-  from the competition.
+  The competition live pages may need some minor updates (notably usually the
+  year and livestream urls) in preparation for the competition.
 
 dependencies:
   - comp/ops/compstate
-  - comp/game/score-format
+  - comp/website/public-compbox
