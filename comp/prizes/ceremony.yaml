@@ -1,4 +1,4 @@
-summary: Have the $SRYYYY prize ceremony
+summary: Organise the $SRYYYY post-finals sequence
 
 priority: major
 
@@ -7,9 +7,16 @@ component: Competition
 milestone: $SRYYYY Competition
 
 description: >-
-  At the end of the competition we have a prize handout.
+  At the end of the competition we want to give out some prizes. We need to plan
+  how we will transition from the finals, through any speeches and run the
+  actual prize-giving ceremony.
 
-  The Blueshirt running the ceremony should thank our sponsors.
+  We should ensure that anyone who is speaking (whether a volunteer or a guest
+  speaker) knows how long they have, what we're expecting them to talk about and
+  is well rehearsed.
+
+  We should include (somewhere) thanks to various people: teams, volunteers,
+  sponsors, etc.
 
 dependencies:
   - comp/prizes/speaker
