@@ -9,3 +9,6 @@ milestone: $SRYYYY Competition
 description: >-
     As per previous years, having a timetable of what people should be doing
     when is necessary.
+
+dependencies:
+  - comp/day-schedule
