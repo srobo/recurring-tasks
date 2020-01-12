@@ -1,0 +1,19 @@
+summary:  Make an arena reset checklist
+
+priority: major
+
+component: Arena
+
+milestone: $SRYYYY Competition
+
+description: >-
+  We should create a checklist for the marshalls so they know what needs
+  to ebe done between matches to reset the arena. This should be as
+  comprehensive as possible in order to simplify the training that these
+  volunteers need.
+
+  This should probbaly go in the arena repo as it will change considerably
+  between years and will be specific to the details of the arena.
+
+  See https://github.com/srobo/arena/blob/master/comp19/reset-checklist.md for
+  an example.
