@@ -10,10 +10,9 @@ description: >-
   Teams need access to the internet to use the IDE and get at
   documentation. We therefore need network access in all the team pits.
 
-  Past experience has shown that each pit ''needs'' a hard-wire Ethernet
-  connection, even if we aim to provide WiFi coverage as well. The setup
-  in SR2015 where each pit had a cable plus each group of (four) pits
-  had a WiFi router worked fairly well.
+  Past experience with WiFi-only network provision has been mixed, so hard-wire
+  network provision should be considered unless the venue has well proven
+  capacity.
 
 dependencies:
   - comp/venue/network
