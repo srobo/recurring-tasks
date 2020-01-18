@@ -1,0 +1,10 @@
+summary: Print a copy of the rules for helpdesk
+
+priority: major
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+description: >-
+  Helpdesk will want a printed copy of the game rules.

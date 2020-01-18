@@ -15,5 +15,6 @@ dependencies:
     - comp/game/markers
     - comp/game/score-forms-print
     - comp/print-flyers
+    - comp/pits/helpdesk/rules
     - comp/safety/check-labels
     - comp/volunteers/name-badges
