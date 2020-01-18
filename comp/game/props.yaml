@@ -11,6 +11,9 @@ description: >-
     See this year's [rulebook](https://studentrobotics.org/docs/resources/$YYYY/rulebook.pdf)
     for details.
 
+    Sub tasks should be added to this task for each of the various props which
+    are needed.
+
 dependencies:
   - comp/game/markers
   - comp/game/robot-flags
