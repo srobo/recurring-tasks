@@ -11,6 +11,12 @@ description: >-
   constraints such as keeping teams under the same teacher close
   together, and keeping overseas teams near each other.
 
+  This task covers both the placement of the pits within the venue and the
+  allocation of specific teams to pits.
+
+  Ideally the pits should be internally numbered and kept with an ordered list
+  of teams which fit to those locations. This helps ensure that the compstate
+  can easily be kept in step with the physical locations of each team.
+
 dependencies:
   - comp/venue/layout
-
