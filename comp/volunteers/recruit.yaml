@@ -1,0 +1,16 @@
+summary: Recruit volunteers for the competition
+
+priority: major
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+description: >-
+  We need to publicise the date and location of the competition to all
+  volunteers and solicit their help, both in preparing for the
+  competition and at the competition itself.
+
+  We should prepare a signup form which captures information about the
+  volunteer so that we can schedule them at the competition as well as
+  provide them with travel and accomodation.

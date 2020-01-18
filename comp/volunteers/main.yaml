@@ -18,6 +18,7 @@ dependencies:
   - comp/volunteers/information
   - comp/volunteers/marshals-breifing
   - comp/volunteers/name-badges
+  - comp/volunteers/recruit
   - comp/volunteers/refreshments
   - comp/volunteers/refreshment-delivery
   - comp/volunteers/saturday-meal

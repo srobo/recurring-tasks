@@ -12,3 +12,6 @@ description: >-
 
     This should also include travel between the venue and the hotels on
     each of the competition days.
+
+dependencies:
+    - comp/volunteers/recruit
