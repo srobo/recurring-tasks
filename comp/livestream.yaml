@@ -9,5 +9,10 @@ milestone: $SRYYYY Competition
 description: >-
   We should have a live stream of the competition.
 
+  We'll need to work out:
+   - what hardware & sofware will be used to drive the stream (both cameras and
+   mixing desk/driver computer)
+   - where the cameras for the stream should go
+
 dependencies:
   - comp/venue/network
