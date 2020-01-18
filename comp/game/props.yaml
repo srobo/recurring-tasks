@@ -8,7 +8,8 @@ milestone: $SRYYYY Competition
 
 description: >-
     We need to prepare the things that will go in the arena.
-    See this year's [/resources/$YYYY/rulebook.pdf rulebook] for details.
+    See this year's [rulebook](https://studentrobotics.org/docs/resources/$YYYY/rulebook.pdf)
+    for details.
 
 dependencies:
   - comp/game/markers
