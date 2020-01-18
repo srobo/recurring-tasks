@@ -11,6 +11,7 @@ description: >-
 
 dependencies:
     - comp/safety/first-aid
+    - comp/safety/battery-disposal
     - comp/safety/check-labels
     - comp/safety/check-robots
     - comp/safety/incident-plan

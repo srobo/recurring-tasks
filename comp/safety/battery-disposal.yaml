@@ -1,0 +1,11 @@
+summary: Plan for disposal of sad batteries
+
+priority: major
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+description: >-
+  We should have a plan for how to dispose of lipos which are deemed to
+  be unusable.
