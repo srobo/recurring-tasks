@@ -19,5 +19,6 @@ dependencies:
   - comp/volunteers/name-badges
   - comp/volunteers/refreshments
   - comp/volunteers/refreshment-delivery
+  - comp/volunteers/saturday-meal
   - comp/volunteers/schedule
   - comp/volunteers/experts-list
