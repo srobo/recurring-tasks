@@ -7,14 +7,14 @@ component: Website
 milestone: $SRYYYY Competition Cleanup
 
 description: >-
-  The post-competition news article can take some time to write. We should
-  write a skeleton one as soon as possible, and just fill in the blanks
-  immediately after the competition followed by high-speed review and
-  shipping.
+  After the competition we want to have a news article which describes how the
+  event went, which teams won, etc. This should have been mostly written before
+  the competition and then populated with details as needed.
 
   Once published we should link various people to the article, including:
   - Our social media accounts
   - Various tech/STEM blogs and other media outlets (we should email them)
 
 dependencies:
+  - comp/prepare-news-afterwards
   - comp/venue/book
