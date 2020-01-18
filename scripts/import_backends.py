@@ -130,9 +130,11 @@ def get_github_credential() -> str:
 
 class GitHubBackend:
     COMPONENT_LABEL_MAPPING: Dict[str, Sequence[str]] = {
+        'Arena': ['A: Arena'],
         'Competition': (),
         'Docs': (),
         'Kit': ['A: Team Kits'],
+        'Media': ['A: Media'],
         'pyenv': ['A: Team Kits', 'A: Software'],
         'Rules': ['A: Game Rules'],
         'sysadmin': ['A: Software'],
