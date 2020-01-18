@@ -8,3 +8,6 @@ milestone: $SRYYYY Competition
 
 description: >-
   Everything will need tearing down at the end of the competition.
+
+dependencies:
+  - comp/tear-down/destinations
