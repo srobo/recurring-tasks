@@ -21,8 +21,15 @@ Dependencies are allowed to overlap (i.e: several things can depend on some
 common task) and in such cases only a single instance of the common task will be
 created in the tracker. Dependencies are *not* allowed to be circular.
 
+### Adding tasks
+
 Tasks can either be created by hand, or by using the script at `scripts/add`.
 The script will guide you through specifying the required attributes for a task.
+
+When adding a task you should ensure the resulting hierarchy is still valid (see
+below). If adding many tasks or otherwise working on the hierarchy for a while,
+`scripts/watch` can be used to watch for changes and automatically run the
+validation checks when changes appear.
 
 ### Validation
 
