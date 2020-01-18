@@ -13,6 +13,7 @@ description: >-
    - A news article about the announcement (somewhat optional)
    - Social media publicity linking back to the news article and/or event page
    - Email to the team-leaders
+   - Email to volunteers
    - Email to tech/STEM blogs and other external media outlets
 
 dependencies:
