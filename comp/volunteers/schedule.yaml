@@ -7,8 +7,8 @@ component: Competition
 milestone: $SRYYYY Competition
 
 description: >-
-    As per previous years, having a timetable of what people should be doing
-    when is necessary.
+    We need to work out how many people we need doing each role and then come up
+    with a timetable which shows who is doing which role when.
 
 dependencies:
   - comp/day-schedule
