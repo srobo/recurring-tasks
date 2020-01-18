@@ -1,4 +1,4 @@
-summary: Transport stuff from Southampton to the competition
+summary: Transport stuff to the competition
 
 priority: major
 
@@ -7,7 +7,7 @@ component: Competition
 milestone: $SRYYYY Competition Day
 
 description: >-
-  Many things will need to be moved from Southampton to the venue.
+  Many things will need to be moved from various locations to the venue.
 
 dependencies:
   - comp/venue/transport/work-out

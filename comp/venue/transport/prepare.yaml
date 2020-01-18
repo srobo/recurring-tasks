@@ -1,4 +1,4 @@
-summary: Prepare kit from Southampton for transport to the competition
+summary: Prepare equipment for transport to the competition
 
 priority: major
 
@@ -7,8 +7,9 @@ component: Competition
 milestone: $SRYYYY Competition
 
 description: >-
-  The kit that we are taking to the competition needs to be prepared for
-  transportation.
+  The things that we are taking to the competition needs to be prepared for
+  transportation. Most of the things we need are in storage, however some
+  may be elsewhere.
 
 dependencies:
   - comp/venue/transport/work-out
