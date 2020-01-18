@@ -17,4 +17,3 @@ description: >-
 
 dependencies:
   - comp/prepare-news-afterwards
-  - comp/venue/book
