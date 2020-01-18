@@ -13,4 +13,4 @@ description: >-
 dependencies:
   - comp/venue/transport/van
   - comp/venue/transport/main
-  - comp/tear-down
+  - comp/tear-down/main

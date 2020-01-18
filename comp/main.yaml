@@ -53,5 +53,5 @@ dependencies:
     - comp/press/invite-sponsors
     - comp/welcome
     - comp/setup
-    - comp/tear-down
+    - comp/tear-down/main
     - comp/cleanup
