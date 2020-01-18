@@ -1,0 +1,19 @@
+summary: Prepare and send out volunteer information pack
+
+priority: major
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+description: >-
+  We should email all the volunteers with information about where to go
+  on the day, parking, who to contact, and any other info we need to
+  tell them.
+
+  We should aim to send this out at least a few weeks before the competition.
+
+dependencies:
+  - comp/volunteers/hotels-and-travel
+  - comp/volunteers/plan-reimbursement
+  - comp/volunteers/schedule
