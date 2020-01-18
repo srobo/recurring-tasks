@@ -1,4 +1,4 @@
-summary: Print markers for the arena
+summary: Organise markers for the arena
 
 priority: major
 
@@ -9,3 +9,8 @@ milestone: $SRYYYY Competition
 description: >-
   The arena (and, possibly, things inside it) is marked with libkoki
   markers, which need printing off in advance.
+
+  For the arena itself SR has some pre-printed libkoki markers on a
+  plastic backing which are re-used each year. These need checking
+  and ensuring they make it to the venue. Replacements may be needed
+  for any markers which are showing wear.
