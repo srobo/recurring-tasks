@@ -1,4 +1,4 @@
-summary: Design score entry forms for linesmen
+summary: Design score entry forms for marshals
 
 priority: major
 
@@ -7,5 +7,5 @@ component: Competition
 milestone: $SRYYYY Competition
 
 description: >-
-  Score entry forms for use by linesmen in the arenas need to be
+  Score entry forms for use by marshals in the arenas need to be
   designed.
