@@ -1,0 +1,15 @@
+summary: Reimburse volunteers
+
+priority: critical
+
+component: Competition
+
+milestone: $SRYYYY Competition Cleanup
+
+description: >-
+  We need to reimburse volunteers for all the things. This task exists
+  mostly as a placeholder, the treasurer will of course be handling this
+  ongoing anyway.
+
+dependencies:
+  - comp/volunteers/plan-reimbursement
