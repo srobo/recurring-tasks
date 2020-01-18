@@ -7,13 +7,18 @@ component: Media
 milestone: $SRYYYY Competition
 
 description: >-
-  For SR2015 Richard produced some great A5 flyers which outlined the game
-  which the robots would be playing and the teams taking part.
+  The primary target of these flyers are invited guests (both of SR and of the
+  teams), who may not know very much about either Student Robotics or the game
+  the robots are competing in.
 
-#   The game information can be easily taken from the rules or the existing
-#   commentary on the website (see [//schools/game] in particular). the info
-#   about the teams is available either from the [[SRComp]] state repo for
-#   the current year or the [[$YYYY/Teams]] page.
+  These flyers should include:
+   - descriptions of both SR and the game
+   - a summary of the teams competing (a list of TLAs and names is fine)
+   - the overall schedule of the competition weekend
+
+  Note: much of the content of these flyers does not need to actually be new --
+  the website already contains plenty of summaries of SR and the game, which can
+  be copied liberally, as well as the day schedule.
 
 dependencies:
   - comp/day-schedule
