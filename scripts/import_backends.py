@@ -138,7 +138,7 @@ class GitHubBackend:
         'pyenv': ['A: Team Kits', 'A: Software'],
         'Rules': ['A: Game Rules'],
         'sysadmin': ['A: Software'],
-        'Website': ['A: Software'],
+        'Website': ['A: Website', 'A: Software'],
         # 'Tall Ship': ['Tall Ship'],  # Uncomment this for testing
     }
 
