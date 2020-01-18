@@ -14,6 +14,7 @@ dependencies:
     - comp/media-consent/spares
     - comp/game/markers
     - comp/game/score-forms-print
+    - comp/kit-handback
     - comp/print-flyers
     - comp/pits/helpdesk/rules
     - comp/pits/overnight-loans
