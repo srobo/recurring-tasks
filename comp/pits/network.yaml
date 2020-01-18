@@ -1,4 +1,4 @@
-summary: Roll out networking to the team pits
+summary: Organise internet access for the team pits
 
 priority: major
 
@@ -13,6 +13,11 @@ description: >-
   Past experience with WiFi-only network provision has been mixed, so hard-wire
   network provision should be considered unless the venue has well proven
   capacity.
+
+  Some venues' internet provision requires the use of guest accounts. If these
+  are needed, We should ensure (as part of this task or by adding a sub-task)
+  that suitable accounts are obtained, ideally at least per-team as well as for
+  volunteers.
 
 dependencies:
   - comp/venue/network
