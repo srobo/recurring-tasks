@@ -1,4 +1,4 @@
-summary: Set up helpdesk at the competition
+summary: Plan helpdesk at the competition
 
 priority: major
 
@@ -8,8 +8,8 @@ milestone: $SRYYYY Competition
 
 description: >-
   Helpdesk is the single-point-of-contact for teams to get help with
-  their robots. It's also the place where batteries are charged. It
-  needs setting up.
+  their robots. We need to plan who will run this on the day as well
+  as the various things it needs to be able to help the teams.
 
 dependencies:
   - comp/pits/power

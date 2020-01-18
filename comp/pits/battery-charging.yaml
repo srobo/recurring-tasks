@@ -8,7 +8,9 @@ milestone: $SRYYYY Competition
 
 description: >-
   There are many batteries that need charging and we need to set up the
-  charging station at helpdesk or nearby.
+  charging station. This should be somewhere safe to charge the batteries
+  and with reasonable access to helpdesk (as that is where teams will get
+  batteries from).
 
   Note: the battery charging station should reconfigure the chargers to
   a higher current than we allow the teams to use as this substantially
