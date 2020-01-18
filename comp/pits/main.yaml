@@ -12,7 +12,7 @@ description: >-
 dependencies:
   - comp/pits/tables
   - comp/pits/layout
-  - comp/pits/helpdesk
+  - comp/pits/helpdesk/main
   - comp/pits/power-tools
   - comp/pits/rollout
   - comp/pits/rules

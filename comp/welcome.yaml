@@ -13,5 +13,5 @@ description: >-
 dependencies:
   - comp/arena/batteries
   - comp/pits/battery-charging
-  - comp/pits/helpdesk
+  - comp/pits/helpdesk/main
   - comp/pits/power-tools
