@@ -12,8 +12,8 @@ description: >-
 dependencies:
     - comp/safety/first-aid
     - comp/safety/battery-disposal
-    - comp/safety/check-labels
     - comp/safety/check-robots
+    - comp/safety/high-vis
     - comp/safety/incident-plan
     - comp/safety/risk-assessments
     - comp/venue/cable-protectors

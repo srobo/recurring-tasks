@@ -19,5 +19,4 @@ dependencies:
     - comp/pits/helpdesk/rules
     - comp/pits/overnight-loans
     - comp/prizes/envelopes
-    - comp/safety/check-labels
     - comp/volunteers/name-badges

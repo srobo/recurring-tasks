@@ -13,4 +13,4 @@ description: >-
     can visit them in order.
 
 dependencies:
-    - comp/safety/check-labels
+    - comp/safety/high-vis

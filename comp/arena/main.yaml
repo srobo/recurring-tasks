@@ -13,6 +13,6 @@ dependencies:
   - comp/arena/staging-area
   - comp/arena/batteries
   - comp/arena/fire-extinguishers
-  - comp/arena/high-vis
   - comp/arena/music
   - comp/arena/reset-checklist
+  - comp/safety/high-vis
