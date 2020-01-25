@@ -1,4 +1,4 @@
-summary: Get PRS and PPL licenses for the competition
+summary: Get PRS/PPL: TheMusicLicense for the competition
 
 priority: major
 
@@ -7,4 +7,10 @@ component: Competition
 milestone: $SRYYYY Competition
 
 description: >-
-    PRS and PPL both need separate licenses so we can play music at the competition.
+    In order to play music at the competition we need a "TheMusicLicence"
+    (which replaced the separat PRS & PPL licenese in 2018).
+
+    See https://pplprs.co.uk/ for details.
+
+    Note that some venues may have their own licenses and that we may be
+    covered by their license.
