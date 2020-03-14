@@ -4,7 +4,7 @@ priority: major
 
 component: Competition
 
-milestone: $SRYYYY Competition
+milestone: $SRYYYY Competition Day
 
 description: >-
   We need to run all the matches at the competition.
