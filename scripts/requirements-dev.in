@@ -1,0 +1,3 @@
+-r requirements.txt
+-r linting/requirements.in
+-r typing/requirements.in
