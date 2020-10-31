@@ -2,7 +2,7 @@ import pathlib
 import textwrap
 import urllib.parse
 from getpass import getpass
-from typing import TYPE_CHECKING, Dict, List, Sequence
+from typing import TYPE_CHECKING, Dict, List, Sequence, cast
 
 import github  # type: ignore
 from termcolor import cprint
@@ -61,7 +61,7 @@ class FakeTracBackend:
 class RealTracBackend:
     def __init__(self, root: str):
         self.root = root
-        import xmlrpc.client as xml  # type:ignore  # no stubs available
+        import xmlrpc.client as xml
 
         attrs = urllib.parse.urlsplit(root)
         username = attrs.username or input("SR username: ")
@@ -93,12 +93,12 @@ class RealTracBackend:
             attrs['milestone'] = ticket.milestone
         attrs['priority'] = ticket.priority
 
-        ticket_number: int = self._xml.ticket.create(
+        ticket_number = cast(int, self._xml.ticket.create(
             ticket.summary,
             desc,
             attrs,
             False,
-        )
+        ))
 
         print(f"Created ticket #{ticket_number}: {ticket.summary}")
         return ticket_number
