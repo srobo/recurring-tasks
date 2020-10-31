@@ -27,7 +27,7 @@ while worklist:
     linked.add(element)
     try:
         with Path(element).with_suffix('.yaml').open() as f:
-            data = yaml.load(f)
+            data = yaml.safe_load(f)
         for dependency in data.get('dependencies', ()):
             if dependency not in linked:
                 worklist.add(dependency)

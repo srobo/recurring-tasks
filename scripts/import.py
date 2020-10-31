@@ -42,7 +42,7 @@ def process(element_name: str, *, year: str, handle_dep: Callable[[str], int]) -
     data = data.replace('$YYYY', str(year))
     data = data.replace('$SRYYYY', f'SR{year}')
 
-    raw_elements = yaml.load(data)
+    raw_elements = yaml.safe_load(data)
     if 'summary' not in raw_elements and 'description' not in raw_elements:
         raise RuntimeError(f"{path} contains neither a summary nor a description")
 
