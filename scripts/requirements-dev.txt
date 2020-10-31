@@ -7,23 +7,23 @@
 certifi==2020.6.20        # via -r scripts/requirements.txt, requests
 chardet==3.0.4            # via -r scripts/requirements.txt, requests
 deprecated==1.2.10        # via -r scripts/requirements.txt, pygithub
-entrypoints==0.3          # via flake8
-flake8-builtins==1.4.1    # via -r scripts/linting/requirements.in
+flake8-builtins==1.5.3    # via -r scripts/linting/requirements.in
 flake8-commas==2.0.0      # via -r scripts/linting/requirements.in
-flake8-comprehensions==2.2.0  # via -r scripts/linting/requirements.in
-flake8-debugger==3.1.0    # via -r scripts/linting/requirements.in
-flake8-isort==2.7.0       # via -r scripts/linting/requirements.in
+flake8-comprehensions==3.3.0  # via -r scripts/linting/requirements.in
+flake8-debugger==3.2.1    # via -r scripts/linting/requirements.in
+flake8-isort==4.0.0       # via -r scripts/linting/requirements.in
 flake8-mutable==1.2.0     # via -r scripts/linting/requirements.in
 flake8-todo==0.7          # via -r scripts/linting/requirements.in
-flake8-tuple==0.4.0       # via -r scripts/linting/requirements.in
-flake8==3.7.8             # via -r scripts/linting/requirements.in, flake8-builtins, flake8-commas, flake8-comprehensions, flake8-debugger, flake8-isort, flake8-mutable, flake8-tuple
+flake8-tuple==0.4.1       # via -r scripts/linting/requirements.in
+flake8==3.8.4             # via -r scripts/linting/requirements.in, flake8-builtins, flake8-commas, flake8-comprehensions, flake8-debugger, flake8-isort, flake8-mutable, flake8-tuple
 idna==2.10                # via -r scripts/requirements.txt, requests
-isort==4.3.21             # via -r scripts/linting/requirements.in, flake8-isort
+importlib-metadata==2.0.0  # via flake8, flake8-comprehensions
+isort==5.6.4              # via -r scripts/linting/requirements.in, flake8-isort
 mccabe==0.6.1             # via flake8
 mypy-extensions==0.4.3    # via mypy
 mypy==0.720               # via -r scripts/typing/requirements.in
-pycodestyle==2.5.0        # via flake8, flake8-debugger, flake8-todo
-pyflakes==2.1.1           # via flake8
+pycodestyle==2.6.0        # via flake8, flake8-debugger, flake8-todo
+pyflakes==2.2.0           # via flake8
 pygithub==1.43.8          # via -r scripts/requirements.txt
 pyjwt==1.7.1              # via -r scripts/requirements.txt, pygithub
 pyyaml==5.1.2             # via -r scripts/requirements.txt
@@ -35,3 +35,4 @@ typed-ast==1.4.1          # via mypy
 typing-extensions==3.7.4  # via -r scripts/typing/requirements.in, mypy
 urllib3==1.25.11          # via -r scripts/requirements.txt, requests
 wrapt==1.12.1             # via -r scripts/requirements.txt, deprecated
+zipp==3.4.0               # via importlib-metadata
