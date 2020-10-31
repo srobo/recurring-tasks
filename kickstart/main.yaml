@@ -11,6 +11,7 @@ description: >-
 
 dependencies:
     - kickstart/confirm-teams
+    - kickstart/remind-teams
     - kickstart/kit/main
     - kickstart/rules/write
     - kickstart/services/main
