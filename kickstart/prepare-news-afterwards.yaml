@@ -1,0 +1,30 @@
+summary: Prepare a article for after the $SRYYYY Kickstart
+
+priority: major
+
+component: Website
+
+milestone: $SRYYYY Kickstart
+
+description: >-
+    After the kickstart we want to have a news article which describes how the
+    event went and continues to build up the excitement around the comptition.
+    This should have been mostly written before the competition and then
+    populated with details as needed.
+
+    Things we should mention:
+      * that we had N locations, the number of teams who attended, etc.
+      * anything particularly interesting from the days (optional; if such things happen)
+      * a link to the rulebook (it'll probably be in the usual place in the docs)
+      * a summary of the game
+      * a link to the kickstart microgames
+
+    The post-kickstart news article can take some time to write. We should
+    write a skeleton one as soon as possible, and just fill in the blanks
+    immediately after the kickstart followed by high-speed review and
+    shipping.
+
+dependencies:
+    - kickstart/confirm-teams
+    - kickstart/microgames
+    - kickstart/rules/decide-game

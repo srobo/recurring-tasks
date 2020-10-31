@@ -17,5 +17,6 @@ dependencies:
     - kickstart/website/main
     - kickstart/update-dummy-api
     - kickstart/microgames
+    - kickstart/publish-news-afterwards
     - kickstart/print-disclaimer-forms
     - kickstart/venues
