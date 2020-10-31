@@ -19,6 +19,7 @@ dependencies:
     - kickstart/microgames
     - kickstart/publish-news-afterwards
     - kickstart/print-disclaimer-forms
+    - kickstart/send-disclaimer-forms
     - kickstart/remind-volunteers
     - kickstart/signups-volunteers
     - kickstart/venues
