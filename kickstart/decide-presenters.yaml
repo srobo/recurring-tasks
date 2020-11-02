@@ -8,7 +8,7 @@ milestone: $SRYYYY Kickstart
 
 description: >-
     The presentation needs to be given at each venue, so will be presented by
-    multiple people. It's recommended the person who wrote the slides be one of the people to
+    multiple people. It's recommended the person who creates the presentation be one of the people to
     present.
 
 dependencies:
