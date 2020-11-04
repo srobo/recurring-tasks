@@ -29,7 +29,8 @@ description: |-
     6. Health and safety
         - How to charge your batteries
     7. Awards
-    8. Schedule for the rest of kickstart
+    8. The game
+    9. Schedule for the rest of kickstart
 
 dependencies:
     - kickstart/rules/write
