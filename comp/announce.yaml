@@ -15,6 +15,3 @@ description: >-
    - [ ] Email to the team-leaders
    - [ ] Email to volunteers
    - [ ] Email to tech/STEM blogs and other external media outlets
-
-dependencies:
-  - comp/venue/book

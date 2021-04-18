@@ -1,0 +1,20 @@
+summary: Have the $SRYYYY virtual competition
+
+priority: blocker
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+description: >-
+    We need to have the $SRYYYY virtual competition event.
+
+dependencies:
+    - comp/announce
+    - comp/publish-news-afterwards
+    - comp/safety/risk-assessments
+    - comp/prizes/main
+    - comp/social-media
+    - comp/press/invite-press
+    - comp/press/invite-sponsors
+    - comp/welcome

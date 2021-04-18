@@ -14,6 +14,3 @@ description: >-
   write a skeleton one as soon as possible, and just fill in the blanks
   immediately after the competition followed by high-speed review and
   shipping.
-
-dependencies:
-  - comp/venue/book

@@ -19,10 +19,7 @@ description: >-
   sponsors, etc.
 
 dependencies:
-  - comp/prizes/envelopes
-  - comp/prizes/speaker
   - comp/prizes/web-presence
   - comp/prizes/first-movement
   - comp/prizes/position-awards
   - comp/prizes/committee-award
-  - comp/prizes/team-image

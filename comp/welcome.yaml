@@ -9,9 +9,3 @@ milestone: $SRYYYY Competition
 description: >-
   This ticket exists mainly to ensure that things are announced to the
   competitors.
-
-dependencies:
-  - comp/arena/batteries
-  - comp/pits/battery-charging
-  - comp/pits/helpdesk/main
-  - comp/pits/power-tools
