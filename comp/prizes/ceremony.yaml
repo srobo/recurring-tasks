@@ -20,6 +20,5 @@ description: >-
 
 dependencies:
   - comp/prizes/web-presence
-  - comp/prizes/first-movement
   - comp/prizes/position-awards
   - comp/prizes/committee-award
