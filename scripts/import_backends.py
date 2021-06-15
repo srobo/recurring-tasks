@@ -105,7 +105,7 @@ class RealTracBackend:
 
     def title(self, ticket_number: int) -> str:
         ticket_data = self._xml.ticket.get(ticket_number)
-        return ticket_data[3]['summary']  # type: ignore
+        return ticket_data[3]['summary']  # type: ignore[index]
 
 
 def get_github_credential() -> str:
