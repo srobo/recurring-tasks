@@ -4,7 +4,7 @@ import urllib.parse
 from getpass import getpass
 from typing import TYPE_CHECKING, Dict, List, Sequence, cast
 
-import github  # type: ignore
+import github
 from termcolor import cprint
 from ticket_type import Ticket
 
@@ -200,7 +200,7 @@ class GitHubBackend:
 
         return text.strip()
 
-    def get_or_create_milestone(self, title: str) -> github.Milestone:
+    def get_or_create_milestone(self, title: str) -> github.Milestone.Milestone:
         try:
             return self.milestones[title]
         except KeyError:

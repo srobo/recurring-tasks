@@ -1,2 +1,5 @@
 mypy
 typing-extensions
+
+types-PyYAML
+types-termcolor

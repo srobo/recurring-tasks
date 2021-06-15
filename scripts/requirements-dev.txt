@@ -99,6 +99,10 @@ testfixtures==6.17.1
     # via flake8-isort
 toml==0.10.2
     # via mypy
+types-pyyaml==5.4.1
+    # via -r ./scripts/typing/requirements.in
+types-termcolor==0.1.0
+    # via -r ./scripts/typing/requirements.in
 typing-extensions==3.10.0.0
     # via
     #   -r ./scripts/typing/requirements.in
