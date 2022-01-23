@@ -19,3 +19,6 @@ description: >-
 
     Lamited printouts safety-pinned to the jackets are usually a good way to add
     the TLAs.
+
+dependencies:
+ - comp/pre-comp-storage-trip

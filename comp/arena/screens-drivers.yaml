@@ -17,3 +17,6 @@ description: |
     * Pre-load the Pis SD cards with the proper OS
     * Label each Pi with where it will be deployed (e.g: Arena B, Corner 1)
     * Ensure the Pis will have a suitable name/address on the network
+
+dependencies:
+ - comp/pre-comp-storage-trip

@@ -18,3 +18,6 @@ description: >-
   use. We already own a hot glue gun, though we may need to get some more glue
   sticks. The mounting component has historically been
   https://www.screwfix.com/p/jg-speedfit-pem0215w-l-equal-tee-white-15-x-15-x-15mm-5-pack/74470.
+
+dependencies:
+ - comp/pre-comp-storage-trip

@@ -1,0 +1,21 @@
+summary: Pre competition storage trip
+
+priority: major
+
+component: Competition
+
+milestone: $SRYYYY Competition Prep
+
+description: >-
+  We'll need to visit storage at some point before the competition, to check quantities of consumables
+  (tape etc.) and to pick up other things which need checking/fixing/updating etc.
+  This task exists to track the things we should do on that trip.
+
+  - [ ] Collect the display Pis for checking & flashing
+  - [ ] Collect the compbox Pi for checking & flashing
+  - [ ] Check for robot flag fittings
+  - [ ] Check tape quantities
+  - [ ] Check on stationery
+  - [ ] Check on high-vis jackets
+
+  Please do add to the above list.

@@ -24,3 +24,6 @@ description: >-
 
     4. Use the `scripts/check-pages.py` to validate from outside the Pi that
     the expected pages can be reached
+
+dependencies:
+ - comp/pre-comp-storage-trip
