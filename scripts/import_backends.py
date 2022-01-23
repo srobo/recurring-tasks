@@ -6,7 +6,7 @@ from getpass import getpass
 from typing import TYPE_CHECKING, Dict, List, Sequence, cast
 
 import github
-import retrying
+import retrying  # type: ignore[import]
 from termcolor import cprint
 from ticket_type import Ticket
 
