@@ -1,0 +1,15 @@
+summary: Print helpdesk documents
+
+priority: major
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+description: >-
+  Helpdesk will need a number of documents
+
+  - [ ] Rulebook
+  - [ ] Helpdesk instructions
+  - [ ] Kit swap form
+  - [ ] Venue map
