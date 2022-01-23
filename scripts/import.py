@@ -2,9 +2,10 @@
 
 import argparse
 from pathlib import Path
-from typing import TYPE_CHECKING, Callable, Dict, Union
+from typing import TYPE_CHECKING, Callable, MutableMapping, Optional
 
 import yaml
+from element_tracking import ElementsInProgress
 from import_backends import FakeTracBackend, GitHubBackend, RealTracBackend
 from ticket_type import Ticket
 
@@ -79,7 +80,13 @@ def process(element_name: str, *, year: str, handle_dep: Callable[[str], int]) -
     return ticket
 
 
-def add(element: str, backend: 'Backend', year: str) -> int:
+def add(
+    element: str,
+    backend: 'Backend',
+    year: str,
+    *,
+    known_elements: Optional[MutableMapping[str, int]] = None,
+) -> int:
     """
     Add 'element' into the task tracker, along with all its dependencies.
 
@@ -92,22 +99,19 @@ def add(element: str, backend: 'Backend', year: str) -> int:
     dependencies which have already been imported at the point they are
     depended upon by a new parent.
     """
-    CYCLE = object()
-    elements: Dict[str, Union[int, object]] = {}
+    elements = ElementsInProgress(known_elements)
 
     def _add(element: str) -> int:
-        if element in elements:
-            previous = elements[element]
-            if previous is CYCLE:
-                raise RuntimeError(f"cyclic dependency on {element}")
-            assert isinstance(previous, int)
+        previous = elements.get(element)
+        if previous:
             return previous
-        else:
-            elements[element] = CYCLE
+
+        with elements.process(element) as record_id:
             generated = process(element, year=year, handle_dep=_add)
             ticket_id = backend.submit(generated)
-            elements[element] = ticket_id
-            return ticket_id
+            record_id(ticket_id)
+
+        return ticket_id
 
     return _add(element)
 
