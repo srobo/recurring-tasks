@@ -16,3 +16,4 @@ description: >-
 
 dependencies:
   - comp/venue/network
+  - comp/livestream/training
