@@ -14,3 +14,4 @@ dependencies:
     - comp/ops/deploy-compbox
     - comp/ops/deploy
     - comp/ops/teams-import
+    - comp/ops/plan-tech-desk
