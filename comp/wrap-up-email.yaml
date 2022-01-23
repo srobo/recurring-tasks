@@ -1,0 +1,17 @@
+summary: Send a wrap-up email to teams
+
+priority: major
+
+component: Competition
+
+milestone: $SRYYYY Competition Cleanup
+
+description: >-
+  This would cover things like:
+
+  - Thanking them for taking part
+  - Remind teams to provide feedback
+  - Reminders to those who have kept kit that they need to return it (by $DATE)
+
+dependencies:
+ - comp/feedback/gather-team-feedback
