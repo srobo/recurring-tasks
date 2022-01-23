@@ -1,5 +1,6 @@
 import pathlib
 import textwrap
+import time
 import urllib.parse
 from getpass import getpass
 from typing import TYPE_CHECKING, Dict, List, Sequence, cast
@@ -215,6 +216,14 @@ class GitHubBackend:
         return labels
 
     def submit(self, ticket: Ticket) -> int:
+        # GitHub are somewhat strict on their API rate limits, in particular
+        # their "secondary rate limits" encourage a generouse (> 1s) gap between
+        # `POST` requests. Frustratingly these appear to be separate from the
+        # primary rate limits which can be queried via the API. Manual testing
+        # indicates that ~2s isn't always sufficient, so err on the side of a
+        # larger gap for better reliability.
+        time.sleep(5)
+
         issue = self.repo.create_issue(
             ticket.summary,
             self.description_text(ticket),
