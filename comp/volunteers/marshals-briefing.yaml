@@ -6,7 +6,7 @@ component: Arena
 
 milestone: $SRYYYY Competition
 
-description: |
+description: >-
   The marshals need to know:
   * what the rules are
   * who the expert on them is
