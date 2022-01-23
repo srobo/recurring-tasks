@@ -20,3 +20,4 @@ dependencies:
     - comp/reception/hardware
     - comp/arena/screens-drivers
     - comp/ops/score-entry-hardware
+    - comp/arena/non-arena-display-screens

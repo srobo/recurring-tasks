@@ -1,0 +1,19 @@
+summary: Organise the non-arena ("outside") display screens
+
+priority: minor
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+description: >-
+  Throughout the venue we typically have a number of general information screens
+  which show the schedule of matches, state of the league, etc. We need to organise
+  screens & drivers for these to run on. They also need power and internet connections.
+
+  This may also include stands to mount the screens on. These screens are typically
+  larger-format than the screens used within the arena.
+
+dependencies:
+  - comp/venue/network
+  - comp/pre-comp-storage-trip
