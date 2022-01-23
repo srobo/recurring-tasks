@@ -17,3 +17,4 @@ description: >-
 dependencies:
   - comp/venue/network
   - comp/pre-comp-storage-trip
+  - comp/arena/acquire-screens
