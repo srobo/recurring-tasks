@@ -9,8 +9,6 @@ milestone: $SRYYYY Competition
 description: >-
     We need to have the $SRYYYY competition event.
 
-    For a complete list of all related tickets, see [wiki:$YYYY/Competition/TracTickets]
-
 dependencies:
     - comp/venue/book
     - comp/announce
