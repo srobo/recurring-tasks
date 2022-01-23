@@ -6,6 +6,7 @@ from getpass import getpass
 from typing import TYPE_CHECKING, Dict, List, Sequence, cast
 
 import github
+import retrying
 from termcolor import cprint
 from ticket_type import Ticket
 
@@ -224,12 +225,41 @@ class GitHubBackend:
         # larger gap for better reliability.
         time.sleep(5)
 
-        issue = self.repo.create_issue(
-            ticket.summary,
-            self.description_text(ticket),
-            milestone=self.get_or_create_milestone(ticket.milestone),
-            labels=self.labels(ticket),
+        # We also want to wait and retry when GitHub then additionally rate
+        # limit us anyway...
+
+        def retry_on_exception(exception: Exception) -> bool:
+            return isinstance(exception, github.GithubException)
+
+        @retrying.retry(
+            retry_on_exception=retry_on_exception,
+            wait_fixed=20_000,
         )
+        def create_issue() -> github.Issue.Issue:
+            RATE_LIMIT_MESSAGE = "exceeded a secondary rate limit and have been temporarily blocked"  # noqa:E501
+
+            try:
+                return self.repo.create_issue(
+                    ticket.summary,
+                    self.description_text(ticket),
+                    milestone=self.get_or_create_milestone(ticket.milestone),
+                    labels=self.labels(ticket),
+                )
+            except github.GithubException as e:
+                message = e.data.get('message')
+                if (
+                    isinstance(message, str)
+                    and RATE_LIMIT_MESSAGE in message
+                ):
+                    print("... GitHub Rate Limited ...")
+                    raise github.RateLimitExceededException(
+                        status=e.status,
+                        data=e.data,
+                        headers=e.headers,
+                    ) from e
+                raise
+
+        issue = create_issue()
 
         ticket_number: int = issue.number
         self._known_titles[ticket_number] = ticket.summary
