@@ -14,7 +14,6 @@ dependencies:
   - comp/announce
   - comp/ops/compstate
   - comp/website/public-compbox
-  - comp/website/schedule-match
   - comp/website/schedule-day
   - comp/website/livestream
   - comp/website/switch-to-live-mode
