@@ -18,8 +18,10 @@ class ElementsCache:
         self.cache_path = cache_path
         self.elements: Dict[str, int] = {}
 
-        if cache_path.exists():
+        try:
             self.elements = json.loads(cache_path.read_text())
+        except IOError:
+            pass
 
     def __enter__(self) -> Dict[str, int]:
         return self.elements
