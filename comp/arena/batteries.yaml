@@ -7,10 +7,11 @@ component: Arena
 milestone: $SRYYYY Competition
 
 description: >-
-  We should have a supply of charged batteries by the entrance to the arena
-  so that teams don't need to go to helpdesk on the way to the arena to
-  get one. This will also ensure that robots perform to their best since
-  we can just given them new batteries if there's any uncertainty.
+  We should have a supply of charged batteries in the staging area next to the
+  arena so that teams on their way into matches don't need to go to helpdesk to
+  get one. This ensures that robots perform at their best during matches.
+
+  This is important during the knockouts, though less so during the leagues.
 
 dependencies:
   - comp/arena/build
