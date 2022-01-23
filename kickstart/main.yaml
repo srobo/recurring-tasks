@@ -24,3 +24,5 @@ dependencies:
     - kickstart/remind-volunteers
     - kickstart/signups-volunteers
     - kickstart/venues
+    - kickstart/decide-presenters
+    - kickstart/write-presentation
