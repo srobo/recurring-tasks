@@ -13,4 +13,4 @@ description: >-
   There is a separate task to switch back afterwards.
 
 dependencies:
-  - comp/game/score-website-live
+  - comp/website/public-compbox

@@ -15,5 +15,4 @@ dependencies:
   - comp/game/score-entry
   - comp/game/score-format
   - comp/game/score-script
-  - comp/game/score-website-live
   - comp/game/scoring-stationery
