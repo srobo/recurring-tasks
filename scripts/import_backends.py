@@ -223,7 +223,7 @@ class GitHubBackend:
         # primary rate limits which can be queried via the API. Manual testing
         # indicates that ~2s isn't always sufficient, so err on the side of a
         # larger gap for better reliability.
-        time.sleep(5)
+        time.sleep(10)
 
         # We also want to wait and retry when GitHub then additionally rate
         # limit us anyway...
@@ -233,7 +233,7 @@ class GitHubBackend:
 
         @retrying.retry(
             retry_on_exception=retry_on_exception,
-            wait_fixed=20_000,
+            wait_fixed=60_000,
         )
         def create_issue() -> github.Issue.Issue:
             RATE_LIMIT_MESSAGE = "exceeded a secondary rate limit and have been temporarily blocked"  # noqa:E501
