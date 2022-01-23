@@ -3,7 +3,7 @@
 import argparse
 import contextlib
 from pathlib import Path
-from typing import TYPE_CHECKING, Callable, Dict, MutableMapping, Optional
+from typing import TYPE_CHECKING, Callable, MutableMapping, Optional
 
 import yaml
 from element_tracking import ElementsCache, ElementsInProgress
@@ -156,11 +156,11 @@ def main(arguments: argparse.Namespace) -> None:
 
     with contextlib.ExitStack() as stack:
         if arguments.cache:
-            elements: Optional[Dict[str, int]] = stack.enter_context(
+            elements: MutableMapping[str, int] = stack.enter_context(
                 ElementsCache(arguments.cache),
             )
         else:
-            elements = None
+            elements = {}
 
         add(arguments.base, backend, arguments.year, known_elements=elements)
 

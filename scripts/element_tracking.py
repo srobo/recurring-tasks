@@ -14,6 +14,15 @@ from typing import (
 
 
 class ElementsCache:
+    """
+    Load and cache the tasks that have been created in a file.
+
+    Use like:
+    ```
+    with ElementsCache(Path('cache.json')) as elements:
+        elements['key'] = 14
+    """
+
     def __init__(self, cache_path: Path) -> None:
         self.cache_path = cache_path
         self.elements: Dict[str, int] = {}
@@ -23,7 +32,7 @@ class ElementsCache:
         except IOError:
             pass
 
-    def __enter__(self) -> Dict[str, int]:
+    def __enter__(self) -> MutableMapping[str, int]:
         return self.elements
 
     def __exit__(
