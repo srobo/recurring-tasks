@@ -115,7 +115,10 @@ def add(element: str, backend: 'Backend', year: str) -> int:
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser()
     parser.add_argument('base', help="Root ticket to generate")
-    parser.add_argument('year', help="SR year to generate for")
+    parser.add_argument(
+        'year',
+        help="SR year to generate for (specify as just the number part)",
+    )
 
     backends_group = parser.add_mutually_exclusive_group()
     backends_group.add_argument(
