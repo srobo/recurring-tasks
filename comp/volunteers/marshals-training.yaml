@@ -4,7 +4,7 @@ priority: minor
 
 component: Arena
 
-milestone: $SRYYYY Competition
+milestone: $SRYYYY Competition Day
 
 description: |
   The marshals should have a chance to run through the process
@@ -12,3 +12,4 @@ description: |
 
 dependencies:
   - comp/volunteers/marshals-briefing
+  - comp/arena/main
