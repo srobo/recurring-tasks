@@ -1,5 +1,36 @@
 import contextlib
-from typing import Callable, Iterator, MutableMapping, Optional, Set
+import json
+from pathlib import Path
+from types import TracebackType
+from typing import (
+    Callable,
+    Dict,
+    Iterator,
+    MutableMapping,
+    Optional,
+    Set,
+    Type,
+)
+
+
+class ElementsCache:
+    def __init__(self, cache_path: Path) -> None:
+        self.cache_path = cache_path
+        self.elements: Dict[str, int] = {}
+
+        if cache_path.exists():
+            self.elements = json.loads(cache_path.read_text())
+
+    def __enter__(self) -> Dict[str, int]:
+        return self.elements
+
+    def __exit__(
+        self,
+        exc_type: Optional[Type[BaseException]],
+        exc_val: Optional[BaseException],
+        exc_tb: Optional[TracebackType],
+    ) -> None:
+        self.cache_path.write_text(json.dumps(self.elements))
 
 
 class ElementsInProgress:

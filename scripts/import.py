@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 
 import argparse
+import contextlib
 from pathlib import Path
-from typing import TYPE_CHECKING, Callable, MutableMapping, Optional
+from typing import TYPE_CHECKING, Callable, Dict, MutableMapping, Optional
 
 import yaml
-from element_tracking import ElementsInProgress
+from element_tracking import ElementsCache, ElementsInProgress
 from import_backends import FakeTracBackend, GitHubBackend, RealTracBackend
 from ticket_type import Ticket
 
@@ -123,6 +124,12 @@ def parse_args() -> argparse.Namespace:
         'year',
         help="SR year to generate for (specify as just the number part)",
     )
+    parser.add_argument(
+        '--cache',
+        help="Path to a JSON file in which to load/store mapping from existing tasks.",
+        type=Path,
+        default=None,
+    )
 
     backends_group = parser.add_mutually_exclusive_group()
     backends_group.add_argument(
@@ -147,7 +154,15 @@ def main(arguments: argparse.Namespace) -> None:
     else:
         backend = FakeTracBackend()
 
-    add(arguments.base, backend, arguments.year)
+    with contextlib.ExitStack() as stack:
+        if arguments.cache:
+            elements: Optional[Dict[str, int]] = stack.enter_context(
+                ElementsCache(arguments.cache),
+            )
+        else:
+            elements = None
+
+        add(arguments.base, backend, arguments.year, known_elements=elements)
 
 
 if __name__ == '__main__':
