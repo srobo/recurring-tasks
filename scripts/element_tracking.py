@@ -30,7 +30,7 @@ class ElementsCache:
         exc_val: Optional[BaseException],
         exc_tb: Optional[TracebackType],
     ) -> None:
-        self.cache_path.write_text(json.dumps(self.elements))
+        self.cache_path.write_text(json.dumps(self.elements, sort_keys=True, indent=2))
 
 
 class ElementsInProgress:
