@@ -1,0 +1,14 @@
+summary: Train marshals for the $SRYYYY game
+
+priority: minor
+
+component: Arena
+
+milestone: $SRYYYY Competition
+
+description: |
+  The marshals should have a chance to run through the process
+  of running a competition match sequence.
+
+dependencies:
+  - comp/volunteers/marshals-briefing

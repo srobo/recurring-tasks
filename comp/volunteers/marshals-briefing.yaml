@@ -13,6 +13,3 @@ description: |
   * who the judge is
   * how to use the score entry forms
   * the circumstances under which they should turn a robot off
-
-dependencies:
-  - comp/volunteers/schedule
