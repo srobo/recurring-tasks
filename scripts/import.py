@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
 
 import argparse
+import contextlib
 from pathlib import Path
-from typing import TYPE_CHECKING, Callable, Dict, Union
+from typing import TYPE_CHECKING, Callable, MutableMapping, Optional
 
 import yaml
+from element_tracking import ElementsCache, ElementsInProgress
 from import_backends import FakeTracBackend, GitHubBackend, RealTracBackend
 from ticket_type import Ticket
 
@@ -79,7 +81,13 @@ def process(element_name: str, *, year: str, handle_dep: Callable[[str], int]) -
     return ticket
 
 
-def add(element: str, backend: 'Backend', year: str) -> int:
+def add(
+    element: str,
+    backend: 'Backend',
+    year: str,
+    *,
+    known_elements: Optional[MutableMapping[str, int]] = None,
+) -> int:
     """
     Add 'element' into the task tracker, along with all its dependencies.
 
@@ -92,22 +100,19 @@ def add(element: str, backend: 'Backend', year: str) -> int:
     dependencies which have already been imported at the point they are
     depended upon by a new parent.
     """
-    CYCLE = object()
-    elements: Dict[str, Union[int, object]] = {}
+    elements = ElementsInProgress(known_elements)
 
     def _add(element: str) -> int:
-        if element in elements:
-            previous = elements[element]
-            if previous is CYCLE:
-                raise RuntimeError(f"cyclic dependency on {element}")
-            assert isinstance(previous, int)
+        previous = elements.get(element)
+        if previous:
             return previous
-        else:
-            elements[element] = CYCLE
+
+        with elements.process(element) as record_id:
             generated = process(element, year=year, handle_dep=_add)
             ticket_id = backend.submit(generated)
-            elements[element] = ticket_id
-            return ticket_id
+            record_id(ticket_id)
+
+        return ticket_id
 
     return _add(element)
 
@@ -118,6 +123,12 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         'year',
         help="SR year to generate for (specify as just the number part)",
+    )
+    parser.add_argument(
+        '--cache',
+        help="Path to a JSON file in which to load/store mapping from existing tasks.",
+        type=Path,
+        default=None,
     )
 
     backends_group = parser.add_mutually_exclusive_group()
@@ -143,7 +154,15 @@ def main(arguments: argparse.Namespace) -> None:
     else:
         backend = FakeTracBackend()
 
-    add(arguments.base, backend, arguments.year)
+    with contextlib.ExitStack() as stack:
+        if arguments.cache:
+            elements: MutableMapping[str, int] = stack.enter_context(
+                ElementsCache(arguments.cache),
+            )
+        else:
+            elements = {}
+
+        add(arguments.base, backend, arguments.year, known_elements=elements)
 
 
 if __name__ == '__main__':
