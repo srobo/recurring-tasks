@@ -13,3 +13,6 @@ description: >-
     - double-sided for laying the carpet with
 
     We should check what stocks we have and order more if needed.
+
+dependencies:
+ - comp/pre-comp-storage-trip

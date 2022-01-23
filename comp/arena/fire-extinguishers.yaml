@@ -1,6 +1,6 @@
 summary: Station fire extinguishers next to the $SRYYYY Arenas
 
-priority: major
+priority: critical
 
 component: Arena
 
@@ -12,3 +12,4 @@ description: >-
 
 dependencies:
   - comp/arena/build
+  - comp/safety/ensure-fire-extinguishers-are-present

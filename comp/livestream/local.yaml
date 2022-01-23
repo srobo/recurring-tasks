@@ -15,4 +15,4 @@ description: >-
   arenas which most people liked. It would be good to do this again.
 
 dependencies:
-  - comp/livestream
+  - comp/livestream/main

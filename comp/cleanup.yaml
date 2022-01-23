@@ -14,3 +14,6 @@ dependencies:
   - comp/website/switch-to-normal-mode
   - comp/volunteers/reimbursement
   - comp/tear-down/main
+  - comp/livestream/crop-vod
+  - comp/feedback/post-competition-reports
+  - comp/wrap-up-email

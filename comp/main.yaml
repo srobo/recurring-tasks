@@ -9,8 +9,6 @@ milestone: $SRYYYY Competition
 description: >-
     We need to have the $SRYYYY competition event.
 
-    For a complete list of all related tickets, see [wiki:$YYYY/Competition/TracTickets]
-
 dependencies:
     - comp/venue/book
     - comp/announce
@@ -33,6 +31,7 @@ dependencies:
     - comp/tinker-time
     - comp/website/main
     - comp/volunteers/main
+    - comp/volunteers/brief-volunteers
     - comp/arena/main
     - comp/pits/main
     - comp/game/main
@@ -44,8 +43,8 @@ dependencies:
     - comp/kit-testing-equipment
     - comp/kit-handback
     - comp/media-consent/main
-    - comp/livestream
-    - comp/livestream-local
+    - comp/livestream/main
+    - comp/livestream/local
     - comp/social-media
     - comp/wristbands/order
     - comp/press/invite-press

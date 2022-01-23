@@ -7,8 +7,10 @@ component: Competition
 milestone: $SRYYYY Competition
 
 description: >-
-    During matches we want music to be played into the arena. Typically this
-    takes the form of a Spotify playlist.
+    During matches we want music to be played into the arena.
+
+    We typically have 2 playlists: one for during matches, and one for during breaks.
+    Generally the former is more "intense" than the latter.
 
     Note that there is a separate task for the time-synchronised music played
     during the finals.

@@ -1,0 +1,16 @@
+summary: Create post competiton reports
+
+priority: major
+
+component: Competition
+
+milestone: $SRYYYY Competition Cleanup
+
+description: >-
+  We should give a report on the $SRYYYY competition cycle and details of the
+  event to the trustees once everything from the event has been sorted out.
+  This will also include a spending report for the year.
+
+dependencies:
+  - comp/feedback/gather-team-feedback
+  - comp/feedback/gather-volunteer-feedback

@@ -24,3 +24,6 @@ description: >-
   The marshals will also want clipboards and pens to use to fill
   out the score sheets. We should have some clipboards in storage
   from previous years.
+
+dependencies:
+ - comp/pre-comp-storage-trip
