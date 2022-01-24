@@ -1,0 +1,21 @@
+summary: Organise hardware to run livestream
+
+priority: major
+
+component: Competition
+
+milestone: $SRYYYY Competition Prep
+
+description: >-
+  This ticket relates to providing the actual machine that will be
+  used for the livestream.
+
+  Requirements:
+  - Video mixer PC (With dedicated GPU, capable of running OBS)
+  - 2x HDMI capture card
+  - 2x mixers
+  - 2x preview monitors
+  - 2x cameras (depending on feed plan)
+
+dependencies:
+  - comp/livestream/plan-video-feeds
