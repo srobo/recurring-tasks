@@ -18,3 +18,4 @@ dependencies:
   - comp/safety/battery-disposal
   - comp/volunteers/experts-list
   - comp/pits/helpdesk/spare-kit
+  - comp/pits/helpdesk/expert-list
