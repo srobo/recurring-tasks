@@ -3,7 +3,7 @@
 import argparse
 import contextlib
 from pathlib import Path
-from typing import TYPE_CHECKING, Callable, MutableMapping, Optional
+from typing import TYPE_CHECKING, Callable, MutableMapping
 
 import yaml
 from element_tracking import ElementsCache, ElementsInProgress
@@ -86,7 +86,7 @@ def add(
     backend: 'Backend',
     year: str,
     *,
-    known_elements: Optional[MutableMapping[str, int]] = None,
+    known_elements: MutableMapping[str, int],
 ) -> int:
     """
     Add 'element' into the task tracker, along with all its dependencies.

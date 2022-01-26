@@ -52,8 +52,12 @@ class ElementsInProgress:
     mappings of tasks that are known to be equivalent to those in this repo.
     """
 
-    def __init__(self, known_elements: Optional[MutableMapping[str, int]]) -> None:
-        self.known_elements = known_elements or {}
+    def __init__(self, known_elements: MutableMapping[str, int]) -> None:
+        # Note: it's important that we use the mapping the user passes in so
+        # that they can pass an object that will keep track of the elements that
+        # have been processed (either a `shelve` or the mapping yielded by an
+        # `ElementsCache` instance work well).
+        self.known_elements = known_elements
         self._current: Set[str] = set()
 
     def get(self, key: str) -> Optional[int]:
