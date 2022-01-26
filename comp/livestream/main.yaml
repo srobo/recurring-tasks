@@ -16,3 +16,6 @@ description: >-
 
 dependencies:
   - comp/venue/network
+  - comp/livestream/training
+  - comp/livestream/hardware
+  - comp/livestream/configure-scenes

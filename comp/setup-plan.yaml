@@ -1,0 +1,13 @@
+summary: Plan setup schedule and organisation
+
+priority: major
+
+component: Competition
+
+milestone: $SRYYYY Competition Prep
+
+description: >-
+  We need to plan tasks for the setup days
+
+dependencies:
+  - comp/venue/layout

@@ -12,3 +12,4 @@ description: >-
 
 dependencies:
   - comp/pits/power
+  - comp/venue/layout

@@ -11,3 +11,4 @@ description: >-
 dependencies:
   - comp/venue/signage
   - comp/prizes/rehearsal
+  - comp/setup-plan

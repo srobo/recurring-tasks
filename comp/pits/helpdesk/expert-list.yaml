@@ -1,0 +1,24 @@
+summary: Create domain expert list
+
+priority: major
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+description: >-
+  If there is a problem at helpdesk, that those on helpdesk cannot solve, they need to know who to escalate to.
+
+  There will be different experts depending on the domain.
+
+  Example domains:
+
+  - Rules
+  - Kit
+    - Python API
+    - Hardware
+    - Competition operations
+  - Event
+    - Tech
+
+  Note that this list of people should also take into account who is likely to be available.

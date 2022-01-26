@@ -16,5 +16,6 @@ dependencies:
   - comp/pits/battery-charging
   - comp/pits/overnight-loans
   - comp/safety/battery-disposal
-  - comp/spare-kit
   - comp/volunteers/experts-list
+  - comp/pits/helpdesk/spare-kit
+  - comp/pits/helpdesk/expert-list
