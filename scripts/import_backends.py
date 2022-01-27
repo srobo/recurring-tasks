@@ -229,7 +229,7 @@ class GitHubBackend:
         # limit us anyway...
 
         def retry_on_exception(exception: Exception) -> bool:
-            return isinstance(exception, github.GithubException)
+            return isinstance(exception, github.RateLimitExceededException)
 
         @retrying.retry(
             retry_on_exception=retry_on_exception,
