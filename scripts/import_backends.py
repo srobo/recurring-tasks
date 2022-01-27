@@ -229,7 +229,10 @@ class GitHubBackend:
         # limit us anyway...
 
         def retry_on_exception(exception: Exception) -> bool:
-            return isinstance(exception, github.RateLimitExceededException)
+            if isinstance(exception, github.RateLimitExceededException):
+                print("... GitHub Rate Limited ...")
+                return True
+            return False
 
         @retrying.retry(
             retry_on_exception=retry_on_exception,
@@ -251,7 +254,6 @@ class GitHubBackend:
                     isinstance(message, str)
                     and RATE_LIMIT_MESSAGE in message
                 ):
-                    print("... GitHub Rate Limited ...")
                     raise github.RateLimitExceededException(
                         status=e.status,
                         data=e.data,
