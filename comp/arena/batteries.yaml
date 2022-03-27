@@ -16,4 +16,4 @@ description: >-
 dependencies:
   - comp/arena/build
   - comp/pits/battery-charging
-  - comp/safety/battery-disposal
+  - comp/safety/sad-battery-management

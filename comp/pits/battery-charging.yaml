@@ -19,4 +19,4 @@ description: >-
 
 dependencies:
   - comp/pits/power
-  - comp/safety/battery-disposal
+  - comp/safety/sad-battery-management
