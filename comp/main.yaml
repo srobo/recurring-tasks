@@ -52,3 +52,4 @@ dependencies:
     - comp/setup
     - comp/tear-down/main
     - comp/cleanup
+    - comp/assign-safeguarding-officers
