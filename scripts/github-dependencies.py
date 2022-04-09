@@ -111,7 +111,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         '--output',
         type=Path,
-        help="The milestones to pull tasks from",
+        help="Where to output the dependencies PDF",
     )
 
     return parser.parse_args()
