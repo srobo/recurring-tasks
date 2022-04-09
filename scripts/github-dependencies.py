@@ -63,7 +63,7 @@ class GitHubBackend:
 
     def get_dependencies(self, number: int) -> List[int]:
         issue = self.get_issue(number)
-        if not issue:
+        if not issue or not issue.body:
             return []
 
         lines = dropuntil(issue.body.splitlines(), key='### Dependencies')
