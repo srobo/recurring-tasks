@@ -1,4 +1,4 @@
-summary: Crop the live stream VOD (Video on Demand)
+summary: Trim the live stream VOD (Video on Demand)
 
 priority: minor
 
@@ -7,7 +7,7 @@ component: Competition
 milestone: $SRYYYY Competition Cleanup
 
 description: >-
-  The live stream VOD should be cropped to remove the start and end of the
+  The live stream VOD should be trimmed to remove the start and end of the
   competition.
 
 dependencies:
