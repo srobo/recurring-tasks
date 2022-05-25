@@ -17,19 +17,19 @@ idna==2.10
 pycparser==2.20
     # via cffi
 pygithub==1.55
-    # via -r ./scripts/requirements.in
-pyjwt==2.1.0
+    # via -r requirements.in
+pyjwt==2.4.0
     # via pygithub
 pynacl==1.4.0
     # via pygithub
 pyyaml==5.4.1
-    # via -r ./scripts/requirements.in
+    # via -r requirements.in
 requests==2.25.1
     # via pygithub
 six==1.16.0
     # via pynacl
 termcolor==1.1.0
-    # via -r ./scripts/requirements.in
+    # via -r requirements.in
 urllib3==1.26.5
     # via requests
 wrapt==1.12.1

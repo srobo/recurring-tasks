@@ -6,39 +6,23 @@
 #
 certifi==2021.5.30
     # via
-    #   -r ./scripts/requirements.txt
+    #   -r requirements.txt
     #   requests
 cffi==1.14.5
     # via
-    #   -r ./scripts/requirements.txt
+    #   -r requirements.txt
     #   pynacl
 chardet==4.0.0
     # via
-    #   -r ./scripts/requirements.txt
+    #   -r requirements.txt
     #   requests
 deprecated==1.2.12
     # via
-    #   -r ./scripts/requirements.txt
+    #   -r requirements.txt
     #   pygithub
-flake8-builtins==1.5.3
-    # via -r ./scripts/linting/requirements.in
-flake8-commas==2.0.0
-    # via -r ./scripts/linting/requirements.in
-flake8-comprehensions==3.5.0
-    # via -r ./scripts/linting/requirements.in
-flake8-debugger==4.0.0
-    # via -r ./scripts/linting/requirements.in
-flake8-isort==4.0.0
-    # via -r ./scripts/linting/requirements.in
-flake8-mutable==1.2.0
-    # via -r ./scripts/linting/requirements.in
-flake8-todo==0.7
-    # via -r ./scripts/linting/requirements.in
-flake8-tuple==0.4.1
-    # via -r ./scripts/linting/requirements.in
 flake8==3.9.2
     # via
-    #   -r ./scripts/linting/requirements.in
+    #   -r linting/requirements.in
     #   flake8-builtins
     #   flake8-commas
     #   flake8-comprehensions
@@ -46,20 +30,36 @@ flake8==3.9.2
     #   flake8-isort
     #   flake8-mutable
     #   flake8-tuple
+flake8-builtins==1.5.3
+    # via -r linting/requirements.in
+flake8-commas==2.0.0
+    # via -r linting/requirements.in
+flake8-comprehensions==3.5.0
+    # via -r linting/requirements.in
+flake8-debugger==4.0.0
+    # via -r linting/requirements.in
+flake8-isort==4.0.0
+    # via -r linting/requirements.in
+flake8-mutable==1.2.0
+    # via -r linting/requirements.in
+flake8-todo==0.7
+    # via -r linting/requirements.in
+flake8-tuple==0.4.1
+    # via -r linting/requirements.in
 idna==2.10
     # via
-    #   -r ./scripts/requirements.txt
+    #   -r requirements.txt
     #   requests
 isort==5.8.0
     # via
-    #   -r ./scripts/linting/requirements.in
+    #   -r linting/requirements.in
     #   flake8-isort
 mccabe==0.6.1
     # via flake8
+mypy==0.902
+    # via -r typing/requirements.in
 mypy-extensions==0.4.3
     # via mypy
-mypy==0.902
-    # via -r ./scripts/typing/requirements.in
 pycodestyle==2.7.0
     # via
     #   flake8
@@ -67,51 +67,51 @@ pycodestyle==2.7.0
     #   flake8-todo
 pycparser==2.20
     # via
-    #   -r ./scripts/requirements.txt
+    #   -r requirements.txt
     #   cffi
 pyflakes==2.3.1
     # via flake8
 pygithub==1.55
-    # via -r ./scripts/requirements.txt
-pyjwt==2.1.0
+    # via -r requirements.txt
+pyjwt==2.4.0
     # via
-    #   -r ./scripts/requirements.txt
+    #   -r requirements.txt
     #   pygithub
 pynacl==1.4.0
     # via
-    #   -r ./scripts/requirements.txt
+    #   -r requirements.txt
     #   pygithub
 pyyaml==5.4.1
-    # via -r ./scripts/requirements.txt
+    # via -r requirements.txt
 requests==2.25.1
     # via
-    #   -r ./scripts/requirements.txt
+    #   -r requirements.txt
     #   pygithub
 six==1.16.0
     # via
-    #   -r ./scripts/requirements.txt
+    #   -r requirements.txt
     #   flake8-debugger
     #   flake8-tuple
     #   pynacl
 termcolor==1.1.0
-    # via -r ./scripts/requirements.txt
+    # via -r requirements.txt
 testfixtures==6.17.1
     # via flake8-isort
 toml==0.10.2
     # via mypy
 types-pyyaml==5.4.1
-    # via -r ./scripts/typing/requirements.in
+    # via -r typing/requirements.in
 types-termcolor==0.1.0
-    # via -r ./scripts/typing/requirements.in
+    # via -r typing/requirements.in
 typing-extensions==3.10.0.0
     # via
-    #   -r ./scripts/typing/requirements.in
+    #   -r typing/requirements.in
     #   mypy
 urllib3==1.26.5
     # via
-    #   -r ./scripts/requirements.txt
+    #   -r requirements.txt
     #   requests
 wrapt==1.12.1
     # via
-    #   -r ./scripts/requirements.txt
+    #   -r requirements.txt
     #   deprecated
