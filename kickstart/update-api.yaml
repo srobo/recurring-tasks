@@ -7,7 +7,7 @@ component: pyenv
 milestone: $SRYYYY Kickstart
 
 description: >-
-     The `sr.robot` API needs updating to contain the marker details for
+     The `sr.robot3` API needs updating to contain the marker details for
      the $SRYYYY game.
 
 dependencies:
