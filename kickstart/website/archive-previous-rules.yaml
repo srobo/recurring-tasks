@@ -1,0 +1,12 @@
+summary: Publish the rules for the previous year's game
+
+priority: major
+
+component: Website
+
+milestone: $SRYYYY Kickstart
+
+description: >-
+    Move the rules from the [rules](https://studentrobotics.org/docs/rules) page
+    to the [game archive](https://studentrobotics.org/docs/rules/archive) in the
+    docs, making way for the new rules to be published.
