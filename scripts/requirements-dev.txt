@@ -4,7 +4,7 @@
 #
 #    pip-compile ./scripts/requirements-dev.in
 #
-certifi==2022.5.18.1
+certifi==2022.12.7
     # via
     #   -r ./scripts/requirements.txt
     #   requests
