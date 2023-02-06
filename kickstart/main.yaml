@@ -26,3 +26,4 @@ dependencies:
     - kickstart/venues
     - kickstart/decide-presenters
     - kickstart/write-presentation
+    - kickstart/appoint-safeguarding-officers
