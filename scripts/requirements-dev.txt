@@ -4,6 +4,8 @@
 #
 #    pip-compile ./scripts/requirements-dev.in
 #
+attrs==22.2.0
+    # via flake8-bugbear
 certifi==2022.12.7
     # via
     #   -r ./scripts/requirements.txt
@@ -23,13 +25,15 @@ deprecated==1.2.13
 flake8==4.0.1
     # via
     #   -r ./scripts/linting/requirements.in
+    #   flake8-bugbear
     #   flake8-builtins
     #   flake8-commas
     #   flake8-comprehensions
     #   flake8-debugger
     #   flake8-isort
-    #   flake8-mutable
     #   flake8-tuple
+flake8-bugbear==23.1.20
+    # via -r ./scripts/linting/requirements.in
 flake8-builtins==1.5.3
     # via -r ./scripts/linting/requirements.in
 flake8-commas==2.1.0
@@ -39,8 +43,6 @@ flake8-comprehensions==3.10.0
 flake8-debugger==4.1.2
     # via -r ./scripts/linting/requirements.in
 flake8-isort==4.1.1
-    # via -r ./scripts/linting/requirements.in
-flake8-mutable==1.2.0
     # via -r ./scripts/linting/requirements.in
 flake8-todo==0.7
     # via -r ./scripts/linting/requirements.in
