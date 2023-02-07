@@ -6,6 +6,8 @@ component: Competition
 
 milestone: $SRYYYY Competition
 
+area-owner: game
+
 description: >-
   Once printed we need something to store the score entry forms in
   (as there will be a couple of hundred sheets).

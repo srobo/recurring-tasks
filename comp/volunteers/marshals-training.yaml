@@ -6,6 +6,8 @@ component: Arena
 
 milestone: $SRYYYY Competition Day
 
+area-owner: game
+
 description: >-
   The marshals should have a chance to run through the process
   of running a competition match sequence.

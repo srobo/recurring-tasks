@@ -6,6 +6,8 @@ component: Competition
 
 milestone: $SRYYYY Competition
 
+area-owner: production
+
 description: >-
   At the end of the competition we want to give out some prizes. We need to plan
   how we will transition from the finals, through any speeches and run the

@@ -6,6 +6,8 @@ component: Competition
 
 milestone: $SRYYYY Competition
 
+area-owner: event-logistics
+
 description: >-
   Ensure we have enough table top space, power and networking for all necessary equipment at the tech desk.
 

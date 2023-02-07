@@ -6,6 +6,8 @@ component: Competition
 
 milestone: $SRYYYY Competition Day
 
+area-owner: event-logistics
+
 description: >-
     The reception desk(s) need an internet connection for computers
     running the admission software.

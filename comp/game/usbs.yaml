@@ -6,6 +6,8 @@ component: Competition
 
 milestone: $SRYYYY Competition
 
+area-owner: kit
+
 description: >-
   During matches the robots need a mechanism to know which corner they're
   in and to ensure that they can only see the proper libkoki markers.

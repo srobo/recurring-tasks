@@ -6,6 +6,8 @@ component: Competition
 
 milestone: $SRYYYY Competition Cleanup
 
+area-owner: committee
+
 description: >-
   We should give a report on the $SRYYYY competition cycle and details of the
   event to the trustees once everything from the event has been sorted out.

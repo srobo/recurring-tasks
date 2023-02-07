@@ -6,6 +6,8 @@ component: Arena
 
 milestone: $SRYYYY Competition
 
+area-owner: game
+
 description: >-
   We have screens around the arena to display live information, these
   need putting up.

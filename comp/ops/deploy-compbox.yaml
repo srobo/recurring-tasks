@@ -6,6 +6,8 @@ component: Competition
 
 milestone: $SRYYYY Competition Day
 
+area-owner: game
+
 description: >-
     The compbox VM will need deploying onto the host machine and ensuring
     that it works.

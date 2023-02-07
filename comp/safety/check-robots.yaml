@@ -6,6 +6,8 @@ component: Competition
 
 milestone: $SRYYYY Competition Day
 
+area-owner: health-safety
+
 description: >-
     We need to inspect all the robots to ensure they are safe.
 

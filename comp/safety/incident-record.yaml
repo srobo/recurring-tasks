@@ -6,6 +6,8 @@ component: Competition
 
 milestone: $SRYYYY Competition
 
+area-owner: health-safety
+
 description: >-
   We need a means to record and store details of an incident or near-
   miss occurring. At bare minimum this needs to store what happened and

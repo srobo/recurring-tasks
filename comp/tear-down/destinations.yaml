@@ -6,6 +6,8 @@ component: Competition
 
 milestone: $SRYYYY Competition
 
+area-owner: event-logistics
+
 description: >-
   We need a plan of what is going to be returned to where after the
   competition, ideally with in-venue holding areas identified for each

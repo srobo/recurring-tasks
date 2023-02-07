@@ -6,6 +6,8 @@ component: Competition
 
 milestone: $SRYYYY Competition
 
+area-owner: media-press
+
 description: >-
   This is needed for entry control. Everyone (competitors, team-leaders,
   blueshirts and guests) who wants to come in must have a ticket or a

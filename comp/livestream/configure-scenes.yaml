@@ -6,6 +6,8 @@ component: Competition
 
 milestone: $SRYYYY Competition Prep
 
+area-owner: livestream
+
 description: >-
   The livestream requires a number of different scenes and views, made up of
   static images, video feeds, overlays etc.

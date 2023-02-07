@@ -4,6 +4,8 @@ component: Arena
 
 milestone: $SRYYYY Competition
 
+area-owner: event-logistics
+
 description: >-
     We currently use carpet as the flooring of the arenas. Usually the
     venue doesn't have an equivalent flooring underneath the arena

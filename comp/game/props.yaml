@@ -6,6 +6,8 @@ component: Competition
 
 milestone: $SRYYYY Competition
 
+area-owner: event-logistics
+
 description: >-
     We need to prepare the things that will go in the arena.
     See this year's [rulebook](https://studentrobotics.org/docs/resources/$YYYY/rulebook.pdf)

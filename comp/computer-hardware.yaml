@@ -6,6 +6,8 @@ component: Competition
 
 milestone: $SRYYYY Competition
 
+area-owner: event-logistics
+
 description: |
     We will need a large number of computers for the competition. This
     ticket serves as a central place which records everything other than

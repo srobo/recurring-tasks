@@ -6,6 +6,8 @@ component: Competition
 
 milestone: $SRYYYY Competition
 
+area-owner: production
+
 description: >-
   Some awards involve trophies being given to the winning teams. The
   trophies need purchasing.

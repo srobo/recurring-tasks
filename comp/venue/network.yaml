@@ -6,6 +6,8 @@ component: Competition
 
 milestone: $SRYYYY Competition
 
+area-owner: event-logistics
+
 description: >-
     This also requires that we have a pretty significant internet connection
     given the number of people that are coming and our video streaming

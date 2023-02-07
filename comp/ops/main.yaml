@@ -6,6 +6,8 @@ component: Competition
 
 milestone: $SRYYYY Competition Day
 
+area-owner: game
+
 description: >-
     We need ops.
 

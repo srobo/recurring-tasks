@@ -6,5 +6,7 @@ component: Competition
 
 milestone: $SRYYYY Competition
 
+area-owner: game
+
 description: >-
   The winner of the committee award needs deciding.

@@ -6,6 +6,8 @@ component: Competition
 
 milestone: $SRYYYY Competition
 
+area-owner: volunteer-coordination
+
 description: >-
   We should have some refreshments for the volunteers at the competition.
   At a minimum this will include water and cups being available at all times

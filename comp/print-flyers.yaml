@@ -6,6 +6,8 @@ component: Competition
 
 milestone: $SRYYYY Competition
 
+area-owner: media-press
+
 dependencies:
     - comp/flyers
 

@@ -6,6 +6,8 @@ component: Competition
 
 milestone: $SRYYYY Competition
 
+area-owner: game
+
 description: >-
   We'll want a collection of rules for the competitors on the day.
   In the past this has included rules about where power tools and paint

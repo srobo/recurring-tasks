@@ -6,6 +6,8 @@ component: Competition
 
 milestone: $SRYYYY Competition
 
+area-owner: game
+
 description: >-
   We need a data entry system for converting from the score entry forms
   to the YAML file format.

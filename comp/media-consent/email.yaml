@@ -6,6 +6,8 @@ component: Competition
 
 milestone: $SRYYYY Competition
 
+area-owner: media-press
+
 description: >-
     Teams need to be sent an email with a link to the media consent form and instructions on how to return them to us.
 

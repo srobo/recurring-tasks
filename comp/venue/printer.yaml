@@ -6,5 +6,7 @@ component: Competition
 
 milestone: $SRYYYY Competition
 
+area-owner: event-logistics
+
 description: >-
     In case we need to print out MCFs/game lists/whatever at high speed.

@@ -6,6 +6,8 @@ component: Competition
 
 milestone: $SRYYYY Competition
 
+area-owner: livestream
+
 description: >-
   We should have a live stream of the competition.
 

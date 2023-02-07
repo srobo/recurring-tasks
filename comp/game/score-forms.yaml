@@ -6,6 +6,8 @@ component: Competition
 
 milestone: $SRYYYY Competition
 
+area-owner: game
+
 description: >-
   Score entry forms for use by marshals in the arenas need to be
   designed.

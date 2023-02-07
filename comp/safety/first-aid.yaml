@@ -6,6 +6,8 @@ component: Competition
 
 milestone: $SRYYYY Competition
 
+area-owner: health-safety
+
 description: >-
   We need to provide first aid coverage at the competition for both main
   days.

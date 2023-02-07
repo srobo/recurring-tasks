@@ -6,6 +6,8 @@ component: Competition
 
 milestone: $SRYYYY Competition
 
+area-owner: mentoring
+
 description: >-
   Helpdesk will need a number of documents
 

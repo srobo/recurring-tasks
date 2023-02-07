@@ -6,6 +6,8 @@ component: Competition
 
 milestone: $SRYYYY Competition
 
+area-owner: event-logistics
+
 description: >-
   During matches robots are given coloured flags so that the audience know which
   robot is from which scoring zone.

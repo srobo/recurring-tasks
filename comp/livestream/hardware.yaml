@@ -6,6 +6,8 @@ component: Competition
 
 milestone: $SRYYYY Competition Prep
 
+area-owner: livestream
+
 description: >-
   This ticket relates to providing the actual machine that will be
   used for the livestream.

@@ -6,6 +6,8 @@ component: Arena
 
 milestone: $SRYYYY Competition
 
+area-owner: game
+
 description: >-
   The marshals need to know:
   * what the rules are

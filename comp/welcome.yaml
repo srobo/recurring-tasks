@@ -6,6 +6,8 @@ component: Competition
 
 milestone: $SRYYYY Competition
 
+area-owner: production
+
 description: >-
   This ticket exists mainly to ensure that things are announced to the
   competitors.

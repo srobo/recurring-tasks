@@ -6,6 +6,8 @@ component: Competition
 
 milestone: $SRYYYY Competition
 
+area-owner: event-logistics
+
 description: >-
     Since we have more than one arena we want a way to tell which is
     which. One possible mechanism is to colour-code them, though having

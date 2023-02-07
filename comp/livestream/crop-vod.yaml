@@ -6,6 +6,8 @@ component: Competition
 
 milestone: $SRYYYY Competition Cleanup
 
+area-owner: livestream
+
 description: >-
   The live stream VOD should be trimmed to remove the start and end of the
   competition.

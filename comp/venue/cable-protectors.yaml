@@ -6,6 +6,8 @@ component: Competition
 
 milestone: $SRYYYY Competition
 
+area-owner: event-logistics
+
 description: >-
     It's a bad idea to have loose cables trailing around on the floor.
     We should hire cable protectors to cover the cables anywhere necessary.

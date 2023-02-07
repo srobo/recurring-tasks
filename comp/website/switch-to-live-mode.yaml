@@ -6,6 +6,8 @@ component: Website
 
 milestone: $SRYYYY Competition Day
 
+area-owner: media-press
+
 description: >-
   Change the website proxy to use the competition live homepage instead of the
   normal one. This normally happens on the morning of the competition.

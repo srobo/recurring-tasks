@@ -6,6 +6,8 @@ component: Competition
 
 milestone: $SRYYYY Competition
 
+area-owner: livestream
+
 description: >-
   Volunteers who are assigned to run the livestream should be
   trained how the system works, and how the event will be run.

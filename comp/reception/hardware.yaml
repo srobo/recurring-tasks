@@ -6,6 +6,8 @@ component: Competition
 
 milestone: $SRYYYY Competition
 
+area-owner: event-logistics
+
 description: >-
     We currently use laptops equipped with webcams to handle entry
     validation on the day. We need to ensure that there are enough

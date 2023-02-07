@@ -6,6 +6,8 @@ component: Arena
 
 milestone: $SRYYYY Competition Day
 
+area-owner: health-safety
+
 description: >-
   At least one powder fire extinguisher should be placed within easy reach next
   to each arena in case of LiPo fires.

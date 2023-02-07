@@ -6,6 +6,8 @@ component: Competition
 
 milestone: $SRYYYY Competition
 
+area-owner: mentoring
+
 description: >-
   If there is a problem at helpdesk, that those on helpdesk cannot solve, they need to know who to escalate to.
 

@@ -6,6 +6,8 @@ component: Competition
 
 milestone: $SRYYYY Competition Day
 
+area-owner: event-logistics
+
 description: >-
 
 dependencies:

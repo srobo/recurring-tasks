@@ -6,6 +6,8 @@ component: Competition
 
 milestone: $SRYYYY Competition
 
+area-owner: volunteer-coordination
+
 description: >-
     While helpdesk is the primary point of call for teams who need help,
     we also need a way for those manning it to escalate their request

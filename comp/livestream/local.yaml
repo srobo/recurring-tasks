@@ -6,6 +6,8 @@ component: Competition
 
 milestone: $SRYYYY Competition
 
+area-owner: livestream
+
 description: >-
   We should ensure the live stream of the competition is viewable within
   the venue. This enables everyone to see matches without actually being
