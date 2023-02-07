@@ -30,6 +30,21 @@ COMPONENTS = (
     'Website',
 )
 
+AREA_OWNERS = (
+    'committee',
+    'health-safety',
+    'media-press',
+    'teams',
+    'mentoring',
+    'kit',
+    'event-logistics',
+    'livestream',
+    'production',
+    'game',
+    'volunteer-coordination',
+    'simulator',
+)
+
 
 def process(element_name: str, *, year: str, handle_dep: Callable[[str], int]) -> Ticket:
     """
@@ -64,6 +79,10 @@ def process(element_name: str, *, year: str, handle_dep: Callable[[str], int]) -
     if component not in COMPONENTS:
         raise RuntimeError(f"{path} has an unknown component: {component}")
 
+    area_owner = raw_elements.get('area-owner')
+    if area_owner not in AREA_OWNERS:
+        raise RuntimeError(f"{path} has an unknown area owner: {area_owner}")
+
     milestone = raw_elements.get('milestone')
     dependencies = raw_elements.get('dependencies', ())
 
@@ -75,6 +94,7 @@ def process(element_name: str, *, year: str, handle_dep: Callable[[str], int]) -
         priority=priority,
         milestone=milestone,
         original_name=element_name,
+        area_owner=area_owner,
         description=description,
         dependencies=computed_dependencies,
     )

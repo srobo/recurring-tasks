@@ -151,6 +151,20 @@ class GitHubBackend:
         'blocker': 'I: Must Have',
     }
 
+    AREA_OWNER_MAPPING: Dict[str, str] = {
+        'committee': 'AO: Committee',
+        'health-safety': 'AO: Health & Safety',
+        'media-press': 'AO: Media & Press',
+        'teams': 'AO: Teams',
+        'mentoring': 'AO: Mentoring',
+        'kit': 'AO: Kit',
+        'event-logistics': 'AO: Event Logistics',
+        'game': 'AO: Game',
+        'production': 'AO: Production',
+        'simulator': 'AO: Simulator',
+        'livestream': 'AO: Livestream',
+    }
+
     def __init__(self, repo_name: str) -> None:
         self.github = github.Github(get_github_credential())
         self.repo = self.github.get_repo(repo_name)
@@ -169,6 +183,9 @@ class GitHubBackend:
             }
             self._component_priority_mapping = {
                 k: labels[v] for k, v in self.COMPONENT_PRIORITY_MAPPING.items()
+            }
+            self._area_owner_mapping = {
+                k: labels[v] for k, v in self.AREA_OWNER_MAPPING.items()
             }
         except KeyError as e:
             raise ValueError(
@@ -213,6 +230,7 @@ class GitHubBackend:
     def labels(self, ticket: Ticket) -> List[github.Label.Label]:
         labels = [self._component_priority_mapping[ticket.priority]]
         labels += self._component_label_mapping[ticket.component]
+        labels.append(self._area_owner_mapping[ticket.area_owner])
         return labels
 
     def submit(self, ticket: Ticket) -> int:

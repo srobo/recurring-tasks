@@ -7,5 +7,6 @@ class Ticket(NamedTuple):
     component: str
     original_name: str
     milestone: str
+    area_owner: str
     description: str
     dependencies: List[int]
