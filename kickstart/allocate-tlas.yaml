@@ -6,6 +6,8 @@ component: Competition
 
 milestone: $SRYYYY Kickstart
 
+area-owner: teams
+
 description: >-
     Once we've decided which teams are getting places we need to assign them
     their TLAs.

@@ -6,6 +6,8 @@ component: Kit
 
 milestone: $SRYYYY Kickstart
 
+area-owner: kit
+
 description: >-
     Teams unable to make it to a Kickstart need their kits couriering to
     them.

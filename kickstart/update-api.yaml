@@ -6,6 +6,8 @@ component: pyenv
 
 milestone: $SRYYYY Kickstart
 
+area-owner: kit
+
 description: >-
      The `sr.robot3` API needs updating to contain the marker details for
      the $SRYYYY game.

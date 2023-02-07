@@ -6,6 +6,8 @@ component: Competition
 
 milestone: $SRYYYY Kickstart
 
+area-owner: production
+
 description: |-
     Kickstart events require a presentation to go through what student robotics
     is, what the competition cycle looks like, and details of the game.

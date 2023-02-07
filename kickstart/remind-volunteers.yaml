@@ -6,6 +6,8 @@ component: Competition
 
 milestone: $SRYYYY Kickstart
 
+area-owner: volunteer-coordination
+
 description: >-
     We need to remind volunteers that the kickstart is happening and communicate
     the final details: who is doing what, at what venue, what time to arrive, etc.

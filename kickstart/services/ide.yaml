@@ -6,6 +6,8 @@ component: sysadmin
 
 milestone: $SRYYYY Kickstart
 
+area-owner: mentoring
+
 description: >-
     In order to enable the competitors to program their robots, we provide a
     hosted IDE for them to work in.

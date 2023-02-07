@@ -6,6 +6,8 @@ component: pyenv
 
 milestone: $SRYYYY Kickstart
 
+area-owner: kit
+
 description: >-
     The [dummy API](https://github.com/srobo/pyenv-dummy) needs
     updating to contain the marker details for the $SRYYYY game.

@@ -6,6 +6,8 @@ component: Kit
 
 milestone: $SRYYYY Kickstart
 
+area-owner: kit
+
 description: >-
     Teams will want kits at Kickstart so we need to ship the relevant kits
     to each of the Kickstart venues.

@@ -6,6 +6,8 @@ component: sysadmin
 
 milestone: $SRYYYY Kickstart
 
+area-owner: mentoring
+
 description: >-
     In order to allow the competitors to chat to each other and request help
     from mentors, we setup forums each year. These are typically an instance

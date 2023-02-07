@@ -6,6 +6,8 @@ component: Rules
 
 milestone: $SRYYYY Kickstart
 
+area-owner: simulator
+
 description: >-
     The $SRYYYY game will be different to that for the previous year,
     so the arena template in the simulator will need updating.
