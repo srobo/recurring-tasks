@@ -165,28 +165,42 @@ class GitHubBackend:
         'livestream': 'AO: Livestream',
     }
 
-    def __init__(self, repo_name: str) -> None:
+    def __init__(
+        self,
+        repo_name: str,
+        include_area_owners: bool = False,
+        include_components: bool = False,
+    ) -> None:
         self.github = github.Github(get_github_credential())
         self.repo = self.github.get_repo(repo_name)
         self.milestones: Dict[str, github.Milestone.Milestone] = {
             x.title: x for x in self.repo.get_milestones()
         }
 
+        self.include_area_owners = include_area_owners
+        self.include_components = include_components
+
         labels: Dict[str, github.Label.Label] = {
             x.name: x for x in self.repo.get_labels()
         }
 
         try:
-            self._component_label_mapping = {
-                k: [labels[x] for x in v]
-                for k, v in self.COMPONENT_LABEL_MAPPING.items()
-            }
+            if include_components:
+                self._component_label_mapping = {
+                    k: [labels[x] for x in v]
+                    for k, v in self.COMPONENT_LABEL_MAPPING.items()
+                }
+            else:
+                self._component_label_mapping = {}
             self._component_priority_mapping = {
                 k: labels[v] for k, v in self.COMPONENT_PRIORITY_MAPPING.items()
             }
-            self._area_owner_mapping = {
-                k: labels[v] for k, v in self.AREA_OWNER_MAPPING.items()
-            }
+            if include_area_owners:
+                self._area_owner_mapping = {
+                    k: labels[v] for k, v in self.AREA_OWNER_MAPPING.items()
+                }
+            else:
+                self._area_owner_mapping = {}
         except KeyError as e:
             raise ValueError(
                 f"Label {e} does not exist within {repo_name!r}",
@@ -229,8 +243,10 @@ class GitHubBackend:
 
     def labels(self, ticket: Ticket) -> List[github.Label.Label]:
         labels = [self._component_priority_mapping[ticket.priority]]
-        labels += self._component_label_mapping[ticket.component]
-        labels.append(self._area_owner_mapping[ticket.area_owner])
+        if self.include_components:
+            labels += self._component_label_mapping[ticket.component]
+        if self.include_area_owners:
+            labels.append(self._area_owner_mapping[ticket.area_owner])
         return labels
 
     def submit(self, ticket: Ticket) -> int:

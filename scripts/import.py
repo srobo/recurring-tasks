@@ -163,6 +163,17 @@ def parse_args() -> argparse.Namespace:
         default=None,
     )
 
+    parser.add_argument(
+        '--area-owners',
+        help="Include area owners in the generated tickets",
+        action='store_true',
+    )
+    parser.add_argument(
+        '--components',
+        help="Include components in the generated tickets",
+        action='store_true',
+    )
+
     return parser.parse_args()
 
 
@@ -170,7 +181,11 @@ def main(arguments: argparse.Namespace) -> None:
     if arguments.trac_root is not None:
         backend: 'Backend' = RealTracBackend(arguments.trac_root)
     elif arguments.github_repo is not None:
-        backend = GitHubBackend(arguments.github_repo)
+        backend = GitHubBackend(
+            arguments.github_repo,
+            include_area_owners=arguments.area_owners,
+            include_components=arguments.components,
+        )
     else:
         backend = FakeTracBackend()
 
