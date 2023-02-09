@@ -9,8 +9,8 @@ milestone: $SRYYYY Competition
 area-owner: event-logistics
 
 description: >-
-  Teams need access to the internet to use the IDE and get at
-  documentation. We therefore need network access in all the team pits.
+  Teams need access to the internet to access Discord and the documentation.
+  We therefore need network access in all the team pits.
 
   Past experience with WiFi-only network provision has been mixed, so hard-wire
   network provision should be considered unless the venue has well proven
