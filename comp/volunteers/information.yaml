@@ -17,5 +17,4 @@ description: >-
 
 dependencies:
   - comp/volunteers/hotels-and-travel
-  - comp/volunteers/plan-reimbursement
   - comp/volunteers/schedule

@@ -14,7 +14,6 @@ description: >-
 dependencies:
   - comp/venue/transport/return
   - comp/website/switch-to-normal-mode
-  - comp/volunteers/reimbursement
   - comp/tear-down/main
   - comp/livestream/crop-vod
   - comp/feedback/post-competition-reports
