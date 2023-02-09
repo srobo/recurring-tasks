@@ -6,6 +6,8 @@ component: Competition
 
 milestone: $SRYYYY Competition
 
+area-owner: volunteer-coordination
+
 description: >-
     Name badges should be printed for all volunteers we know will be there.  We
     should also have blank badges for those we don't expect.

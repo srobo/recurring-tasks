@@ -6,6 +6,8 @@ component: Competition
 
 milestone: $SRYYYY Competition
 
+area-owner: kit
+
 description: >-
   Arrangements must be made for the kit handback procedure at the end of
   the competition.

@@ -6,6 +6,8 @@ component: Competition
 
 milestone: $SRYYYY Kickstart
 
+area-owner: production
+
 description: >-
     The presentation needs to be given at each venue, so will be presented by
     multiple people. It's recommended the person who creates the presentation be one of the people to

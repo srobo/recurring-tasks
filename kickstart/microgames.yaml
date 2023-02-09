@@ -6,6 +6,8 @@ component: Competition
 
 milestone: $SRYYYY Kickstart
 
+area-owner: mentoring
+
 description: >-
     At Kickstart we usually have the teams perform some introductory tasks to
     get them familiar with the kit and to establish that they can safely charge

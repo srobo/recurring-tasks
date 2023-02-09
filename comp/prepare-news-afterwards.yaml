@@ -6,6 +6,8 @@ component: Website
 
 milestone: $SRYYYY Competition
 
+area-owner: media-press
+
 description: >-
   After the competition we want to have a news article which describes how the
   event went, which teams won, etc.

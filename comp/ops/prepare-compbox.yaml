@@ -6,6 +6,8 @@ component: Competition
 
 milestone: $SRYYYY Competition
 
+area-owner: game
+
 description: >-
     We have a Raspberry Pi 3 (part code `srL1CX`) which is typically used
     as the compbox.

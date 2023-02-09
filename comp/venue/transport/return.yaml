@@ -6,6 +6,8 @@ component: Competition
 
 milestone: $SRYYYY Competition Cleanup
 
+area-owner: event-logistics
+
 description: >-
   Equipment that came from storage for the competition needs to return
   there after the competition.

@@ -6,5 +6,7 @@ component: Competition
 
 milestone: $SRYYYY Competition
 
+area-owner: event-logistics
+
 description: >-
   We need the venue's fire plans to organise the layout.

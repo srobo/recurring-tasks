@@ -6,5 +6,7 @@ component: Competition
 
 milestone: $SRYYYY Competition
 
+area-owner: game
+
 description: >-
   The schedule for the league matches needs to be generated.

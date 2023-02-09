@@ -6,6 +6,8 @@ component: Competition
 
 milestone: $SRYYYY Competition
 
+area-owner: volunteer-coordination
+
 description: >-
     Root ticket for the subtree relating to volunteer items
     at the competition.

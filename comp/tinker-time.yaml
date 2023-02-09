@@ -6,6 +6,8 @@ component: Competition
 
 milestone: $SRYYYY Competition Day
 
+area-owner: game
+
 description: >-
   On the morning of the first day, teams are given a chance to tinker with
   their robots in the arenas. We're going to use a whiteboard to schedule this.

@@ -6,11 +6,13 @@ component: Competition
 
 milestone: $SRYYYY Competition
 
+area-owner: event-logistics
+
 description: >-
   This will need to specify where the arenas, team pits, reception,
   helpdesk and so forth are.
 
-  The outcome from this task should be an entry in https://github.com/srobo/comp-floorplans. 
+  The outcome from this task should be an entry in https://github.com/srobo/comp-floorplans.
 
 dependencies:
   - comp/venue/fire-plans

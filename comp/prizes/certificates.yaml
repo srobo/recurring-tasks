@@ -6,6 +6,8 @@ component: Competition
 
 milestone: $SRYYYY Competition
 
+area-owner: production
+
 description: >-
   Certificates need distribution to members of the winning teams.
 

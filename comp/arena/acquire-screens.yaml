@@ -6,6 +6,8 @@ component: Competition
 
 milestone: $SRYYYY Competition
 
+area-owner: game
+
 description: >-
   We do not have enough screens to cover everything, so we may need to hire
   more.

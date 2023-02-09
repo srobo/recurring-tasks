@@ -6,6 +6,8 @@ component: Competition
 
 milestone: $SRYYYY Kickstart
 
+area-owner: teams
+
 description: >-
     We need to inform the teams who have places and invite them to the Kickstart
     venue most suitable for them.

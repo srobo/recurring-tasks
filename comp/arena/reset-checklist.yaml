@@ -6,6 +6,8 @@ component: Arena
 
 milestone: $SRYYYY Competition
 
+area-owner: game
+
 description: >-
   We should create a checklist for the marshals so they know what needs
   to ebe done between matches to reset the arena. This should be as

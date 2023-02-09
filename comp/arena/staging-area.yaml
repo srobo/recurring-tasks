@@ -4,6 +4,8 @@ component: Arena
 
 milestone: $SRYYYY Competition Day
 
+area-owner: game
+
 description: |
     Build the staging area for the arenas, where the teams will attach
     and remove the robot-flags and competition-mode USB keys.

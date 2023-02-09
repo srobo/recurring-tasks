@@ -6,6 +6,8 @@ component: Arena
 
 milestone: $SRYYYY Competition
 
+area-owner: game
+
 description: >-
   The arena needs network for the screens and score entry.
 

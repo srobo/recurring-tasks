@@ -6,6 +6,8 @@ component: Competition
 
 milestone: $SRYYYY Competition
 
+area-owner: production
+
 description: >-
     In order to play music at the competition we need a "TheMusicLicence"
     (which replaced the separat PRS & PPL licenese in 2018).

@@ -6,6 +6,8 @@ component: Rules
 
 milestone: $SRYYYY Kickstart
 
+area-owner: game
+
 description: >-
     The $SRYYYY game will be different than the previous year's, so we
     need to decide what it will be.

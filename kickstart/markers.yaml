@@ -6,6 +6,8 @@ component: Rules
 
 milestone: $SRYYYY Kickstart
 
+area-owner: game
+
 description: >-
     We need to generate the fiducial markers used for the $SRYYYY game
     and add them to https://github.com/srobo/game-markers.

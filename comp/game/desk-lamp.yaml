@@ -6,6 +6,8 @@ component: Competition
 
 milestone: $SRYYYY Competition
 
+area-owner: game
+
 description: >-
   Having a desk lamp on the score-entry desk can be useful if it is
   located somewhere that may not have enough light otherwise. This is

@@ -6,6 +6,8 @@ component: Competition
 
 milestone: $SRYYYY Competition
 
+area-owner: game
+
 description: >-
   The format for the game data YAML files which record match outcomes
   needs to be designed.

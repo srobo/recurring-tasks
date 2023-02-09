@@ -6,6 +6,8 @@ component: Competition
 
 milestone: $SRYYYY Competition
 
+area-owner: game
+
 description: >-
     The competition software has state about the competition which is used to
     drive the matches, live displays of scores (etc.) both within the venue on

@@ -6,6 +6,8 @@ component: sysadmin
 
 milestone: $SRYYYY Kickstart
 
+area-owner: mentoring
+
 description: >-
     We provide a hosted IDE and online forums to the teams to use during the
     year. Typically the microgames at Kickstart get the competitors using these,

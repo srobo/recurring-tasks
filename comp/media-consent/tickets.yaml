@@ -6,5 +6,7 @@ component: Competition
 
 milestone: $SRYYYY Competition
 
+area-owner: media-press
+
 description: >-
   We need to organise the issuing of tickets for the competition.

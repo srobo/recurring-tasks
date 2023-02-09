@@ -6,6 +6,8 @@ component: Website
 
 milestone: $SRYYYY Competition
 
+area-owner: game
+
 description: >-
     The competition software has state about the competition which is used
     to drive the live displays of scores (etc.) on the website. We need a

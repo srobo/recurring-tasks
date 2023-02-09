@@ -6,5 +6,7 @@ component: Rules
 
 milestone: $SRYYYY Competition
 
+area-owner: game
+
 description: >-
     We need to specify the structure of the knockouts.

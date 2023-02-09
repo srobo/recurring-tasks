@@ -6,6 +6,8 @@ component: Competition
 
 milestone: $SRYYYY Competition
 
+area-owner: media-press
+
 description: >-
     We need to order wristbands. The order should include the hire of a crimping
     tool if that applies to the kind of wristbands being ordered.

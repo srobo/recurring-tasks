@@ -6,6 +6,8 @@ component: Competition
 
 milestone: $SRYYYY Competition
 
+area-owner: kit
+
 description: >-
     While we should be happy to replace kit at the competition it is also
     useful to be able to quickly diagnose common issues wit the kit, in

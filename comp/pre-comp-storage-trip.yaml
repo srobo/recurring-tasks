@@ -6,6 +6,8 @@ component: Competition
 
 milestone: $SRYYYY Competition Prep
 
+area-owner: event-logistics
+
 description: >-
   We'll need to visit storage at some point before the competition, to check quantities of consumables
   (tape etc.) and to pick up other things which need checking/fixing/updating etc.

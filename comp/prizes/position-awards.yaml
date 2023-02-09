@@ -6,6 +6,8 @@ component: Competition
 
 milestone: $SRYYYY Competition
 
+area-owner: game
+
 description: >-
   The winners of the 1st, 2nd and 3rd places as well as the rookie award
   need to be established beyond reasonable doubt.

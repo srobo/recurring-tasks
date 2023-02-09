@@ -6,6 +6,8 @@ component: Competition
 
 milestone: $SRYYYY Competition
 
+area-owner: event-logistics
+
 description: >-
   We need a van (probably from Thursday to Monday inclusive) to transport all
   the necessary equipment around.

@@ -6,6 +6,8 @@ component: Kit
 
 milestone: $SRYYYY Kickstart
 
+area-owner: kit
+
 description: >-
     We need to have confidence that the kits we'll hand out at the $SRYYYY
     Kickstart are going to work for the teams.

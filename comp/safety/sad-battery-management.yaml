@@ -6,6 +6,8 @@ component: Competition
 
 milestone: $SRYYYY Competition
 
+area-owner: health-safety
+
 description: >-
   We should have a plan for how to handle lipos which are deemed to be unusable.
   This is to cover the handling of the lipos at the event, not the disposal

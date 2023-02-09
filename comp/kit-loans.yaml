@@ -6,6 +6,8 @@ component: Competition
 
 milestone: $SRYYYY Competition
 
+area-owner: kit
+
 description: >-
   We often let teams keep kit after the competition we should plan if
   and how we are going to do this.

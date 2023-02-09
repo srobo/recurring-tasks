@@ -6,5 +6,7 @@ component: Arena
 
 milestone: $SRYYYY Competition
 
+area-owner: event-logistics
+
 description: >-
   The arena screens need to be mounted on something to be visible.

@@ -6,6 +6,8 @@ component: Competition
 
 milestone: $SRYYYY Competition
 
+area-owner: health-safety
+
 description: >-
     The $SRYYYY competition event must be safe.
 

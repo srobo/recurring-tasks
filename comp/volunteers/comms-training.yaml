@@ -6,6 +6,8 @@ component: Competition
 
 milestone: $SRYYYY Competition
 
+area-owner: volunteer-coordination
+
 description: >-
   All volunteers will need to have a basic understanding of what communications
   mechanisms we're using and who to contact in various scenarios.

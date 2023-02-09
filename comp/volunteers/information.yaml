@@ -6,6 +6,8 @@ component: Competition
 
 milestone: $SRYYYY Competition
 
+area-owner: volunteer-coordination
+
 description: >-
   We should email all the volunteers with information about where to go
   on the day, parking, who to contact, and any other info we need to

@@ -6,6 +6,8 @@ component: Docs
 
 milestone: $SRYYYY Kickstart
 
+area-owner: kit
+
 description: >-
     The docs will need updating to match the new API for the $SRYYYY API and
     game, specifically https://studentrobotics.org/docs/programming/sr/vision/

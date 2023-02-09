@@ -7,6 +7,8 @@ milestone: $SRYYYY Competition Day
 description: >-
     Central ticket for hanging arena things from.
 
+area-owner: event-logistics
+
 dependencies:
   - comp/arena/build
   - comp/arena/barriers

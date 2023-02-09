@@ -6,6 +6,8 @@ component: Competition
 
 milestone: $SRYYYY Competition Prep
 
+area-owner: teams
+
 description: >-
   Send to everyone who was signed up for $SRYYYY.
 

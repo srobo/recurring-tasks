@@ -6,6 +6,8 @@ component: Competition
 
 milestone: $SRYYYY Kickstart
 
+area-owner: kit
+
 description: >-
     As the kits contain valuable and potentially dangerous components, many of
     which are not CE marked, we normally ask the team leaders to sign a form

@@ -6,6 +6,8 @@ component: Competition
 
 milestone: $SRYYYY Competition
 
+area-owner: kit
+
 description: >-
   There are many batteries that need charging and we need to set up the
   charging station. This should be somewhere safe to charge the batteries

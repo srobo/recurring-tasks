@@ -6,6 +6,8 @@ component: Competition
 
 milestone: $SRYYYY Competition
 
+area-owner: event-logistics
+
 description: >-
   The arena (and, possibly, things inside it) is marked with AprilTag
   markers, which need printing off in advance.

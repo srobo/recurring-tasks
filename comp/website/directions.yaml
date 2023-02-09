@@ -6,6 +6,8 @@ component: Website
 
 milestone: $SRYYYY Competition
 
+area-owner: media-press
+
 description: >-
   To make things easier for teams, we should publish a map and some
   directions to the venue on the website.

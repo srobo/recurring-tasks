@@ -6,6 +6,8 @@ component: Website
 
 milestone: $SRYYYY Kickstart
 
+area-owner: game
+
 description: >-
     Move the rules from the [rules](https://studentrobotics.org/docs/rules) page
     to the [game archive](https://studentrobotics.org/docs/rules/archive) in the

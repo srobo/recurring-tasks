@@ -4,6 +4,8 @@ component: Arena
 
 milestone: $SRYYYY Competition
 
+area-owner: event-logistics
+
 description: >-
     Build some arenas for the games.
 

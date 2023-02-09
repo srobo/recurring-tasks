@@ -6,6 +6,8 @@ component: Competition
 
 milestone: $SRYYYY Competition
 
+area-owner: teams
+
 description: >-
     During week preceding and particularly over the competition weekend our
     competitor-services server gets a lot more load than it normally does.

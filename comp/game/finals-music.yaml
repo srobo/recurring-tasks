@@ -6,6 +6,8 @@ component: Competition
 
 milestone: $SRYYYY Competition
 
+area-owner: production
+
 description: >-
     We generally use a bespoke cut of various songs for the finals tracks, to
     build tension, ensure the music is dramatic enough, and is timed perfectly,

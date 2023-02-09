@@ -6,6 +6,8 @@ component: Competition
 
 milestone: $SRYYYY Competition Day
 
+area-owner: game
+
 description: >-
     Ops needs a table and network connection to work from. It should be
     located somewhere protected from the competitors, but vaguely near

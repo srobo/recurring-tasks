@@ -6,6 +6,8 @@ component: Kit
 
 milestone: $SRYYYY Kickstart
 
+area-owner: kit
+
 description: >-
     We need to have kits to hand out at the $SRYYYY Kickstart.
 

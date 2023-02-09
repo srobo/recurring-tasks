@@ -6,6 +6,8 @@ component: Competition
 
 milestone: $SRYYYY Competition
 
+area-owner: game
+
 description: >-
   The scoring script provides automatic computation of the scores based on the
   data input from the score sheets.

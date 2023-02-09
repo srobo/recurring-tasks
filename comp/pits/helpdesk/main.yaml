@@ -6,6 +6,8 @@ component: Competition
 
 milestone: $SRYYYY Competition
 
+area-owner: mentoring
+
 description: >-
   Helpdesk is the single-point-of-contact for teams to get help with
   their robots. We need to plan who will run this on the day as well

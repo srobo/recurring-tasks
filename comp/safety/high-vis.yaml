@@ -4,6 +4,8 @@ component: Arena
 
 milestone: $SRYYYY Competition
 
+area-owner: health-safety
+
 description: >-
     At the competition we use high-vis jackets to signify that a robot
     has passed the safety checks and which member of the team is responsible

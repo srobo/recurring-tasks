@@ -6,6 +6,8 @@ component: sysadmin
 
 milestone: $SRYYYY Kickstart
 
+area-owner: mentoring
+
 description: >-
     In order to allow the competitors to use the various hosted services we
     provide, we need to give them user accounts.

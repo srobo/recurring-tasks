@@ -6,6 +6,8 @@ component: Competition
 
 milestone: $SRYYYY Competition Day
 
+area-owner: game
+
 description: >-
     The machine which will be used for score entry need setting up.
     At least one of these is expected to be a permanent machine placement.

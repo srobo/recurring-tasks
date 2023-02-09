@@ -6,6 +6,8 @@ component: Competition
 
 milestone: $SRYYYY Competition
 
+area-owner: volunteer-coordination
+
 description: >-
     Many volunteers are in a single place and cannot move because
     they are continuously active for a long duration (marshall, judges).
