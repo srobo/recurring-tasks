@@ -19,4 +19,4 @@ dependencies:
     - comp/safety/incident-plan
     - comp/safety/risk-assessments
     - comp/venue/cable-protectors
-    - comp/safety/ensure-fire-extinguishers-are-present
+    - comp/safety/fire-management-equipment
