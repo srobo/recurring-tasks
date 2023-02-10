@@ -163,6 +163,7 @@ class GitHubBackend:
         'production': 'AO: Production',
         'simulator': 'AO: Simulator',
         'livestream': 'AO: Livestream',
+        'volunteer-coordination': 'AO: Volunteer Coordination',
     }
 
     def __init__(
