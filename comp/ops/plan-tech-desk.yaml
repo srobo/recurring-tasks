@@ -12,15 +12,15 @@ description: >-
   Ensure we have enough table top space, power and networking for all necessary equipment at the tech desk.
 
   Things that have previously been on tech desk include:
-  - Event scoring control + printing
-  - Livestream
-  - Networking
-  - Judging
-  - Radio charging
-  - Lighting desk
-  - Sound desk
-  - Score-entry
-  - A corner for various servers for:
-    - Non-sync audio (background music not running through mixtape)
-    - sync audio (currently [mixtape](https://github.com/srobo/srcomp-mixtape))
-    - compbox
+   - Event scoring control + printing
+   - Livestream
+   - Networking
+   - Judging
+   - Radio charging
+   - Lighting desk
+   - Sound desk
+   - Score-entry
+   - A corner for various servers for:
+     - Non-sync audio (background music not running through mixtape)
+     - sync audio (currently [mixtape](https://github.com/srobo/srcomp-mixtape))
+     - compbox
