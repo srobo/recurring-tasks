@@ -227,7 +227,7 @@ class GitHubBackend:
 
         if ticket.dependencies:
             text += self._section("Dependencies", "\n".join(
-                f" * #{dep} {self.title(dep)}".rstrip()
+                f" - [ ] #{dep} {self.title(dep)}".rstrip()
                 for dep in sorted(ticket.dependencies)
             ))
 
