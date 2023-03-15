@@ -97,7 +97,9 @@ class GitHubBackend:
 
 
 def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser(
+        description="Fetch tasks from GitHub and render a tree showing dependencies",
+    )
     parser.add_argument(
         '--github-repo',
         help="GitHub repository name (default: %(default)s)",
