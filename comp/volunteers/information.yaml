@@ -15,6 +15,21 @@ description: >-
 
   We should aim to send this out at least a few weeks before the competition.
 
+  Some info to potentially include:
+
+    - [ ] Information on third party activities which might complicate travel
+          or venue access (e.g: other events, rail works, etc.)
+    - [ ] Reminder about the safeguarding policy
+    - [ ] Parking locations
+    - [ ] Information on arrival times
+    - [ ] What to do when you arrive
+    - [ ] Roles information
+    - [ ] Information on provided lunches (if any)
+    - [ ] Information on the volunteer meal
+    - [ ] Accommodation reimbursement
+
 dependencies:
   - comp/volunteers/hotels-and-travel
+  - comp/appoint-safeguarding-officers
+  - comp/volunteers/saturday-meal
   - comp/volunteers/schedule
