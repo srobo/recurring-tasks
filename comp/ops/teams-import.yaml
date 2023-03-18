@@ -9,10 +9,10 @@ milestone: $SRYYYY Competition Day
 area-owner: game
 
 description: >-
-     We need to run the teams import into the compstate as part of the
-     setup so that it's got the latest team images.
+    We need to run the teams import into the compstate as part of the
+    setup so that it's got the latest team images.
 
-     This import may also need re-running during the competition.
+    This import may also need re-running during the competition.
 
 dependencies:
     - comp/ops/compstate
