@@ -15,8 +15,9 @@ description: |
 
     In addition to the hardware for the individual dependencies noted
     below, we also need:
-    * machines to run the network (if not provided by the venue)
-    * machines for helpdesk (though this may be volunteers' laptops)
+
+     * machines to run the network (if not provided by the venue)
+     * machines for helpdesk (though this may be volunteers' laptops)
 
 dependencies:
     - comp/reception/hardware

@@ -15,12 +15,12 @@ description: >-
 
   Example domains:
 
-  - Rules
-  - Kit
-    - Python API
-    - Hardware
-    - Competition operations
-  - Event
-    - Tech
+    * Rules
+    * Kit
+        * Python API
+        * Hardware
+        * Competition operations
+    * Event
+        * Tech
 
   Note that this list of people should also take into account who is likely to be available.

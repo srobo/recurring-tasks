@@ -12,11 +12,11 @@ description: |
 
     This should be designed as a one-way system, and include two sets of
     tables:
-    * for the robots to placed on while waiting for their match (which
-      should have sections labelled per-arena and -corner), used to mount
-      the robot flags and for inspection if needed
-    * for the robots to be placed on after a match to have their flags
-      removed
+     * for the robots to placed on while waiting for their match (which
+       should have sections labelled per-arena and -corner), used to mount
+       the robot flags and for inspection if needed
+     * for the robots to be placed on after a match to have their flags
+       removed
 
     The second set of tables should also have a storage area for the
     flags and USB keys, arranged such that it's clear which ones are

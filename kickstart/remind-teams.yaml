@@ -13,10 +13,10 @@ description: |
     the final details and encourage them to prepare for it on their end.
 
     We should tell them:
-    * What venue to come to
-    * What time to arrive
-    * That they should pre-create competitor user accounts
-    * To bring their signed disclaimer forms (optional; if we sent them out)
+     * What venue to come to
+     * What time to arrive
+     * That they should pre-create competitor user accounts
+     * To bring their signed disclaimer forms (optional; if we sent them out)
 
 dependencies:
     - kickstart/confirm-teams

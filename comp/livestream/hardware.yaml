@@ -13,11 +13,11 @@ description: >-
   used for the livestream.
 
   Requirements:
-  - Video mixer PC (With dedicated GPU, capable of running OBS)
-  - 2× HDMI capture card
-  - 2× preview monitors
-  - 2× cameras (depending on feed plan)
-  - Audio mixers
+    * Video mixer PC (With dedicated GPU, capable of running OBS)
+    * 2× HDMI capture card
+    * 2× preview monitors
+    * 2× cameras (depending on feed plan)
+    * Audio mixers
 
 dependencies:
   - comp/livestream/plan-video-feeds
