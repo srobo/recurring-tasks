@@ -11,3 +11,6 @@ area-owner: event-logistics
 description: >-
   The arena (and, possibly, things inside it) is marked with AprilTag
   markers, which need printing off in advance.
+
+  Additionally, if we have multiple arenas, we need a label for each
+  arena to distinguish them (i.e. A and B).

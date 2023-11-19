@@ -26,5 +26,5 @@ dependencies:
   - comp/prizes/web-presence
   - comp/prizes/first-movement
   - comp/prizes/position-awards
-  - comp/prizes/committee-award
+  - comp/prizes/engineering-award
   - comp/prizes/team-image

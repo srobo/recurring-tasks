@@ -10,7 +10,7 @@ area-owner: kit
 
 description: >-
   During matches the robots need a mechanism to know which corner they're
-  in and to ensure that they can only see the proper libkoki markers.
+  in.
 
   This is usually solved by using a set of competition-mode USB keys
   which the teams plugged into their robots.
@@ -19,6 +19,5 @@ description: >-
   one for the robot currently preparing. They will be kept in the
   staging-area.
 
-  SR owns several full sets of these (enough for several sets over two arenas),
-  though these should be checked to ensure they are still functional and have
-  the correct data on them.
+  SR owns 12 of these, though these should be checked to ensure
+  they are still functional and have the correct data on them.

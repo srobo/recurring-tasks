@@ -1,4 +1,4 @@
-summary: Have Ops at the $SRYYYY Competition
+summary: Have comp ops at the $SRYYYY Competition
 
 priority: major
 
@@ -9,7 +9,7 @@ milestone: $SRYYYY Competition Day
 area-owner: game
 
 description: >-
-    We need ops.
+    We need comp ops.
 
 dependencies:
     - comp/ops/compstate

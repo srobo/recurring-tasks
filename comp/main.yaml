@@ -43,7 +43,6 @@ dependencies:
     - comp/uprate-server
     - comp/kit-testing-equipment
     - comp/kit-handback
-    - comp/media-consent/email
     - comp/livestream/main
     - comp/livestream/local
     - comp/social-media

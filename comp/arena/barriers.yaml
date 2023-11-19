@@ -12,8 +12,9 @@ description: >-
     staging area).
 
     We need to ensure that these barriers are procured in advance and then
-    put into place before the first matches. They also need a mechanism
-    to prevent them from moving (tape on the feet has been used in the past).
+    put into place before the first matches.
+
+    Since SR2022 we have used rope barriers instead of crowd barriers.
 
 dependencies:
     - comp/arena/build

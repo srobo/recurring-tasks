@@ -17,7 +17,7 @@ description: >-
 
   The radio briefing should include:
 
-   * How to start a call (e.g. "Helpdesk, helpdesk, this is reception, reception.")
+   * How to start a call (e.g. "Helpdesk, for reception.")
    * The difference between "Over" and "Out"
 
 dependencies:
