@@ -1,6 +1,6 @@
 summary: Allocate $SRYYYY kits to teams
 
-priority: critical
+priority: must
 
 component: Kit
 

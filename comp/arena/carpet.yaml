@@ -1,5 +1,7 @@
 summary: Acquire carpet for the $SRYYYY arenas
 
+priority: should
+
 component: Arena
 
 milestone: $SRYYYY Competition

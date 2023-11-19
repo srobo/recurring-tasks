@@ -1,5 +1,7 @@
 summary: Put crowd barriers around the arenas
 
+priority: should
+
 component: Arena
 
 milestone: $SRYYYY Competition

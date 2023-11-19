@@ -1,5 +1,7 @@
 summary: Put out the staging area
 
+priority: should
+
 component: Arena
 
 milestone: $SRYYYY Competition Day

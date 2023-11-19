@@ -1,5 +1,7 @@
 summary: Have an arena
 
+priority: should
+
 component: Arena
 
 milestone: $SRYYYY Competition Day

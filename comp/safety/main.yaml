@@ -1,6 +1,6 @@
 summary: Ensure the $SRYYYY competition is safe
 
-priority: critical
+priority: must
 
 component: Competition
 

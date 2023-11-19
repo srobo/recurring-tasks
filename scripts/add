@@ -12,9 +12,9 @@ while queue:
 
     summary = input("Summary: ")
 
-    priority = input("Priority [major]: ")
+    priority = input("Priority [should]: ")
     if not priority:
-        priority = 'major'
+        priority = 'should'
 
     component = input("Component [Competition]: ")
     if not component:

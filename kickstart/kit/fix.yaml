@@ -1,6 +1,6 @@
 summary: Fix any issues with the kits for $SRYYYY
 
-priority: critical
+priority: must
 
 component: Kit
 

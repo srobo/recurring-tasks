@@ -1,6 +1,6 @@
 summary: Allocate TLAs for $SRYYYY
 
-priority: major
+priority: should
 
 component: Competition
 

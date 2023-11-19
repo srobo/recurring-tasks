@@ -1,6 +1,6 @@
 summary: Prepare kits for the $SRYYYY Kickstart
 
-priority: blocker
+priority: must
 
 component: Kit
 

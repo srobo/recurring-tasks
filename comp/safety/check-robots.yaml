@@ -1,6 +1,6 @@
 summary: Safety check the $SRYYYY robots
 
-priority: critical
+priority: must
 
 component: Competition
 

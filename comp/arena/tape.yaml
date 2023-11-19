@@ -1,5 +1,7 @@
 summary: Acquire tape for the $SRYYYY arenas
 
+priority: should
+
 component: Arena
 
 milestone: $SRYYYY Competition

@@ -1,6 +1,6 @@
 summary: Prepare the $SRYYYY Compstate
 
-priority: critical
+priority: must
 
 component: Competition
 

@@ -1,6 +1,6 @@
 summary: Switch the website back to the normal homepage
 
-priority: critical
+priority: must
 
 component: Website
 

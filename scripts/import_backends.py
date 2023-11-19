@@ -39,11 +39,9 @@ class FakeTracBackend:
         ticket_number = self.next_ticket
         self.next_ticket += 1
         PRIORITY_COLOURS = {
-            'trivial': 'cyan',
-            'minor': 'blue',
-            'major': 'green',
-            'critical': 'yellow',
-            'blocker': 'red',
+            'could': 'blue',
+            'should': 'green',
+            'must': 'red',
         }
         cprint(
             f"#{ticket_number}: {ticket.summary}",
@@ -143,12 +141,13 @@ class GitHubBackend:
         # 'Tall Ship': ['Tall Ship'],  # Uncomment this for testing
     }
 
+    # trivial, minor    -> could
+    # major             -> should
+    # critical, blocker -> must
     COMPONENT_PRIORITY_MAPPING: Dict[str, str] = {
-        'trivial': 'I: Could Have',
-        'minor': 'I: Could Have',
-        'major': 'I: Should Have',
-        'critical': 'I: Must Have',
-        'blocker': 'I: Must Have',
+        'could': 'I: Could Have',
+        'should': 'I: Should Have',
+        'must': 'I: Must Have',
     }
 
     AREA_OWNER_MAPPING: Dict[str, str] = {

@@ -1,5 +1,7 @@
 summary: Organise high-vis jackets for the teams at the competition
 
+priority: should
+
 component: Arena
 
 milestone: $SRYYYY Competition
