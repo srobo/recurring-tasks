@@ -16,6 +16,3 @@ description: >-
 
     Once these have been updated, we need to print enough of them for each venue
     to have copies for team leaders to sign.
-
-dependencies:
-    - kickstart/kit/update-disclaimer-forms
