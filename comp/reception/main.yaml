@@ -28,10 +28,7 @@ description: >-
   direct people towards their proper pit area.
 
 dependencies:
-  - comp/reception/hardware
   - comp/reception/network
   - comp/reception/power
   - comp/reception/tablecloths
   - comp/print-flyers
-  - comp/media-consent/main
-  - comp/wristbands/order

@@ -43,11 +43,10 @@ dependencies:
     - comp/uprate-server
     - comp/kit-testing-equipment
     - comp/kit-handback
-    - comp/media-consent/main
+    - comp/media-consent/email
     - comp/livestream/main
     - comp/livestream/local
     - comp/social-media
-    - comp/wristbands/order
     - comp/press/invite-press
     - comp/press/invite-sponsors
     - comp/welcome

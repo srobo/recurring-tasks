@@ -13,7 +13,6 @@ description: >-
 
 dependencies:
     - comp/arena/labels
-    - comp/media-consent/spares
     - comp/game/markers
     - comp/game/score-forms-print
     - comp/kit-handback

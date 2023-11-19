@@ -18,5 +18,4 @@ description: >-
   Arena.
 
 dependencies:
-  - comp/whiteboard
   - comp/venue/sound
