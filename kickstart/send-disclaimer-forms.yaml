@@ -19,4 +19,3 @@ description: >-
 
 dependencies:
     - kickstart/allocate-tlas
-    - kickstart/kit/update-disclaimer-forms
