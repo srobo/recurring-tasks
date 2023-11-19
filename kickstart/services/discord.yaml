@@ -1,0 +1,37 @@
+summary: Set-up Discord for $SRYYYY
+
+priority: major
+
+component: sysadmin
+
+milestone: $SRYYYY Kickstart
+
+area-owner: mentoring
+
+description: >-
+    In order to allow the competitors to chat to each other and request help
+    from mentors, we setup a Discord server each year.
+
+    The Discord server allows competitors to join by using a common invite link
+    and a team specific password. Our Discord bot then assigns them a specific
+    team role.
+
+    We usually have three public sections as follows:
+     - *Information* (Information about the competition. Only the Admins can post here.)
+       - *welcome-and-rules* (The welcome message and server rules.)
+       - *Announcements* (Any competition-wide announcements we need to make: rules ammendments, software updates.)
+       - *blog* (A feed of the blog posts from the website.)
+     - *Support* (A place for competitors to ask for help.)
+       - *support* (A forum channel for teams to raise specific issues.)
+       - *challenge-submissions* (A forum channel for teams to submit their challenge submission videos.)
+       - *quick-questions* (A place for teams to ask quick questions.)
+
+     - *Social* (A place for competitors to chat to each other.)
+       - *general* (A general chat channel.)
+       - *say-hello* (The channel that welcome messages are posted to.)
+       - *off-topic* (A place for competitors to chat about non-competition related things.)
+       - *teams-on-the-web* (A place for teams to share their instagram, twitter, blog posts.)
+       - *the-stage* (A voice channel for online events.)
+
+    Additionally, we have a private section for each team, which is only
+    accessible to the team members and the Blueshirts.

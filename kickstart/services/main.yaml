@@ -1,4 +1,4 @@
-summary: Prepare the hosted services for $SRYYYY
+summary: Organise Discord for $SRYYYY
 
 priority: blocker
 
@@ -9,17 +9,11 @@ milestone: $SRYYYY Kickstart
 area-owner: mentoring
 
 description: >-
-    We provide a hosted IDE and online forums to the teams to use during the
-    year. Typically the microgames at Kickstart get the competitors using these,
+    We provide a Discord server for the teams to use during the year.
+    Typically the microgames at Kickstart get the competitors using these,
     so they need to be ready before the event.
 
-    Our current approach is to spin up a new hosted "pet" machine running the
-    `competitor-services` variant of our [puppet configuration][puppet-config].
-
-    [puppet-config]: https://github.com/srobo/server-puppet/tree/patience
-
 dependencies:
-    - kickstart/services/forums
-    - kickstart/services/ide
-    - kickstart/services/user-accounts/mentors
-    - kickstart/services/user-accounts/team-leaders
+    - kickstart/services/discord
+    - kickstart/services/invite-teams
+    - kickstart/services/invite-blueshirts

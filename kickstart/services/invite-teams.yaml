@@ -1,0 +1,17 @@
+summary: Invite teams to Discord for $SRYYYY
+
+priority: blocker
+
+component: sysadmin
+
+milestone: $SRYYYY Kickstart
+
+area-owner: mentoring
+
+description: >-
+    In order to allow the competitors to use the Discord server we
+    provide, we need to give them their team password to allow them
+    to be assigned the correct team role.
+
+dependencies:
+    - kickstart/allocate-tlas
