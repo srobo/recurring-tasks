@@ -229,7 +229,11 @@ class GitHubBackend:
 
         if ticket.dependencies:
             dependencies = "\n".join(
-                f" - [ ] #{dep} {self.title(dep)}".rstrip()
+                # GitHub includes the title itself when rendering, however
+                # that's not present if anyone edits the source. Include the
+                # title commented out so that editors can tell which items are
+                # which.
+                f" - [ ] #{dep} <!-- {self.title(dep)} -->".rstrip()
                 for dep in sorted(ticket.dependencies)
             )
 
