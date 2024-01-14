@@ -1,0 +1,21 @@
+summary: Decide on the winners of media awards
+
+priority: should
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+area-owner: media-press
+
+description: >-
+  # from comp/prizes/web-presence.yaml
+  ## Take a vote on the online presence award
+
+  The online presence award is put to a vote of the community. This
+  needs to happen before the competition.
+
+  # from comp/prizes/team-image.yaml
+  ## Decide on the winner of the team image award
+
+  The winners of the team and robot image awards need to be decided.

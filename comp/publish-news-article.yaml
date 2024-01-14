@@ -1,0 +1,32 @@
+summary: Publish an article following the $SRYYYY Competition
+
+priority: should
+
+component: Website
+
+milestone: $SRYYYY Competition
+
+area-owner: media-press
+
+description: >-
+  # from comp/prepare-news-afterwards.yaml
+  ## Prepare a article for after the $SRYYYY Competition
+
+  After the competition we want to have a news article which describes how the
+  event went, which teams won, etc.
+
+  The post-competition news article can take some time to write. We should
+  write a skeleton one as soon as possible, and just fill in the blanks
+  immediately after the competition followed by high-speed review and
+  shipping.
+
+  # from comp/publish-news-afterwards.yaml
+  ## Publish a news article following the $SRYYYY Competition
+
+  After the competition we want to have a news article which describes how the
+  event went, which teams won, etc. This should have been mostly written before
+  the competition and then populated with details as needed.
+
+  Once published we should link various people to the article, including:
+    * Our social media accounts
+    * Various tech/STEM blogs and other media outlets (we should email them)

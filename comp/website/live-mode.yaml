@@ -1,0 +1,43 @@
+summary: Switch the website (proxy) to Competition Live mode for the $SRYYYY competition
+
+priority: should
+
+component: Website
+
+milestone: $SRYYYY Competition Day
+
+area-owner: media-press
+
+description: >-
+  # from comp/website/main.yaml
+  ## Update the website for the live $SRYYYY competition
+
+  There are website alterations to be made to enable its use live at the
+  competition.
+
+  # from comp/website/switch-to-live-mode.yaml
+  ## Switch the website (proxy) to Competition Live mode
+
+  Change the website proxy to use the competition live homepage instead of the
+  normal one. This normally happens on the morning of the competition.
+
+  There is a separate task to switch back afterwards.
+
+  # from comp/website/switch-to-normal-mode.yaml
+  ## Switch the website back to the normal homepage
+
+  Change the website proxy back to using the normal website homepage instead of
+  the competition live one. This normally happens on the morning following the
+  competition.
+
+  # from comp/website/livestream.yaml
+  ## Put stream on website
+
+  The live stream needs to be linked or embedded from the website.
+
+dependencies:
+  - comp/ops/compstate
+  - comp/website/public-compbox
+  - comp/website/schedule-day
+  - comp/venue/layout-map
+  - comp/website/directions

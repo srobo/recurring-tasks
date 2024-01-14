@@ -23,5 +23,10 @@ description: >-
   the website already contains plenty of summaries of SR and the game, which can
   be copied liberally, as well as the day schedule.
 
+  # from comp/print-flyers.yaml
+  ## Print the flyers for the $SRYYYY Competition
+
+  Arrange printing of the flyers for handing out at the competition.
+
 dependencies:
   - comp/day-schedule

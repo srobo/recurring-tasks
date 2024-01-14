@@ -1,4 +1,4 @@
-summary: Invite sponsor representatives to the competition
+summary: Invite key people to the competition
 
 priority: should
 
@@ -9,5 +9,13 @@ milestone: $SRYYYY Competition
 area-owner: media-press
 
 description: >-
+  # from comp/press/invite-press.yaml
+  ## Invite press to the competition
+
+  We should invite some press to the competition.
+
+  # from comp/press/invite-sponsors.yaml
+  ## Invite sponsor representatives to the competition
+
   We should send out invitations to various people from both our current and any
   prospective sponsoring organisations to come along to the competition.
