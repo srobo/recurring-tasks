@@ -1,0 +1,38 @@
+summary: Inform teams of details of the competition
+
+priority: should
+
+component: Website
+
+milestone: $SRYYYY Competition
+
+area-owner: teams
+
+description: >-
+  # from comp/website/schedule-day.yaml
+  ## Publish day schedule on website
+
+  The schedule for the days needs to be published on the website so
+  people know what's going on.
+
+  # from comp/website/directions.yaml
+  ## Put directions to the venue on the website
+
+  To make things easier for teams, we should publish a map and some
+  directions to the venue on the website.
+
+  # from comp/venue/layout-map.yaml
+  ## Publish $SRYYYY layout maps
+
+  We should have maps of the layout for reference. This should
+  include maps with team locations.
+
+  This should be put on the website. If we are publishing a competition
+  booklet or flyer then it should be considered for inclusion there too.
+
+dependencies:
+  - comp/venue/book
+  - comp/day-schedule
+  - comp/venue/layout
+  - comp/pits/layout
+
