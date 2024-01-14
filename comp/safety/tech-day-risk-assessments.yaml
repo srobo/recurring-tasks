@@ -1,0 +1,33 @@
+summary: Update and publish risk assessments for the tech days
+
+milestone: $SRYYYY Competition
+
+priority: must
+
+component: Competition
+
+area-owner: health-safety
+
+description: >-
+    This task will need to be done for each tech day.
+
+    # from comp/safety/risk-assessments.yaml
+    ## Update and publish risk assessments for the competition
+    The risk assessment for the competition needs updating for $SRYYYY and publishing to schools.
+
+    # from comp/safety/incident-plan.yaml
+    ## Prepare an incident response plan
+
+    We should ensure that our incident response plans are current &
+    applicable to the selected venue; we should update them as needed.
+
+    # from comp/safety/incident-record.yaml
+    ## Have a means to record an incident
+
+    We need a means to record and store details of an incident or near-
+    miss occurring. At bare minimum this needs to store what happened and
+    why, and what follow up occurred.
+
+    SR has an incident record book which was purchased for this purpose.
+    We should check that it is still suitable & usable and ensure that it
+    will be at the competition venue.
