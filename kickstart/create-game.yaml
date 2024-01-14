@@ -1,0 +1,25 @@
+summary: Create the $SRYYYY game
+
+priority: should
+
+component: Rules
+
+milestone: $SRYYYY Kickstart
+
+area-owner: game
+
+description: >-
+    # from kickstart/rules/decide-game.yaml
+    ## Decide on the $SRYYYY game
+
+    The $SRYYYY game will be different than the previous year's, so we
+    need to decide what it will be.
+
+    Note: once decided we still want to keep the choice a secret so it's
+    a surprise to teams at Kickstart.
+
+    # from kickstart/rules/write.yaml
+    ## Write the rules for the $SRYYYY game
+
+    We need to have a game to play in $SRYYYY. It will be different than
+    the previous year's, so the rules need updating.

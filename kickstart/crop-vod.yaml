@@ -1,0 +1,15 @@
+summary: Trim the live stream VOD (Video on Demand)
+
+priority: could
+
+component: Competition
+
+milestone: $SRYYYY Kickstart
+
+area-owner: livestream
+
+description: >-
+  The live stream VOD should be trimmed to remove the start and end of Kickstart.
+
+dependencies:
+  - kickstart/livestream

@@ -1,0 +1,28 @@
+summary: Prepare kits for $SRYYYY
+
+priority: must
+
+component: Kit
+
+milestone: $SRYYYY Kickstart
+
+area-owner: kit
+
+description: >-
+    # from kickstart/kit/main.yaml
+    ## Prepare kits for the $SRYYYY Kickstart
+
+    We need to have kits to hand out at the $SRYYYY Kickstart.
+
+    # from kickstart/kit/test.yaml
+    ## Test kits for $SRYYYY
+
+    We need to have confidence that the kits we'll hand out at the $SRYYYY
+    Kickstart are going to work for the teams.
+
+    # from kickstart/kit/fix.yaml
+    ## Fix any issues with the kits for $SRYYYY
+
+    We need to have confidence that the kits we'll hand out at the $SRYYYY
+    Kickstart are going to work for the teams. Once tested they may need
+    fixing (and then re-testing).

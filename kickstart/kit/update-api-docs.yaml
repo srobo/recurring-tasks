@@ -1,0 +1,35 @@
+summary: Update the kit API and docs for the $SRYYYY game
+
+priority: should
+
+component: pyenv
+
+milestone: $SRYYYY Kickstart
+
+area-owner: kit
+
+description: >-
+    # from kickstart/update-api.yaml
+    ## Update the API for the $SRYYYY game
+
+    The `sr.robot3` API needs updating to contain the marker details for
+    the $SRYYYY game.
+
+    # from kickstart/website/docs.yaml
+    ## Update the docs for the $SRYYYY game
+
+    The docs will need updating to match the new API for the $SRYYYY API and
+    game, specifically https://studentrobotics.org/docs/programming/sr/vision/
+    and https://studentrobotics.org/docs/programming/sr/vision/markers, though
+    possibly elsewhere.
+
+    # from kickstart/markers.yaml
+    ## Create markers for the $SRYYYY game
+
+    We need to generate the fiducial markers used for the $SRYYYY game
+    and add them to https://github.com/srobo/game-markers.
+    These markers also need adding to the docs (https://github.com/srobo/docs)
+    so that competitors can access them for development.
+
+dependencies:
+    - kickstart/create-game

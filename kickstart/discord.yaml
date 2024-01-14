@@ -9,6 +9,16 @@ milestone: $SRYYYY Kickstart
 area-owner: mentoring
 
 description: >-
+    # from kickstart/services/main.yaml
+    ## Organise Discord for $SRYYYY
+
+    We provide a Discord server for the teams to use during the year.
+    Typically the microgames at Kickstart get the competitors using these,
+    so they need to be ready before the event.
+
+    # from kickstart/services/discord.yaml
+    ## Set-up Discord for $SRYYYY
+
     In order to allow the competitors to chat to each other and request help
     from mentors, we setup a Discord server each year.
 
@@ -35,3 +45,20 @@ description: >-
 
     Additionally, we have a private section for each team, which is only
     accessible to the team members and the Blueshirts.
+
+    # from kickstart/services/invite-blueshirts.yaml
+    ## Invite Blueshirts to Discord for $SRYYYY
+
+    In order to allow mentors to suppport the competitors on Discord, we need to
+    create an invite link and onboarding instructions for them. The link needs
+    to be published on Slack before Kickstart.
+
+    # from kickstart/services/invite-teams.yaml
+    ## Invite teams to Discord for $SRYYYY
+
+    In order to allow the competitors to use the Discord server we
+    provide, we need to give them their team password to allow them
+    to be assigned the correct team role.
+
+dependencies:
+    - kickstart/signup-teams

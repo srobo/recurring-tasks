@@ -1,0 +1,40 @@
+summary: Signup volunteers for the $SRYYYY Competition year
+
+priority: should
+
+component: Competition
+
+milestone: $SRYYYY Preparation
+
+area-owner: volunteer-coordination
+
+description: >-
+    # from pre/advertise-volunteers.yaml
+    ## Advertise the $SRYYYY Competition Programme to potential volunteers
+
+    We need to advertise the existence of the competition programme to people
+    who might want to help run it.
+
+    # from pre/signups-volunteers.yaml
+    ## Volunteer signups for the $SRYYYY Competition Programme
+
+    We need to get potential volunteers to sign up to help organise the
+    competition programme.
+
+    # from kickstart/advertise-volunteers.yaml
+    ## Advertise the $SRYYYY Kickstart to potential volunteers
+
+    We need to advertise the existence of the kickstart to people who might want
+    to help run it.
+
+    # from kickstart/signups-volunteers.yaml
+    ## Volunteer signups for the $SRYYYY Kickstart
+
+    We need to get potential volunteers to sign up to help organise the
+    kickstart.
+
+    # from kickstart/remind-volunteers.yaml
+    ## Remind volunteers about the $SRYYYY Kickstart
+
+    We need to remind volunteers that the kickstart is happening and communicate
+    the final details: who is doing what, at what venue, what time to arrive, etc.
