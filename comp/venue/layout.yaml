@@ -14,5 +14,63 @@ description: >-
 
   The outcome from this task should be an entry in https://github.com/srobo/comp-floorplans.
 
-dependencies:
-  - comp/venue/fire-plans
+  # from comp/ops/plan-tech-desk.yaml
+  ## Plan the Tech Desk
+
+  Ensure we have enough table top space, power and networking for all necessary equipment at the tech desk.
+
+  For the past few years, the tech desk has been inside the venue's tech booth and contained:
+    - Networking
+    - Radio charging
+    - Lighting desk
+    - Sound desk
+    - Computers for:
+      - compbox
+      - Non-sync audio (background music not running through mixtape)
+     - sync audio (currently [mixtape](https://github.com/srobo/srcomp-mixtape))
+
+  The livestream have had a pair of tables near the arena, but far enough away to not be too loud.
+
+  A separate 1-2 tables near the arena and staging have contained:
+   - Event scoring control + printing
+   - Judging
+   - Score-entry
+
+  # from comp/pits/layout.yaml
+  ## Work out layout of teams at the competition
+
+  The layout of team pits in the venue needs to be worked out. There are
+  constraints such as keeping teams under the same teacher close
+  together, and keeping overseas teams near each other.
+
+  This task covers both the placement of the pits within the venue and the
+  allocation of specific teams to pits.
+
+  Ideally the pits should be internally numbered and kept with an ordered list
+  of teams which fit to those locations. This helps ensure that the compstate
+  can easily be kept in step with the physical locations of each team.
+
+  # from comp/reception/main.yaml
+  ## Arrange a reception desk at the competition
+
+  In SR2023 this consisted of four individual desks arranged such that
+  one was on each side of two lanes. Each lane had its own queue and
+  rope barrier was used to divide them. At the desk, teams signed in
+  and handed over their batteries and chargers. They were then
+  directed to their pit area.
+
+  A small number of additional volunteers were also placed around the
+  desks to direct people towards their proper pit area.
+
+  # from comp/pits/battery-charging.yaml
+  ## Prepare battery charging station
+
+  There are many batteries that need charging and we need to set up the
+  charging station. This should be somewhere safe to charge the batteries
+  and with reasonable access to helpdesk (as that is where teams will get
+  batteries from).
+
+  Note: the battery charging station should reconfigure the chargers to
+  a higher current than we allow the teams to use as this substantially
+  reduces the charge time. Instructions on how to do this should be made
+  available to those running the charging station.

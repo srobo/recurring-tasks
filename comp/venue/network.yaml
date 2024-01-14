@@ -1,4 +1,4 @@
-summary: Have a competition network
+summary: Organise network access for the $SRYYYY competition
 
 priority: should
 
@@ -9,6 +9,9 @@ milestone: $SRYYYY Competition
 area-owner: event-logistics
 
 description: >-
+  # from comp/venue/network.yaml
+  ## Have a competition network
+
     This also requires that we have a pretty significant internet connection
     given the number of people that are coming and our video streaming
     requirement.
@@ -16,3 +19,18 @@ description: >-
     If possible this should be mostly configured in a corner of the venue
     as early as possible during setup and then, once working, deployed
     to the proper locations.
+
+    # from comp/venue/pits/network.yaml
+    ## Organise internet access for the team pits
+
+    Teams need access to the internet to access Discord and the documentation.
+    We therefore need network access in all the team pits.
+
+    Past experience with WiFi-only network provision has been mixed, so hard-wire
+    network provision should be considered unless the venue has well proven
+    capacity.
+
+    Some venues' internet provision requires the use of guest accounts. If these
+    are needed, We should ensure (as part of this task or by adding a sub-task)
+    that suitable accounts are obtained, ideally at least per-team as well as for
+    volunteers.

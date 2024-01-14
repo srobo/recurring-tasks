@@ -11,6 +11,18 @@ area-owner: event-logistics
 description: >-
      We need various stuff printing before we get to the venue.
 
+     # from comp/pits/helpdesk/print-documents.yaml
+     ## Print helpdesk documents
+
+     Helpdesk will need a number of documents
+
+      - [ ] Rulebook
+      - [ ] Helpdesk instructions
+      - [ ] Kit swap form
+      - [ ] Venue map
+
+     This list may need adding to.
+
 dependencies:
     - comp/game/markers
     - comp/game/score-forms-print

@@ -1,0 +1,32 @@
+summary: Plan competition teardown
+
+priority: should
+
+component: Competition
+
+milestone: $SRYYYY Competition Prep
+
+area-owner: event-logistics
+
+description: >-
+  # from comp/tear-down/main.yaml
+  ## Tear down everything after the competition
+
+  Everything will need tearing down at the end of the competition.
+
+  # from comp/tear-down/destinations.yaml
+  ## Create a list of return destinations for everything
+
+  We need a plan of what is going to be returned to where after the
+  competition, ideally with in-venue holding areas identified for each
+  return destination.
+
+  As the sources of items are not in general known (and so cannot be
+  included here directly), sub-tasks for each destination should be
+  added to this task each year.
+
+  # from comp/venue/transport/return.yaml
+  ## Return stuff from the competition to storage
+
+  Equipment that came from storage for the competition needs to return
+  there after the competition.

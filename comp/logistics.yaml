@@ -1,0 +1,108 @@
+summary: Organise the logistics
+
+priority: should
+
+component: Competition
+
+milestone: $SRYYYY Competition Prep
+
+area-owner: event-logistics
+
+description: >-
+  # from comp/pre-comp-storage-trip.yaml
+  ## Pre competition storage trip
+
+  We'll need to visit storage at some point before the competition, to check quantities of consumables
+  (tape etc.) and to pick up other things which need checking/fixing/updating etc.
+  This task exists to track the things we should do on that trip.
+
+   - [ ] Collect the display Pis for checking & flashing
+   - [ ] Collect the compbox Pi for checking & flashing
+   - [ ] Check for robot flag fittings
+   - [ ] Check tape quantities
+   - [ ] Check on stationery
+   - [ ] Check on high-vis jackets
+
+  Please do add to the above list.
+
+  # from comp/venue/transport/work-out.yaml
+  ## Work out what we need from storage at the competition
+
+  We need a list of items which should be collected from storage.
+
+  This should be in a format which can easily be used at the storage location.
+  Thus it should:
+
+   - be easily available offline
+   - be arranged around the items to collect (rather than e.g: where they should go)
+   - describe the important properties of those items (e.g: distinguish desk mount vs scaff mount monitors)
+   - (where possible) be grouped into units which match how things are arranged in storage
+     - no duplication of similar items (use quantities instead)
+     - indicate boxes to grab where items are known to be grouped together (e.g: "box of arena Pis: sr1A2B"),
+       but do clarify the expected contents (e.g: "1× Pi 3B, 4× Pi 1B")
+
+  # from comp/arena/tape.yaml
+  ## Acquire tape for the $SRYYYY arenas
+
+  For the competition we will need particular tapes:
+   * white
+   * black
+   * neon yellow, blue, green, pink
+   * hazard
+   * double-sided for laying the carpet with
+
+  We should check what stocks we have and order more if needed.
+
+  # from comp/venue/printer.yaml
+  ## Arrange a printer for the competition
+
+  In case we need to print out MCFs/game lists/whatever at high speed.
+
+  # from comp/venue/cable-protectors.yaml
+  ## Organise cable protectors
+
+  It's a bad idea to have loose cables trailing around on the floor.
+  We should hire cable protectors to cover the cables anywhere necessary.
+
+  Note when ordering them: it turns out to be easier to setup shorter
+  runs than longer ones. As a result where runs pass under tables (etc.)
+  we should get several short pieces rather than single long ones.
+
+  # from comp/safety/hi-vis.yaml
+  ## Organise high-vis jackets for the teams at the competition
+
+  At the competition we use high-vis jackets to signify that a robot
+  has passed the safety checks and which member of the team is responsible
+  for the robot.
+
+  As only a team member wearing the high-vis jacket may enter the staging
+  area, this keeps the number of people in the staging area low while making
+  it exceedingly clear who to talk to about each robot.
+
+  We need to ensure that
+    - we have enough jackets for all the teams
+    - the jackets are marked clearly with the teams' TLAs (both front and back)
+
+  Printouts safety-pinned to the jackets are usually a good way to add the TLAs.
+
+  # from comp/reception/tablecloths.yaml
+  ## Source tablecloths for the reception desks
+
+  The reception desks are among the first things which anyone will see
+  when arriving at the competition. So that we give a good impression,
+  we should therefore ensure that they look good.
+
+  We need some tablecloths, ideally branded with the SR logo, which can
+  be used to cover these tables.
+
+  # from comp/game/robot-flag-mounts.yaml
+  ## Purchase spare robot flag mounting hardware
+
+  During matches robots are given coloured flags so that the audience know which
+  robot is from which scoring zone.
+
+  We expect that not all teams will have suitable mounts for flags. To
+  allow for this we should therefore obtain some mounting components they can
+  use. We already own a hot glue gun, though we may need to get some more glue
+  sticks. The mounting component has historically been
+  https://www.screwfix.com/p/jg-speedfit-pem0215w-l-equal-tee-white-15-x-15-x-15mm-5-pack/74470.

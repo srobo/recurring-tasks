@@ -16,6 +16,33 @@ description: >-
     Sub tasks should be added to this task for each of the various props which
     are needed.
 
+    # from comp/game/markers.yaml
+    ## Organise markers for the arena
+
+    The arena (and, possibly, things inside it) is marked with AprilTag
+    markers, which need printing off in advance.
+
+    Additionally, if we have multiple arenas, we need a label for each
+    arena to distinguish them (i.e. A and B).
+
+    # from comp/game/robot-flags.yaml
+    ## Prepare robot flags for the competition
+
+    During matches robots are given coloured flags so that the audience know which
+    robot is from which scoring zone.
+
+    At least two complete sets of each badge are needed: one for the robots
+    currently playing and another for the robots currently staging.
+
+    # from comp/arena/tools.yaml
+    ## Organise tools for arena construction
+
+    For arena construction we'll likely need various tools. Many of these we
+    probably have, however we should put together a list of what we think we'll
+    need and then ensure that we'll actually have it available.
+
+    This includes things like hand & power tools for the arena itself as well as
+    knives and measures for the carpet.
+
 dependencies:
-  - comp/game/markers
-  - comp/game/robot-flags
+  - comp/pre-comp-storage-trip

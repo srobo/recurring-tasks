@@ -1,0 +1,28 @@
+summary: Organise equipment transport
+
+priority: should
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+area-owner: event-logistics
+
+description: >-
+  # from comp/venue/transport/main.yaml
+  ## Transport stuff to the competition
+
+  Many things will need to be moved from various locations to the venue.
+
+  # from comp/venue/transport/prepare.yaml
+  ## Prepare equipment for transport to the competition
+
+  The things that we are taking to the competition needs to be prepared for
+  transportation. Most of the things we need are in storage, however some
+  may be elsewhere.
+
+  # from comp/venue/transport/van.yaml
+  ## Hire a van for transporting kit between storage and the venue
+
+  We need a van (probably from Thursday to Monday inclusive) to transport all
+  the necessary equipment around.

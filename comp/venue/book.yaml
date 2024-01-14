@@ -10,3 +10,51 @@ area-owner: event-logistics
 
 description: >-
     We need a venue for $SRYYYY.
+
+    # from comp/venue/ppl-prs.yaml
+    ## Get PRS/PPL: TheMusicLicense for the competition
+
+    In order to play music at the competition we need a "TheMusicLicence"
+    (which replaced the separate PRS & PPL licenses in 2018).
+
+    See https://pplprs.co.uk/ for details.
+
+    Note that some venues may have their own licenses and that we may be
+    covered by their license.
+
+    # from comp/arena/carpet.yaml
+    ## Acquire carpet for the $SRYYYY arenas
+
+    We currently use carpet as the flooring of the arenas. Usually the
+    venue doesn't have an equivalent flooring underneath the arena
+    area so we need to get some ourselves.
+
+    We need enough for all the arenas plus some spare for a testing area.
+
+    # from comp/arena/screens-stands.yaml
+    ## Organise stands for the arena screens
+
+    The arena screens need to be mounted on something to be visible.
+
+    # from comp/venue/sound.yaml
+    ## Sort out sound system for the competition
+
+    Speakers and wireless microphones for the judges are required.
+
+    # from comp/venue/arena-lighting.yaml
+    ## Organise arena lighting
+
+    We need lighting on the arenas.
+
+    # from comp/venue/radios.yaml
+    ## Hire radios for the competition
+
+    We need to hire some radios and headsets.
+
+    # from comp/venue/tables.yaml
+    ## Organise tables and chairs for the competition
+
+    We're not sure how many chairs and tables will make a pit yet.
+    This will change based on venue.
+
+    For several years we have used 2-4 chairs and 1 table per team.
