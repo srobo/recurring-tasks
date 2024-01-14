@@ -1,0 +1,25 @@
+summary: Assign mentors to teams
+
+priority: should
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+area-owner: mentoring
+
+description: >-
+  We need to assign mentors to teams. This is a good way to ensure that
+  teams get the help they need.
+
+  We should assign mentors to teams as early as possible. This will
+  allow mentors to get to know their teams and help them prepare for
+  the competition.
+
+  This will involve:
+   * [ ] Informing teams that mentoring is available
+   * [ ] Creating a list of teams that want mentoring
+   * [ ] Get mentors to sign up to mentor teams
+   * [ ] Assigning mentors to teams
+   * [ ] Informing mentors and teams of the assignment
+   * [ ] Getting feedback from mentors about team progress throughout the year
