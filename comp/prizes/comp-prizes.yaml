@@ -1,0 +1,28 @@
+summary:  Decide on the recipient of the competition awards
+
+priority: should
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+area-owner: game
+
+description: >-
+  # from comp/prizes/first-movement.yaml
+  ## Establish the winner of the first movement award
+
+  Discord needs to be searched for who won the first movement award.
+
+  # from comp/prizes/engineering-award.yaml
+  ## Decide on the recipient of the execellence in engineering award
+
+  The winner of the execellence in engineering award needs deciding.
+
+  # from comp/prizes/position-awards.yaml
+  ## Establish the final results for the main prizes and the rookie award
+
+  The winners of the 1st, 2nd and 3rd places as well as the rookie award
+  need to be established beyond reasonable doubt.
+
+  Note that the competition software has a mechanism for determining these.

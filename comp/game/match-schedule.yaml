@@ -9,4 +9,12 @@ milestone: $SRYYYY Competition
 area-owner: game
 
 description: >-
+  # from comp/game/league-schedule.yaml
+  ## Schedule the league matches
+
   The schedule for the league matches needs to be generated.
+
+  # from comp/game/knockout-design.yaml
+  ## Design the $SRYYYY knockouts
+
+  We need to specify the structure of the knockouts.

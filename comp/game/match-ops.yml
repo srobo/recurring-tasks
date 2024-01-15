@@ -1,4 +1,4 @@
-summary:  Make an arena reset checklist
+summary:  Organise match ops for the $SRYYYY competition
 
 priority: should
 
@@ -9,6 +9,15 @@ milestone: $SRYYYY Competition
 area-owner: game
 
 description: >-
+  # from comp/game/shepherding.yaml
+  ## Organise shepherding
+
+  The situation for shepherding teams to their matches needs to be
+  organised.
+
+  # from comp/arena/reset-checklist.yaml
+  ## Make an arena reset checklist
+
   We should create a checklist for the marshals so they know what needs
   to be done between matches to reset the arena. This should be as
   comprehensive as possible in order to simplify the training that these

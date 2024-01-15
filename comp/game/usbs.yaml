@@ -6,7 +6,7 @@ component: Competition
 
 milestone: $SRYYYY Competition
 
-area-owner: kit
+area-owner: game
 
 description: >-
   During matches the robots need a mechanism to know which corner they're
