@@ -1,0 +1,53 @@
+summary: Ensure the key events of the $SRYYYY competition occur
+
+priority: should
+
+component: Competition
+
+milestone: $SRYYYY Competition Day
+
+area-owner: volunteer-coordination
+
+description: >-
+  # from comp/game/league.yaml
+  ## Have the $SRYYYY league matches
+
+  The league matches which determine knockout seeds and the winner of
+  the rookie award need to take place.
+
+  # from comp/game/knockout.yaml
+  ## Have the $SRYYYY knockout matches
+
+  The knockout matches need to happen.
+
+  # from comp/photos/main.yaml
+  ## Get photos of Teams and Robots at the competition
+
+  Photos make for good publicity material and allow teams to show off
+  their dress and their robot.
+
+  # from comp/photos/blueshirts.yaml
+  ## Take a group photo of the Blueshirts
+
+  We should take a group photograph of all the Blueshrits.
+
+  # from comp/photos/everyone.yaml
+  ## Take a group photo of everyone
+
+  We should take a group photograph of all the teams and their robots.
+
+  We've managed this at a couple of previous competitions and generally
+  the photos are useful for advertising ourselves in the future.
+  They also serve as a useful tool when looking back to identify which
+  robots appeared in which years.
+
+  # from comp/photos/teams.yaml
+  ## Take photos of all the teams and their robots
+
+  We should take photographs individually of all the teams and their
+  robots. This allows them to show off their team image as well as
+  their robot while both providing us with marketing media and the
+  teams with a nice photo of their whole group.
+
+dependencies:
+  - comp/game/league-schedule
