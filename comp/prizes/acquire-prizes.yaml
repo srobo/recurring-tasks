@@ -1,0 +1,27 @@
+summary: Organise prizes for the competition
+
+priority: should
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+area-owner: production
+
+description: >-
+  The prizes for the various award categories need organisation.
+
+  # from comp/prizes/trophies.yaml
+  ## Acquire trophies for $SRYYYY
+
+  Some awards involve trophies being given to the winning teams. The
+  trophies need purchasing.
+
+  # from comp/prizes/edible-prizes.yaml
+  ## Acquire edible prizes
+
+  Some awards have edible prizes for distribution at the prize ceremony:
+  these need purchasing.
+
+dependencies:
+  - comp/prizes/ceremony

@@ -12,6 +12,8 @@ description: >-
   This ticket exists mainly to ensure that things are announced to the
   competitors.
 
+  # TODO flesh this out and describe what the welcome talk needs to cover
+
 dependencies:
   - comp/arena/batteries
   - comp/pits/battery-charging

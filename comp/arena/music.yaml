@@ -1,4 +1,4 @@
-summary: Prepare generic music playlist for the competition
+summary: Prepare music playlists for the competition
 
 priority: should
 
@@ -17,5 +17,12 @@ description: >-
     Note that there is a separate task for the time-synchronised music played
     during the finals.
 
-dependencies:
-    - comp/venue/sound
+    # from comp/game/finals-music.yaml
+    ## Prepare the finals music for the compettion
+
+    We generally use a bespoke cut of various songs for the finals tracks, to
+    build tension, ensure the music is dramatic enough, and is timed perfectly,
+    with starting of matches and timing.
+
+    Note that there is a separate task for the music played during the rest of
+    the matches.

@@ -1,0 +1,20 @@
+summary: Organise sponsor perks at the $SRYYYY competition
+
+priority: should
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+area-owner: production
+
+description: >-
+  As part of the sponsorship packages we offer, we need to provide
+  various perks to our sponsors. This task covers the organisation of
+  those perks in the context of the competition.
+
+  These include:
+   - a brief overview in the booklet
+   - an invitation to the competition
+   - their logo on banner
+   - a mention in the prize-giving
