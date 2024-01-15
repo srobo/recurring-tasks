@@ -85,6 +85,14 @@ description: >-
   This has historically been a Digital Ocean VM running the latest Ubuntu LTS
   configured using https://github.com/PeterJCLaw/srcomp-puppet.
 
+  # from comp/ops/teams-import.yaml
+  ## Import the (final) teams data into the compstate
+
+  We need to run the teams import into the compstate as part of the
+  setup so that it's got the latest team images.
+
+  This import may also need re-running during the competition.
+
 dependencies:
   - comp/day-schedule
   - comp/game/knockout-design
