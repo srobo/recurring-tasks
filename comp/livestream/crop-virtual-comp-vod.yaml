@@ -1,16 +1,16 @@
-summary: Trim the live stream VOD (Video on Demand) for the $SRYYYY competition
+summary: Trim the live stream VOD (Video on Demand) for the virtual competition
 
 priority: could
 
 component: Competition
 
-milestone: $SRYYYY Competition Cleanup
+milestone: $SRYYYY Competition Prep
 
 area-owner: livestream
 
 description: >-
   The live stream VOD should be trimmed to remove the start and end of the
-  competition.
+  virtual competition.
 
 dependencies:
   - comp/livestream/main

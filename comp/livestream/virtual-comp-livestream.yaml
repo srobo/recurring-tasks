@@ -1,0 +1,51 @@
+summary: Prepare a livestream for the $SRYYYY virtual competition
+
+priority: should
+
+component: Competition
+
+milestone: $SRYYYY Competition Prep
+
+area-owner: livestream
+
+description: >-
+    This will need to be modified to suit the virtual competition, but is a good
+    starting point.
+    # from comp/livestream/hardware.yaml
+    ## Organise hardware to run livestream
+
+    This ticket relates to providing the actual machine that will be
+    used for the livestream.
+
+    Requirements:
+      * Video mixer PC (With dedicated GPU, capable of running OBS)
+      * 2× HDMI capture card
+      * 2× preview monitors
+      * 2× cameras (depending on feed plan)
+      * Audio mixers
+
+    # from comp/livestream/plan-video-feeds.yaml
+    ## Plan video feeds
+
+    The livestream will need to have a few different camera feeds to show different parts of the venue
+
+      * Arena (likely multiple)
+      * Hosts (who may be different to commentators)
+      * Stage (only needed for prize giving)
+
+    # from comp/livestream/configure-scenes.yaml
+    ## Organise livestream scenes
+
+    The livestream requires a number of different scenes and views, made up of
+    static images, video feeds, overlays etc.
+
+    Most of the assets have already been created, but some may require updating
+    or new ones created
+
+    See https://studentrobotics.org/runbook/competition/livestream/scenes/.
+
+    # from comp/livestream/training.yaml
+    ## Have livestream training sessions
+
+    Volunteers who are assigned to run the livestream should be
+    trained how the system works, and how the event will be run.
