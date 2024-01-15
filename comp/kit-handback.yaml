@@ -12,5 +12,14 @@ description: >-
   Arrangements must be made for the kit handback procedure at the end of
   the competition.
 
-dependencies:
- - comp/kit-loans
+  # from comp/kit-loans.yaml
+  ## Plan how we will do extended kit loans to teams
+
+  We often let teams keep kit after the competition we should plan if
+  and how we are going to do this.
+
+  Historically we have set a deadline of about a month in advance of the
+  competition for teams to apply for a loan. For the agreed loans, those teams
+  can then bypass kit-return at the competition by showing their authorisation.
+
+  https://github.com/srobo/kit-coordination-documents/tree/master/authorized-to-keep-kit

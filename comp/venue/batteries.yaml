@@ -1,0 +1,43 @@
+summary: Organise battery management for the $SRYYYY competition
+
+priority: should
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+area-owner: kit
+
+description: >-
+  # from comp/arena/batteries.yaml
+  ## Have a supply of charged batteries by the $SRYYYY Arenas
+
+  We should have a supply of charged batteries in the staging area next to the
+  arena so that teams on their way into matches don't need to go to helpdesk to
+  get one. This ensures that robots perform at their best during matches.
+
+  This is important during the knockouts, though less so during the leagues.
+
+  # from comp/pits/overnight-loans.yaml
+  ## Plan overnight kit & battery loans at the competition
+
+  Many teams will want to take their kits home with them overnight at
+  the competition, in order to work on them. We usually require these
+  teams to fill in some paperwork to record this, in order to ensure we
+  know which team have done this and which parts they have taken with
+  them. The latter is important as they will likely not be taking with
+  them the same batteries as they had for the rest of the year and so
+  the inventory will not track this loan.
+
+  See https://srobo.github.io/runbook/competition/teams/process-docs/overnight-battery-loan/
+  for details.
+
+  # from comp/safety/sad-battery-management.yaml
+  ## Plan for handling of sad batteries
+
+  We should have a plan for how to handle lipos which are deemed to be unusable.
+  This is to cover the handling of the lipos at the event, not the disposal
+  afterwards.
+
+  See the runbook for the current safety protocol:
+  https://studentrobotics.org/runbook/competition/team-support/battery-charging/#safety
