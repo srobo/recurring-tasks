@@ -1,0 +1,14 @@
+summary: [Meta] Have the $SRYYYY virtual competition
+
+priority: should
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+area-owner: committee
+
+description: >-
+    Root ticket for the virtual competition.
+
+dependencies:

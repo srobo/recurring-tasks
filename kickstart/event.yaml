@@ -1,0 +1,16 @@
+summary: [Meta] $SRYYYY Kickstart Event
+
+priority: must
+
+component: Competition
+
+milestone: $SRYYYY Kickstart
+
+area-owner: committee
+
+description: >-
+    This is a barrier ticket for the $SRYYYY Kickstart event.
+
+    Tasks for the Kickstart event should be added as dependencies of this ticket.
+
+dependencies:
