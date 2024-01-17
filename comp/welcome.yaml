@@ -15,7 +15,4 @@ description: >-
   # TODO flesh this out and describe what the welcome talk needs to cover
 
 dependencies:
-  - comp/arena/batteries
-  - comp/pits/battery-charging
-  - comp/pits/helpdesk/main
-  - comp/pits/power-tools
+  - comp/venue/layout

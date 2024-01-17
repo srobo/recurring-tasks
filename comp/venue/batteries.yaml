@@ -41,3 +41,6 @@ description: >-
 
   See the runbook for the current safety protocol:
   https://studentrobotics.org/runbook/competition/team-support/battery-charging/#safety
+
+dependencies:
+  - comp/venue/layout

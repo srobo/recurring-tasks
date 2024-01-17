@@ -18,3 +18,7 @@ description: >-
    - an invitation to the competition
    - their logo on banner
    - a mention in the prize-giving
+   - their name on an award
+
+dependencies:
+  - comp/venue/book

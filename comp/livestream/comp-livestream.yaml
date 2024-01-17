@@ -47,3 +47,7 @@ description: >-
 
     Volunteers who are assigned to run the livestream should be
     trained how the system works, and how the event will be run.
+
+
+dependencies:
+  - comp/venue/layout

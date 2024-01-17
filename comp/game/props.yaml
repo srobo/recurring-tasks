@@ -45,4 +45,4 @@ description: >-
     knives and measures for the carpet.
 
 dependencies:
-  - comp/pre-comp-storage-trip
+  - comp/logistics

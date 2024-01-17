@@ -15,4 +15,4 @@ description: >-
     can visit them in order.
 
 dependencies:
-    - comp/safety/high-vis
+    - comp/safety/comp-risk-assessments

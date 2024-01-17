@@ -12,3 +12,6 @@ description: >-
   We typically go out on the Saturday evening as volunteers to relax and
   share a meal together. This is normally organised centrally, though
   volunteers pay for their meal themselves.
+
+dependencies:
+  - comp/volunteers/recruit

@@ -40,6 +40,3 @@ description: >-
 
     See also the notes at https://github.com/srobo/tasks/issues/822#issuecomment-1090656629
     and onwards.
-
-dependencies:
-  - comp/venue/book

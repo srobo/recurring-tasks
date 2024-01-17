@@ -21,3 +21,6 @@ description: >-
 
   SR owns 12 of these, though these should be checked to ensure
   they are still functional and have the correct data on them.
+
+dependencies:
+  - comp/game/match-ops

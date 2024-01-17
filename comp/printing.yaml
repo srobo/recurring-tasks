@@ -24,12 +24,6 @@ description: >-
      This list may need adding to.
 
 dependencies:
-    - comp/game/markers
-    - comp/game/score-forms-print
-    - comp/kit-handback
-    - comp/print-flyers
-    - comp/pits/helpdesk/print-documents
-    - comp/pits/overnight-loans
-    - comp/prizes/envelopes
-    - comp/safety/high-vis
+    - comp/game/scoring
+    - comp/flyers
     - comp/volunteers/name-badges

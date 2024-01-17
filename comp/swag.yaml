@@ -20,3 +20,6 @@ description: >-
      * A set of stickers
      * A branded pencil
      * A bage to contain the above and the competition booklet
+
+dependencies:
+  - comp/sponsor-perks

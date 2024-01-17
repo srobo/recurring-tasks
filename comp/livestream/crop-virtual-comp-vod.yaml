@@ -13,4 +13,4 @@ description: >-
   virtual competition.
 
 dependencies:
-  - comp/livestream/main
+  - comp/livestream/virtual-comp-livestream

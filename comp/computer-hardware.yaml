@@ -20,6 +20,4 @@ description: |
      * machines for helpdesk (though this may be volunteers' laptops)
 
 dependencies:
-    - comp/arena/screens-drivers
-    - comp/ops/score-entry-hardware
-    - comp/arena/non-arena-display-screens
+    - comp/helpdesk

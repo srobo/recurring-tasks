@@ -48,6 +48,3 @@ description: >-
   robots. This allows them to show off their team image as well as
   their robot while both providing us with marketing media and the
   teams with a nice photo of their whole group.
-
-dependencies:
-  - comp/game/league-schedule

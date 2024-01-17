@@ -36,8 +36,4 @@ description: >-
   The live stream needs to be linked or embedded from the website.
 
 dependencies:
-  - comp/ops/compstate
-  - comp/website/public-compbox
-  - comp/website/schedule-day
-  - comp/venue/layout-map
-  - comp/website/directions
+  - comp/ops/compbox

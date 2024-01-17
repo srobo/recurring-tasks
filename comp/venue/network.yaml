@@ -34,3 +34,6 @@ description: >-
     are needed, We should ensure (as part of this task or by adding a sub-task)
     that suitable accounts are obtained, ideally at least per-team as well as for
     volunteers.
+
+dependencies:
+  - comp/venue/layout

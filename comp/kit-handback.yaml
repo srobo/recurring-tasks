@@ -23,3 +23,6 @@ description: >-
   can then bypass kit-return at the competition by showing their authorisation.
 
   https://github.com/srobo/kit-coordination-documents/tree/master/authorized-to-keep-kit
+
+dependencies:
+  - comp/helpdesk

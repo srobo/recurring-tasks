@@ -23,3 +23,7 @@ description: >-
    * The location of the tech days
    * The number of volunteers we need to run the tech days
    * The number of teams we can support at each tech day
+
+dependencies:
+  - comp/appoint-tech-day-safeguarding-officers
+  - comp/safety/tech-day-risk-assessments

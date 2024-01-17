@@ -107,4 +107,4 @@ description: >-
   ## Install things on the set-up day
 
 dependencies:
-  - comp/venue/layout
+  - comp/logistics

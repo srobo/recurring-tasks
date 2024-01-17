@@ -57,7 +57,5 @@ description: >-
    * The difference between "Over" and "Out"
 
 dependencies:
-  - comp/volunteers/hotels-and-travel
-  - comp/appoint-safeguarding-officers
-  - comp/volunteers/saturday-meal
+  - comp/venue/book
   - comp/volunteers/schedule

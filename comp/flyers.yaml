@@ -27,6 +27,3 @@ description: >-
   ## Print the flyers for the $SRYYYY Competition
 
   Arrange printing of the flyers for handing out at the competition.
-
-dependencies:
-  - comp/day-schedule

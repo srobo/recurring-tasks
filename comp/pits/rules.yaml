@@ -21,3 +21,7 @@ description: >-
 
   They also need to be short enough that the competitors actually read
   through them.
+
+
+dependencies:
+  - comp/safety/comp-risk-assessments

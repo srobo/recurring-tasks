@@ -22,4 +22,4 @@ description: >-
     as they become available (i.e: during the prize-giving ceremony).
 
 dependencies:
-    - comp/announce
+    - comp/venue/book

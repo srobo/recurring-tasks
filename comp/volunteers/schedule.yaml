@@ -17,4 +17,4 @@ description: >-
     periods of time.
 
 dependencies:
-  - comp/day-schedule
+  - comp/volunteers/recruit

@@ -86,6 +86,3 @@ description: >-
   located somewhere that may not have enough light otherwise. This is
   particularly the case in the Cube at Southampton, though is likely
   less of an issue in other venues.
-
-dependencies:
- - comp/pre-comp-storage-trip

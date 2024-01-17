@@ -48,3 +48,8 @@ description: >-
   At the end of the competition we want to give out some prizes. We need to
   rehearse how we will transition from the finals, through any speeches and run
   the actual prize-giving ceremony.
+
+
+dependencies:
+  - comp/prizes/acquire-prizes
+  - comp/sponsor-perks

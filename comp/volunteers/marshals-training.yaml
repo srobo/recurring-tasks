@@ -23,5 +23,6 @@ description: >-
     * the circumstances under which they should turn a robot off
 
 dependencies:
-  - comp/volunteers/marshals-briefing
-  - comp/arena/main
+  - comp/game/match-ops
+  - comp/game/usbs
+  - comp/volunteers/schedule

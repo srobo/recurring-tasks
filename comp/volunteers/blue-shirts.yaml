@@ -11,3 +11,6 @@ area-owner: volunteer-coordination
 description: >-
     They contain the year-specific sponsors so we need to order enough for all
     the volunteers at the competition.
+
+dependencies:
+    - comp/volunteers/recruit

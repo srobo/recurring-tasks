@@ -58,3 +58,7 @@ description: >-
     This will change based on venue.
 
     For several years we have used 2-4 chairs and 1 table per team.
+
+dependencies:
+  - comp/venue/insurance
+  - comp/safety/comp-risk-assessments

@@ -17,3 +17,4 @@ description: >-
 
 dependencies:
     - comp/volunteers/recruit
+    - comp/venue/book

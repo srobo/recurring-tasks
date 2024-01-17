@@ -10,3 +10,6 @@ area-owner: health-safety
 
 description: >-
     Safeguarding officers need to be appointed, by the Safeguarding Lead, as per the safeguarding policy.
+
+dependencies:
+    - comp/volunteers/recruit

@@ -17,3 +17,6 @@ description: >-
   fruit.
 
   # TODO include lunches
+
+dependencies:
+  - comp/volunteers/recruit

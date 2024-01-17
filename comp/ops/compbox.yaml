@@ -95,14 +95,4 @@ description: >-
 
 dependencies:
   - comp/day-schedule
-  - comp/game/knockout-design
-  - comp/game/league-schedule
-  - comp/game/score-format
-  - comp/game/shepherding
-  - comp/pits/layout
-  - comp/venue/layout
-  - comp/arena/network
-  - comp/arena/power
-  - comp/game/score-entry
-  - comp/ops/score-entry-hardware
-  - comp/pre-comp-storage-trip
+  - comp/game/scoring

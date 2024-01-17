@@ -1,4 +1,4 @@
-summary: [Meta] Have the $SRYYYY competition
+summary: "[Meta] Have the $SRYYYY competition"
 
 priority: must
 
@@ -12,44 +12,39 @@ description: >-
     We need to have the $SRYYYY competition event.
 
 dependencies:
-    - comp/venue/book
-    - comp/announce
-    - comp/publish-news-afterwards
-    - comp/venue/insurance
-    - comp/venue/sound
-    - comp/venue/power
-    - comp/venue/printer
-    - comp/venue/network
-    - comp/venue/layout
-    - comp/venue/radios
-    - comp/venue/transport/main
-    - comp/venue/arena-lighting
-    - comp/venue/cable-protectors
-    - comp/computer-hardware
-    - comp/reception/main
-    - comp/printing
-    - comp/safety/main
-    - comp/day-schedule
-    - comp/tinker-time
-    - comp/website/main
-    - comp/volunteers/main
-    - comp/volunteers/brief-volunteers
-    - comp/arena/main
-    - comp/pits/main
-    - comp/game/main
-    - comp/ops/main
-    - comp/prizes/main
-    - comp/photos/main
-    - comp/uprate-server
-    - comp/kit-testing-equipment
-    - comp/kit-handback
-    - comp/livestream/main
-    - comp/livestream/local
-    - comp/social-media
-    - comp/press/invite-press
-    - comp/press/invite-sponsors
-    - comp/welcome
-    - comp/setup
-    - comp/tear-down/main
     - comp/cleanup
-    - comp/appoint-safeguarding-officers
+    - comp/virtual-comp/main
+    - comp/tech-day-venues
+    - comp/arena/music
+    - comp/computer-hardware
+    - comp/kit-handback
+    - comp/assign-mentors
+    - comp/social-media
+    - comp/volunteers/hotels-and-travel
+    - comp/safety/first-aid
+    - comp/plan-photos
+    - comp/venue/network
+    - comp/venue/organise-screens
+    - comp/venue/transport
+    - comp/game/props
+    - comp/teardown-plan
+    - comp/venue/signage
+    - comp/venue/batteries
+    - comp/welcome
+    - comp/website/inform-teams
+    - comp/game/match-schedule
+    - comp/prizes/ceremony
+    - comp/swag
+    - comp/invite-key-people
+    - comp/volunteers/inform-volunteers
+    - comp/volunteers/marshals-training
+    - comp/website/live-mode
+    - comp/printing
+    - comp/volunteers/blue-shirts
+    - comp/volunteers/saturday-meal
+    - comp/volunteers/refreshments
+    - comp/appoint-comp-safeguarding-officers
+    - comp/safety/check-robots
+    - comp/pits/rules
+    - comp/announce
+
