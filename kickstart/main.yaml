@@ -1,4 +1,4 @@
-summary: [Meta] Have the $SRYYYY Kickstart
+summary: "[Meta] Have the $SRYYYY Kickstart"
 
 priority: must
 
@@ -12,19 +12,7 @@ description: >-
     We need to have the $SRYYYY Kickstarts.
 
 dependencies:
-    - kickstart/confirm-teams
-    - kickstart/remind-teams
-    - kickstart/kit/main
-    - kickstart/rules/write
-    - kickstart/services/main
-    - kickstart/website/main
-    - kickstart/microgames
-    - kickstart/publish-news-afterwards
-    - kickstart/print-disclaimer-forms
-    - kickstart/send-disclaimer-forms
-    - kickstart/remind-volunteers
-    - kickstart/signups-volunteers
-    - kickstart/venues
-    - kickstart/decide-presenters
-    - kickstart/write-presentation
-    - kickstart/appoint-safeguarding-officers
+    - kickstart/event
+    - kickstart/website/publish-rules
+    - kickstart/crop-vod
+    - kickstart/publish-news-article

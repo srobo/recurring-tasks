@@ -38,7 +38,5 @@ description: >-
     - Various tech/STEM blogs and other media outlets (we should email them)
 
 dependencies:
-    - kickstart/confirm-teams
-    - kickstart/microgames
-    - kickstart/rules/decide-game
+    - kickstart/event
     - kickstart/website/publish-rules

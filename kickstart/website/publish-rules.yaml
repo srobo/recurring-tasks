@@ -24,4 +24,5 @@ description: >-
     to show that the rules have been published and the link and image updating.
 
 dependencies:
-    - kickstart/rules/write
+    - kickstart/create-game
+    - kickstart/event

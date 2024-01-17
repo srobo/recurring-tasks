@@ -1,4 +1,4 @@
-summary: [Meta] $SRYYYY Kickstart Event
+summary: "[Meta] $SRYYYY Kickstart Event"
 
 priority: must
 
@@ -14,3 +14,15 @@ description: >-
     Tasks for the Kickstart event should be added as dependencies of this ticket.
 
 dependencies:
+    - kickstart/kit/ship-kits
+    - kickstart/discord
+    - kickstart/kit/update-api-docs
+    - kickstart/microgames
+    - kickstart/presentation
+    - kickstart/update-simulator
+    - kickstart/risk-assessments
+    - kickstart/appoint-safeguarding-officers
+    - kickstart/budget
+    - kickstart/signup-volunteers
+    - kickstart/simulator-fixes
+    - kickstart/livestream

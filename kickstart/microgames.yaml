@@ -26,4 +26,4 @@ description: >-
      - [SR2015](https://docs.google.com/document/d/19YdjD7thAmS1A09UGYC5D7L_8qqyXl1BupXFottsadI/edit)
 
 dependencies:
-    - kickstart/rules/decide-game
+    - kickstart/create-game

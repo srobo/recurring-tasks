@@ -45,4 +45,4 @@ description: |-
     present.
 
 dependencies:
-    - kickstart/rules/write
+    - kickstart/create-game

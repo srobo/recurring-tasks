@@ -41,5 +41,5 @@ description: >-
     dispatching a kit.
 
 dependencies:
-    - kickstart/confirm-teams
+    - kickstart/signup-teams
     - kickstart/kit/prep-kits

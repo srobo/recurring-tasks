@@ -18,6 +18,4 @@ description: >-
     actually publishing it until Kickstart.
 
 dependencies:
-    - kickstart/rules/decide-game
-    # Ideally this would appear in a 'related' section, but that doesn't exist
-    - kickstart/rules/write
+    - kickstart/create-game
