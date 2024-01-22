@@ -12,3 +12,9 @@ description: >-
     In the previous year, we may have identified a number of issues with the
     simulator, that could not be fixed at the time. We should work through
     these issues and either fix them or close them.
+
+    Required actions:
+     - [ ] Work through open issues against the simulator
+     - [ ] Fix any issues that can be fixed
+     - [ ] Close any issues that cannot be fixed
+     - [ ] Update the simulator docs to reflect any changes

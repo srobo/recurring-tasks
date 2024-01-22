@@ -17,5 +17,10 @@ description: >-
     While this can be worked on ahead of time we should clearly avoid
     actually publishing it until Kickstart.
 
+    Required actions:
+     - [ ] Update the simulator for the $SRYYYY game
+     - [ ] Update the simulator docs to reflect any changes
+     - [ ] Publish the simulator for the $SRYYYY game
+
 dependencies:
     - kickstart/create-game

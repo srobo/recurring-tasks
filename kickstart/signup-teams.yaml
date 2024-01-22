@@ -9,54 +9,38 @@ milestone: $SRYYYY Kickstart
 area-owner: teams
 
 description: >-
-    # from pre/advertise-teams.yaml
-    ## Advertise the $SRYYYY Competition Programme to potential teams
-    We need to advertise the existence of the competition programme to people
-    who might want to take part.
+    For the $SRYYYY Competition Programme, we need to get teams to sign up to
+    take part in the competition. Given that we have a limited number of places,
+    for the last few years we've only advertised the competition to teams who
+    are on our mailing list.
 
-    # from pre/signups-teams.yaml
-    ## Team signups for the $SRYYYY Competition Programme
-    We need to get potential teams to sign up to take part in the competition.
+    To accomplish this, we need to create a signup form to collect the institution
+    and team supervisor details. Once we have the details, we need to select the
+    teams who will be taking part in the competition.
 
-    # from kickstart/confim-teams.yaml
-    ## Confirm which teams are taking part in $SRYYYY
+    Any teams who are taking part for the first time will need to be allocated
+    a TLA, ideally one that doesn't clash with any existing teams.
 
-    We need to inform the teams who have places and invite them to the Kickstart
-    venue most suitable for them.
-
-    # from kickstart/allocate-tlas.yaml
-    ## Allocate TLAs for $SRYYYY
-
-    Once we've decided which teams are getting places we need to assign them
-    their TLAs.
-
-    TLAs should idealy be consistent between years, so that competitors can
-    build a brand around their name.
-
-    # from kickstart/remind-teams.yaml
-    ## Remind team leaders about the $SRYYYY Kickstart
-
-    We need to remind team leaders that the kickstart is happening, communicate
-    the final details and encourage them to prepare for it on their end.
-
-    We should tell them:
-     * What venue to come to
-     * What time to arrive
-     * That they should pre-create competitor user accounts
-     * To bring their signed disclaimer forms (optional; if we sent them out)
-
-    # from kickstart/send-disclaimer-forms.yaml
-    ## Send kit disclaimer forms to team leaders
-
-    As the kits contain valuable and potentially dangerous components, many of
+    Additionally, as the kits contain potentially dangerous components, many of
     which are not CE marked, we normally ask the team leaders to sign a form
-    accepting responsibility for it and promising to return it at the end of the
-    year.
+    accepting responsibility for it.
 
     We should send (digital) copies of the form to team leaders so that they can
-    sign & return the forms ahead of time, simplifying things at kickstart.
+    sign & return the forms ahead of time.
 
-    # from kickstart/print-disclaimer-forms.yaml
+    Once we have the final plans for Kickstart, we need to send an email to the
+    team supervisors so that they can prepare for the event.
 
-    Once these have been updated, we need to print enough of them for each venue
-    to have copies for team leaders to sign.
+    We should aim to tell them:
+     * ~~What venue to come to~~
+     * What time to arrive/when the livestream starts
+     * That their team members should join the Discord server
+     * To send their signed disclaimer forms so that they can get their kits
+
+    Required actions:
+     - [ ] Create a team signup form
+     - [ ] Advertise the $SRYYYY Competition Programme to potential teams
+     - [ ] Select teams for the $SRYYYY Competition Programme
+     - [ ] Allocate TLAs for any rookie teams
+     - [ ] Collect additional information from selected teams and send disclaimer forms
+     - [ ] Send final details about Kickstart to team leaders

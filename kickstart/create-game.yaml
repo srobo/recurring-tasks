@@ -9,17 +9,22 @@ milestone: $SRYYYY Kickstart
 area-owner: game
 
 description: >-
-    # from kickstart/rules/decide-game.yaml
-    ## Decide on the $SRYYYY game
-
     The $SRYYYY game will be different than the previous year's, so we
     need to decide what it will be.
 
     Note: once decided we still want to keep the choice a secret so it's
     a surprise to teams at Kickstart.
 
-    # from kickstart/rules/write.yaml
-    ## Write the rules for the $SRYYYY game
+    Once the game is decided, we'll need to generate a set of rules for
+    it. This will cover the arena layout, the scoring, and the regulations
+    for the robots.
 
-    We need to have a game to play in $SRYYYY. It will be different than
-    the previous year's, so the rules need updating.
+    For the past few years we've also set a set of challenges for the teams
+    to complete during the year, to encourage them to begin working on their
+    robots early. These include using the vision system, performing accurate
+    movements, and a mechanism challenge.
+
+    Required actions:
+    - [ ] Decide on the game
+    - [ ] Write the rules document
+    - [ ] Test the challenges

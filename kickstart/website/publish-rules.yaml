@@ -9,19 +9,15 @@ milestone: $SRYYYY Kickstart
 area-owner: game
 
 description: >-
-    # from kickstart/website/archive-previous-rules.yaml
-    ## Archive the rules for the $SRYYYY game
+    During the Kickstart, the rules for the $SRYYYY game will need to be
+    published on the [rules](https://studentrobotics.org/docs/rules) page,
+    so that teams can download them and start designing their robots.
+    While doing this, the previous rules will need to be archived in the
+    [game archive](https://studentrobotics.org/docs/rules/archive).
 
-    Move the rules from the [rules](https://studentrobotics.org/docs/rules) page
-    to the [game archive](https://studentrobotics.org/docs/rules/archive) in the
-    docs, making way for the new rules to be published.
-
-    # from kickstart/website/publish-rules.yaml
-    ## Publish the rules for the $SRYYYY game
-
-    These need building and the website patching.
-    The [rules](https://studentrobotics.org/docs/rules) page will need updating
-    to show that the rules have been published and the link and image updating.
+    Required actions:
+     - [ ] Update the rules page to link to the rules for the $SRYYYY game
+     - [ ] Move the rules for the previous game to the game archive
 
 dependencies:
     - kickstart/create-game

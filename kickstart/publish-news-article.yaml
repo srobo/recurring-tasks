@@ -9,11 +9,10 @@ milestone: $SRYYYY Kickstart
 area-owner: media-press
 
 description: >-
-    # from kickstart/prepare-news-afterwards.yaml
     After the kickstart we want to have a news article which describes how the
     event went and continues to build up the excitement around the comptition.
-    This should have been mostly written before the competition and then
-    populated with details as needed.
+    To ensure we have a news article ready to go we should write a skeleton
+    article before the kickstart and then fill in the details as needed.
 
     Things we should mention:
       * that we had N locations, the number of teams who attended, etc.
@@ -22,20 +21,15 @@ description: >-
       * a summary of the game
       * a link to the kickstart microgames
 
-    The post-kickstart news article can take some time to write. We should
-    write a skeleton one as soon as possible, and just fill in the blanks
-    immediately after the kickstart followed by high-speed review and
-    shipping.
-
-    # from kickstart/publish-news-afterwards.yaml
-    After the kickstart we want to have a news article which describes how the
-    event went and continues to build up the excitement around the comptition.
-    This should have been mostly written before the competition and then
-    populated with details as needed.
-
     Once published we should link various people to the article, including:
     - Our social media accounts
     - Various tech/STEM blogs and other media outlets (we should email them)
+
+    Required actions:
+     - [ ] Write a skeleton article before the kickstart
+     - [ ] Publish the article after the kickstart
+     - [ ] Link to the article from our social media accounts
+     - [ ] Email various tech/STEM blogs and other media outlets with a link to the article
 
 dependencies:
     - kickstart/event

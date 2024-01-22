@@ -9,32 +9,18 @@ milestone: $SRYYYY Preparation
 area-owner: volunteer-coordination
 
 description: >-
-    # from pre/advertise-volunteers.yaml
-    ## Advertise the $SRYYYY Competition Programme to potential volunteers
+    To run the competition programme we need volunteers to help us.
+    This includes people to help run the Kickstart, help plan the
+    competition & tech days, and help run the competition.
 
-    We need to advertise the existence of the competition programme to people
-    who might want to help run it.
+    We should make a signup form to capture contact details and what
+    people are interested in helping with. We should then send this
+    out to the mailing list and advertise it on Slack.
 
-    # from pre/signups-volunteers.yaml
-    ## Volunteer signups for the $SRYYYY Competition Programme
+    We should also send out a reminder email to volunteers with the
+    final details of the Kickstart.
 
-    We need to get potential volunteers to sign up to help organise the
-    competition programme.
-
-    # from kickstart/advertise-volunteers.yaml
-    ## Advertise the $SRYYYY Kickstart to potential volunteers
-
-    We need to advertise the existence of the kickstart to people who might want
-    to help run it.
-
-    # from kickstart/signups-volunteers.yaml
-    ## Volunteer signups for the $SRYYYY Kickstart
-
-    We need to get potential volunteers to sign up to help organise the
-    kickstart.
-
-    # from kickstart/remind-volunteers.yaml
-    ## Remind volunteers about the $SRYYYY Kickstart
-
-    We need to remind volunteers that the kickstart is happening and communicate
-    the final details: who is doing what, at what venue, what time to arrive, etc.
+    Required actions:
+     - [ ] Create a signup form for volunteers
+     - [ ] Advertise the signup form to potential volunteers, e.g. on Slack and by email
+     - [ ] Send out reminder email to volunteers with Kickstart details

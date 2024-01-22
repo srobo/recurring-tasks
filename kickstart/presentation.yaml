@@ -9,9 +9,6 @@ milestone: $SRYYYY Kickstart
 area-owner: production
 
 description: |-
-    # from kickstart/write-presentation.yaml
-    ## Create kickstart presentation
-
     Kickstart events require a presentation to go through what student robotics
     is, what the competition cycle looks like, and details of the game.
 
@@ -37,12 +34,10 @@ description: |-
     8. The game
     9. Schedule for the rest of kickstart
 
-    # from kickstart/decide-presenters.yaml
-    ## Decide who will present the kickstart presentation
-
-    The presentation needs to be given at each venue, so will be presented by
-    multiple people. It's recommended the person who creates the presentation be one of the people to
-    present.
+    Required actions:
+     - [ ] Create the presentation for the $SRYYYY Kickstart
+     - [ ] Decide who will give the presentation at each venue
+     - [ ] Give the presentation at each venue
 
 dependencies:
     - kickstart/create-game

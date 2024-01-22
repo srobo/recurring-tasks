@@ -9,20 +9,14 @@ milestone: $SRYYYY Kickstart
 area-owner: kit
 
 description: >-
-    # from kickstart/kit/main.yaml
-    ## Prepare kits for the $SRYYYY Kickstart
+    By Kickstart we need to have kits ready for all the teams that we are
+    confident will function correctly for the full duration of the competition.
 
-    We need to have kits to hand out at the $SRYYYY Kickstart.
+    This involves testing and packaging the kits, ready for shipping.
 
-    # from kickstart/kit/test.yaml
-    ## Test kits for $SRYYYY
-
-    We need to have confidence that the kits we'll hand out at the $SRYYYY
-    Kickstart are going to work for the teams.
-
-    # from kickstart/kit/fix.yaml
-    ## Fix any issues with the kits for $SRYYYY
-
-    We need to have confidence that the kits we'll hand out at the $SRYYYY
-    Kickstart are going to work for the teams. Once tested they may need
-    fixing (and then re-testing).
+    Required actions:
+     - [ ] Collate the kit components received back from teams
+     - [ ] Test the kit components
+     - [ ] Fix parts, were practical. (i.e. replace broken cases, clean tape residue off)
+     - [ ] Package the kits
+     - [ ] Pack the kits for shipping

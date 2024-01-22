@@ -9,36 +9,20 @@ milestone: $SRYYYY Kickstart
 area-owner: kit
 
 description: >-
-    # from kickstart/kit/allocate.yaml
-    ## Allocate $SRYYYY kits to teams
+    Any teams that are not physically attending a Kickstart need their kits
+    shipped to them. While we are only doing virtual Kickstarts, this means
+    all teams.
 
-    Teams will want kits at Kickstart so we need to know which kits to
-    give to each team.
+    Costs for this have are normally covered by SR.
 
-    # from kickstart/kit/ship-kickstarts.yaml
-    ## Ship $SRYYYY kits to Kickstarts
+    Addresses will be collected from teams during the signup process.
+    Theses addresses will need to be confirmed by email before dispatching a kit.
 
-    Teams will want kits at Kickstart so we need to ship the relevant kits
-    to each of the Kickstart venues.
-
-    # from kickstart/kit/ship-overseas.yaml
-    ## Ship $SRYYYY kits to overseas Teams
-
-    Teams overseas need their kits shipped to them. This has mostly been
-    the German teams in the past few years, which have been shipped together
-    to the German Kickstart. This is intentionally separate from the
-    shipping to Kickstarts as it involves an international delivery.
-
-    # from kickstart/kit/ship-courier.yaml
-    ## Ship $SRYYYY kits to Teams not attending Kickstarts
-
-    Teams unable to make it to a Kickstart need their kits couriering to
-    them.
-
-    Costs for this have historically been covered by SR.
-
-    We require teams to explicitly confirm their address by email before
-    dispatching a kit.
+    Required actions:
+     - [ ] Confirm addresses with teams
+     - [ ] Record which kits are allocated to which teams.
+     - [ ] Ship kits to UK teams
+     - [ ] Ship kits to overseas teams
 
 dependencies:
     - kickstart/signup-teams

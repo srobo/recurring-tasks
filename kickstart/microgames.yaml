@@ -25,5 +25,10 @@ description: >-
      - [SR2016](https://drive.google.com/open?id=1T-JOaAeUpG1JWr8pmnM7bD1PB3RV0d3Pkzp4z-FHrEU)
      - [SR2015](https://docs.google.com/document/d/19YdjD7thAmS1A09UGYC5D7L_8qqyXl1BupXFottsadI/edit)
 
+    Required actions:
+     - [ ] Create microgames for the $SRYYYY Kickstart
+     - [ ] Create a document with the solutions for the microgames
+     - [ ] Run through the microgames to ensure they work
+
 dependencies:
     - kickstart/create-game
