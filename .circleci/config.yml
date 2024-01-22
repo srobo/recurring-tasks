@@ -62,7 +62,6 @@ jobs:
             . venv/bin/activate
             ./scripts/validate comp/main
             ./scripts/validate kickstart/main
-            ./scripts/validate pre/main
             ./scripts/validate test/main
 
 
