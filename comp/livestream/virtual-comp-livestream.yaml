@@ -9,43 +9,31 @@ milestone: $SRYYYY Competition Prep
 area-owner: livestream
 
 description: >-
-    This will need to be modified to suit the virtual competition, but is a good
-    starting point.
-    # from comp/livestream/hardware.yaml
-    ## Organise hardware to run livestream
+    As the virtual competition is presented as a livestream, we need to
+    prepare how it will be run. This is likely to be similar to the livestream
+    for Kickstart, but with some differences.
 
-    This ticket relates to providing the actual machine that will be
-    used for the livestream.
+    To do this we need a machine to run the livestream, and a plan for how the
+    livestream will be run. Additionally, we need to decide who will present
+    the livestream.
 
-    Requirements:
-      * Video mixer PC (With dedicated GPU, capable of running OBS)
-      * 2× HDMI capture card
-      * 2× preview monitors
-      * 2× cameras (depending on feed plan)
-      * Audio mixers
+    In the past, this livestream has had both presenters and producers in a single
+    location, and used the producer's machine to run the livestream. However, this
+    can be done remotely, so we may want to consider this.
 
-    # from comp/livestream/plan-video-feeds.yaml
-    ## Plan video feeds
+    In terms of scenes and feeds, the livestream generally consists of:
+     - An introduction, to explain the game and the competition
+     - An in match view, where the match recording is played
+     - A post match view, normally with the presenters' camera feeds
+     - A view of the league table
+     - A view of the schedule
+     - Optionally, some playbacks of interesting moments from the matches
 
-    The livestream will need to have a few different camera feeds to show different parts of the venue
+    See also: https://studentrobotics.org/runbook/competition/livestream/scenes/.
 
-      * Arena (likely multiple)
-      * Hosts (who may be different to commentators)
-      * Stage (only needed for prize giving)
-
-    # from comp/livestream/configure-scenes.yaml
-    ## Organise livestream scenes
-
-    The livestream requires a number of different scenes and views, made up of
-    static images, video feeds, overlays etc.
-
-    Most of the assets have already been created, but some may require updating
-    or new ones created
-
-    See https://studentrobotics.org/runbook/competition/livestream/scenes/.
-
-    # from comp/livestream/training.yaml
-    ## Have livestream training sessions
-
-    Volunteers who are assigned to run the livestream should be
-    trained how the system works, and how the event will be run.
+    Required actions:
+     - [ ] Decide who will run the livestream
+     - [ ] Create the required scenes in OBS
+     - [ ] Generate a livestream link to be shared with teams
+     - [ ] Decide who will present the livestream
+     - [ ] Practice running the livestream
