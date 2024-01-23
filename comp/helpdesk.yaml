@@ -9,52 +9,28 @@ milestone: $SRYYYY Competition
 area-owner: mentoring
 
 description: >-
-  # from comp/pits/helpdesk/main.yaml
-  ## Plan helpdesk at the competition
-
   Helpdesk is the single-point-of-contact for teams to get help with
   their robots. We need to plan who will run this on the day as well
   as the various things it needs to be able to help the teams.
 
-  # from comp/pits/helpdesk/expert-list.yaml
-  ## Create domain expert list
+  If kit breaks at the competition for teams, we should be prepared to
+  replace it quickly. For that we will need spares readily available.
+  This should be coordinated with the Kit team.
 
   If there is a problem at helpdesk, that those on helpdesk cannot solve, they need to know who to escalate to.
+  There will be different experts depending on the domain of the problem.
+  An example set of domains are:
 
-  There will be different experts depending on the domain.
-
-  Example domains:
-
-    * Rules
-    * Kit
-        * Python API
-        * Hardware
-        * Competition operations
-    * Event
-        * Tech
+   * Rules
+   * Kit
+     * Python API
+     * Hardware
+     * Competition operations
 
   Note that this list of people should also take into account who is likely to be available.
 
-  # from comp/volunteers/experts-list.yaml
-  ## Create a list of available subject matter experts
-
-  While helpdesk is the primary point of call for teams who need help,
-  we also need a way for those manning it to escalate their request
-  if they don't know how to resolve something. This is not intended to
-  remove the need to replace broken kit, but rather to provide extended
-  support for non-replaceable parts (e.g: complex vision system or
-  rules questions).
-
-  We should create a list of subject matter experts and put it on
-  helpdesk. Clearly the people on the list need to be actually available
-  to help (i.e: both at the venue and not insanely busy), and aware
-  that they're the point-of-contact for certain areas.
-
-  # from comp/pits/helpdesk/spare-kit.yaml
-  ## Have spare kit available at the competition
-
-  If kit breaks at the competition for teams, we should be prepared to
-  replace it quickly. For that we will need spares readily available.
-
-  Ideally this kit should be kept at Helpdesk. Helpdesk should at least be
-  informed of the policy for replacing kit.
+  Required actions:
+   * [ ] Decide who will run helpdesk
+   * [ ] Create a list of available subject matter experts
+   * [ ] Have spare kit available at the competition
+   * [ ] Train volunteers to run helpdesk
