@@ -9,38 +9,29 @@ milestone: $SRYYYY Competition
 area-owner: kit
 
 description: >-
-  # from comp/arena/batteries.yaml
-  ## Have a supply of charged batteries by the $SRYYYY Arenas
+  In order for teams to use their robots at the competition they will need a
+  charged battery. This task is to coordinate the various aspects of this.
 
-  We should have a supply of charged batteries in the staging area next to the
-  arena so that teams on their way into matches don't need to go to helpdesk to
-  get one. This ensures that robots perform at their best during matches.
+  Additionally, for when teams arrive at matches with a flat battery, we need
+  to have a stash of charged batteries available for them to use at the
+  arena.
 
-  This is important during the knockouts, though less so during the leagues.
-
-  # from comp/pits/overnight-loans.yaml
-  ## Plan overnight kit & battery loans at the competition
-
-  Many teams will want to take their kits home with them overnight at
-  the competition, in order to work on them. We usually require these
-  teams to fill in some paperwork to record this, in order to ensure we
-  know which team have done this and which parts they have taken with
-  them. The latter is important as they will likely not be taking with
-  them the same batteries as they had for the rest of the year and so
-  the inventory will not track this loan.
-
-  See https://srobo.github.io/runbook/competition/teams/process-docs/overnight-battery-loan/
-  for details.
-
-  # from comp/safety/sad-battery-management.yaml
-  ## Plan for handling of sad batteries
-
-  We should have a plan for how to handle lipos which are deemed to be unusable.
-  This is to cover the handling of the lipos at the event, not the disposal
-  afterwards.
+  Other points to be decided are: When teams will first get their batteries
+  and how this interacts with robot safety checks. How we will track which
+  teams are borrowing batteries overnight. And, ensuring we have an up-to-date
+  policy for handling of lipos which are deemed to be unusable.
 
   See the runbook for the current safety protocol:
   https://studentrobotics.org/runbook/competition/team-support/battery-charging/#safety
+
+  Required actions:
+   - [ ] Ensure we have enough batteries
+   - [ ] Ensure we have enough chargers
+   - [ ] Plan when teams will first get their batteries
+   - [ ] Plan how teams' battery swaps will be handled
+   - [ ] Plan how the arena will be supplied with batteries
+   - [ ] Plan overnight battery loans at the competition
+   - [ ] Have a plan for handling of sad batteries
 
 dependencies:
   - comp/venue/layout

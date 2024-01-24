@@ -9,20 +9,18 @@ milestone: $SRYYYY Competition
 area-owner: kit
 
 description: >-
-  Arrangements must be made for the kit handback procedure at the end of
-  the competition.
+  After the competition has finished, we need teams to return their kits to us before
+  they leave the venue.
 
-  # from comp/kit-loans.yaml
-  ## Plan how we will do extended kit loans to teams
+  Since teams will be wanting to leave the venue promptly, we need to make sure that the
+  kit handback process is as quick and painless as possible. However, we also need to
+  keep track of which kits have been returned to us, and what items are missing from
+  each kit.
 
-  We often let teams keep kit after the competition we should plan if
-  and how we are going to do this.
-
-  Historically we have set a deadline of about a month in advance of the
-  competition for teams to apply for a loan. For the agreed loans, those teams
-  can then bypass kit-return at the competition by showing their authorisation.
-
-  https://github.com/srobo/kit-coordination-documents/tree/master/authorized-to-keep-kit
+  Required actions:
+   - [ ] Plan where the kit handback will take place
+   - [ ] Plan how to record what items each team has returned
+   - [ ] Organise how many people will be needed to run the kit handback
 
 dependencies:
   - comp/helpdesk
