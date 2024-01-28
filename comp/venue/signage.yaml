@@ -16,5 +16,10 @@ description: >-
   We also need clear signage that photography and filming is taking place
   to comply with our media consent policy.
 
+  Required actions:
+   - [ ] Decide what signage we want
+   - [ ] Design the signage
+   - [ ] Add the signage to the print run
+
 dependencies:
   - comp/venue/layout

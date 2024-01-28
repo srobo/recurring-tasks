@@ -9,27 +9,20 @@ milestone: $SRYYYY Competition Prep
 area-owner: event-logistics
 
 description: >-
-  # from comp/tear-down/main.yaml
-  ## Tear down everything after the competition
+  In general, the process of tearing down the competition is the reverse
+  of setting it up.
 
-  Everything will need tearing down at the end of the competition.
+  This will consist of disposing of used consumables, returning borrowed
+  and hired equipment, and returning SR equipment to storage.
 
-  # from comp/tear-down/destinations.yaml
-  ## Create a list of return destinations for everything
+  We should make sure, during setup, that borrowed items are clearly
+  marked as such so that they can be easily identified during teardown.
 
-  We need a plan of what is going to be returned to where after the
-  competition, ideally with in-venue holding areas identified for each
-  return destination.
-
-  As the sources of items are not in general known (and so cannot be
-  included here directly), sub-tasks for each destination should be
-  added to this task each year.
-
-  # from comp/venue/transport/return.yaml
-  ## Return stuff from the competition to storage
-
-  Equipment that came from storage for the competition needs to return
-  there after the competition.
+  Required actions:
+   - [ ] Dispose of consumables
+   - [ ] Plan returning of borrowed items
+   - [ ] Plan returning of hired items
+   - [ ] Plan how SR equipment will be organised in to boxes for storage
 
 dependencies:
   - comp/setup-plan

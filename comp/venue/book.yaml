@@ -11,53 +11,45 @@ area-owner: event-logistics
 description: >-
     We need a venue for $SRYYYY.
 
-    # from comp/venue/ppl-prs.yaml
-    ## Get PRS/PPL: TheMusicLicense for the competition
+    This needs to have enough space for the arenas, team pits, reception,
+    helpdesk, and so forth.
 
-    In order to play music at the competition we need a "TheMusicLicence"
-    (which replaced the separate PRS & PPL licenses in 2018).
+    The equipment we also hire includes:
+     * Carpet to floor the arenas, allow 1m outside all sides [^1]
+     * Barriers to surround the main arena [^2]
+     * 1 table and 2-4 chairs per team
+     * Power distribution, 2 sockets per team
+     * ~15 tables for the reception, helpdesk, staging, etc.
+     * Some chairs for volunteers
+     * A sound system throughout the venue
+       * With independent feeds for the arena and pits
+     * 2x wireless microphones for commentary
+     * General lighting for the arena
+     * Stands for the arena corner screens
+     * 10-12 handheld radios
+     * Additional displays for the pit area (potentially with stands)
 
-    See https://pplprs.co.uk/ for details.
+    [^1]: In venues with carpetted floors you may be able to for go the additional carpet.
 
-    Note that some venues may have their own licenses and that we may be
-    covered by their license.
+    [^2]: Since SR2015 the arena has been constructed of ~12" high wall segments so an
+      additional barrier is need to separate the arena from the spectators.
+      This was originally metal crowd barriers, since SR2022 we have used rope barriers instead.
+      These have worked better at staying in position.
 
-    # from comp/arena/carpet.yaml
-    ## Acquire carpet for the $SRYYYY arenas
+    You may also want to consider:
+     * A backdrop for the photo studio
+     * Coloured floor lighting around the arena
+     * Theatrical lasers for the arena
 
-    We currently use carpet as the flooring of the arenas. Usually the
-    venue doesn't have an equivalent flooring underneath the arena
-    area so we need to get some ourselves.
+    In order to play licensed music at the competition we need a "TheMusicLicence".
+    Some venues may already have this so it's worth enquiring.
 
-    We need enough for all the arenas plus some spare for a testing area.
+    Note: This does not cover using licensed music on the livestream.
 
-    # from comp/arena/screens-stands.yaml
-    ## Organise stands for the arena screens
-
-    The arena screens need to be mounted on something to be visible.
-
-    # from comp/venue/sound.yaml
-    ## Sort out sound system for the competition
-
-    Speakers and wireless microphones for the judges are required.
-
-    # from comp/venue/arena-lighting.yaml
-    ## Organise arena lighting
-
-    We need lighting on the arenas.
-
-    # from comp/venue/radios.yaml
-    ## Hire radios for the competition
-
-    We need to hire some radios and headsets.
-
-    # from comp/venue/tables.yaml
-    ## Organise tables and chairs for the competition
-
-    We're not sure how many chairs and tables will make a pit yet.
-    This will change based on venue.
-
-    For several years we have used 2-4 chairs and 1 table per team.
+    Required actions:
+     - [ ] Book a venue
+     - [ ] Hire other necessary equipment
+     - [ ] Confirm the venue has a music license
 
 dependencies:
   - comp/venue/insurance

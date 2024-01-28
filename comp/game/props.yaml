@@ -9,40 +9,27 @@ milestone: $SRYYYY Competition
 area-owner: event-logistics
 
 description: >-
-    We need to prepare the things that will go in the arena.
+    We need to prepare the things that will go in the arena, including the
+    wall markers, the robot flags, any tokens and other props.
     See this year's [rulebook](https://studentrobotics.org/docs/resources/$YYYY/rulebook.pdf)
     for details.
 
-    Sub tasks should be added to this task for each of the various props which
-    are needed.
-
-    # from comp/game/markers.yaml
-    ## Organise markers for the arena
-
-    The arena (and, possibly, things inside it) is marked with AprilTag
-    markers, which need printing off in advance.
-
-    Additionally, if we have multiple arenas, we need a label for each
-    arena to distinguish them (i.e. A and B).
-
-    # from comp/game/robot-flags.yaml
-    ## Prepare robot flags for the competition
-
     During matches robots are given coloured flags so that the audience know which
-    robot is from which scoring zone.
+    robot is from which scoring zone. At least two complete sets of each badge are needed:
+    one for the robots currently playing and another for the robots currently staging.
 
-    At least two complete sets of each badge are needed: one for the robots
-    currently playing and another for the robots currently staging.
+    The markers should be printed as part of the main printing run.
 
-    # from comp/arena/tools.yaml
-    ## Organise tools for arena construction
+    We may also need tools for the arena construction. Generally we'll need
+    some drills, screwdrivers and a tape measure. We may also need a knife
+    to cut the carpet.
 
-    For arena construction we'll likely need various tools. Many of these we
-    probably have, however we should put together a list of what we think we'll
-    need and then ensure that we'll actually have it available.
-
-    This includes things like hand & power tools for the arena itself as well as
-    knives and measures for the carpet.
+    Required actions:
+     - [ ] Prepare the wall markers
+     - [ ] Prepare the robot flags
+     - [ ] Prepare the tokens
+     - [ ] Prepare the other props
+     - [ ] Organise tools needed for assembly
 
 dependencies:
-  - comp/logistics
+    - comp/logistics

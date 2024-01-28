@@ -9,23 +9,23 @@ milestone: $SRYYYY Competition
 area-owner: event-logistics
 
 description: >-
-  # from comp/venue/transport/main.yaml
-  ## Transport stuff to the competition
+  A large quantity of equipment needs to be transported to and from the
+  competition venue. For the setup includes things like the arena, and spare kit,
+  and for the teardown this will also include all the teams kits.
 
-  Many things will need to be moved from various locations to the venue.
+  Generally, it is most cost effective to hire one van to transport transport
+  items from storage to the competition venue on the Thursday and then hire a second
+  van to return items to storage on the Monday.
 
-  # from comp/venue/transport/prepare.yaml
-  ## Prepare equipment for transport to the competition
+  For both vans, we will need someone with a full UK driving license of suitable
+  age, who is available, to drive the van.
 
-  The things that we are taking to the competition needs to be prepared for
-  transportation. Most of the things we need are in storage, however some
-  may be elsewhere.
-
-  # from comp/venue/transport/van.yaml
-  ## Hire a van for transporting kit between storage and the venue
-
-  We need a van (probably from Thursday to Monday inclusive) to transport all
-  the necessary equipment around.
+  Required actions:
+   - [ ] Decide on the size of the van required
+   - [ ] Decide when the equipment will be transported to the venue
+   - [ ] Organise a driver for the van for the Thursday/Wednesday
+   - [ ] Organise a driver for the van for the Monday
+   - [ ] Book the vans
 
 dependencies:
   - comp/logistics

@@ -9,102 +9,53 @@ milestone: $SRYYYY Competition Prep
 area-owner: event-logistics
 
 description: >-
-  We need to plan tasks for the setup days
+  We have a limited amount of time to set up the competition, so we need
+  to plan what order things needs doing.
 
-  ## TODO example setup schedule here
+  This primarily involves setting up the arena and its surroundings,
+  but also includes setting up the pit area and ancillary areas (such as helpdesk and reception).
 
-  # from comp/arena/build.yaml
-  ## Build the arenas
+  An example schedule is given below, but this will need to be updated
+  each year.
 
-  Build some arenas for the games.
+   - Phase 1: Arena setup
+     - Setup minimal network
+     - Rig top camera
+     - Lay arena carpet
+     - Assemble arena walls
+     - Run power to arena
+     - Run network to arena corners
+     - Mount corner screens
+     - Complete any arena props
+     - Tape out floor markings
+     - Mount wall markers
+     - Mark starting positions
+   - Phase 2: Pit setup
+     - Clear pit areas
+     - Setup pit tables & chairs
+     - Label pit tables
+     - Setup pit power
+     - Setup pit display screens
+   - Phase 3: Setup AV tech
+     - Setup arena lighting
+     - Setup and test automated AV
+     - Test competition software
+     - Setup livestream
+   - Phase 4: Setup test arena
+     - Repeat arena setup for the test arena
+   - Phase 5: Setup other areas
+     - Setup helpdesk and battery charging
+     - Setup power tools area
+     - Setup reception
+     - Add barriers around the arena
+     - Setup phones
+   - Phase 6: Training
+     - Train marshals
+     - Train shepherds
+     - Train helpdesk
 
-  This covers the physical construction of the arenas, including props
-  needed for the game and markings for the start-position of any
-  which are moveable. The arenas should also be marked so it's clear
-  which is which.
-
-  # from comp/arena/barriers.yaml
-  ## Put crowd barriers around the arenas
-
-  Since SR2015 we have used short wood-only walls for the actual arenas
-  and had separate crowd barriers around the arena area (including the
-  staging area).
-
-  We need to ensure that these barriers are procured in advance and then
-  put into place before the first matches.
-
-  Since SR2022 we have used rope barriers instead of crowd barriers.
-
-  # from comp/arena/screens.yaml
-  ## Put up screens around the arenas
-
-  We have screens around the arena to display live information, these
-  need putting up.
-
-  # from comp/arena/network.yaml
-  ## Provide network to the arena
-
-  The arena needs network for the screens and score entry.
-
-  # from comp/arena/power.yaml
-  ## Provide power to the arenas
-
-  The arenas need power for displays.
-
-  # from comp/arena/staging-area.yaml
-  ## Put out the staging area
-
-  Build the staging area for the arenas, where the teams will attach
-  and remove the robot-flags and competition-mode USB keys.
-
-  This should be designed as a one-way system, and include two sets of
-  tables:
-    * for the robots to placed on while waiting for their match (which
-      should have sections labelled per-arena and -corner), used to mount
-      the robot flags and for inspection if needed
-    * for the robots to be placed on after a match to have their flags
-      removed
-
-  The second set of tables should also have a storage area for the
-  flags and USB keys, arranged such that it's clear which ones are
-  present. A volunteer should be assigned to managed this.
-
-  # from comp/pits/labels.yaml
-  ## Furnish each pit with a clearly visible label
-
-  Each pit should have a large visible label so it's clear who is where.
-  While maps help, having a label makes things easier for shepherds
-  and reduces the chances that a team will move desks.
-
-  It has been suggested that these could be on sticks so they can be
-  seen over the heads of the people in the pit.
-
-  # from comp/pits/main.yaml
-  ## Prepare team pits at the competition
-
-  Teams need team pits to work in, and these need setting up.
-
-  # from comp/pits/rollout.yaml
-  ## Roll out at team pits at the competition
-
-  # from comp/pits/power.yaml
-  ## Provide power to all team pits
-
-  All the team pits and related areas need power provided.
-
-  # from comp/pits/power-tools.yaml
-  ## Set up a power tools area
-
-  Rather than letting teams use power tools in their team pits, we ask
-  them to go to a separate area.
-
-  # from comp/venue/power.yaml
-  ## Ensure there is power at the $SRYYYY competition
-
-  For pretty much everything we do, we need power.
-
-  # from comp/setup.yaml
-  ## Install things on the set-up day
+  Realistically, we'll need to do some of these things in parallel, but
+  this gives an idea of the order things need doing in.
 
 dependencies:
   - comp/logistics

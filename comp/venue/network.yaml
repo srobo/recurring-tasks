@@ -9,31 +9,22 @@ milestone: $SRYYYY Competition
 area-owner: event-logistics
 
 description: >-
-  # from comp/venue/network.yaml
-  ## Have a competition network
+  Internet access is required for several aspects of the competition.
+   - Allowing teams to access the documentation and Discord
+   - Allowing the livestream to be broadcast to YouTube
+   - Allowing publishing of scores to the website
 
-    This also requires that we have a pretty significant internet connection
-    given the number of people that are coming and our video streaming
-    requirement.
+  For much of the production network, we use a wired network, connected to
+  the venue's internet connection. For the team pits, we use a WiFi network
+  that, for the last few years, has been provided by the venue (Eduroam).
 
-    If possible this should be mostly configured in a corner of the venue
-    as early as possible during setup and then, once working, deployed
-    to the proper locations.
+  Some venues' internet provision requires the use of guest accounts. If these
+  are needed, We should ensure that suitable accounts are obtained,
+  ideally at least per-team as well as for volunteers.
 
-    # from comp/venue/pits/network.yaml
-    ## Organise internet access for the team pits
-
-    Teams need access to the internet to access Discord and the documentation.
-    We therefore need network access in all the team pits.
-
-    Past experience with WiFi-only network provision has been mixed, so hard-wire
-    network provision should be considered unless the venue has well proven
-    capacity.
-
-    Some venues' internet provision requires the use of guest accounts. If these
-    are needed, We should ensure (as part of this task or by adding a sub-task)
-    that suitable accounts are obtained, ideally at least per-team as well as for
-    volunteers.
+  Required Actions:
+   - [ ] Ensure that the venue's wired network connection is available
+   - [ ] Acquire guest accounts for the guest WiFi network, if needed
 
 dependencies:
   - comp/venue/layout

@@ -10,16 +10,34 @@ area-owner: event-logistics
 
 description: >-
      We need various stuff printing before we get to the venue.
+     We can do this as a single print run, this task is to collate all these
+     things into one place.
 
-     # from comp/pits/helpdesk/print-documents.yaml
-     ## Print helpdesk documents
-
-     Helpdesk will need a number of documents
-
-      - [ ] Rulebook
-      - [ ] Helpdesk instructions
-      - [ ] Kit swap form
+     The SR2023 print run included:
       - [ ] Venue map
+      - [ ] High-viz jacket labels (A5 + A6) x 1 per team
+      - [ ] [Safety Regs](https://studentrobotics.org/docs/kit/safety-regulations) x 4
+      - [ ] Safety notes sheets x 2
+      - [ ] Media Consent Posters x 10
+      - [ ] Signage
+      - [ ] Comp Arena Markers x 56
+      - [ ] Token markers
+      - [ ] TLA labels (for pits) A4 x 1 per team
+      - [ ] Rulebook
+      - [ ] [Charging Instructions](https://studentrobotics.org/runbook/competition/team-support/battery-charging/) x 2
+      - [ ] Kit Return Forms
+      - [ ] Missing Return Forms
+      - [ ] Kit Swap Forms
+      - [ ] [Reception Documentation](https://github.com/srobo/runbook/pull/180) x 4
+      - [ ] [Safeguarding Policy](https://opsmanual.studentrobotics.org/about-the-charity/safeguarding) x 3
+      - [ ] [Incident Response Policy](https://studentrobotics.org/runbook/competition/event/incident-management/) x 10
+      - [ ] Tinker Time Coordination x 2
+      - [ ] Radio Signout Sheets x 2
+      - [ ] Volunteer Sign in Form x 4
+      - [ ] Score sheet x 250
+      - [ ] WiFi account passwords & Instructions x 1
+      - [ ] Risk Assessments (setup & competition) x 1
+      - [ ] Helpdesk documentation x 2
 
      This list may need adding to.
 

@@ -9,49 +9,31 @@ milestone: $SRYYYY Competition
 area-owner: event-logistics
 
 description: >-
-  # from comp/arena/acquire-screens.yaml
-  ## Acquire screens
+  SR owns 6 matching screens, without stands, which are used for the
+  arena displays. These have the required cables to plug into HDMI sources.
 
-  We do not have enough screens to cover everything, so we may need to hire
-  more.
+  We also have some 19" screens with stands and a variety of other input types.
 
-  4 screens per arena, plus 2 for staging / shepherding.
+  We need to figure out what screens we need for the competition and
+  whether we have enough of the right type.
 
-  Plus however many needed for non arena screens ("outside").
+  For the past few years we have used:
+   - 5 screens at the arena (4 corners & staging).
+   - 2/3 screens for the livestream.
+   - 1 screen for scoring entry and comp ops.
+   - Installed screens at the venue presenting at least 1 outside screen and 1 livestream per area of the venue.
 
-  # from comp/arena/non-arena-display-screens.yaml
-  ## Organise the non-arena ("outside") display screens
+  For each screen we will need something to drive it.
+  For the livestream and scoring entry screens these are people's laptops.
+  For the arena screens we have used Raspberry Pis in the past.
+  These will need to be set up to display a web-page (either the compbox or the livestream) and cabling will need to be arranged.
 
-  Throughout the venue we typically have a number of general information screens
-  which show the schedule of matches, state of the league, etc. We need to organise
-  screens & drivers for these to run on. They also need power and internet connections.
-
-  This may also include stands to mount the screens on. These screens are typically
-  larger-format than the screens used within the arena.
-
-  # from comp/arena/screens-drivers.yaml
-  ## Organise drivers for the arena screens
-
-  We have screens around the arena to display live information, these
-  need something to drive them.
-
-  In the past this has been Raspberry Pis displaying a web-page. If
-  this is used again then the following things need doing:
-   * Ensure we have enough Pis that work
-   * Ensure we have enough Pi power supplies that work
-   * Pre-load the Pis SD cards with the proper OS
-   * Label each Pi with where it will be deployed (e.g: Arena B, Corner 1)
-   * Ensure the Pis will have a suitable name/address on the network
-
-  # from comp/livestream/local.yaml
-  ## Show the live stream within the venue
-
-  We should ensure the live stream of the competition is viewable within
-  the venue. This enables everyone to see matches without actually being
-  arena-side.
-
-  In the past the display has included a split-screen view of all the
-  arenas which most people liked. It would be good to do this again.
+  Required actions:
+   - [ ] Decide on locations for screens
+   - [ ] Decide on the number of screens required
+   - [ ] Aquire any additional screens
+   - [ ] Arrange for display drivers for each screen
+   - [ ] Set up display drivers
 
 dependencies:
   - comp/venue/layout
