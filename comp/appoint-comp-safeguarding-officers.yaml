@@ -11,5 +11,10 @@ area-owner: health-safety
 description: >-
     Safeguarding officers need to be appointed, by the Safeguarding Lead, as per the safeguarding policy.
 
+    Email the Safeguarding Lead to coordinate this.
+
+    Required actions:
+     - [ ] Safeguarding officers are appointed
+
 dependencies:
     - comp/volunteers/recruit

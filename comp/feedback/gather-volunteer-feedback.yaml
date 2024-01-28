@@ -9,6 +9,19 @@ milestone: $SRYYYY Competition
 area-owner: volunteer-coordination
 
 description: >-
-  Send to everyone who was signed up for $SRYYYY.
+  To be able to make guided improvements to the volunteer experience
+
+  We should send this to everyone who was signed up for $SRYYYY.
+
+  We could include questions about:
+   - workload
+   - training
+   - atmosphere
+   - open questions about any improvements or key positives
 
   SR2020 Feedback form: https://docs.google.com/forms/d/1nIG36tZNykCxgilKXOT6TJiY2je3iHR2YNMtoXeLeJw/edit?usp=sharing
+
+  Required actions:
+   - [ ] Create a feedback form
+   - [ ] Post form in Slack
+   - [ ] Email form to volunteers

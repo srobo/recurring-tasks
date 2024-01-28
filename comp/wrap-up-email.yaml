@@ -13,7 +13,11 @@ description: >-
 
     * Thanking them for taking part
     * Remind teams to provide feedback
-    * Reminders to those who have kept kit that they need to return it (by $DATE)
+    * Sharing rough times for next year's signups opening
+
+  Required actions:
+   - [ ] Create an email
+   - [ ] Send to all teams
 
 dependencies:
  - comp/feedback/gather-team-feedback

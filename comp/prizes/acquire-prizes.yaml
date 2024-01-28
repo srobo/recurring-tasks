@@ -9,19 +9,17 @@ milestone: $SRYYYY Competition
 area-owner: production
 
 description: >-
-  The prizes for the various award categories need organisation.
+  The prizes for the competition are a combination of trophies and edible prizes, these will need purchasing in advance.
 
-  # from comp/prizes/trophies.yaml
-  ## Acquire trophies for $SRYYYY
+  Generally we have three sizes of trophies, one for each of 1st, 2nd and 3rd place.
+  The remaining trophies are a mixture of the medium and small sizes.
 
-  Some awards involve trophies being given to the winning teams. The
-  trophies need purchasing.
+  Note: Gold sponsors can sponsor a prize, their logo then appears on the trophy
 
-  # from comp/prizes/edible-prizes.yaml
-  ## Acquire edible prizes
-
-  Some awards have edible prizes for distribution at the prize ceremony:
-  these need purchasing.
+  Required actions:
+   - [ ] Decide on trophy sizes
+   - [ ] Order trophies
+   - [ ] Order edible prizes
 
 dependencies:
   - comp/sponsor-perks

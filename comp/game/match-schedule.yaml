@@ -9,15 +9,18 @@ milestone: $SRYYYY Competition
 area-owner: game
 
 description: >-
-  # from comp/game/league-schedule.yaml
-  ## Schedule the league matches
+  In order to run matches a schedule for the league matches needs to be generated.
+  The final version of this may need generating close to the day,
+  once we have a firmer number for attending teams.
 
-  The schedule for the league matches needs to be generated.
+  Then we need to decide on the structure of the knockouts.
+  Generally this has been a single elimination tournament.
+  With the top of the leaderboard starting at later rounds when the number of teams is not a power of 2.
 
-  # from comp/game/knockout-design.yaml
-  ## Design the $SRYYYY knockouts
-
-  We need to specify the structure of the knockouts.
+  Required actions:
+   - [ ] Generate an initial match schedule
+   - [ ] Decide on the knockout shape
+   - [ ] Generate the final match schedule
 
 dependencies:
   - comp/day-schedule

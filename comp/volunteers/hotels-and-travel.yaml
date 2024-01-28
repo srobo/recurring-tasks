@@ -15,6 +15,14 @@ description: >-
     This should also include travel between the venue and the hotels on
     each of the competition days.
 
+    We should also figure out reimbursment arrangements for those who
+    have organised their own travel and accomodation.
+
+    Required actions:
+     - [ ] Collect which volunteers need accomodation
+     - [ ] Organise accomodation
+     - [ ] Plan out travel and accomodation reimbursments
+
 dependencies:
     - comp/volunteers/recruit
     - comp/venue/book

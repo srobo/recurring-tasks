@@ -12,13 +12,15 @@ description: >-
   We need a list of what is happening at what times on both days of the
   competition (tinker time, lunch, league etc).
 
-  # from comp/tinker-time.yaml
-  ## Organise tinker time
+  This should include:
+   - An intro talk on Saturday
+   - Tinker time
+   - League matches
+   - Knockout matches
+   - Prize giving
+   - Lunch
+   - Finish times for the days
 
-  On the morning of the first day, teams are given a chance to tinker with
-  their robots in the arenas. We're going to use a whiteboard to schedule this.
-  Someone will be near the arena and will write teams into 15 minute time
-  slots. Requires 1 Blueshirt to manage scheduling and changeover.
-
-  Also requires that there is some kind of PA system that is audible in the
-  Arena.
+  Required actions:
+   - [ ] Generate day schedule
+   - [ ] Circulate to other areas for comment

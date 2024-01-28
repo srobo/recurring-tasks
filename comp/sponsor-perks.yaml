@@ -20,5 +20,12 @@ description: >-
    - a mention in the prize-giving
    - their name on an award
 
+  Required actions:
+   - [ ] Send an email to get a logo for the booklet/banner/shirt
+   - [ ] Send an email to get their preferences for award to sponsor
+   - [ ] Send an email to invite the sponsors to the competition
+
+  Note: some of these emails can probably be combined
+
 dependencies:
   - comp/venue/book

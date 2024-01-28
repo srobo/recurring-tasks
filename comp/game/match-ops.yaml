@@ -9,22 +9,22 @@ milestone: $SRYYYY Competition
 area-owner: game
 
 description: >-
-  # from comp/game/shepherding.yaml
-  ## Organise shepherding
+  In order to make sure match ops runs smoothly the processes for marshals
+  and shepherds needs to be thought out in advance.
 
-  The situation for shepherding teams to their matches needs to be
-  organised.
+  For marshalling, this will include a checklist of what marshals need to do from the end of one match to the start of the next.
+  This will include:
+   - Scoring
+   - Resetting tokens
+   - Placing in the next robots
 
-  # from comp/arena/reset-checklist.yaml
-  ## Make an arena reset checklist
-
-  We should create a checklist for the marshals so they know what needs
-  to be done between matches to reset the arena. This should be as
-  comprehensive as possible in order to simplify the training that these
-  volunteers need.
-
-  This should probbaly go in the arena repo as it will change considerably
+  This should be as comprehensive as possible in order to simplify the training that these volunteers need.
+  And should probbaly go in the arena repo as it will change considerably
   between years and will be specific to the details of the arena.
 
   See https://github.com/srobo/arena/blob/master/comp19/reset-checklist.md for
   an example.
+
+  Required actions:
+   - [ ] Generate the arena reset checklist
+   - [ ] Plan how shepherding will work

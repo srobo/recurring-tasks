@@ -16,5 +16,9 @@ description: >-
     volunteers that have long shifts and cannot leave their posts for long
     periods of time.
 
+    Required actions:
+     - [ ] Capture volunteer job preferences
+     - [ ] Schedule roles
+
 dependencies:
   - comp/volunteers/recruit

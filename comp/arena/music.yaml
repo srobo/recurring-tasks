@@ -11,18 +11,14 @@ area-owner: production
 description: >-
     During matches we want music to be played into the arena.
 
-    We typically have 2 playlists: one for during matches, and one for during breaks.
-    Generally the former is more "intense" than the latter.
+    We typically have 3 playlists:
+     - One for during the breaks
+     - One for during matches
+     - One for during the final
 
-    Note that there is a separate task for the time-synchronised music played
-    during the finals.
+    Each with increasing intensity.
 
-    # from comp/game/finals-music.yaml
-    ## Prepare the finals music for the compettion
-
-    We generally use a bespoke cut of various songs for the finals tracks, to
-    build tension, ensure the music is dramatic enough, and is timed perfectly,
-    with starting of matches and timing.
-
-    Note that there is a separate task for the music played during the rest of
-    the matches.
+    Required actions:
+     - [ ] Generate a general playlist
+     - [ ] Generate a match playlist
+     - [ ] Generate a finals playlist

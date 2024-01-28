@@ -12,15 +12,17 @@ description: >-
   The marshals should have a chance to run through the process
   of running a competition match sequence.
 
-  # from comp/volunteers/marshals-briefing.yaml
-  ## Brief the marshals for the $SRYYYY game
-
   The marshals need to know:
     * what the rules are
     * who the expert on them is
     * who the judge is
     * how to use the score entry forms
     * the circumstances under which they should turn a robot off
+
+  Required actions:
+   - [ ] Plan training
+   - [ ] Organise a time to run training
+   - [ ] Run training
 
 dependencies:
   - comp/game/match-ops

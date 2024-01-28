@@ -9,14 +9,18 @@ milestone: $SRYYYY Competition
 area-owner: teams
 
 description: >-
-  The competition needs fanfare so that people know when & where it will
-  happen. The following things should happen:
-   - [ ] An events page
-   - [ ] A news article about the announcement (somewhat optional)
-   - [ ] Social media publicity linking back to the news article and/or event page
-   - [ ] Email to the team-leaders
-   - [ ] Email to volunteers
-   - [ ] Email to tech/STEM blogs and other external media outlets
+  The competition needs fanfare so that people know when & where it will happen.
+  Once we have confirmed a venue and date we need to inform teams and volunteers.
+  We may also want to inform the press of our competition at this stage,
+
+  Required actions
+   - [ ] Add an event to the website
+   - [ ] Send an email to the team supervisors
+   - [ ] Send an email to volunteers
+   - [ ] Send an announcement on Discord
+   - [ ] Optionally, announce on our social media, linking to the event page
+   - [ ] Optionally, publish a news article
+   - [ ] Optionally, send an email to tech/STEM blogs and other external media outlets
 
 dependencies:
   - comp/venue/book

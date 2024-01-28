@@ -21,5 +21,14 @@ description: >-
      * A branded pencil
      * A bage to contain the above and the competition booklet
 
+  Required actions:
+   - [ ] Select what types of swag we want for competitors
+   - [ ] Create swag designs
+   - [ ] Get quotes for swag
+   - [ ] Order selected swags
+   - [ ] Create a t-shirt design
+   - [ ] Create a banner design
+   - [ ] Order the banner
+
 dependencies:
   - comp/sponsor-perks
