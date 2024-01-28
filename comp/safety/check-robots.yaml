@@ -14,5 +14,11 @@ description: >-
     The inspectors will want a list of the teams' first matches so they
     can visit them in order.
 
+    Required actions:
+     - [ ] Prepare the inspection checklist
+     - [ ] Inspect the robots
+     - [ ] Record the results of the inspection
+     - [ ] Re-inspect robots that failed
+
 dependencies:
     - comp/safety/comp-risk-assessments
