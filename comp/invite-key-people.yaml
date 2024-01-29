@@ -9,16 +9,15 @@ milestone: $SRYYYY Competition
 area-owner: media-press
 
 description: >-
-  # from comp/press/invite-press.yaml
-  ## Invite press to the competition
+  We should invite some press to the competition. This should be done as early as
+  possible, and we should follow up with them closer to the time.
 
-  We should invite some press to the competition.
+  Additionally we should send out invitations to various people from both our current
+  and any prospective sponsoring organisations to come along to the competition.
 
-  # from comp/press/invite-sponsors.yaml
-  ## Invite sponsor representatives to the competition
-
-  We should send out invitations to various people from both our current and any
-  prospective sponsoring organisations to come along to the competition.
+  Required actions:
+   - [ ] Invite press to the competition
+   - [ ] Invite sponsors to the competition
 
 dependencies:
   - comp/sponsor-perks

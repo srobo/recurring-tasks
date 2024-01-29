@@ -9,13 +9,13 @@ milestone: $SRYYYY Competition
 area-owner: media-press
 
 description: >-
-  # from comp/prizes/web-presence.yaml
-  ## Take a vote on the online presence award
+  The winners of the online presence and team and robot image awards need
+  deciding. The online presence award should be decided before the competition.
 
-  The online presence award is put to a vote of the community. This
-  needs to happen before the competition.
+  Once the winners have been decided, they need to be communicated to the
+  prize-giving team.
 
-  # from comp/prizes/team-image.yaml
-  ## Decide on the winner of the team image award
-
-  The winners of the team and robot image awards need to be decided.
+  Required actions:
+   - [ ] Decide on the winner of the online presence award
+   - [ ] Decide on the winner of the team image award
+   - [ ] Communicate the recipients of the awards to prize-giving

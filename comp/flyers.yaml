@@ -23,7 +23,10 @@ description: >-
   the website already contains plenty of summaries of SR and the game, which can
   be copied liberally, as well as the day schedule.
 
-  # from comp/print-flyers.yaml
-  ## Print the flyers for the $SRYYYY Competition
+  Once the flyers have been produced, they should be printed and given to
+  reception to hand out to guests as they arrive.
 
-  Arrange printing of the flyers for handing out at the competition.
+  Required actions:
+   - [ ] Produce the flyers
+   - [ ] Print the flyers
+   - [ ] Make sure the flyers are given to reception

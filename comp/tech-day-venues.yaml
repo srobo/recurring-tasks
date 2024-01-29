@@ -24,6 +24,11 @@ description: >-
    * The number of volunteers we need to run the tech days
    * The number of teams we can support at each tech day
 
+  Required actions:
+   - [ ] Plan the tech days
+   - [ ] Organise venues for the tech days
+   - [ ] Make sure we have enough volunteers to run the tech days
+
 dependencies:
   - comp/appoint-tech-day-safeguarding-officers
   - comp/safety/tech-day-risk-assessments

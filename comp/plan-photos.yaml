@@ -28,5 +28,9 @@ description: >-
    * Photos of the robots
    * Photos of the robots in the arena
 
+  Required actions:
+   - [ ] Decide what photos we want to take
+   - [ ] Decide who will take each photo
+
 dependencies:
   - comp/venue/layout
