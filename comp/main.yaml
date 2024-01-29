@@ -47,4 +47,4 @@ dependencies:
     - comp/safety/check-robots
     - comp/pits/rules
     - comp/announce
-
+    - comp/radio-plan
