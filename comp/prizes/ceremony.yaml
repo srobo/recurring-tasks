@@ -9,9 +9,6 @@ milestone: $SRYYYY Competition
 area-owner: production
 
 description: >-
-  # from comp/prizes/ceremony.yaml
-  ## Organise the $SRYYYY post-finals sequence
-
   At the end of the competition we want to give out some prizes. We need to plan
   how we will transition from the finals, through any speeches and run the
   actual prize-giving ceremony.
@@ -23,32 +20,18 @@ description: >-
   We should include (somewhere) thanks to various people: teams, volunteers,
   sponsors, etc.
 
-  # from comp/prizes/envelopes.yaml
-  ## Get envelopes & card for the prize ceremony
+  We like to put the results on pieces of card, inside envelopes, to make the prize ceremony look more professional.
+  We need to source the cards and envelopes with the SR logo on them.
 
-  We like to put the results on pieces of card, inside envelopes, to add a
-  sense of drama to the prize ceremony. We need to source that card and
-  envelopes and then print the SR logo onto them.
+  The speaker for the prize ceremony should be someone involved in technology and who the competitors can recognise as such.
 
-  These will need to be kept safe until the knockouts, during which they will
-  have the awards written onto them.
+  To make sure that the prize ceremony runs smoothly, we should have a rehearsal of the prize-giving ceremony.
 
-  # from comp/prizes/speaker.yaml
-  ## Arrange a speaker for the prize ceremony
-
-  This should be someone involved in technology and who the competitors
-  can recognise as such. Extra points if the person is actually famous.
-
-  Once invited and confirmed we should consider adding the person's name
-  or title to the publicity materials being prepared for the competition.
-
-  # from comp/prizes/rehearsal.yaml
-  ## Have a rehearsal of the post-finals sequence
-
-  At the end of the competition we want to give out some prizes. We need to
-  rehearse how we will transition from the finals, through any speeches and run
-  the actual prize-giving ceremony.
-
+  Required actions:
+   - [ ] Get branded envelopes & cards for the prize ceremony
+   - [ ] Arrange a speaker for the prize ceremony
+   - [ ] Plan out the prize-giving ceremony
+   - [ ] Have a rehearsal of the prize-giving ceremony
 
 dependencies:
   - comp/prizes/acquire-prizes
