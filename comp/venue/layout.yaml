@@ -9,25 +9,41 @@ milestone: $SRYYYY Competition
 area-owner: event-logistics
 
 description: >-
-  This will need to specify where the arenas, team pits, reception,
-  helpdesk and so forth are.
+  So that we can plan the competition, we need to know what the layout of the
+  venue will be.
 
   The outcome from this task should be an entry in https://github.com/srobo/comp-floorplans.
 
-  # from comp/ops/plan-tech-desk.yaml
-  ## Plan the Tech Desk
+  This should include:
+   * The arena (or arenas)
+   * The team pits
+   * The reception
+   * The helpdesk(s)
+   * The power tools area
+   * The battery charging area (near the helpdesk)
+   * The staging area
+   * The photo booth
+   * The test arena
+   * First aid
+   * The tech desk
+   * The livestream
+   * Score entry
 
-  Ensure we have enough table top space, power and networking for all necessary equipment at the tech desk.
+  Each team pit should be numbered and have a list of teams assigned to them.
+  They are normally 2.5x2.5m, but this may vary.
+
+  As well as the overall layout, there are certain locations which need
+  specific consideration: the tech desk, score entry, and the livestream.
 
   For the past few years, the tech desk has been inside the venue's tech booth and contained:
-    - Networking
-    - Radio charging
-    - Lighting desk
-    - Sound desk
-    - Computers for:
-      - compbox
-      - Non-sync audio (background music not running through mixtape)
-     - sync audio (currently [mixtape](https://github.com/srobo/srcomp-mixtape))
+   - Networking
+   - Radio charging
+   - Lighting desk
+   - Sound desk
+   - Computers for:
+     - compbox
+     - Non-sync audio (background music not running through mixtape)
+   - sync audio (currently [mixtape](https://github.com/srobo/srcomp-mixtape))
 
   The livestream have had a pair of tables near the arena, but far enough away to not be too loud.
 
@@ -36,44 +52,19 @@ description: >-
    - Judging
    - Score-entry
 
-  # from comp/pits/layout.yaml
-  ## Work out layout of teams at the competition
+  Reception has been a pair of tables near the entrance to the venue.
+  These are scaled up for the initial rush of teams arriving.
 
-  The layout of team pits in the venue needs to be worked out. There are
-  constraints such as keeping teams under the same teacher close
-  together, and keeping overseas teams near each other.
+  When teams arrive, they are directed to the reception desk where they sign in and hand over their batteries and chargers.
+  They are then given any swag, booklets and directed to their pit area.
 
-  This task covers both the placement of the pits within the venue and the
-  allocation of specific teams to pits.
+  When laying out the staging area, it needs tables for the robots to be placed on before and after for their match.
 
-  Ideally the pits should be internally numbered and kept with an ordered list
-  of teams which fit to those locations. This helps ensure that the compstate
-  can easily be kept in step with the physical locations of each team.
-
-  # from comp/reception/main.yaml
-  ## Arrange a reception desk at the competition
-
-  In SR2023 this consisted of four individual desks arranged such that
-  one was on each side of two lanes. Each lane had its own queue and
-  rope barrier was used to divide them. At the desk, teams signed in
-  and handed over their batteries and chargers. They were then
-  directed to their pit area.
-
-  A small number of additional volunteers were also placed around the
-  desks to direct people towards their proper pit area.
-
-  # from comp/pits/battery-charging.yaml
-  ## Prepare battery charging station
-
-  There are many batteries that need charging and we need to set up the
-  charging station. This should be somewhere safe to charge the batteries
-  and with reasonable access to helpdesk (as that is where teams will get
-  batteries from).
-
-  Note: the battery charging station should reconfigure the chargers to
-  a higher current than we allow the teams to use as this substantially
-  reduces the charge time. Instructions on how to do this should be made
-  available to those running the charging station.
+  Required actions:
+   - [ ] Decide on the layout of the venue
+   - [ ] Organise the tech desk
+   - [ ] Update the floorplan repo with the layout
+   - [ ] Assign teams to pits
 
 dependencies:
   - comp/venue/book
