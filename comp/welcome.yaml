@@ -12,7 +12,23 @@ description: >-
   This ticket exists mainly to ensure that things are announced to the
   competitors.
 
-  # TODO flesh this out and describe what the welcome talk needs to cover
+  Things to cover:
+    - [ ] Health & Safety / Event rules
+      - [ ] Robot-free areas
+      - [ ] Power tools area
+      - [ ] Safety checks
+    - [ ] The role of helpdesk
+    - [ ] How battery charging works
+    - [ ] Turning up to a match
+      - [ ] Shepherds
+      - [ ] Staging
+      - [ ] Getting robots into / out of the arena
+    - [ ] Tinker time / the test arena
+    - [ ] Competition website
+
+  Examples from previous years:
+     - [SR2023](https://docs.google.com/document/d/1svPHIpu2q8dl7H496uRrFZNaEFuVY8zQcrS4KbMNWmU/edit)
+     - [SR2022](https://docs.google.com/document/d/1wp-tph-HSNqUMeHRtkv5kzvMcrsR0aSAC_W0NkOlZm4/edit)
 
 dependencies:
   - comp/venue/layout
