@@ -9,8 +9,6 @@ milestone: $SRYYYY Competition
 area-owner: volunteer-coordination
 
 description: >-
-  # from comp/volunteers/information.yml
-  ## Prepare and send out volunteer information pack
 
   We should email all the volunteers with information about where to go
   on the day, parking, who to contact, and any other info we need to
@@ -30,31 +28,6 @@ description: >-
     - [ ] Information on provided lunches (if any)
     - [ ] Information on the volunteer meal
     - [ ] Accommodation reimbursement
-
-  # from comp/volunteers/brief-volunteers.yml
-  ## Brief Volunteers on Competition Event
-
-  The volunteers need to know:
-    - Key Roles & Point of Contacts
-    - Health and Safety
-      - COVID-19 Requirements
-    - Safeguarding
-    - Venue layout (if applicable)
-    - Schedule of Event
-
-  # from comp/volunteers/comms-training.yml
-  ## Brief volunteers on communications at the $SRYYYY Competition
-
-  All volunteers will need to have a basic understanding of what communications
-  mechanisms we're using and who to contact in various scenarios.
-
-  If we're using radios, then volunteers at stations with radios need to be
-  briefed on basic radio protocol, so that they are confident in using it.
-
-  The radio briefing should include:
-
-   * How to start a call (e.g. "Helpdesk, for reception.")
-   * The difference between "Over" and "Out"
 
 dependencies:
   - comp/venue/book
