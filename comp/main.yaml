@@ -37,6 +37,7 @@ dependencies:
     - comp/swag
     - comp/invite-key-people
     - comp/volunteers/inform-volunteers
+    - comp/volunteers/brief-volunteers
     - comp/volunteers/marshals-training
     - comp/website/live-mode
     - comp/printing
