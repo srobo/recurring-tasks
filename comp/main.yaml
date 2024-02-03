@@ -50,3 +50,4 @@ dependencies:
     - comp/announce
     - comp/radio-plan
     - comp/game/tinker-time
+    - comp/ops/scoring-hardware

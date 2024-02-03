@@ -42,6 +42,6 @@ description: >-
      This list may need adding to.
 
 dependencies:
-    - comp/game/scoring
+    - comp/ops/scoring-form
     - comp/flyers
     - comp/volunteers/name-badges

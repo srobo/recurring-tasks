@@ -1,0 +1,36 @@
+summary: Setup machine to run score entry
+
+priority: should
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+area-owner: game
+
+description: >-
+  # from comp/ops/scoring-entry-hardware.yaml
+  ## Organise machine to run score entry
+
+  This ticket relates to providing the actual machine that will be
+  used by the score entry volunteers.
+
+  This needs to be a machine capable of running the score-entry software
+  locally, so probably running a linux, and will need access to the
+  competition network.
+
+  Included in this is provision for a screen, keyboard & mouse. If the machine
+  is a laptop then that simplifies this greatly, though an external mouse
+  should still be provided.
+
+  # from comp/ops/deploy-score-entry.yaml
+  ## Deploy the score entry system
+
+  The machine which will be used for score entry need setting up.
+  At least one of these is expected to be a permanent machine placement.
+
+  This should also include confirming that the relevant pages and ops
+  software things can be accessed.
+
+dependencies:
+  - comp/ops/score-entry

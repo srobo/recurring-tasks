@@ -1,6 +1,6 @@
-summary: Update and setup the SRComp system for the $SRYYYY competition
+summary: Setup the compboxes for the $SRYYYY competition
 
-priority: could
+priority: should
 
 component: Competition
 
@@ -9,34 +9,6 @@ milestone: $SRYYYY Competition
 area-owner: game
 
 description: >-
-  # from comp/ops/compstate.yaml
-  ## Prepare the $SRYYYY compstate
-
-  The competition software has state about the competition which is used to
-  drive the matches, live displays of scores (etc.) both within the venue on
-  the website.
-
-  This task is to create the initial state for the competition; see
-  https://github.com/PeterJCLaw/srcomp/wiki/Competition-Preparation#create-a-compstate
-  and https://github.com/search?q=topic%3Acompstate+org%3Asrobo&type=Repositories.
-
-  # from comp/game/score-script.yaml
-  ## Write scoring scripts for the $SRYYYY game
-
-  The scoring script provides automatic computation of the scores based on the
-  data input from the score sheets.
-
-  See https://github.com/PeterJCLaw/srcomp/wiki/Competition-Preparation#implement-scorepy for details.
-
-  # from comp/ops/deploy-score-entry.yaml
-  ## Deploy the score entry system
-
-  The machine which will be used for score entry need setting up.
-  At least one of these is expected to be a permanent machine placement.
-
-  This should also include confirming that the relevant pages and ops
-  software things can be accessed.
-
   # from comp/ops/deploy-compbox.yaml
   ## Deploy the Compbox
 
@@ -45,14 +17,6 @@ description: >-
 
   This should also include confirming that it's got a static name/address
   and that the relevant pages can be seen from other machines.
-
-  # from comp/ops/deploy.yaml
-  ## Deploy Ops for the $SRYYYY Competition
-
-  Ops needs a table and network connection to work from. It should be
-  located somewhere protected from the competitors, but vaguely near
-  the arena so the people manning it can see what's going on and easily
-  communicate with Score Entry and the Head Judge.
 
   # from comp/ops/prepare-compbox.yaml
   ## Prepare the in-venue Compbox
@@ -85,14 +49,6 @@ description: >-
   This has historically been a Digital Ocean VM running the latest Ubuntu LTS
   configured using https://github.com/PeterJCLaw/srcomp-puppet.
 
-  # from comp/ops/teams-import.yaml
-  ## Import the (final) teams data into the compstate
-
-  We need to run the teams import into the compstate as part of the
-  setup so that it's got the latest team images.
-
-  This import may also need re-running during the competition.
-
 dependencies:
-  - comp/day-schedule
-  - comp/game/scoring
+  - comp/ops/compstate
+  - comp/ops/score-entry
