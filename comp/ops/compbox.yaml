@@ -9,45 +9,25 @@ milestone: $SRYYYY Competition
 area-owner: game
 
 description: >-
-  # from comp/ops/deploy-compbox.yaml
-  ## Deploy the Compbox
+  The competition software is used to drive the live displays of scores, etc.
+  We have two separate compboxes, one in the venue and on in the cloud.
+  The displays connected to the comp network (those around the arena) will use the local compbox and those outside this network will use the remote compbox.
 
-  The compbox VM will need deploying onto the host machine and ensuring
-  that it works.
+  The remote compbox has historically been a Digital Ocean VM running the latest Ubuntu LTS configured using https://github.com/PeterJCLaw/srcomp-puppet.
 
-  This should also include confirming that it's got a static name/address
-  and that the relevant pages can be seen from other machines.
-
-  # from comp/ops/prepare-compbox.yaml
-  ## Prepare the in-venue Compbox
-
-  We have a Raspberry Pi 3 (part code `srL1CX`) which is typically used
-  as the compbox.
-
-  This task is to prepare the micro SD card and validate that the Pi itself
-  functions, so that deployment in the venue is as simple as plugging the Pi
-  into the competition network.
+  We have a Raspberry Pi 3 (part code `srL1CX`) which is typically used as the in-venue compbox.
+  For this we need to prepare the micro SD card for the Pi so that it is ready for when we arrive at the venue.
 
   The steps here are usually:
 
-  1. Flash the SD card with the latest Raspbian stable
+   1. Flash the SD card with the latest Raspbian stable
+   2. Clone https://github.com/PeterJCLaw/srcomp-puppet onto the Pi
+   3. Run `srcomp-puppet/scripts/install` on the Pi
+   4. Use the `scripts/check-pages.py` to validate from outside the Pi that the expected pages can be reached
 
-  2. Clone https://github.com/PeterJCLaw/srcomp-puppet onto the Pi
-
-  3. Run `srcomp-puppet/scripts/install` on the Pi
-
-  4. Use the `scripts/check-pages.py` to validate from outside the Pi that
-  the expected pages can be reached
-
-  # from comp/ops/public-compbox.yaml
-  ## Deploy a public compbox
-
-  The competition software has state about the competition which is used
-  to drive the live displays of scores (etc.) on the website. We need a
-  publicly visible host of this information.
-
-  This has historically been a Digital Ocean VM running the latest Ubuntu LTS
-  configured using https://github.com/PeterJCLaw/srcomp-puppet.
+  Required actions:
+   - [ ] Deploy the public compbox
+   - [ ] Deploy the in-venue compbox
 
 dependencies:
   - comp/ops/compstate
