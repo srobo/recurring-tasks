@@ -1,0 +1,25 @@
+summary: Organise how arena testing slots will be booked
+
+priority: should
+
+component: Competition
+
+milestone: $SRYYYY Competition Prep
+
+area-owner: game
+
+description: >-
+  There is limited availablity for teams to test their robots in the arenas.
+  We need to plan how we are going to ensure that this time is fairly distributed between teams.
+
+  Tinker time slots in the main arena need to be long enough for teams to properly run through their strategies in the actual arena.
+  Conversely, test arena slots need to be regular enough that teams aren't waiting significant times to be able to test.
+
+  Required actions:
+   - [ ] Decide on the lengths of tinker time and test arena slots
+   - [ ] Decide how tinker time slots are booked
+   - [ ] Decide how test arena slots are booked
+   - [ ] Decide where teams book their slots
+
+dependencies:
+  - comp/day-schedule

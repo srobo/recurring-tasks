@@ -49,3 +49,4 @@ dependencies:
     - comp/pits/rules
     - comp/announce
     - comp/radio-plan
+    - comp/game/tinker-time
