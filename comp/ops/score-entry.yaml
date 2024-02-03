@@ -9,14 +9,15 @@ milestone: $SRYYYY Competition
 area-owner: game
 
 description: >-
-  We need a data entry system for converting from the score entry forms
-  to the YAML file format.
-
-  This task is both the root for preparing this system and covers the updating
-  of the scorer UI for this year's game.
+  We need a method to enter the data from the scoring forms into the compstate.
+  This is a case of updating the scorer UI for this year's game.
 
   See https://github.com/PeterJCLaw/srcomp/wiki/Competition-Preparation#update-srcomp-scorer
   for details of the latter.
+
+  Required actions:
+   - [ ] Generate a scoring UI
+   - [ ] Test entering data from the score sheets
 
 dependencies:
   - comp/ops/compstate
