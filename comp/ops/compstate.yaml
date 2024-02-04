@@ -9,41 +9,28 @@ milestone: $SRYYYY Competition
 area-owner: game
 
 description: >-
-  # from comp/ops/compstate.yaml
-  ## Prepare the $SRYYYY compstate
+  The competition software has state about the competition which is used to drive the matches,
+  live displays of scores (etc.) both within the venue and on the website.
 
-  The competition software has state about the competition which is used to
-  drive the matches, live displays of scores (etc.) both within the venue on
-  the website.
-
-  This task is to create the initial state for the competition; see
+  This task includes creating the initial state for the competition; see
   https://github.com/PeterJCLaw/srcomp/wiki/Competition-Preparation#create-a-compstate
   and https://github.com/search?q=topic%3Acompstate+org%3Asrobo&type=Repositories.
 
-  # from comp/game/score-format.yaml
-  ## Create $SRYYYY game score format
-
-  The format for the game data YAML files which record match outcomes
-  needs to be designed.
-
-  There is guidance for how to do this for SRComp at
+  Alongside this, the format for the game data YAML files which record match outcomes and the script used to calculate the scores needs to be designed.
+  There is guidance for how to do the former for SRComp at
   https://github.com/PeterJCLaw/srcomp/wiki/Competition-Preparation#configure-game-scoring
+  See https://github.com/PeterJCLaw/srcomp/wiki/Competition-Preparation#implement-scorepy for details of the latter.
 
-  # from comp/game/score-script.yaml
-  ## Write scoring scripts for the $SRYYYY game
+  To complete the compstate we need to import the teams and schedule data.
+  This may also need to be done again at the competition.
 
-  The scoring script provides automatic computation of the scores based on the
-  data input from the score sheets.
-
-  See https://github.com/PeterJCLaw/srcomp/wiki/Competition-Preparation#implement-scorepy for details.
-
-  # from comp/ops/teams-import.yaml
-  ## Import the (final) teams data into the compstate
-
-  We need to run the teams import into the compstate as part of the
-  setup so that it's got the latest team images.
-
-  This import may also need re-running during the competition.
+  Required actions:
+   - [ ] Generate the initial compstate
+   - [ ] Create the match scoring YAML format
+   - [ ] Create the scoirng logic
+   - [ ] Import the teams into the compstate
+   - [ ] Import the schedule into the compstate
+   - [ ] Import the final team data
 
 dependencies:
   - comp/day-schedule
