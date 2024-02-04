@@ -170,6 +170,7 @@ class GitHubBackend:
         repo_name: str,
         include_area_owners: bool = False,
         include_components: bool = False,
+        dependencies_as_task_list: bool = False,
     ) -> None:
         self.github = github.Github(get_github_credential())
         self.repo = self.github.get_repo(repo_name)
@@ -179,6 +180,7 @@ class GitHubBackend:
 
         self.include_area_owners = include_area_owners
         self.include_components = include_components
+        self.dependencies_as_task_list = dependencies_as_task_list
 
         labels: Dict[str, github.Label.Label] = {
             x.name: x for x in self.repo.get_labels()
@@ -225,10 +227,29 @@ class GitHubBackend:
         text += self._section("Original", self._original_link(ticket))
 
         if ticket.dependencies:
-            text += self._section("Dependencies", "\n".join(
-                f" * #{dep} {self.title(dep)}".rstrip()
+            dependencies = "\n".join(
+                # GitHub includes the title itself when rendering, however
+                # that's not present if anyone edits the source. Include the
+                # title commented out so that editors can tell which items are
+                # which.
+                f" - [ ] #{dep} <!-- {self.title(dep)} -->".rstrip()
                 for dep in sorted(ticket.dependencies)
-            ))
+            )
+
+            if self.dependencies_as_task_list:
+                text += textwrap.dedent('''
+                    ```[tasklist]
+                    ### Dependencies
+                    {dependencies}
+                    ```
+                ''').format(
+                    # Format separately so we don't have bad interactions with
+                    # the dedent above.
+                    dependencies=dependencies,
+                )
+
+            else:
+                text += self._section("Dependencies", dependencies)
 
         return text.strip()
 

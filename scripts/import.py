@@ -173,6 +173,11 @@ def parse_args() -> argparse.Namespace:
         help="Include components in the generated tickets",
         action='store_true',
     )
+    parser.add_argument(
+        '--task-list',
+        help="Use GitHub's newer task-list style (only works within GitHub Orgs)",
+        action='store_true',
+    )
 
     return parser.parse_args()
 
@@ -185,6 +190,7 @@ def main(arguments: argparse.Namespace) -> None:
             arguments.github_repo,
             include_area_owners=arguments.area_owners,
             include_components=arguments.components,
+            dependencies_as_task_list=arguments.task_list,
         )
     else:
         backend = FakeTracBackend()
