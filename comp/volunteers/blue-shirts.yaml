@@ -13,7 +13,11 @@ description: >-
     They contain the year-specific sponsors so we need to order enough for all the volunteers at the competition.
 
 
+    We will want to design these with the year-specific sponsors and possibly some game-specific artwork.
+
+
     Required actions:
+     - [ ] Design the t-shirts
      - [ ] Order t-shirts
 
 dependencies:
