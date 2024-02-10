@@ -11,6 +11,7 @@ area-owner: media-press
 description: >-
   There may be website alterations to be made to the competition website
   before the competition, such as adding an embed to the livestream.
+  This link will need to be changed for the second day of the competition.
 
 
   During the competition, the website proxy should be switched to use
@@ -22,13 +23,20 @@ description: >-
   the normal website homepage instead of the competition live one.
   This normally happens on the morning following the competition.
 
+
   Toggling the website proxy is done by changing the `enable_competition_homepage`
   setting in the ansible configuration: https://github.com/srobo/ansible/blob/main/group_vars/all.yml#L23
 
+
+  To simplify the process, both changing to and from the competition live homepage should have PRs created before the competition starts.
+
+
   Required actions:
-   - [ ] Add an embed to the livestream
-   - [ ] Switch the website proxy to use the competition live homepage
-   - [ ] Switch the website proxy to use the normal homepage
+   - [ ] Add an embed for the livestream day 1
+   - [ ] Create a PR to add the embed for the livestream day 2
+   - [ ] Create a PR to switch the website proxy to use the competition live homepage
+   - [ ] Create a PR to switch the website proxy to use the normal homepage
+   - [ ] Add all three PRs to the project board
 
 dependencies:
   - comp/ops/public-compbox
