@@ -51,3 +51,4 @@ dependencies:
     - comp/radio-plan
     - comp/game/tinker-time
     - comp/ops/scoring-hardware
+    - comp/safety/incident-log
