@@ -53,3 +53,4 @@ dependencies:
     - comp/safety/incident-log
     - comp/banner
     - comp/ops/compbox
+    - comp/team-checkup
