@@ -21,7 +21,7 @@ description: >-
 
   Required actions:
    - [ ] Plan where the kit handback will take place
-   - [ ] Plan how to record what items each team has returned
+   - [ ] Plan how to record what items each team has returned and has not returned
    - [ ] Organise how many people will be needed to run the kit handback
 
 dependencies:
