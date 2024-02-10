@@ -18,5 +18,5 @@ description: >-
 
 
     Required actions:
-     * [ ] Check that the competition is covered by SR's public liability insurance
-     * [ ] If not, get the competition covered by SR's public liability insurance
+     - [ ] Check that the competition is covered by SR's public liability insurance
+     - [ ] If not, get the competition covered by SR's public liability insurance

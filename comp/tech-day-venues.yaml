@@ -19,11 +19,11 @@ description: >-
 
 
   This task is about planning the tech days. We should include:
-   * The number of tech days we want to run
-   * The dates of the tech days
-   * The location of the tech days
-   * The number of volunteers we need to run the tech days
-   * The number of teams we can support at each tech day
+   - The number of tech days we want to run
+   - The dates of the tech days
+   - The location of the tech days
+   - The number of volunteers we need to run the tech days
+   - The number of teams we can support at each tech day
 
   Required actions:
    - [ ] Plan the tech days

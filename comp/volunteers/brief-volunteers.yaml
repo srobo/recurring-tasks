@@ -28,8 +28,8 @@ description: >-
 
 
   The radio briefing should include:
-   * How to start a call (e.g. "Helpdesk, for reception.")
-   * The difference between "Over" and "Out"
+   - How to start a call (e.g. "Helpdesk, for reception.")
+   - The difference between "Over" and "Out"
 
 dependencies:
   - comp/venue/book

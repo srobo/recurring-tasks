@@ -15,9 +15,9 @@ description: >-
 
 
   Required actions:
-   * [ ] Create a report on the $SRYYYY competition cycle
-   * [ ] Have area owners contribute to the report
-   * [ ] Give the reports to the trustees
+   - [ ] Create a report on the $SRYYYY competition cycle
+   - [ ] Have area owners contribute to the report
+   - [ ] Give the reports to the trustees
 
 dependencies:
   - comp/feedback/gather-team-feedback

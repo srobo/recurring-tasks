@@ -19,8 +19,8 @@ description: >-
 
 
   Required actions:
-   * [ ] Decide who will run the simulation
-   * [ ] Decide when the simulations will be run
-   * [ ] Generate a schedule for the simulated matches
-   * [ ] Run the simulation
-   * [ ] Send the videos to the livestream producer
+   - [ ] Decide who will run the simulation
+   - [ ] Decide when the simulations will be run
+   - [ ] Generate a schedule for the simulated matches
+   - [ ] Run the simulation
+   - [ ] Send the videos to the livestream producer

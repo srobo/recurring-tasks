@@ -18,13 +18,13 @@ description: >-
 
 
     For example, we need computers for:
-     * score entry (tracked in the scoring task)
-     * livestream (tracked in the livestream task)
-     * helpdesk (though this may be volunteers' laptops)
+     - score entry (tracked in the scoring task)
+     - livestream (tracked in the livestream task)
+     - helpdesk (though this may be volunteers' laptops)
 
     Required actions:
-     * [ ] Decide on the number of computers we need
-     * [ ] Source required computers
+     - [ ] Decide on the number of computers we need
+     - [ ] Source required computers
 
 dependencies:
     - comp/helpdesk

@@ -24,17 +24,17 @@ description: >-
 
 
   An example set of domains are:
-   * Rules
-   * Kit
-     * Python API
-     * Hardware
-     * Competition operations
+   - Rules
+   - Kit
+     - Python API
+     - Hardware
+     - Competition operations
 
   Note that this list of people should also take into account who is likely to be available.
 
 
   Required actions:
-   * [ ] Decide who will run helpdesk
-   * [ ] Create a list of available subject matter experts
-   * [ ] Have spare kit available at the competition
-   * [ ] Train volunteers to run helpdesk
+   - [ ] Decide who will run helpdesk
+   - [ ] Create a list of available subject matter experts
+   - [ ] Have spare kit available at the competition
+   - [ ] Train volunteers to run helpdesk

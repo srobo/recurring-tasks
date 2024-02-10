@@ -10,9 +10,9 @@ area-owner: teams
 
 description: >-
   This would cover things like:
-    * Thanking them for taking part
-    * Remind teams to provide feedback
-    * Sharing rough times for next year's signups opening
+   - Thanking them for taking part
+   - Remind teams to provide feedback
+   - Sharing rough times for next year's signups opening
 
   Required actions:
    - [ ] Create an email

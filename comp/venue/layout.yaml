@@ -17,19 +17,19 @@ description: >-
 
 
   This should include:
-   * The arena (or arenas)
-   * The team pits
-   * The reception
-   * The helpdesk(s)
-   * The power tools area
-   * The battery charging area (near the helpdesk)
-   * The staging area
-   * The photo booth
-   * The test arena
-   * First aid
-   * The tech desk
-   * The livestream
-   * Score entry
+   - The arena (or arenas)
+   - The team pits
+   - The reception
+   - The helpdesk(s)
+   - The power tools area
+   - The battery charging area (near the helpdesk)
+   - The staging area
+   - The photo booth
+   - The test arena
+   - First aid
+   - The tech desk
+   - The livestream
+   - Score entry
 
   Each team pit should be numbered and have a list of teams assigned to them.
   They are normally 2.5x2.5m, but this may vary.
