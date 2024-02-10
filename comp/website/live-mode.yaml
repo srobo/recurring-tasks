@@ -31,4 +31,4 @@ description: >-
    - [ ] Switch the website proxy to use the normal homepage
 
 dependencies:
-  - comp/ops/compbox
+  - comp/ops/public-compbox

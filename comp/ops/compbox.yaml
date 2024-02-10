@@ -1,4 +1,4 @@
-summary: Setup the compboxes for the $SRYYYY competition
+summary: Setup the in-venue compbox for the $SRYYYY competition
 
 priority: should
 
@@ -14,9 +14,6 @@ description: >-
   The displays connected to the comp network (those around the arena) will use the local compbox and those outside this network will use the remote compbox.
 
 
-  The remote compbox has historically been a Cloud VM running the latest Ubuntu LTS configured using https://github.com/PeterJCLaw/srcomp-puppet.
-
-
   We have a Raspberry Pi 3 (part code `srL1CX`) which is typically used as the in-venue compbox.
   For this we need to prepare the micro SD card for the Pi so that it is ready for when we arrive at the venue.
 
@@ -28,7 +25,6 @@ description: >-
    4. Use the `scripts/check-pages.py` to validate from outside the Pi that the expected pages can be reached
 
   Required actions:
-   - [ ] Deploy the public compbox
    - [ ] Deploy the in-venue compbox
 
 dependencies:

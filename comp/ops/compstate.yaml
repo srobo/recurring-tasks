@@ -36,3 +36,4 @@ description: >-
 
 dependencies:
   - comp/day-schedule
+  - comp/game/match-schedule

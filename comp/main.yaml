@@ -32,7 +32,6 @@ dependencies:
     - comp/venue/batteries
     - comp/welcome
     - comp/website/inform-teams
-    - comp/game/match-schedule
     - comp/prizes/ceremony
     - comp/swag
     - comp/invite-key-people
@@ -53,3 +52,4 @@ dependencies:
     - comp/ops/scoring-hardware
     - comp/safety/incident-log
     - comp/banner
+    - comp/ops/compbox

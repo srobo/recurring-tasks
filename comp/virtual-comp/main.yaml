@@ -16,3 +16,4 @@ dependencies:
   - comp/virtual-comp/plan
   - comp/virtual-comp/code-submitter
   - comp/livestream/crop-virtual-comp-vod
+  - comp/ops/public-compbox

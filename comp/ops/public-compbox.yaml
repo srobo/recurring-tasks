@@ -1,0 +1,31 @@
+summary: Setup the public compbox for the $SRYYYY competition
+
+priority: should
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+area-owner: game
+
+description: >-
+  The competition software is used to drive the live displays of scores, etc.
+
+
+  For the virtual competition, we have a single compbox running in the cloud.
+  This is used to drive the livestream and the live scores on the website.
+
+
+  For the competition, we have two separate compboxes, one in the venue and on in the cloud.
+  The displays connected to the comp network (those around the arena) will use the local compbox and those outside this network will use the remote compbox.
+
+
+  The remote compbox has historically been a Cloud VM running the latest Ubuntu LTS configured using https://github.com/PeterJCLaw/srcomp-puppet.
+
+
+  Required actions:
+   - [ ] Deploy the public compbox
+
+dependencies:
+  - comp/ops/compstate
+  - comp/ops/score-entry
