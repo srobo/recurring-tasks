@@ -31,7 +31,7 @@ description: >-
   Required actions:
    - [ ] Generate the initial compstate
    - [ ] Create the match scoring YAML format
-   - [ ] Create the scoirng logic
+   - [ ] Create the scoring logic
    - [ ] Import the teams into the compstate
    - [ ] Import the schedule into the compstate
    - [ ] Import the final team data
