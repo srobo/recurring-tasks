@@ -27,7 +27,7 @@ description: >-
    - Installed screens at the venue presenting at least 1 outside screen and 1 livestream per area of the venue.
 
   For each screen we will need something to drive it.
-  For the livestream and scoring entry screens these are people's laptops.
+  For the livestream and scoring entry screens these are often laptops that people provide, so have an inbuilt display.
   For the arena screens we have used Raspberry Pis in the past.
   These will need to be set up to display a web-page (either the compbox or the livestream) and cabling will need to be arranged.
 
