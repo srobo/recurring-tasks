@@ -21,4 +21,5 @@ description: >-
 
   Required actions:
    - [ ] Create a scoring sheet
+   - [ ] Compare the sheet to the scoring UI
    - [ ] Add the scoring sheets to the print order

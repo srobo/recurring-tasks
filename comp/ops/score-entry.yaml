@@ -20,6 +20,7 @@ description: >-
 
   Required actions:
    - [ ] Generate a scoring UI
+   - [ ] Compare the UI to the scoring sheets
    - [ ] Test entering data from the score sheets
 
 dependencies:
