@@ -1,0 +1,25 @@
+summary: Update and publish risk assessments for the competition
+
+milestone: $SRYYYY Competition
+
+priority: must
+
+component: Competition
+
+area-owner: health-safety
+
+description: >-
+    We will need a means to record and store details of any incident or near-miss occurring.
+    At bare minimum this needs to store what happened and why, and what follow up occurred.
+
+
+    SR has an incident record book which was purchased for this purpose.
+    Checking that it is still suitable should have been done in the risk assessment task,
+    but we should ensure that it will be at the competition venue.
+
+
+    Required actions:
+     - [ ] Ensure the incident log is delivered to the competition
+
+dependencies:
+    - comp/safety/comp-risk-assessments

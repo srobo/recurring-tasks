@@ -24,7 +24,7 @@ description: >-
 
 
     SR has an incident record book which was purchased for this purpose.
-    We should check that it is still suitable & usable and ensure that it will be at the competition venue.
+    We should check that it is still suitable & usable.
 
 
     Required actions:
@@ -32,4 +32,3 @@ description: >-
      - [ ] Update incident response plan
      - [ ] Publish risk assessment
      - [ ] Have an incident log
-     - [ ] Ensure the incident log is delivered to the competition
