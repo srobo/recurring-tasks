@@ -1,6 +1,6 @@
 summary: Schedule volunteer roles
 
-priority: major
+priority: should
 
 component: Competition
 
@@ -12,5 +12,15 @@ description: >-
     We need to work out how many people we need doing each role and then come up
     with a timetable which shows who is doing which role when.
 
+
+    A noted job that should be remembered is delivering refreshments to
+    volunteers that have long shifts and cannot leave their posts for long
+    periods of time.
+
+
+    Required actions:
+     - [ ] Capture volunteer job preferences
+     - [ ] Schedule roles
+
 dependencies:
-  - comp/day-schedule
+  - comp/volunteers/recruit

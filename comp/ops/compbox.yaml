@@ -1,0 +1,32 @@
+summary: Setup the in-venue compbox for the $SRYYYY competition
+
+priority: should
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+area-owner: game
+
+description: >-
+  The competition software is used to drive the live displays of scores, etc.
+  We have two separate compboxes, one in the venue and on in the cloud.
+  The displays connected to the comp network (those around the arena) will use the local compbox and those outside this network will use the remote compbox.
+
+
+  We have a Raspberry Pi 3 (part code `srL1CX`) which is typically used as the in-venue compbox.
+  For this we need to prepare the micro SD card for the Pi so that it is ready for when we arrive at the venue.
+
+
+  The steps here are usually:
+   1. Flash the SD card with the latest Raspbian stable
+   2. Clone https://github.com/PeterJCLaw/srcomp-puppet onto the Pi
+   3. Run `srcomp-puppet/scripts/install` on the Pi
+   4. Use the `scripts/check-pages.py` to validate from outside the Pi that the expected pages can be reached
+
+  Required actions:
+   - [ ] Deploy the in-venue compbox
+
+dependencies:
+  - comp/ops/compstate
+  - comp/ops/score-entry

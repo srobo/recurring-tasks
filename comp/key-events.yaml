@@ -1,0 +1,24 @@
+summary: Ensure the key events of the $SRYYYY competition occur
+
+priority: should
+
+component: Competition
+
+milestone: $SRYYYY Competition Day
+
+area-owner: volunteer-coordination
+
+description: >-
+  We need to ensure that the key events of the competition occur.
+
+
+  This includes matches, the prize-giving ceremony, and photos.
+
+
+  Required actions:
+   - [ ] Have the league matches
+   - [ ] Have the knockout matches
+   - [ ] Take photos of individual teams with their robots
+   - [ ] Take a group photo of the Blueshirts
+   - [ ] Take a group photo of all teams with their robots
+   - [ ] Have the prize-giving ceremony

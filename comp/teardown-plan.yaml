@@ -1,0 +1,31 @@
+summary: Plan competition teardown
+
+priority: should
+
+component: Competition
+
+milestone: $SRYYYY Competition Prep
+
+area-owner: event-logistics
+
+description: >-
+  In general, the process of tearing down the competition is the reverse
+  of setting it up.
+
+
+  This will consist of disposing of used consumables, returning borrowed
+  and hired equipment, and returning SR equipment to storage.
+
+
+  We should make sure, during setup, that borrowed items are clearly
+  marked as such so that they can be easily identified during teardown.
+
+
+  Required actions:
+   - [ ] Dispose of consumables
+   - [ ] Plan returning of borrowed items
+   - [ ] Plan returning of hired items
+   - [ ] Plan how SR equipment will be organised in to boxes for storage
+
+dependencies:
+  - comp/setup-plan

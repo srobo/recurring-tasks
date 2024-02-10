@@ -1,6 +1,6 @@
 summary: Have name badges for volunteers at the competition
 
-priority: minor
+priority: could
 
 component: Competition
 
@@ -9,7 +9,16 @@ milestone: $SRYYYY Competition
 area-owner: volunteer-coordination
 
 description: >-
-    Name badges should be printed for all volunteers we know will be there.  We
-    should also have blank badges for those we don't expect.
+    Name badges should be printed for all volunteers we know will be there.
+    We should also have blank badges for those we don't expect.
+
 
     See https://github.com/srobo/promotional-material/tree/master/name-badges for the current designs.
+
+
+    Required actions:
+     - [ ] Apply any neccessary updates to the template
+     - [ ] Print name badges
+
+dependencies:
+    - comp/volunteers/recruit

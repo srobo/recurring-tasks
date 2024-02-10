@@ -1,6 +1,6 @@
 summary: Find and book venue for $SRYYYY
 
-priority: blocker
+priority: must
 
 component: Competition
 
@@ -10,3 +10,51 @@ area-owner: event-logistics
 
 description: >-
     We need a venue for $SRYYYY.
+
+
+    This needs to have enough space for the arenas, team pits, reception,
+    helpdesk, and so forth.
+
+
+    The equipment we also hire includes:
+     - Carpet to floor the arenas, allow 1m outside all sides [^1]
+     - Barriers to surround the main arena [^2]
+     - 1 table and 2-4 chairs per team
+     - Power distribution, 2 sockets per team
+     - ~15 tables for the reception, helpdesk, staging, etc.
+     - Some chairs for volunteers
+     - A sound system throughout the venue
+       - With independent feeds for the arena and pits
+     - 2x wireless microphones for commentary
+     - General lighting for the arena
+     - Stands for the arena corner screens
+     - 10-12 handheld radios
+     - Additional displays for the pit area (potentially with stands)
+
+    [^1]: In venues with carpetted floors you may be able to for go the additional carpet.
+
+    [^2]: Since SR2015 the arena has been constructed of ~12" high wall segments so an
+      additional barrier is need to separate the arena from the spectators.
+      This was originally metal crowd barriers, since SR2022 we have used rope barriers instead.
+      These have worked better at staying in position.
+
+    You may also want to consider:
+     - A backdrop for the photo studio
+     - Coloured floor lighting around the arena
+     - Theatrical lasers for the arena
+
+    In order to play licensed music at the competition we need a "TheMusicLicence".
+    Some venues may already have this so it's worth enquiring.
+
+
+    Note: This does not cover using licensed music on the livestream.
+
+
+    Required actions:
+     - [ ] Book a venue
+     - [ ] Hire other necessary equipment
+     - [ ] Confirm the venue has a music license
+
+dependencies:
+  - comp/venue/insurance
+  - comp/safety/comp-risk-assessments

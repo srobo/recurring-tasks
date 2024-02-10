@@ -1,6 +1,6 @@
-summary: Order additional blueshirts for the competition
+summary: Order volunteer shirts for the competition
 
-priority: minor
+priority: should
 
 component: Competition
 
@@ -9,4 +9,17 @@ milestone: $SRYYYY Competition
 area-owner: volunteer-coordination
 
 description: >-
-    We may need more.
+    Every volunteer at gets a blue t-shirt at the competition so they can be easily identified.
+    They contain the year-specific sponsors so we need to order enough for all the volunteers at the competition.
+
+
+    We will want to design these with the year-specific sponsors and possibly some game-specific artwork.
+
+
+    Required actions:
+     - [ ] Design the t-shirts
+     - [ ] Order t-shirts
+
+dependencies:
+    - comp/volunteers/recruit
+    - comp/swag

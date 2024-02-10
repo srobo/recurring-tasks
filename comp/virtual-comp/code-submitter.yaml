@@ -1,0 +1,20 @@
+summary: Setup code submitter for $SRYYYY virtual competition
+
+priority: should
+
+component: Competition
+
+milestone: $SRYYYY Competition Prep
+
+area-owner: simulator
+
+description: >-
+  In order for teams to submit their code for the virtual competition, we need to
+  setup the code submitter. This will be a web application that allows teams to
+  submit their code and will be hosted on the SR's infrastructure.
+
+
+  Required actions:
+   - [ ] Setup the code submitter on the SR's infrastructure
+   - [ ] Populate the code submitter with the teams' passwords
+   - [ ] Advertise the code submitter to the teams

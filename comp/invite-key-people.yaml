@@ -1,0 +1,25 @@
+summary: Invite key people to the competition
+
+priority: should
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+area-owner: media-press
+
+description: >-
+  We should invite some press to the competition. This should be done as early as
+  possible, and we should follow up with them closer to the time.
+
+
+  Additionally we should send out invitations to various people from both our current
+  and any prospective sponsoring organisations to come along to the competition.
+
+
+  Required actions:
+   - [ ] Invite press to the competition
+   - [ ] Invite additional sponsors to the competition
+
+dependencies:
+  - comp/sponsor-perks

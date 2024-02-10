@@ -1,24 +1,33 @@
 summary: Prepare competition-mode USB keys
 
-priority: major
+priority: should
 
 component: Competition
 
 milestone: $SRYYYY Competition
 
-area-owner: kit
+area-owner: game
 
 description: >-
   During matches the robots need a mechanism to know which corner they're
-  in and to ensure that they can only see the proper libkoki markers.
+  in.
 
-  This is usually solved by using a set of competition-mode USB keys
-  which the teams plugged into their robots.
+
+  This is currently solved by using a set of competition-mode USB keys
+  which the teams plugged into their robots. These light up with the corner
+  colour that they are assigned to.
+
 
   We need two sets of each key; one for the robot currently playing,
   one for the robot currently preparing. They will be kept in the
   staging-area.
 
-  SR owns several full sets of these (enough for several sets over two arenas),
-  though these should be checked to ensure they are still functional and have
-  the correct data on them.
+
+  SR owns 12 of these, the match data on them may need updating for match timeout.
+
+
+  Required actions:
+   - [ ] Update match data on comp-mode USBs
+
+dependencies:
+  - comp/game/match-ops

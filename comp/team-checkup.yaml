@@ -1,0 +1,22 @@
+summary: Check in with teams and record their progress
+
+priority: should
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+area-owner: mentoring
+
+description: >-
+  Mentors assigned should periodically check in with their teams to ensure they are making progress and to provide guidance as needed.
+
+
+  We should also record the progress of each team in a central location so that we can track which teams may need additional support or are likely to drop out.
+
+
+  Required actions:
+   - [ ] Get feedback from mentors about team progress throughout the year
+
+dependencies:
+  - comp/assign-mentors

@@ -1,0 +1,52 @@
+summary: Organise the logistics
+
+priority: should
+
+component: Competition
+
+milestone: $SRYYYY Competition Prep
+
+area-owner: event-logistics
+
+description: >-
+  To run the competition each year, we need a set of equipment.
+  This is a combination of items that can be reused each year, stored in the container, and consumables that we may need to purchase.
+
+
+  Well before the competition we'll need to visit storage, to check quantities of consumables (tape etc.) and check the condition of other items.
+  We should also create a detailed list of the quantities and competition locations that they need to be delivered to.
+
+
+  The items we should check for are:
+   - [ ] Robot flag fittings, 1 per team order extras from [Screwfix 15mm Speedfit fittings](https://www.screwfix.com/p/jg-speedfit-pem0215w-l-equal-tee-white-15-x-15-x-15mm-5-pack/74470)
+   - [ ] Robot flags, 2 for each corner
+   - [ ] Tape quantities
+     - [ ] A few rolls of white gaff
+     - [ ] A few rolls of black gaff
+     - [ ] A roll of neon yellow, orange, green, pink gaff each
+     - [ ] A few rolls of electrical tape
+     - [ ] A roll of red electrical tape
+     - [ ] A rolll hazard tape
+     - [ ] 2 rolls of NEC carpet tape
+   - [ ] 4+ clipboards
+   - [ ] Pens, just buy these each year
+   - [ ] A box file, for completed scoring forms
+   - [ ] High-vis jackets, 1 per team for safety signoffs
+   - [ ] Comp mode USBs, 2 for each corner
+   - [ ] Table cloths, 3+ sets
+   - [ ] Red lanyards for media consent
+   - [ ] Printer and ink, at least 1 full cartridge
+   - [ ] The display & compbox Pis (in RUB sr0J62), collect this box for flashing in advance
+
+  Whilst at storage, we could pre-pack these items ready for transport to the competition.
+
+
+  The logistics list will then be used at the setup to collect the items from the container and delivered to each area at the competition.
+
+
+  Required actions:
+   - [ ] Gererate a list of items required for the competition
+   - [ ] Visit container to check what needs ordering
+   - [ ] Visit container to pre-pack boxes
+   - [ ] Purchase any required items
+   - [ ] Take items to the competition and distribute to the areas that they are needed

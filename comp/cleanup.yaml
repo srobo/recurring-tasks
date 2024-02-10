@@ -1,6 +1,6 @@
-summary: Tidy up after the competition
+summary: "[Meta] Tidy up after the competition"
 
-priority: major
+priority: must
 
 component: Competition
 
@@ -12,9 +12,7 @@ description: >-
   Root ticket for all cleanup related items
 
 dependencies:
-  - comp/venue/transport/return
-  - comp/website/switch-to-normal-mode
-  - comp/tear-down/main
   - comp/livestream/crop-vod
+  - comp/publish-news-article
   - comp/feedback/post-competition-reports
   - comp/wrap-up-email

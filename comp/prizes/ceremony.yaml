@@ -1,6 +1,6 @@
-summary: Organise the $SRYYYY post-finals sequence
+summary: Organise the prize ceremony for the $SRYYYY competition
 
-priority: major
+priority: should
 
 component: Competition
 
@@ -13,18 +13,32 @@ description: >-
   how we will transition from the finals, through any speeches and run the
   actual prize-giving ceremony.
 
+
   We should ensure that anyone who is speaking (whether a volunteer or a guest
   speaker) knows how long they have, what we're expecting them to talk about and
   is well rehearsed.
 
+
   We should include (somewhere) thanks to various people: teams, volunteers,
   sponsors, etc.
 
+
+  We like to put the results on pieces of card, inside envelopes, to make the prize ceremony look more professional.
+  We need to source the cards and envelopes with the SR logo on them.
+
+
+  The speaker for the prize ceremony should be someone involved in technology and who the competitors can recognise as such.
+
+
+  To make sure that the prize ceremony runs smoothly, we should have a rehearsal of the prize-giving ceremony.
+
+
+  Required actions:
+   - [ ] Get branded envelopes & cards for the prize ceremony
+   - [ ] Arrange a speaker for the prize ceremony
+   - [ ] Plan out the prize-giving ceremony
+   - [ ] Have a rehearsal of the prize-giving ceremony
+
 dependencies:
-  - comp/prizes/envelopes
-  - comp/prizes/speaker
-  - comp/prizes/web-presence
-  - comp/prizes/first-movement
-  - comp/prizes/position-awards
-  - comp/prizes/committee-award
-  - comp/prizes/team-image
+  - comp/prizes/acquire-prizes
+  - comp/sponsor-perks

@@ -1,6 +1,6 @@
-summary: Prepare the $SRYYYY Compstate
+summary: Setup the compstate for the $SRYYYY game
 
-priority: critical
+priority: should
 
 component: Competition
 
@@ -9,22 +9,31 @@ milestone: $SRYYYY Competition
 area-owner: game
 
 description: >-
-    The competition software has state about the competition which is used to
-    drive the matches, live displays of scores (etc.) both within the venue on
-    the website.
+  The competition software has state about the competition which is used to drive the matches,
+  live displays of scores (etc.) both within the venue and on the website.
 
-    This task is to create the initial state for the competition; see
-    https://github.com/PeterJCLaw/srcomp/wiki/Competition-Preparation#create-a-compstate
-    and https://github.com/search?q=topic%3Acompstate+org%3Asrobo&type=Repositories.
+
+  This task includes creating the initial state for the competition; see
+  https://github.com/PeterJCLaw/srcomp/wiki/Competition-Preparation#create-a-compstate
+  and https://github.com/search?q=topic%3Acompstate+org%3Asrobo&type=Repositories.
+
+
+  Alongside this, the format for the game data YAML files which record match outcomes and the script used to calculate the scores needs to be designed.
+  There is guidance for how to do the former for SRComp at
+  https://github.com/PeterJCLaw/srcomp/wiki/Competition-Preparation#configure-game-scoring
+  See https://github.com/PeterJCLaw/srcomp/wiki/Competition-Preparation#implement-scorepy for details of the latter.
+
+
+  To complete the compstate we need to import the teams and schedule data.
+  This may also need to be done again at the competition.
+
+
+  Required actions:
+   - [ ] Generate the initial compstate
+   - [ ] Create the match scoring YAML format
+   - [ ] Create the scoring logic
+   - [ ] Import the schedule into the compstate
 
 dependencies:
-    - comp/day-schedule
-    - comp/game/knockout-design
-    - comp/game/league-schedule
-    - comp/game/score-format
-    - comp/game/score-script
-    - comp/game/shepherding
-    - comp/ops/prepare-compbox
-    - comp/pits/layout
-    - comp/venue/layout
-    - comp/website/public-compbox
+  - comp/day-schedule
+  - comp/game/match-schedule

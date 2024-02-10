@@ -1,0 +1,32 @@
+summary: Update the kit API and docs for the $SRYYYY game
+
+priority: should
+
+component: pyenv
+
+milestone: $SRYYYY Kickstart
+
+area-owner: kit
+
+description: >-
+    The $SRYYYY game may require changes to the kit API and docs.
+
+
+    While the kit API has a default set of markers, these may not be suitable
+    for the $SRYYYY game. The kit API will need updating to contain any new
+    markers for the $SRYYYY game.
+
+
+    Additionally, there may be changes to the kit API that are required for
+    the $SRYYYY game. These will need to be implemented and the docs updated
+    to match.
+
+
+    Required actions:
+     _ [ ] Add any new markers to the kit API
+     - [ ] Update the kit API for the $SRYYYY game
+     - [ ] Update the docs for the $SRYYYY game
+     - [ ] Create marker PDF for the $SRYYYY game
+
+dependencies:
+    - kickstart/create-game

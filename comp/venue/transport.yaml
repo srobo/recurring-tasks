@@ -1,0 +1,34 @@
+summary: Organise equipment transport
+
+priority: should
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+area-owner: event-logistics
+
+description: >-
+  A large quantity of equipment needs to be transported to and from the
+  competition venue. For the setup includes things like the arena, and spare kit,
+  and for the teardown this will also include all the teams kits.
+
+
+  Generally, it is most cost effective to hire one van to transport transport
+  items from storage to the competition venue on the Thursday and then hire a second
+  van to return items to storage on the Monday.
+
+
+  For both vans, we will need someone with a full UK driving license of suitable
+  age, who is available, to drive the van.
+
+
+  Required actions:
+   - [ ] Decide on the size of the van required
+   - [ ] Decide when the equipment will be transported to the venue
+   - [ ] Organise a driver for the van for the Thursday/Wednesday
+   - [ ] Organise a driver for the van for the Monday
+   - [ ] Book the vans
+
+dependencies:
+  - comp/logistics

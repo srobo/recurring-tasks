@@ -72,8 +72,8 @@ def process(element_name: str, *, year: str, handle_dep: Callable[[str], int]) -
 
     component = raw_elements.get('component')
 
-    priority = raw_elements.get('priority', 'major')
-    if priority not in ('trivial', 'minor', 'major', 'critical', 'blocker'):
+    priority = raw_elements.get('priority', 'should')
+    if priority not in ('could', 'should', 'must'):
         raise RuntimeError(f"{path} has an invalid priority: {priority}")
 
     if component not in COMPONENTS:

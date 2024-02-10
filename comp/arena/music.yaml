@@ -1,6 +1,6 @@
-summary: Prepare generic music playlist for the competition
+summary: Prepare music playlists for the competition
 
-priority: major
+priority: should
 
 component: Competition
 
@@ -11,11 +11,16 @@ area-owner: production
 description: >-
     During matches we want music to be played into the arena.
 
-    We typically have 2 playlists: one for during matches, and one for during breaks.
-    Generally the former is more "intense" than the latter.
 
-    Note that there is a separate task for the time-synchronised music played
-    during the finals.
+    We typically have 3 playlists:
+     - One for during the breaks
+     - One for during matches
+     - One for during the final
 
-dependencies:
-    - comp/venue/sound
+    Each with increasing intensity.
+
+
+    Required actions:
+     - [ ] Generate a general playlist
+     - [ ] Generate a match playlist
+     - [ ] Generate a finals playlist

@@ -1,6 +1,6 @@
 summary: Recruit volunteers for the competition
 
-priority: major
+priority: should
 
 component: Competition
 
@@ -13,6 +13,17 @@ description: >-
   volunteers and solicit their help, both in preparing for the
   competition and at the competition itself.
 
+
   We should prepare a signup form which captures information about the
   volunteer so that we can schedule them at the competition as well as
   provide them with travel and accommodation.
+
+
+  We should also reach out to the volunteers who have helped in the
+  past, as well as those who have expressed an interest in helping in
+  the future.
+
+
+  Required actions:
+   - [ ] Create a sign-up form
+   - [ ] Send an email to all volunteers encouraging them to signup

@@ -1,0 +1,32 @@
+summary: Ship $SRYYYY kits to teams
+
+priority: must
+
+component: Kit
+
+milestone: $SRYYYY Kickstart
+
+area-owner: kit
+
+description: >-
+    Any teams that are not physically attending a Kickstart need their kits
+    shipped to them. While we are only doing virtual Kickstarts, this means
+    all teams.
+
+
+    Costs for this have are normally covered by SR.
+
+
+    Addresses will be collected from teams during the signup process.
+    Theses addresses will need to be confirmed by email before dispatching a kit.
+
+
+    Required actions:
+     - [ ] Confirm addresses with teams
+     - [ ] Record which kits are allocated to which teams.
+     - [ ] Ship kits to UK teams
+     - [ ] Ship kits to overseas teams
+
+dependencies:
+    - kickstart/signup-teams
+    - kickstart/kit/prep-kits

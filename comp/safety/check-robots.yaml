@@ -1,6 +1,6 @@
 summary: Safety check the $SRYYYY robots
 
-priority: critical
+priority: must
 
 component: Competition
 
@@ -11,8 +11,16 @@ area-owner: health-safety
 description: >-
     We need to inspect all the robots to ensure they are safe.
 
+
     The inspectors will want a list of the teams' first matches so they
     can visit them in order.
 
+
+    Required actions:
+     - [ ] Prepare the inspection checklist
+     - [ ] Inspect the robots
+     - [ ] Record the results of the inspection
+     - [ ] Re-inspect robots that failed
+
 dependencies:
-    - comp/safety/high-vis
+    - comp/safety/comp-risk-assessments

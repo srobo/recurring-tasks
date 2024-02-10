@@ -1,19 +1,22 @@
 summary: Send a wrap-up email to teams
 
-priority: major
+priority: should
 
 component: Competition
 
 milestone: $SRYYYY Competition Cleanup
 
-area-owner: media-press
+area-owner: teams
 
 description: >-
   This would cover things like:
+   - Thanking them for taking part
+   - Remind teams to provide feedback
+   - Sharing rough times for next year's signups opening
 
-    * Thanking them for taking part
-    * Remind teams to provide feedback
-    * Reminders to those who have kept kit that they need to return it (by $DATE)
+  Required actions:
+   - [ ] Create an email
+   - [ ] Send to all teams
 
 dependencies:
  - comp/feedback/gather-team-feedback

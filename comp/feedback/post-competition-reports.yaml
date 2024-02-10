@@ -1,6 +1,6 @@
 summary: Create post competiton reports
 
-priority: major
+priority: should
 
 component: Competition
 
@@ -12,6 +12,12 @@ description: >-
   We should give a report on the $SRYYYY competition cycle and details of the
   event to the trustees once everything from the event has been sorted out.
   This will also include a spending report for the year.
+
+
+  Required actions:
+   - [ ] Create a report on the $SRYYYY competition cycle
+   - [ ] Have area owners contribute to the report
+   - [ ] Give the reports to the trustees
 
 dependencies:
   - comp/feedback/gather-team-feedback

@@ -1,6 +1,6 @@
-summary: Plan refreshments for volunteers
+summary: Plan lunch & refreshments for volunteers
 
-priority: critical
+priority: must
 
 component: Competition
 
@@ -9,9 +9,23 @@ milestone: $SRYYYY Competition
 area-owner: volunteer-coordination
 
 description: >-
+  Since volunteers often don't have time to leave the venue for lunch
+  we should organise some food to be available for lunch during the competition.
+
+
+  In the past we have had food vendors available outside the venue.
+  In other years we have had pizza/sandwiches bulk ordered for the volunteers.
+
+
   We should have some refreshments for the volunteers at the competition.
+  Generally this should include at least tea, coffee & water as well as some biscuits & fruit.
   At a minimum this will include water and cups being available at all times
   throughout the competition including the setup day.
 
-  This should include at least tea, coffee & water as well as some biscuits &
-  fruit.
+
+  Required actions:
+   - [ ] Organise lunches
+   - [ ] Organise refreshments
+
+dependencies:
+  - comp/volunteers/recruit

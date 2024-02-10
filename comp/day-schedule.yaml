@@ -1,13 +1,27 @@
 summary: Work out the day schedules for the competition
 
-priority: major
+priority: must
 
 component: Media
 
 milestone: $SRYYYY Competition
 
-area-owner: event-logistics
+area-owner: game
 
 description: >-
   We need a list of what is happening at what times on both days of the
   competition (tinker time, lunch, league etc).
+
+
+  This should include:
+   - An intro talk on Saturday
+   - Tinker time
+   - League matches
+   - Knockout matches
+   - Prize giving
+   - Lunch
+   - Finish times for the days
+
+  Required actions:
+   - [ ] Generate day schedule
+   - [ ] Circulate to other areas for comment

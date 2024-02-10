@@ -1,12 +1,12 @@
 summary: Determine and publish rules for the pits
 
-priority: major
+priority: must
 
 component: Competition
 
 milestone: $SRYYYY Competition
 
-area-owner: game
+area-owner: health-safety
 
 description: >-
   We'll want a collection of rules for the competitors on the day.
@@ -15,9 +15,18 @@ description: >-
   about staging and not going in the arena during matches. Also a map
   of the venue.
 
+
   Ideally these should be displayed somewhere the competitors can read
   them, without being placed somewhere they'll end up hiding when they
   arrive and put their kit down.
 
+
   They also need to be short enough that the competitors actually read
   through them.
+
+
+  Required actions:
+   - [ ] Generate a set of rules for the pits
+
+dependencies:
+  - comp/safety/comp-risk-assessments

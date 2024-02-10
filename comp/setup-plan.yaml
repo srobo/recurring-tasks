@@ -1,6 +1,6 @@
-summary: Plan setup schedule and organisation
+summary: Plan for setting up the $SRYYYY competition
 
-priority: major
+priority: should
 
 component: Competition
 
@@ -9,7 +9,55 @@ milestone: $SRYYYY Competition Prep
 area-owner: event-logistics
 
 description: >-
-  We need to plan tasks for the setup days
+  We have a limited amount of time to set up the competition, so we need
+  to plan what order things needs doing.
+
+
+  This primarily involves setting up the arena and its surroundings,
+  but also includes setting up the pit area and ancillary areas (such as helpdesk and reception).
+
+
+  An example schedule is given below, but this will need to be updated
+  each year.
+
+   - Phase 1: Arena setup
+     - Setup minimal network
+     - Rig top camera
+     - Lay arena carpet
+     - Assemble arena walls
+     - Run power to arena
+     - Run network to arena corners
+     - Mount corner screens
+     - Complete any arena props
+     - Tape out floor markings
+     - Mount wall markers
+     - Mark starting positions
+   - Phase 2: Pit setup
+     - Clear pit areas
+     - Setup pit tables & chairs
+     - Label pit tables
+     - Setup pit power
+     - Setup pit display screens
+   - Phase 3: Setup AV tech
+     - Setup arena lighting
+     - Setup and test automated AV
+     - Test competition software
+     - Setup livestream
+   - Phase 4: Setup test arena
+     - Repeat arena setup for the test arena
+   - Phase 5: Setup other areas
+     - Setup helpdesk and battery charging
+     - Setup power tools area
+     - Setup reception
+     - Add barriers around the arena
+     - Setup phones
+   - Phase 6: Training
+     - Train marshals
+     - Train shepherds
+     - Train helpdesk
+
+  Realistically, we'll need to do some of these things in parallel, but
+  this gives an idea of the order things need doing in.
 
 dependencies:
-  - comp/venue/layout
+  - comp/logistics

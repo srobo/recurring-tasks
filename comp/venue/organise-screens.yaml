@@ -1,0 +1,43 @@
+summary: Organise display screens for the $SRYYYY competition
+
+priority: should
+
+component: Arena
+
+milestone: $SRYYYY Competition
+
+area-owner: event-logistics
+
+description: >-
+  SR owns 6 matching screens, without stands, which are used for the
+  arena displays. These have the required cables to plug into HDMI sources.
+
+
+  We also have some 19" screens with stands and a variety of other input types.
+
+
+  We need to figure out what screens we need for the competition and
+  whether we have enough of the right type.
+
+
+  For the past few years we have used:
+   - 5 screens at the arena (4 corners & staging).
+   - 2-3 screens for the livestream.
+   - 1 screen for scoring entry and comp ops.
+   - Installed screens at the venue presenting at least 1 outside screen and 1 livestream per area of the venue.
+
+  For each screen we will need something to drive it.
+  For the livestream and scoring entry screens these are often provided by volunteers, so don't need accounting for.
+  For the arena screens we have used Raspberry Pis in the past.
+  These will need to be set up to display a web-page (either the compbox or the livestream) and cabling will need to be arranged.
+
+
+  Required actions:
+   - [ ] Decide on locations for screens
+   - [ ] Decide on the number of screens required
+   - [ ] Aquire any additional screens
+   - [ ] Arrange for display drivers for each screen
+   - [ ] Set up display drivers
+
+dependencies:
+  - comp/venue/layout

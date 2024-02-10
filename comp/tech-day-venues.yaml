@@ -1,0 +1,40 @@
+summary: Organise tech days for $SRYYYY
+
+priority: should
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+area-owner: teams
+
+description: >-
+  Each year we run a series of tech days to help teams prepare for the
+  competition. We should plan these days and make sure that we have enough
+  volunteers to run them.
+
+
+  Ideally we should have planned the tech days before Kickstart, so that we can
+  advertise them to the teams.
+
+
+  This task is about planning the tech days. We should include:
+   - The number of tech days we want to run
+   - The dates of the tech days
+   - The location of the tech days
+   - The number of volunteers we need to run the tech days
+   - The number of teams we can support at each tech day
+
+  For each tech day we should also make sure that we have:
+   - A safeguarding officer (Email the Safeguarding Lead to coordinate this.)
+   - A risk assessment
+   - A process for recording incidents that occur during the tech day
+
+  Required actions:
+   - [ ] Plan the tech days
+     - [ ] Update the risk assessment for the tech day
+     - [ ] Publish the risk assessment to schools
+     - [ ] Appoint safeguarding officers for each tech day
+   - [ ] Advertise the tech days to the teams
+   - [ ] Organise venues for the tech days
+   - [ ] Make sure we have enough volunteers to run the tech days

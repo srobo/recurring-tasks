@@ -1,0 +1,25 @@
+summary: Design the physical scoring form for the $SRYYYY game
+
+priority: should
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+area-owner: game
+
+description: >-
+  The forms for marshals to fill in after each match needs to be designed.
+
+
+  To make score entries job easier, this should have a similar format to the score entry UI.
+
+
+  There is guidance for how to do this for SRComp at
+  https://github.com/PeterJCLaw/srcomp/wiki/Competition-Preparation#create-a-score-sheet
+
+
+  Required actions:
+   - [ ] Create a scoring sheet
+   - [ ] Compare the sheet to the scoring UI
+   - [ ] Add the scoring sheets to the print order

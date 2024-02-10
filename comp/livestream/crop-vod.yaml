@@ -1,6 +1,6 @@
-summary: Trim the live stream VOD (Video on Demand)
+summary: Trim the live stream VOD (Video on Demand) for the $SRYYYY competition
 
-priority: minor
+priority: could
 
 component: Competition
 
@@ -13,4 +13,4 @@ description: >-
   competition.
 
 dependencies:
-  - comp/livestream/main
+  - comp/livestream/comp-livestream

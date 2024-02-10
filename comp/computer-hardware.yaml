@@ -1,6 +1,6 @@
 summary: Organise computer hardware for the competition
 
-priority: major
+priority: should
 
 component: Competition
 
@@ -8,19 +8,19 @@ milestone: $SRYYYY Competition
 
 area-owner: event-logistics
 
-description: |
-    We will need a large number of computers for the competition. This
-    ticket serves as a central place which records everything other than
-    volunteers individual laptops.
+description: >-
+    We may need a number of computers for the competition.
+    This ticket serves as a central place which records everything other than volunteers individual laptops.
 
-    In addition to the hardware for the individual dependencies noted
-    below, we also need:
 
-     * machines to run the network (if not provided by the venue)
-     * machines for helpdesk (though this may be volunteers' laptops)
+    For example, we need computers for:
+     - score entry (tracked in the scoring task)
+     - livestream (tracked in the livestream task)
+     - helpdesk (though this may be volunteers' laptops)
+
+    Required actions:
+     - [ ] Decide on the number of computers we need
+     - [ ] Source required computers
 
 dependencies:
-    - comp/reception/hardware
-    - comp/arena/screens-drivers
-    - comp/ops/score-entry-hardware
-    - comp/arena/non-arena-display-screens
+    - comp/helpdesk

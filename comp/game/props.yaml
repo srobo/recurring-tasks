@@ -1,6 +1,6 @@
 summary: Prepare game equipment for the arena
 
-priority: major
+priority: must
 
 component: Competition
 
@@ -9,13 +9,31 @@ milestone: $SRYYYY Competition
 area-owner: event-logistics
 
 description: >-
-    We need to prepare the things that will go in the arena.
+    We need to prepare the things that will go in the arena, including the
+    wall markers, the robot flags, any tokens and other props.
     See this year's [rulebook](https://studentrobotics.org/docs/resources/$YYYY/rulebook.pdf)
     for details.
 
-    Sub tasks should be added to this task for each of the various props which
-    are needed.
+
+    During matches robots are given coloured flags so that the audience know which
+    robot is from which scoring zone. At least two complete sets of each badge are needed:
+    one for the robots currently playing and another for the robots currently staging.
+
+
+    The markers should be printed as part of the main printing run.
+
+
+    We may also need tools for the arena construction. Generally we'll need
+    some drills, screwdrivers and a tape measure. We may also need a knife
+    to cut the carpet.
+
+
+    Required actions:
+     - [ ] Prepare the wall markers
+     - [ ] Prepare the robot flags
+     - [ ] Prepare the tokens
+     - [ ] Prepare the other props
+     - [ ] Organise tools needed for assembly
 
 dependencies:
-  - comp/game/markers
-  - comp/game/robot-flags
+    - comp/logistics
