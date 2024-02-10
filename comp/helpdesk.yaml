@@ -25,6 +25,7 @@ description: >-
 
   An example set of domains are:
    - Rules
+   - Event
    - Kit
      - Python API
      - Hardware
