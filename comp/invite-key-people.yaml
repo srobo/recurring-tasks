@@ -19,7 +19,7 @@ description: >-
 
   Required actions:
    - [ ] Invite press to the competition
-   - [ ] Invite sponsors to the competition
+   - [ ] Invite additional sponsors to the competition
 
 dependencies:
   - comp/sponsor-perks

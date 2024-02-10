@@ -14,7 +14,7 @@ description: >-
   The displays connected to the comp network (those around the arena) will use the local compbox and those outside this network will use the remote compbox.
 
 
-  The remote compbox has historically been a Digital Ocean VM running the latest Ubuntu LTS configured using https://github.com/PeterJCLaw/srcomp-puppet.
+  The remote compbox has historically been a Cloud VM running the latest Ubuntu LTS configured using https://github.com/PeterJCLaw/srcomp-puppet.
 
 
   We have a Raspberry Pi 3 (part code `srL1CX`) which is typically used as the in-venue compbox.
