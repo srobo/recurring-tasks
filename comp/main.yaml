@@ -52,3 +52,4 @@ dependencies:
     - comp/game/tinker-time
     - comp/ops/scoring-hardware
     - comp/safety/incident-log
+    - comp/banner

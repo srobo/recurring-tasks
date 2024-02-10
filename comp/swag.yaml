@@ -14,7 +14,6 @@ description: >-
 
 
   This task is about planning the swag to be given out. We should include:
-   - A banner with all the sponsors on it
    - For each participant:
      - A set of stickers
      - A branded pencil
@@ -25,9 +24,6 @@ description: >-
    - [ ] Create swag designs
    - [ ] Get quotes for swag
    - [ ] Order selected swags
-   - [ ] Create a t-shirt design
-   - [ ] Create a banner design
-   - [ ] Order the banner
 
 dependencies:
   - comp/sponsor-perks

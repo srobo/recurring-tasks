@@ -1,0 +1,25 @@
+summary: Design and order a banner for the $SRYYYY competition
+
+priority: should
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+area-owner: media-press
+
+description: >-
+  For the $SRYYYY competition, we need to have a banner to display at the event.
+  This should contain the logos of all the sponsors for the event.
+
+
+  Normally, the banner is 6x1m and is displayed at the entrance and prize-giving ceremony.
+  It is also used in the group photo.
+
+
+  Required actions:
+   - [ ] Create a banner design
+   - [ ] Order the banner
+
+dependencies:
+  - comp/sponsor-perks
