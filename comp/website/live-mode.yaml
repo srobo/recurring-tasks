@@ -22,6 +22,8 @@ description: >-
   the normal website homepage instead of the competition live one.
   This normally happens on the morning following the competition.
 
+  Toggling the website proxy is done by changing the `enable_competition_homepage`
+  setting in the ansible configuration: https://github.com/srobo/ansible/blob/main/group_vars/all.yml#L23
 
   Required actions:
    - [ ] Add an embed to the livestream
