@@ -38,7 +38,3 @@ description: >-
    - [ ] Advertise the tech days to the teams
    - [ ] Organise venues for the tech days
    - [ ] Make sure we have enough volunteers to run the tech days
-
-dependencies:
-  - comp/appoint-tech-day-safeguarding-officers
-  - comp/safety/tech-day-risk-assessments
