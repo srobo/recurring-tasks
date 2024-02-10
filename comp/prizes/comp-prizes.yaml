@@ -25,7 +25,7 @@ description: >-
    - [ ] Identify the winners of 1st, 2nd and 3rd place
    - [ ] Identify the winner of the rookie award
    - [ ] Decide the winner of the execellence in engineering award
-   - [ ] Communicate the recipients of the awards to prize-giving
+   - [ ] Communicate the recipients of the awards to prize-giving, such as by adding them to a google sheet or similar
 
 dependencies:
   - comp/key-events
