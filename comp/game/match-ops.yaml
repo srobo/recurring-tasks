@@ -12,6 +12,7 @@ description: >-
   In order to make sure match ops runs smoothly the processes for marshals
   and shepherds needs to be thought out in advance.
 
+
   For marshalling, this will include a checklist of what marshals need to do from the end of one match to the start of the next.
   This will include:
    - Scoring
@@ -22,8 +23,10 @@ description: >-
   And should probbaly go in the arena repo as it will change considerably
   between years and will be specific to the details of the arena.
 
+
   See https://github.com/srobo/arena/blob/master/comp19/reset-checklist.md for
   an example.
+
 
   Required actions:
    - [ ] Generate the arena reset checklist

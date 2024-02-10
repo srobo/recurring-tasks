@@ -12,7 +12,9 @@ description: >-
   So that we can plan the competition, we need to know what the layout of the
   venue will be.
 
+
   The outcome from this task should be an entry in https://github.com/srobo/comp-floorplans.
+
 
   This should include:
    * The arena (or arenas)
@@ -32,8 +34,10 @@ description: >-
   Each team pit should be numbered and have a list of teams assigned to them.
   They are normally 2.5x2.5m, but this may vary.
 
+
   As well as the overall layout, there are certain locations which need
   specific consideration: the tech desk, score entry, and the livestream.
+
 
   For the past few years, the tech desk has been inside the venue's tech booth and contained:
    - Networking
@@ -55,10 +59,13 @@ description: >-
   Reception has been a pair of tables near the entrance to the venue.
   These are scaled up for the initial rush of teams arriving.
 
+
   When teams arrive, they are directed to the reception desk where they sign in and hand over their batteries and chargers.
   They are then given any swag, booklets and directed to their pit area.
 
+
   When laying out the staging area, it needs tables for the robots to be placed on before and after for their match.
+
 
   Required actions:
    - [ ] Decide on the layout of the venue

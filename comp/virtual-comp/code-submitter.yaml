@@ -13,6 +13,7 @@ description: >-
   setup the code submitter. This will be a web application that allows teams to
   submit their code and will be hosted on the SR's infrastructure.
 
+
   Required actions:
    * [ ] Setup the code submitter on the SR's infrastructure
    * [ ] Populate the code submitter with the teams' passwords

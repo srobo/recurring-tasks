@@ -12,14 +12,18 @@ description: >-
     To allow teams to watch the kickstart remotely, and particularly now we do
     virtual kickstarts, we need to livestream the event.
 
+
     To do this we need a machine to run the livestream, and a plan for how the
     livestream will be run.
+
 
     Generally this livestream has the presenters and producers in separate locations,
     so the producer's machine will normally be used to run the livestream.
 
+
     The livestream generally consists of the Kickstart presentation, and the
     presenter's camera feed.
+
 
     Required actions:
      - [ ] Decide who will run the livestream

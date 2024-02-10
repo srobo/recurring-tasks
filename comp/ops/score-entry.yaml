@@ -12,9 +12,11 @@ description: >-
   We need a method to enter the data from the scoring forms into the compstate.
   This is a case of updating the scorer UI for this year's game.
 
+
   See https://github.com/PeterJCLaw/srcomp/wiki/Competition-Preparation#implement-updatehtml
   and https://github.com/PeterJCLaw/srcomp/wiki/Competition-Preparation#implement-converterpy
   for details.
+
 
   Required actions:
    - [ ] Generate a scoring UI

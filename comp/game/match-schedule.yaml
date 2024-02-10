@@ -13,9 +13,11 @@ description: >-
   The final version of this may need generating close to the day,
   once we have a firmer number for attending teams.
 
+
   Then we need to decide on the structure of the knockouts.
   Generally this has been a single elimination tournament.
   With the top of the leaderboard starting at later rounds when the number of teams is not a power of 2.
+
 
   Required actions:
    - [ ] Generate an initial match schedule

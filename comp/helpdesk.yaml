@@ -13,14 +13,17 @@ description: >-
   their robots. We need to plan who will run this on the day as well
   as the various things it needs to be able to help the teams.
 
+
   If kit breaks at the competition for teams, we should be prepared to
   replace it quickly. For that we will need spares readily available.
   This should be coordinated with the Kit team.
 
+
   If there is a problem at helpdesk, that those on helpdesk cannot solve, they need to know who to escalate to.
   There will be different experts depending on the domain of the problem.
-  An example set of domains are:
 
+
+  An example set of domains are:
    * Rules
    * Kit
      * Python API
@@ -28,6 +31,7 @@ description: >-
      * Competition operations
 
   Note that this list of people should also take into account who is likely to be available.
+
 
   Required actions:
    * [ ] Decide who will run helpdesk

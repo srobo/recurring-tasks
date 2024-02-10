@@ -13,13 +13,15 @@ description: >-
   We have two separate compboxes, one in the venue and on in the cloud.
   The displays connected to the comp network (those around the arena) will use the local compbox and those outside this network will use the remote compbox.
 
+
   The remote compbox has historically been a Digital Ocean VM running the latest Ubuntu LTS configured using https://github.com/PeterJCLaw/srcomp-puppet.
+
 
   We have a Raspberry Pi 3 (part code `srL1CX`) which is typically used as the in-venue compbox.
   For this we need to prepare the micro SD card for the Pi so that it is ready for when we arrive at the venue.
 
-  The steps here are usually:
 
+  The steps here are usually:
    1. Flash the SD card with the latest Raspbian stable
    2. Clone https://github.com/PeterJCLaw/srcomp-puppet onto the Pi
    3. Run `srcomp-puppet/scripts/install` on the Pi

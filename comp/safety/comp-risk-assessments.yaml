@@ -15,13 +15,17 @@ description: >-
     https://studentrobotics.org/runbook/competition/team-support/battery-charging/#safety
     See also the notes at https://github.com/srobo/tasks/issues/822#issuecomment-1090656629 and onwards.
 
+
     Alongside this we should ensure that our incident response plans are current & applicable to the selected venue; we should update them as needed.
+
 
     Futhermore we will need a means to record and store details of any incident or near-miss occurring.
     At bare minimum this needs to store what happened and why, and what follow up occurred.
 
+
     SR has an incident record book which was purchased for this purpose.
     We should check that it is still suitable & usable and ensure that it will be at the competition venue.
+
 
     Required actions:
      - [ ] Update risk assessment

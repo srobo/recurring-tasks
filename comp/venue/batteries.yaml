@@ -12,17 +12,21 @@ description: >-
   In order for teams to use their robots at the competition they will need a
   charged battery. This task is to coordinate the various aspects of this.
 
+
   Additionally, for when teams arrive at matches with a flat battery, we need
   to have a stash of charged batteries available for them to use at the
   arena.
+
 
   Other points to be decided are: When teams will first get their batteries
   and how this interacts with robot safety checks. How we will track which
   teams are borrowing batteries overnight. And, ensuring we have an up-to-date
   policy for handling of lipos which are deemed to be unusable.
 
+
   See the runbook for the current safety protocol:
   https://studentrobotics.org/runbook/competition/team-support/battery-charging/#safety
+
 
   Required actions:
    - [ ] Ensure we have enough batteries

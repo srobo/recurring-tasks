@@ -12,6 +12,7 @@ description: >-
   There may be website alterations to be made to the competition website
   before the competition, such as adding an embed to the livestream.
 
+
   During the competition, the website proxy should be switched to use
   the competition live homepage instead of the normal one.
   This normally happens on the morning of the competition.
@@ -20,6 +21,7 @@ description: >-
   After the competition, the website proxy should be switched back to using
   the normal website homepage instead of the competition live one.
   This normally happens on the morning following the competition.
+
 
   Required actions:
    - [ ] Add an embed to the livestream

@@ -12,6 +12,7 @@ description: >-
   The marshals should have a chance to run through the process
   of running a competition match sequence.
 
+
   The marshals need to know:
     * what the rules are
     * who the expert on them is

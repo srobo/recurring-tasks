@@ -13,8 +13,10 @@ description: >-
   Running the simulation at reasonable speed requires a reasonably powerful
   computer with a discrete GPU.
 
+
   Once the simulation is complete, the videos need to be sent to the livestream
   producer so that they can be played during the livestream.
+
 
   Required actions:
    * [ ] Decide who will run the simulation

@@ -12,15 +12,19 @@ description: >-
   During matches the robots need a mechanism to know which corner they're
   in.
 
+
   This is currently solved by using a set of competition-mode USB keys
   which the teams plugged into their robots. These light up with the corner
   colour that they are assigned to.
+
 
   We need two sets of each key; one for the robot currently playing,
   one for the robot currently preparing. They will be kept in the
   staging-area.
 
+
   SR owns 12 of these, the match data on them may need updating for match timeout.
+
 
   Required actions:
    - [ ] Update match data on comp-mode USBs

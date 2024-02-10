@@ -12,10 +12,13 @@ description: >-
   SR owns 6 matching screens, without stands, which are used for the
   arena displays. These have the required cables to plug into HDMI sources.
 
+
   We also have some 19" screens with stands and a variety of other input types.
+
 
   We need to figure out what screens we need for the competition and
   whether we have enough of the right type.
+
 
   For the past few years we have used:
    - 5 screens at the arena (4 corners & staging).
@@ -27,6 +30,7 @@ description: >-
   For the livestream and scoring entry screens these are people's laptops.
   For the arena screens we have used Raspberry Pis in the past.
   These will need to be set up to display a web-page (either the compbox or the livestream) and cabling will need to be arranged.
+
 
   Required actions:
    - [ ] Decide on locations for screens

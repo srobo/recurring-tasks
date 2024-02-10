@@ -13,13 +13,16 @@ description: >-
     prepare how it will be run. This is likely to be similar to the livestream
     for Kickstart, but with some differences.
 
+
     To do this we need a machine to run the livestream, and a plan for how the
     livestream will be run. Additionally, we need to decide who will present
     the livestream.
 
+
     In the past, this livestream has had both presenters and producers in a single
     location, and used the producer's machine to run the livestream. However, this
     can be done remotely, so we may want to consider this.
+
 
     In terms of scenes and feeds, the livestream generally consists of:
      - An introduction, to explain the game and the competition
@@ -30,6 +33,7 @@ description: >-
      - Optionally, some playbacks of interesting moments from the matches
 
     See also: https://studentrobotics.org/runbook/competition/livestream/scenes/.
+
 
     Required actions:
      - [ ] Decide who will run the livestream

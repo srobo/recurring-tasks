@@ -12,13 +12,14 @@ description: >-
     To allow teams to watch the competition matches remotely, such as from their pits,
     we should to livestream the event.
 
+
     To do this we need a machine to run the livestream, and a plan for how the
     livestream will be run. This will also need to include where cameras are placed
     around the arena.
 
+
     In previous years, we have borrowed or hired equipment to run the livestream,
     the general requirements are:
-
      * Video mixer PC (With dedicated GPU, capable of running OBS)
      * 2× HDMI capture card
      * 2× preview monitors
@@ -26,7 +27,6 @@ description: >-
      * Audio mixers
 
     Ideas for the camera feeds:
-
      * Arena (likely multiple)
        * Top down view showing whole arena
        * Side view showing one side of the arena
@@ -36,6 +36,7 @@ description: >-
 
     Scenes will also need to be created in OBS in advance of the competition.
     See https://studentrobotics.org/runbook/competition/livestream/scenes/.
+
 
     Required actions:
      - [ ] Decide who will run the livestream

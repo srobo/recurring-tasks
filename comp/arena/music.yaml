@@ -11,12 +11,14 @@ area-owner: production
 description: >-
     During matches we want music to be played into the arena.
 
+
     We typically have 3 playlists:
      - One for during the breaks
      - One for during matches
      - One for during the final
 
     Each with increasing intensity.
+
 
     Required actions:
      - [ ] Generate a general playlist

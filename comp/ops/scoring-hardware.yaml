@@ -12,8 +12,10 @@ description: >-
   In order to enter the data from the scoring sheets into the competition software,
   we need a machine that can be left in score-entry for the duration of the competition.
 
+
   This needs to be capable of running the score-entry software locally,
   so probably running a linux, and will need access to the competition network.
+
 
   This machine needs setting up with the score-entry software and, once in the venue, we should confirm that it can access the relevant pages of the compbox.
 

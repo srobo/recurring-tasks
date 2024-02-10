@@ -12,9 +12,11 @@ description: >-
     In order to allow the competitors to chat to each other and request help
     from mentors, we setup a Discord server each year.
 
+
     The Discord server allows competitors to join by using a common invite link
     and a team specific password. Our Discord bot then assigns them a specific
     team role.
+
 
     We usually have three public sections as follows:
      - *Information* (Information about the competition. Only the Admins can post here.)
@@ -36,8 +38,10 @@ description: >-
     Additionally, we have a private section for each team, which is only
     accessible to the team members and the Blueshirts.
 
+
     Once the server is setup, we need to create an invite link and team passwords
     for the teams to use. Then we need to invite the Blueshirts to the server.
+
 
     Required actions:
      - [ ] Create the Discord server
