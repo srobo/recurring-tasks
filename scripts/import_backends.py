@@ -245,7 +245,11 @@ class GitHubBackend:
                 ''').format(
                     # Format separately so we don't have bad interactions with
                     # the dedent above.
-                    dependencies=dependencies,
+                    dependencies="\n".join(
+                        # GitHub includes the title itself when rendering
+                        f" - [ ] #{dep}"
+                        for dep in sorted(ticket.dependencies)
+                    ),
                 )
 
             else:
