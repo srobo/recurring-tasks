@@ -23,7 +23,7 @@ description: >-
 
 
     Required actions:
-     _ [ ] Add any new markers to the kit API
+     - [ ] Add any new markers to the kit API
      - [ ] Update the kit API for the $SRYYYY game
      - [ ] Update the docs for the $SRYYYY game
      - [ ] Create marker PDF for the $SRYYYY game
