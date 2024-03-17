@@ -33,3 +33,7 @@ description: >-
    - [ ] Produce the flyers
    - [ ] Print the flyers
    - [ ] Make sure the flyers are given to reception
+
+dependencies:
+  - comp/pits/rules
+  - comp/venue/layout
