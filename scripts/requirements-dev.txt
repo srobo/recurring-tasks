@@ -48,7 +48,7 @@ flake8-todo==0.7
     # via -r ./scripts/linting/requirements.in
 flake8-tuple==0.4.1
     # via -r ./scripts/linting/requirements.in
-idna==3.3
+idna==3.7
     # via
     #   -r ./scripts/requirements.txt
     #   requests

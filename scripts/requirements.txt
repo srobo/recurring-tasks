@@ -12,7 +12,7 @@ charset-normalizer==2.0.12
     # via requests
 deprecated==1.2.13
     # via pygithub
-idna==3.3
+idna==3.7
     # via requests
 pycparser==2.21
     # via cffi
