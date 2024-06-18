@@ -105,7 +105,7 @@ typing-extensions==4.2.0
     # via
     #   -r ./scripts/typing/requirements.in
     #   mypy
-urllib3==1.26.18
+urllib3==1.26.19
     # via
     #   -r ./scripts/requirements.txt
     #   requests
