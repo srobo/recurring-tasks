@@ -1,0 +1,25 @@
+summary: Send teams final details for the $SRYYYY Kickstart
+
+priority: should
+
+component: Competition
+
+milestone: $SRYYYY Kickstart
+
+area-owner: teams
+
+description: >-
+    We should aim to tell them:
+     - The venue for Kickstart
+     - Travel details for the venue (address, parking, etc.)
+     - What time to arrive/when the livestream starts
+     - That their team members should join the Discord server
+
+    Required actions:
+     - [ ] Ensure the final details are on the website
+     - [ ] Send final details about Kickstart to team leaders
+
+dependencies:
+  - kickstart/discord
+  - kickstart/signup-teams
+  - kickstart/risk-assessments

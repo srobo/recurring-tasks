@@ -1,0 +1,24 @@
+summary: Send volunteers details for the $SRYYYY Kickstart
+
+priority: should
+
+component: Competition
+
+milestone: $SRYYYY Kickstart
+
+area-owner: volunteer-coordination
+
+description: >-
+    We should aim to tell them:
+     - The venue for Kickstart
+     - Travel details for the venue (address, parking, etc.)
+     - What time to arrive
+     - That they should join the Discord server
+
+    Required actions:
+     - [ ] Ensure the final details are on the website
+     - [ ] Send final details about Kickstart to volunteers
+
+dependencies:
+  - kickstart/discord
+  - kickstart/signup-volunteers
