@@ -15,5 +15,7 @@ dependencies:
   - comp/appoint-virtual-comp-safeguarding-officers
   - comp/virtual-comp/plan
   - comp/virtual-comp/code-submitter
+  - comp/virtual-comp/announce
+  - comp/virtual-comp/run
   - comp/livestream/crop-virtual-comp-vod
   - comp/ops/public-compbox
