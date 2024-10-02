@@ -24,6 +24,9 @@ dependencies:
     - kickstart/risk-assessments
     - kickstart/appoint-safeguarding-officers
     - kickstart/budget
+    - kickstart/signup-teams
     - kickstart/signup-volunteers
+    - kickstart/details-teams
+    - kickstart/details-volunteers
     - kickstart/simulator-fixes
     - kickstart/livestream
