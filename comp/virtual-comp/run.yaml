@@ -1,0 +1,27 @@
+summary: Simulate the $SRYYYY virtual competition
+
+priority: should
+
+component: Competition
+
+milestone: $SRYYYY Competition Prep
+
+area-owner: simulator
+
+description: >-
+  For the virtual competition, all the matches need to be simulated in advance.
+  Running the simulation at reasonable speed requires a reasonably powerful
+  computer with a discrete GPU.
+
+
+  Once the simulation is complete, the videos need to be sent to the livestream
+  producer so that they can be played during the livestream.
+
+
+  Required actions:
+   - [ ] Run the simulation
+   - [ ] Send the videos to the livestream producer
+
+dependencies:
+  - comp/virtual-comp/plan
+  - comp/virtual-comp/code-submitter

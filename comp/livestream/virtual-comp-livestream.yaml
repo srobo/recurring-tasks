@@ -41,3 +41,6 @@ description: >-
      - [ ] Generate a livestream link to be shared with teams
      - [ ] Decide who will present the livestream
      - [ ] Practice running the livestream
+
+dependencies:
+  - comp/virtual-comp/plan

@@ -1,0 +1,22 @@
+summary: Announce the $SRYYYY virtual competition
+
+priority: should
+
+component: Competition
+
+milestone: $SRYYYY Competition Prep
+
+area-owner: teams
+
+description: >-
+  The teams will need to know about the virtual competition, so we need to tell
+  them about it.
+
+  Required actions:
+   - [ ] Publish the schedule on the website
+   - [ ] Email teams about the virtual competition well ahead of time
+   - [ ] Remind teams about the virtual competition
+
+dependencies:
+  - comp/virtual-comp/plan
+  - comp/virtual-comp/code-submitter
