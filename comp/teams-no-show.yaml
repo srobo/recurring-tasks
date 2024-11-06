@@ -1,0 +1,30 @@
+summary: Define a process for teams which don't turn up to $SRYYYY events
+
+priority: should
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+area-owner: teams
+
+description: >-
+    While we do confirm with teams ahead of time whether they're going to turn
+    up to our events, inevitably some don't turn up or are late arriving.
+
+    We should have a process for reacting to this, both in terms of how we'll
+    communicate with the team and how we'll communicate and respond internally.
+
+    This could be that we'll call the supervisor a few times, though defining things like:
+     - how we'll know they're absent (e.g: check with reception)
+     - how long to wait after the start of the event
+     - how much to try to get in contact with the supervisor (if e.g: the call goes to voicemail)
+     - what triggers contacting the secondary contact
+     - if/when we drop them out of the competition (if applicable to the event)
+
+    This procedure might be the same for all events or might be different by event.
+
+    Required actions:
+     - [ ] Define process for Kickstart
+     - [ ] Define process for Tech Days
+     - [ ] Define process for Competition
