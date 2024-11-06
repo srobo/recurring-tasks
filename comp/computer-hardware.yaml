@@ -17,6 +17,7 @@ description: >-
      - score entry (tracked in the scoring task)
      - livestream (tracked in the livestream task)
      - helpdesk (though this may be volunteers' laptops)
+     - teleprompter (though this may be a volunteer's laptop)
 
     Required actions:
      - [ ] Decide on the number of computers we need
