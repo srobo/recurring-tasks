@@ -1,0 +1,22 @@
+summary: Plan a retro for the $SRYYYY competition
+
+priority: must
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+area-owner: volunteer-coordination
+
+description: >-
+  We want to have a retro soon after the competition, so that we can capture
+  and evaluate feedback whilst its fresh. We should plan how we want to collect
+  feedback, and how we want to run the retro.
+
+  Ideally, feedback collection will be available prior to the setup, so that
+  points can be raised as they occur.
+
+  Required actions:
+    - [ ] Decide how we want to collect feedback
+    - [ ] Decide how we want to run the retro
+    - [ ] Make feedback collection available; ideally before the competition
