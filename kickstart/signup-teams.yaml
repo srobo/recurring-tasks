@@ -54,4 +54,6 @@ description: >-
      - [ ] Inform secondary contacts about their role
      - [ ] Let teams on the waiting list know that they are
      - [ ] Inform teams who aren't getting a place (nor on the waiting list)
-     - [ ] Send final details about Kickstart to team supervisors
+
+dependencies:
+  - comp/announce
