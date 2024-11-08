@@ -54,4 +54,5 @@ dependencies:
     - comp/banner
     - comp/ops/compbox
     - comp/team-checkup
+    - comp/teams-no-show
     - comp/retro
