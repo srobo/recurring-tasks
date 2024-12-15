@@ -19,6 +19,7 @@ description: >-
 
 
   Required actions:
+   - [ ] Generate a schedule for the simulated matches
    - [ ] Run the simulation
    - [ ] Send the videos to the livestream producer
 

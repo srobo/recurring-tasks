@@ -21,5 +21,5 @@ description: >-
   Required actions:
    - [ ] Decide who will run the simulation
    - [ ] Decide when the simulations will be run
-   - [ ] Generate a schedule for the simulated matches
+   - [ ] Plan how the match schedule will be generated
    - [ ] Set a deadline for code submissions
