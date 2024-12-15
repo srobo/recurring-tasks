@@ -19,7 +19,15 @@ description: >-
 
 
   Required actions:
-   - [ ] Decide who will run the simulation
    - [ ] Decide when the simulations will be run
    - [ ] Plan how the match schedule will be generated
    - [ ] Set a deadline for code submissions
+   - [ ] Assign key roles for the Virtual Competition
+     - [ ] Event organiser
+     - [ ] Producer
+     - [ ] Presenters × 2
+     - [ ] Simulator runner
+     - [ ] Scores/background preparers
+     - [ ] Chat moderators
+     - [ ] Safeguarding officer
+    - [ ] Plan how to get logs, animations & videos out to teams after the event

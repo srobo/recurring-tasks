@@ -1,0 +1,21 @@
+summary: Plan the $SRYYYY virtual competition
+
+priority: should
+
+component: Competition
+
+milestone: $SRYYYY Competition Prep
+
+area-owner: simulator
+
+description: >-
+    After the virtual competition we need to share the logs, animations and videos
+    with the teams which competed.
+
+    Each team should be sent the logs for their own robot, along with the
+    animations & videos for each match they appeared in.
+
+    Typically this is done in Discord.
+
+    Required actions:
+     - [ ] Share the logs, animations and videos with teams

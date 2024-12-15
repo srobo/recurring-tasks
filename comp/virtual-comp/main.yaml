@@ -17,5 +17,6 @@ dependencies:
   - comp/virtual-comp/code-submitter
   - comp/virtual-comp/announce
   - comp/virtual-comp/run
+  - comp/virtual-comp/team-logs
   - comp/livestream/crop-virtual-comp-vod
   - comp/ops/public-compbox
