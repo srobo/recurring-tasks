@@ -12,8 +12,14 @@ description: >-
   The teams will need to know about the virtual competition, so we need to tell
   them about it.
 
+  This will need to include:
+   - the submission deadline
+   - where and how to submit their code
+   - where to watch the virtual competition
+   - that they will be sent their logs, animations & videos afterwards
+
   Required actions:
-   - [ ] Publish the schedule on the website
+   - [ ] Publish the event information on the website
    - [ ] Email teams about the virtual competition well ahead of time
    - [ ] Remind teams about the virtual competition
 
