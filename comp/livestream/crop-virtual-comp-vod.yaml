@@ -12,5 +12,9 @@ description: >-
   The live stream VOD should be trimmed to remove the start and end of the
   virtual competition.
 
+  Required actions:
+   - [ ] Cut down the VOD on YouTube to remove the countdown
+   - [ ] Add chapters to the VOD
+
 dependencies:
   - comp/livestream/virtual-comp-livestream

@@ -1,4 +1,4 @@
-summary: Simulate the $SRYYYY virtual competition
+summary: Run the $SRYYYY virtual competition
 
 priority: should
 
@@ -9,19 +9,33 @@ milestone: $SRYYYY Competition Prep
 area-owner: simulator
 
 description: >-
-  For the virtual competition, all the matches need to be simulated in advance.
-  Running the simulation at reasonable speed requires a reasonably powerful
-  computer with a discrete GPU.
+    The virtual competition enables teams to earn their first game points and is
+    the first part of the competition league. Teams will submit their code via
+    the code-submitter ahead of time, we'll simulate some matches, broadcast
+    them via livestream and then share the logs with the teams afterwards.
 
 
-  Once the simulation is complete, the videos need to be sent to the livestream
-  producer so that they can be played during the livestream.
+    Highlights from the [Competition Session Checklist](https://studentrobotics.org/runbook/competition/virtual-competitions/competition-session-checklist/) are included below.
 
 
-  Required actions:
-   - [ ] Generate a schedule for the simulated matches
-   - [ ] Run the simulation
-   - [ ] Send the videos to the livestream producer
+    **Thursday** (after the submission deadline):
+     - [ ] Generate the schedule
+     - [ ] Simulate the matches
+     - [ ] Post-process the animation files to work around https://github.com/cyberbotics/webots/issues/6426
+     - [ ] Upload the simulation output to the drive
+
+
+    **Friday**:
+     - [ ] Score the matches
+     - [ ] Identify things of interest, capture screenshots & videos, prepare a document describing these for the producer
+     - [ ] Prepare a document with summaries of previous/next match and notes for the commentators
+
+
+    **Saturday**:
+     - [ ] Put the website into competition mode
+     - [ ] Have the virtual competition livestream
+     - [ ] Distribute logs and animation files to teams
+     - [ ] Revert the website back to non competition mode
 
 dependencies:
   - comp/virtual-comp/plan
