@@ -1,4 +1,4 @@
-summary: Plan simulating the $SRYYYY virtual competition
+summary: Plan the $SRYYYY virtual competition
 
 priority: should
 
@@ -14,13 +14,21 @@ description: >-
   computer with a discrete GPU.
 
 
-  Once the simulation is complete, the videos need to be sent to the livestream
-  producer so that they can be played during the livestream.
+  We need to plan how we'll run the virtual competition and potentially have a
+  run-through to check the setup works.
 
 
   Required actions:
-   - [ ] Decide who will run the simulation
    - [ ] Decide when the simulations will be run
-   - [ ] Generate a schedule for the simulated matches
-   - [ ] Run the simulation
-   - [ ] Send the videos to the livestream producer
+   - [ ] Plan how the match schedule will be generated
+   - [ ] Set a deadline for code submissions
+   - [ ] Decide how many appearances each team will have and the weighting of the virtual competition matches. This is likely to mostly be decided by the rules and day schedule 
+   - [ ] Assign key roles for the Virtual Competition
+     - [ ] Event director (also responsible for the planning)
+     - [ ] Producer
+     - [ ] Presenters × 2
+     - [ ] Simulator runner
+     - [ ] Scores/background preparers × 2/3
+     - [ ] Chat moderators
+     - [ ] Safeguarding officer
+    - [ ] Plan how to get logs, animations & videos out to teams after the event
