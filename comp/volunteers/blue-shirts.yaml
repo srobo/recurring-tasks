@@ -15,6 +15,14 @@ description: >-
 
     We will want to design these with the year-specific sponsors and possibly some game-specific artwork.
 
+    The [base t-shirt design]((https://github.com/srobo/promotional-material/blob/main/shirts/Base%20Shirt%20Design.svg)) has a non-year specific circuit artwork.
+    The font used for the year text is [Audiowide](https://fonts.google.com/specimen/Audiowide).
+    
+    Any text should be converted to paths, the backgrounds removed, and the file saved as a plain svg before ordering.
+
+    The base t-shirt is a Gildan Heavy Cotton t-shirt in Royal Blue.
+    For SR2024-25, [clothes2order](https://www.clothes2order.com/products/gildan-heavy-cotton-adult-t-shirt) was used for the t-shirts.
+
 
     Required actions:
      - [ ] Design the t-shirts
