@@ -31,5 +31,13 @@ description: >-
      - [SR2023](https://docs.google.com/document/d/1svPHIpu2q8dl7H496uRrFZNaEFuVY8zQcrS4KbMNWmU/edit)
      - [SR2022](https://docs.google.com/document/d/1wp-tph-HSNqUMeHRtkv5kzvMcrsR0aSAC_W0NkOlZm4/edit)
 
+  Required actions:
+    - [ ] Write the script
+    - [ ] Decide who is giving the speech
+    - [ ] Script review in the weeks before the competition:
+      - [ ] Health & Safety (Event Logistics) - robot safety and power tools
+      - [ ] Match Ops (Game) - how matches work
+      - [ ] Helpdesk (Team Support) - how Helpdesk works
+
 dependencies:
   - comp/venue/layout
