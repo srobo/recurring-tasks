@@ -27,3 +27,4 @@ description: >-
 
 dependencies:
   - comp/sponsor-perks
+  - comp/booklet
