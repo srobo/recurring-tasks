@@ -43,5 +43,6 @@ description: >-
    - [ ] Follow the review process to ensure that the script is accurate for the different areas with the individuals named above
 
 dependencies:
-  - comp/prizes/acquire-prizes
+  - comp/prizes/acquire-prizes-trophies
+  - comp/prizes/acquire-prizes-edible
   - comp/sponsor-perks
