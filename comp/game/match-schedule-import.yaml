@@ -22,4 +22,4 @@ description: >-
    - [ ] Check/import the morning of the competition
 
 dependencies:
-  - comp/game/match-schedule
+  - comp/game/match-schedule-generate
