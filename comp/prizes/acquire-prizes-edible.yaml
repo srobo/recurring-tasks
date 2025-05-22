@@ -1,0 +1,24 @@
+summary: Organise edible prizes for the competition
+
+priority: should
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+area-owner: production
+
+description: >-
+  The prizes for the competition are a combination of trophies and edible prizes.
+  This task only considers the edible prizes; there is a separate task for trophies.
+
+
+  We usually have around two awards that have edible prizes.
+  Typically we give a box of celebrations and a box of jelly babies as the edible prize.
+
+
+  Required actions:
+   - [ ] Order edible prizes
+
+dependencies:
+  - comp/sponsor-perks

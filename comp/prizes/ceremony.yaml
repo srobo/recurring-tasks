@@ -40,5 +40,6 @@ description: >-
    - [ ] Have a rehearsal of the prize-giving ceremony
 
 dependencies:
-  - comp/prizes/acquire-prizes
+  - comp/prizes/acquire-prizes-trophies
+  - comp/prizes/acquire-prizes-edible
   - comp/sponsor-perks
