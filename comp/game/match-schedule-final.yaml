@@ -1,0 +1,25 @@
+summary: Import the final league match schedule
+
+priority: should
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+area-owner: game
+
+description: >-
+  Many league match schedules should already have been generated with a range of number of teams so they can be easily subsituted in if there are any last minute dropouts.
+
+
+  We should check if the current schedule is correct at appropriate times just before the competition.
+  At these points, if the current schedule has an outdated number of teams, we should import a new schedule.
+  This stops the schedule needlessly being updated many times whilst ensuring that it is up-to-date for the competition.
+
+
+  Required actions:
+   - [ ] Check/import around a week before the competition
+   - [ ] Check/import the morning of the competition
+
+dependencies:
+  - comp/game/match-schedule
