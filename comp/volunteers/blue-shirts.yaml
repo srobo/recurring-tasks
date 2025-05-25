@@ -15,7 +15,7 @@ description: >-
 
     We will want to design these with the year-specific sponsors and possibly some game-specific artwork.
 
-    The [base t-shirt design]((https://github.com/srobo/promotional-material/blob/main/shirts/Base%20Shirt%20Design.svg)) has a non-year specific circuit artwork.
+    The [base t-shirt design](https://github.com/srobo/promotional-material/blob/main/shirts/Base%20Shirt%20Design.svg) has a non-year specific circuit artwork.
     The font used for the year text is [Audiowide](https://fonts.google.com/specimen/Audiowide).
     
     Any text should be converted to paths, the backgrounds removed, and the file saved as a plain svg before ordering.
