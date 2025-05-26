@@ -1,4 +1,4 @@
-summary:  Organise match ops for the $SRYYYY competition
+summary: Organise match ops for the $SRYYYY competition
 
 priority: should
 
@@ -9,28 +9,33 @@ milestone: $SRYYYY Competition
 area-owner: game
 
 description: >-
-  In order to make sure match ops runs smoothly the processes for marshals
-  and shepherds needs to be thought out in advance.
+  In order to make sure match ops runs smoothly the processes for marshals and shepherds needs to be thought out in advance.
 
   This includes how many people we need for match ops.
-  5 people per match ops team gives shepherding cover for 4 venue areas and the arena for shift lead,
-  and arena-side cover of 2 marshals, 2 badgers, and 1 score entry.
-  3 teams of match ops ensures that match ops volunteers get adequate breaks.
+  5 people per match ops team is the ideal number, with 3 teams of shifts to give volunteers adequate breaks.
+  For the shepherding side, this gives 4 venue areas and the arena for shift lead.
+  For the arena-side, this gives 2 scorers, 2 badgers, and 1 score entry.
+
+
   We should make sure some extra volunteers are trained on top of this number, so that we have back-ups.
+  we should consider contigency scenarios depending on how many volunteers we have and in what order we should drop roles or replace people.
 
-  For arena side match ops, this will include:
-   - Marshalling/scoring
-   - Score entry
-   - Resetting tokens
-   - Badgering
-   - How robots/competitors enter/exit arena
 
-  This should be as comprehensive as possible in order to simplify the training that these volunteers need.
-  And should probably go in the arena repo as it will change considerably
-  between years and will be specific to the details of the arena.
+  One of the main things to consider is how the flow of matches work and what each role will be doing during each part of a match (pre-match, during match, and post-match).
+  This includes how we get competitors in and out of staging.
+
+
+  We also need to consider how match ops shifts will work, how long they'll be, and how they'll compare to the day schedule.
 
 
   Required actions:
-   - [ ] Plan how shepherding will work
-   - [ ] Plan the training for the different areas of match ops (shepherding, marshal, badger, score entry)
-   - [ ] Schedule match ops
+    - how many volunteers per team and how many teams
+    - how many reserve people and what roles to train them in
+    - what to do if certain roles drop out
+    - what to do if we don't have as many volunteers as we want
+    - how the flow of matches work
+    - what each role is doing during each part of matches
+    - how match ops shifts work, including their timing and duration
+
+dependencies:
+  - comp/day-schedule
