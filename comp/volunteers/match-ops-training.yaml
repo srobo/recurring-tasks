@@ -1,0 +1,34 @@
+summary: Train match ops volunteers for the $SRYYYY game
+
+priority: should
+
+component: Arena
+
+milestone: $SRYYYY Competition Day
+
+area-owner: game
+
+description: >-
+  The match ops volunteers should be trained for the roles they are doing.
+  The planning for this training is a separate task.
+  This task is ensuring that the training itself is delivered.
+
+
+  Required actions to run the arena-side training:
+    - [ ] venue and arena screens running fake matches
+    - [ ] scoresheets with clipboards and pens
+    - [ ] competition mode USBs and flags
+    - [ ] nice to haves:
+      - [ ] boxes as fake robots
+      - [ ] hi-viz jackets for the volunteers pretending to be competitors
+  
+  Required actions to run the shepherding training:
+    - [ ] radios ready, including what channels we're using
+    - [ ] clipboards and procedures ready
+    - [ ] announcing venue wide that we are doing the shepherding training
+    - [ ] ensuring we're saying "drill" in all radio messages
+
+dependencies:
+  - comp/game/match-ops-plan-training
+  - comp/game/usbs
+  - comp/volunteers/schedule
