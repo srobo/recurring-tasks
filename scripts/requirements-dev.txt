@@ -4,7 +4,7 @@
 #
 #    pip-compile ./scripts/requirements-dev.in
 #
-attrs==22.2.0
+attrs==25.3.0
     # via flake8-bugbear
 certifi==2024.7.4
     # via
@@ -22,7 +22,7 @@ deprecated==1.2.13
     # via
     #   -r ./scripts/requirements.txt
     #   pygithub
-flake8==4.0.1
+flake8==7.1.2
     # via
     #   -r ./scripts/linting/requirements.in
     #   flake8-bugbear
@@ -32,17 +32,17 @@ flake8==4.0.1
     #   flake8-debugger
     #   flake8-isort
     #   flake8-tuple
-flake8-bugbear==23.1.20
+flake8-bugbear==24.12.12
     # via -r ./scripts/linting/requirements.in
-flake8-builtins==1.5.3
+flake8-builtins==2.5.0
     # via -r ./scripts/linting/requirements.in
-flake8-commas==2.1.0
+flake8-commas==4.0.0
     # via -r ./scripts/linting/requirements.in
-flake8-comprehensions==3.10.0
+flake8-comprehensions==3.15.0
     # via -r ./scripts/linting/requirements.in
 flake8-debugger==4.1.2
     # via -r ./scripts/linting/requirements.in
-flake8-isort==4.1.1
+flake8-isort==6.1.1
     # via -r ./scripts/linting/requirements.in
 flake8-todo==0.7
     # via -r ./scripts/linting/requirements.in
@@ -52,17 +52,17 @@ idna==3.7
     # via
     #   -r ./scripts/requirements.txt
     #   requests
-isort==5.10.1
+isort==5.13.2
     # via
     #   -r ./scripts/linting/requirements.in
     #   flake8-isort
-mccabe==0.6.1
+mccabe==0.7.0
     # via flake8
 mypy==0.960
     # via -r ./scripts/typing/requirements.in
 mypy-extensions==0.4.3
     # via mypy
-pycodestyle==2.8.0
+pycodestyle==2.12.1
     # via
     #   flake8
     #   flake8-debugger
@@ -71,7 +71,7 @@ pycparser==2.21
     # via
     #   -r ./scripts/requirements.txt
     #   cffi
-pyflakes==2.4.0
+pyflakes==3.2.0
     # via flake8
 pygithub==1.55
     # via -r ./scripts/requirements.txt
@@ -89,13 +89,11 @@ requests==2.32.2
     # via
     #   -r ./scripts/requirements.txt
     #   pygithub
-six==1.16.0
+six==1.17.0
     # via flake8-tuple
 termcolor==1.1.0
     # via -r ./scripts/requirements.txt
-testfixtures==6.18.5
-    # via flake8-isort
-tomli==2.0.1
+tomli==2.2.1
     # via mypy
 types-pyyaml==6.0.7
     # via -r ./scripts/typing/requirements.in
