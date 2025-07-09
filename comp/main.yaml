@@ -37,7 +37,7 @@ dependencies:
     - comp/invite-key-people
     - comp/volunteers/inform-volunteers
     - comp/volunteers/brief-volunteers
-    - comp/volunteers/marshals-training
+    - comp/volunteers/match-ops-training
     - comp/website/live-mode
     - comp/printing
     - comp/volunteers/blue-shirts

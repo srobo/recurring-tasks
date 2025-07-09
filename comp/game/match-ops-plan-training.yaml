@@ -1,0 +1,53 @@
+summary: Plan match ops training for the $SRYYYY competition
+
+priority: should
+
+component: Arena
+
+milestone: $SRYYYY Competition
+
+area-owner: game
+
+description: >-
+  In order to make sure match ops runs smoothly, the training for the volunteers involved needs to be thought out.
+  This includes both when they are arena-side and when they are shepherding.
+
+
+  General points should include:
+    - making sure each shift has done shift handover for arena-side
+    - how shift change is handled for shepherding (ideally 5 minutes before the arena-side change)
+    - how robots/competitors in/out of staging/arena is being handled
+
+
+  Head Shepherd training should include:
+    - when to call matches on shepherding radio
+    - (letting competitors in and out of staging)
+
+  Shepherding training should include:
+    - using radios
+    - handling of match calls
+    - incident response
+
+
+  Marshal/scorer training should include:
+    - what the rules are and the experts on them, including who the Head Judge is
+    - how to score the match
+    - using score entry forms, including use of initials and handing them to score entry
+    - when they might need to turn a robot off
+    - resetting the arena
+
+  Badger training should include:
+    - robots entering/exiting arena process
+    - checking comp-mode USB are working
+    - (letting competitors in/out of staging)
+  
+  Score entry training should include:
+    - how to use the scorer UI
+    - potential errors and how to fix them
+
+
+  The [SR2025 Match Ops Training](https://docs.google.com/document/d/1p8z2TzU79zh_Wsc1Go2yJ_-pYjRbRH_Vi8aIL_p1s_M/edit?tab=t.0#heading=h.vmyjsyu92f6x) doc is the training we followed for SR2025.
+  There are comments in this doc from volunteer feedback and the retro from the SR2025 competition.
+
+dependencies:
+  - comp/game/match-ops
