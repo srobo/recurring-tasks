@@ -1,0 +1,28 @@
+summary: Generate the match schedules for the $SRYYYY competition
+
+priority: should
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+area-owner: game
+
+description: >-
+  In order to run matches, a schedule for the league matches needs to be generated.
+  Ideally, many schedules should be generated with a range of number of teams so they can be easily subsituted in if there are any last minute dropouts.
+
+
+  Then we need to decide on the structure of the knockouts.
+  Generally this has been a single elimination tournament, however SR2025 was a double elimination tournament.
+  Similarly to the league schedules, we should have a range of brackets we can use based on the number of teams we end up having for the Knockouts.
+
+
+  Required actions:
+   - [ ] Decide on the number of appearances for each possible total number of teams
+   - [ ] Generate league match schedules based on these number of appearances
+   - [ ] Create knockout brackets for a range of total number of teams
+   - [ ] Convert the brackets into suitable format for import into the competition software
+
+dependencies:
+  - comp/day-schedule
