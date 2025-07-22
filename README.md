@@ -48,7 +48,7 @@ This check is performed on CI for each of the main task roots.
 
 ## Importing tasks
 
-Tasks can be imported into a tracker using the Python 3.7+ script at
+Tasks can be imported into a tracker using the Python 3.13+ script at
 `scripts/import.py`. The dependencies for this script are recorded in
 `scripts/requirements.txt`
 
