@@ -6,7 +6,7 @@ component: Competition
 
 milestone: $SRYYYY Competition Prep
 
-area-owner: simulator
+area-owner: game
 
 description: >-
   For the virtual competition, all the matches need to be simulated in advance.

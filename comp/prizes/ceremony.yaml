@@ -6,7 +6,7 @@ component: Competition
 
 milestone: $SRYYYY Competition
 
-area-owner: production
+area-owner: game
 
 description: >-
   At the end of the competition we want to give out some prizes. We need to plan
