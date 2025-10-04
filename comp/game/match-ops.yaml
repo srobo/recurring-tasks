@@ -12,22 +12,25 @@ description: >-
   In order to make sure match ops runs smoothly the processes for marshals
   and shepherds needs to be thought out in advance.
 
+  This includes how many people we need for match ops.
+  5 people per match ops team gives shepherding cover for 4 venue areas and the arena for shift lead,
+  and arena-side cover of 2 marshals, 2 badgers, and 1 score entry.
+  3 teams of match ops ensures that match ops volunteers get adequate breaks.
+  We should make sure some extra volunteers are trained on top of this number, so that we have back-ups.
 
-  For marshalling, this will include a checklist of what marshals need to do from the end of one match to the start of the next.
-  This will include:
-   - Scoring
+  For arena side match ops, this will include:
+   - Marshalling/scoring
+   - Score entry
    - Resetting tokens
-   - Placing in the next robots
+   - Badgering
+   - How robots/competitors enter/exit arena
 
   This should be as comprehensive as possible in order to simplify the training that these volunteers need.
-  And should probbaly go in the arena repo as it will change considerably
+  And should probably go in the arena repo as it will change considerably
   between years and will be specific to the details of the arena.
 
 
-  See https://github.com/srobo/arena/blob/master/comp19/reset-checklist.md for
-  an example.
-
-
   Required actions:
-   - [ ] Generate the arena reset checklist
    - [ ] Plan how shepherding will work
+   - [ ] Plan the training for the different areas of match ops (shepherding, marshal, badger, score entry)
+   - [ ] Schedule match ops

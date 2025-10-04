@@ -36,8 +36,11 @@ description: >-
   Required actions:
    - [ ] Get branded envelopes & cards for the prize ceremony
    - [ ] Arrange a speaker for the prize ceremony
+   - [ ] Have a script for the prize-giving ceremony
+   - [ ] Reach out to different areas for them to name someone that will review their part of the script
    - [ ] Plan out the prize-giving ceremony
    - [ ] Have a rehearsal of the prize-giving ceremony
+   - [ ] Follow the review process to ensure that the script is accurate for the different areas with the individuals named above
 
 dependencies:
   - comp/prizes/acquire-prizes
