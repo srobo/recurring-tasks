@@ -20,7 +20,10 @@ description: >-
    - [ ] Inform teams of the media consent policy
    - [ ] Publish the day schedule on the website
    - [ ] Publish map of parking and directions to venue on website
-   - [ ] Publish maps of the competition layout (including team pit locations) on the website.
+   - [ ] Publish maps of the competition layout (including team pit locations) on the website
+   - [ ] Find out the number of competitors each team will bring
+   - [ ] Find out if any teams have any specific requirements in the venue (e.g: accessibility)
+   - [ ] Find out what mode of transport teams are using on the Saturday morning (so we know who we expected to be delayed by trains, motorways, etc.)
 
 dependencies:
   - comp/day-schedule
