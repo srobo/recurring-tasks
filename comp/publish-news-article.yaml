@@ -27,7 +27,7 @@ description: >-
    - [ ] Fill in the details of the news article
    - [ ] Publish the news article
    - [ ] Link to the news article from social media
-   - [ ] Email the news article to various tech/STEM blogs and other media outlets
+   - [ ] Optionally, email the news article to various tech/STEM blogs and other media outlets
 
 dependencies:
   - comp/prizes/comp-prizes

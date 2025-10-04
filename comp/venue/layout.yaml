@@ -21,7 +21,7 @@ description: >-
    - The team pits
    - The reception
    - The helpdesk(s)
-   - The power tools area
+   - The power tools area (including bins)
    - The battery charging area (near the helpdesk)
    - The staging area
    - The photo booth
@@ -30,6 +30,7 @@ description: >-
    - The tech desk
    - The livestream
    - Score entry
+   - Supervisor hot water access
 
   Each team pit should be numbered and have a list of teams assigned to them.
   They are normally 2.5x2.5m, but this may vary.

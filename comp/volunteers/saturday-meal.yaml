@@ -18,6 +18,7 @@ description: >-
    - [ ] Collect attendance numbers for the meal, along with dietary restrictions
    - [ ] Decide on the location
    - [ ] Book a table
+   - [ ] Collect pre-orders
 
 dependencies:
   - comp/volunteers/recruit
