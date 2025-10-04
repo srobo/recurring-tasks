@@ -17,6 +17,9 @@ description: >-
   Conversely, test arena slots need to be regular enough that teams aren't waiting significant times to be able to test.
 
 
+  For SR2025, this was handled by Helpdesk using a Google sheet.
+
+
   Required actions:
    - [ ] Decide on the lengths of tinker time and test arena slots
    - [ ] Decide how tinker time slots are booked
