@@ -6,14 +6,21 @@ component: Competition
 
 milestone: $SRYYYY Competition Day
 
-area-owner: health-safety
+area-owner: kit
 
 description: >-
     We need to inspect all the robots to ensure they are safe.
 
 
-    The inspectors will want a list of the teams' first matches so they
-    can visit them in order.
+    The inspectors may want a list of the teams' first matches so they can visit them in order.
+
+
+    For SR2025, this was split into a safety check (to ensure the robot does not pose an immediate safety risk)
+    and a regulation check (to ensure the robot met the regulations laid out in the rules).
+    Both of these checks were handled at Helpdesk with teams coming to Helpdesk when they were ready to be checked.
+
+
+    It is also useful for the plan to cover handling teams that arrive late to the venue.
 
 
     Required actions:

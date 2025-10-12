@@ -48,12 +48,10 @@ description: >-
      - [ ] Advertise the $SRYYYY Competition Programme to potential teams
      - [ ] Select teams for the $SRYYYY Competition Programme
      - [ ] Allocate TLAs for any rookie teams
+     - [ ] Prepare the teams spreadsheets
      - [ ] Collect additional information from selected teams and send disclaimer forms
      - [ ] Collect disclaimer forms from teams
      - [ ] Validate information received from teams
      - [ ] Inform secondary contacts about their role
      - [ ] Let teams on the waiting list know that they are
      - [ ] Inform teams who aren't getting a place (nor on the waiting list)
-
-dependencies:
-  - comp/announce

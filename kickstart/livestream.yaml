@@ -26,6 +26,10 @@ description: >-
 
 
     Required actions:
+     - [ ] Arrange a camera
+     - [ ] Arrange a microphone
+     - [ ] Work out who's going to produce
+     - [ ] Arrange a computer to run the stream
      - [ ] Decide who will run the livestream
      - [ ] Create the required scenes in OBS
      - [ ] Generate a livestream link to be shared with teams

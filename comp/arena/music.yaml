@@ -6,7 +6,7 @@ component: Competition
 
 milestone: $SRYYYY Competition
 
-area-owner: production
+area-owner: game
 
 description: >-
     During matches we want music to be played into the arena.

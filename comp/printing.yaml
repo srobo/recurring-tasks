@@ -14,35 +14,47 @@ description: >-
      things into one place.
 
 
-     The SR2023 print run included:
+     **Insert Drive folder to put things in**:
+
+
+     Things to print:
       - [ ] Venue map
-      - [ ] High-viz jacket labels (A5 + A6) x 1 per team
-      - [ ] [Safety Regs](https://studentrobotics.org/docs/kit/safety-regulations) x 4
-      - [ ] Safety notes sheets x 2
+      - [ ] High-viz jacket labels (A4 + A6) x 1 per team
+      - [ ] Robot Safety Inspection sheet x 80
+      - [ ] Robot Regulation Inspection sheet x 50
       - [ ] Media Consent Posters x 10
       - [ ] Signage
-      - [ ] Comp Arena Markers x 56
-      - [ ] Token markers
+      - [ ] Comp Arena Markers x 3
+      - [ ] Token/Prop Markers x 2.5
       - [ ] TLA labels (for pits) A4 x 1 per team
       - [ ] Rulebook
       - [ ] [Charging Instructions](https://studentrobotics.org/runbook/competition/team-support/battery-charging/) x 2
       - [ ] Kit Return Forms
       - [ ] Missing Return Forms
       - [ ] Kit Swap Forms
+      - [ ] Kit Return List
+      - [ ] Kit Cheat Sheet
       - [ ] [Reception Documentation](https://studentrobotics.org/runbook/competition/teams/role-descriptions/reception/) x 4
       - [ ] [Safeguarding Policy](https://opsmanual.studentrobotics.org/about-the-charity/safeguarding) x 3
       - [ ] [Incident Response Policy](https://studentrobotics.org/runbook/competition/event/incident-management/) x 10
-      - [ ] Tinker Time Coordination x 2
       - [ ] Radio Signout Sheets x 2
-      - [ ] Volunteer Sign in Form x 4
-      - [ ] Score sheet x 250
+      - [ ] Score sheet x 350
       - [ ] WiFi account passwords & Instructions x 1
       - [ ] Risk Assessments (setup & competition) x 1
-      - [ ] Helpdesk documentation x 2
+      - [ ] Power tools safety pamphlet
+      - [ ] Award cards
+      - [ ] Thank you cards
+
+
+     We have also formerly printed:
+      - Tinker Time Coordination
+      - Volunteer Sign in Form
+      - Team Sign in Form
+      - Helpdesk documentation
+
 
      This list may need adding to.
 
 dependencies:
     - comp/ops/scoring-form
-    - comp/flyers
     - comp/volunteers/name-badges

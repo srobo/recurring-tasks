@@ -17,6 +17,8 @@ description: >-
   We should prepare a signup form which captures information about the
   volunteer so that we can schedule them at the competition as well as
   provide them with travel and accommodation.
+  The sign up form should include contact details for the volunteer (e.g. phone number),
+  so that we can make contact in cases of no-shows.
 
 
   We should also reach out to the volunteers who have helped in the

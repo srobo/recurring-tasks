@@ -12,10 +12,9 @@ description: >-
   We'll need to brief volunteers at the event.
 
 
-  The brefing should cover at a minimum:
+  The briefing should cover at a minimum:
     - Key Roles & Point of Contacts
     - Health and Safety
-      - COVID-19 Requirements
     - Safeguarding
     - Venue layout
     - Schedule of Event
@@ -29,7 +28,6 @@ description: >-
 
   The radio briefing should include:
    - How to start a call (e.g. "Helpdesk, for reception.")
-   - The difference between "Over" and "Out"
 
 dependencies:
   - comp/venue/book

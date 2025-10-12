@@ -26,6 +26,3 @@ description: >-
     Required actions:
      - [ ] Create a signup form for volunteers
      - [ ] Advertise the signup form to potential volunteers, e.g. on Slack and by email
-
-dependencies:
-  - comp/announce

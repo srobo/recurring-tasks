@@ -6,13 +6,11 @@ component: Rules
 
 milestone: $SRYYYY Kickstart
 
-area-owner: simulator
+area-owner: kit
 
 description: >-
     The $SRYYYY game will be different to that for the previous year,
     so the arena template in the simulator will need updating.
-    The MARKER_* items will also be different, so they'll need updating
-    as well.
 
 
     While this can be worked on ahead of time we should clearly avoid
