@@ -29,13 +29,13 @@ description: >-
 
 
   Required actions:
-    - how many volunteers per team and how many teams
-    - how many reserve people and what roles to train them in
-    - what to do if certain roles drop out
-    - what to do if we don't have as many volunteers as we want
-    - how the flow of matches work
-    - what each role is doing during each part of matches
-    - how match ops shifts work, including their timing and duration
+    - [ ] how many volunteers per team and how many teams
+    - [ ] how many reserve people and what roles to train them in
+    - [ ] what to do if certain roles drop out
+    - [ ] what to do if we don't have as many volunteers as we want
+    - [ ] how the flow of matches work
+    - [ ] what each role is doing during each part of matches
+    - [ ] how match ops shifts work, including their timing and duration
 
 dependencies:
   - comp/day-schedule
