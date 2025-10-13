@@ -1,0 +1,35 @@
+summary: Design and order the competitor booklet
+
+priority: should
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+area-owner: media-press
+
+description: >-
+  We want to give each competitor a booklet as part of the swag bag.
+  The past few years, this has been designed using Affinity Publisher, with the final version for each year in the Marketing drive.
+
+  
+  This booklet should include:
+    - Venue map
+    - List of teams
+    - Brief overview of the game
+    - Sponsors
+    - Encouragement to become a Blueshirt
+
+
+  Our usual supplier is [Digital Printing](digitalprinting.co.uk).
+  We order a saddle stitched book in A5 landscape with saddle stich binding.
+  The order details are the defaults:
+    - Cover: Silk 250gsm, both sides (SRA3), one side matt (SRA3), cover section
+    - Inner: Silk 130gsm, both sides (SRA3), inner section
+
+  Required actions:
+   - [ ] Design the booklet
+   - [ ] Order the booklet
+
+dependencies:
+  - comp/sponsor-perks

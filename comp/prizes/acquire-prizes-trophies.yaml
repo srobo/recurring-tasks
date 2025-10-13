@@ -1,0 +1,28 @@
+summary: Organise trophies for the competition
+
+priority: should
+
+component: Competition
+
+milestone: $SRYYYY Competition
+
+area-owner: game
+
+description: >-
+  The prizes for the competition are a combination of trophies and edible prizes.
+  This task only considers the trophies; there is a separate task for edible prizes.
+
+
+  Generally we have three sizes of trophies, one for each of 1st, 2nd, and 3rd place.
+  The remaining trophies are a mixture of the medium and small sizes.
+
+
+  We may also want a 4th place prize for the remaining other finalist.
+
+
+  Required actions:
+   - [ ] Decide on trophy sizes and design
+   - [ ] Order trophies
+
+dependencies:
+  - comp/sponsor-perks
