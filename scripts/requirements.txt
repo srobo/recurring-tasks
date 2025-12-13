@@ -28,7 +28,7 @@ requests==2.32.4
     # via pygithub
 termcolor==1.1.0
     # via -r requirements.in
-urllib3==2.5.0
+urllib3==2.6.0
     # via requests
 wrapt==1.14.1
     # via deprecated
