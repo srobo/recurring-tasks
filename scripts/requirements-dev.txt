@@ -85,7 +85,7 @@ pynacl==1.6.2
     #   pygithub
 pyyaml==6.0.2
     # via -r requirements.txt
-requests==2.32.4
+requests==2.33.0
     # via
     #   -r requirements.txt
     #   pygithub
