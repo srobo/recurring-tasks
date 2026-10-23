@@ -6,7 +6,7 @@
 #
 attrs==25.3.0
     # via flake8-bugbear
-certifi==2024.7.4
+certifi==2026.10.19
     # via
     #   -r requirements.txt
     #   requests
